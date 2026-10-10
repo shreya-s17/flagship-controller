@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 runs/
 *.egg-info/
+benchmark-data/
+artifacts/*.zip
+.DS_Store

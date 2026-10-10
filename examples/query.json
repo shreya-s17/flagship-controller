@@ -1,0 +1,7 @@
+{
+ "query": {"start":"researcher", "relations":["supervisor","education"], "types":[["person"],["university"]]},
+ "graph": {"types":{"mentor":"person","university":"university"}, "edges":[
+  {"id":"e1","source":"researcher","relation":"supervisor","target":"mentor","provenance":"example"},
+  {"id":"e2","source":"mentor","relation":"education","target":"university","provenance":"example"}
+ ]}
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.0,
+    "metric": "grounded",
+    "right": "0111",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.0,
+    "metric": "expansions",
+    "right": "0111",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.0,
+    "metric": "grounded",
+    "right": "1011",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      -0.13428571428571423,
+      -0.04857142857142855
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": -0.09142857142857139,
+    "metric": "expansions",
+    "right": "1011",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.2542857142857143,
+      0.42
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.33714285714285713,
+    "metric": "grounded",
+    "right": "1101",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.8171428571428572,
+      1.28
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 1.0457142857142858,
+    "metric": "expansions",
+    "right": "1101",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.0,
+    "metric": "grounded",
+    "right": "1110",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      -0.5000000000000001,
+      -0.26285714285714296
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": -0.3771428571428572,
+    "metric": "expansions",
+    "right": "1110",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      0.31142857142857144,
+      0.4542857142857143
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": 0.3857142857142857,
+    "metric": "grounded",
+    "right": "0010",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  },
+  {
+    "ci95": [
+      -2.7057142857142855,
+      -2.182857142857143
+    ],
+    "clusters": 50,
+    "left": "1111",
+    "mean_difference": -2.4457142857142857,
+    "metric": "expansions",
+    "right": "0010",
+    "scope": "generator-family exploratory interval; not benchmark inference"
+  }
+]

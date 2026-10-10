@@ -1,45 +1,49 @@
-# Flagship controller — first runnable scaffold
+# Flagship controller
 
-An interpretable graph-search controller for the flagship research project. Uses only Python's standard library at runtime. This is a synthetic-fixture MVP, not a WebQSP/CWQ experiment, trained policy, novel method, or empirical research result.
+An interpretable verification-guided controller and reproducible synthetic research experiment. The MVP, independent proof evaluator and first paper draft are available. The primary WebQSP and CWQ study remains pending; see the [acceptance record](evaluation/acceptance.md) for the exact completion boundary.
 
-## Run
+## Review the work
 
-From this directory, with Python 3.10 or newer:
+- [First paper draft](paper/first-draft.md): methods, prior work, measured synthetic results and missing benchmark experiments.
+- [Synthetic results](results/synthetic-v2/report.md): all 16 component variants and seven paired evidence conditions.
+- [Failure analysis](results/failure-analysis.md): recovery, verifier errors, stopping and hypothesis revision.
+- [Development protocol](evaluation/synthetic-protocol.md): settings, independent labels, budgets and limitations.
+- [Artifacts](artifacts/README.md): full raw dataset, trajectories, metrics, manifests and checksums.
+
+## Run locally
+
+Python 3.10 or newer suffices. No runtime packages, API keys or model downloads are needed.
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 -m flagship_controller --output runs/demo.json
+python3 -m flagship_controller.solve examples/query.json --output runs/query.json
+python3 -m flagship_controller.pilot
+python3 -m flagship_controller.diagnostics
 ```
 
-No API key, model download, paid service or package installation is required.
+The main study contains 5,600 deterministic runs; diagnostics add 5,600 runs for budget and verifier-fault tests. These are generated development fixtures, not benchmark results. The research implementation is engine.py; the original controller.py and five-case demonstration remain available through python3 -m flagship_controller.
 
-## What it does
+## Evidence and control
 
-The query declares a start entity, ordered relations and type constraints. The controller searches candidate paths, observes graph edges, checks path continuity, declared types, provenance and explicit conflicts, backtracks on a failed check, and answers only when a complete supported witness is found. Budget exhaustion prevents new expansions while permitting checks on evidence already acquired.
+JSON input declares the start entity, relation sequence and type obligations. The controller observes acquired edges and endpoint types, scores branches heuristically, checks symbolic support and chooses backtracking, answering or abstention. It returns one witness, not general KGQA answer sets. No learned reward model, natural-language parser, calibrated probability or NLI verifier is claimed.
 
-The fixed-relation baseline uses the same search order and terminal verifier but delays intermediate checks until a path is complete. It isolates early verifier feedback, not all components of the research design. Both variants can backtrack. Candidate scores currently tie at 1 for relation-matching actions with deterministic ID ordering; learned ranking and best-of-N are not implemented.
+Every trace records states and hashes, candidates, chosen actions and arguments, acquired evidence, support signals, recovery and STOP decisions, graph calls, checks, edge counts and elapsed time. Tokens are zero because no model is called; GPU-seconds are unmeasured. Gold answers and corruption labels are supplied only to the independent evaluator, which does not import the deployed checker.
 
-## Traces
+## Benchmark intake
 
-Each step logs state and observed path, candidate edges and scores, action, verifier signal, recovery/termination decisions, cumulative graph expansions, unique observed edges and elapsed time. EXPAND adds the candidate edges to observed evidence; choosing a branch is shown by the next step's path. Token and GPU costs are null because this version makes no model calls. A RECHECK verifies existing observations; its real wall time is included but it uses no expansion budget.
+Download the official [WebQSP archive](https://www.microsoft.com/en-ie/download/details.aspx?id=52763), then run:
 
-## Fixtures
+```sh
+python3 -m flagship_controller.benchmark /absolute/path/WebQSP.zip
+```
 
-Supported answer, missing evidence, explicit contradiction, wrong-type branch recovery and budget exhaustion. These cases are hand-designed tests, not estimates of population accuracy. The recovery example shows how early type checking can avoid expanding a bad branch.
+This separates raw questions from evaluation-only parses and answers. Pilot, calibration and policy groups come from official training data; official test remains unchanged. Intake is not graph execution. Benchmark data is ignored by Git; the archive and compatible Freebase snapshot are not bundled. Never derive controller plans, linking or retrieval envelopes from evaluation gold.
 
-## Boundaries and next milestones
+## Research records
 
-- Returns one supported witness; does not enumerate full answer sets, certify global minimality or infer arbitrary natural-language query constraints.
-- Types and conflicts are declared fixture metadata. Provenance presence is checked, not the truth of source claims. No calibrated confidence, LLM/NLI verifier or learned reward is present.
-- Search is adaptive through verification and branch pruning; state-conditioned action scoring, revision and standalone recovery policies are future work.
-- Next: generalize the graph adapter and query constraints, add acquisition/recovery/STOP switches and complete trace manifests, then integrate benchmark data and the documented evaluation protocol.
-- Add independent evaluation labels separately from controller inputs. Never expose gold answers/proofs to action selection.
-
-## Research documentation
-
-- [Research hub](https://app.notion.com/p/3f0cb3d4ccd6807abdf1fb5a7ae54b76)
+- [Notion research hub](https://app.notion.com/p/3f0cb3d4ccd6807abdf1fb5a7ae54b76)
 - [Experimental design](https://app.notion.com/p/3f5cb3d4ccd68186b41ef5ae2775d54a)
-- [Evaluation protocol](https://app.notion.com/p/3f5cb3d4ccd68117a4b4ccf55cb48bb4)
-- [MVP task](https://app.todoist.com/app/task/6hQFhgFxcHCpPq5r)
+- [Primary protocol](https://app.notion.com/p/3f5cb3d4ccd68117a4b4ccf55cb48bb4)
+- [Flagship Todoist task](https://app.todoist.com/app/task/6hQFhc6wCQ4WGP2J)
 
-No paper code is copied in this scaffold. Related paper implementations must be cited and their licenses checked before reuse. Publication and licensing decisions remain open.
+No paper code was copied. Synthetic controls are not faithful paper reproductions. Licensing and public release remain project-owner decisions; the repository is private.

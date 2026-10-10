@@ -1,0 +1,7 @@
+{
+  "python": "3.12.6",
+  "platform": "Darwin",
+  "runtime_dependencies": [],
+  "install_required": false,
+  "test_command": "python3 -m unittest discover -s tests -v"
+}
