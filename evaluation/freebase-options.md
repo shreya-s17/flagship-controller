@@ -2,6 +2,14 @@
 
 Audit date: 2026-10-10. User planning budget: USD 50–100 total for first month; no purchase authorized.
 
+## Current decision: storage-capable auction candidate
+
+This checkpoint supersedes the earlier AX41 candidate and pending billing-country notes below; those remain as audit history. User confirmed India billing. Live auction ID3086903 and the order screen confirmed i7-7700, 64GB RAM, two 4TB enterprise HDDs, FSN1 Germany, primary IPv4 and zero setup. Listing EUR65.70/month excludes VAT; order screen defaults to Germany VAT19%, EUR78.18 total. India account checkout has not been verified. Hetzner's VAT policy indicates no provider VAT for India; expected EUR65.70 includes IPv4. At EURUSD1.1206 reference, USD73.62 before actual bank fees. Keep infrastructure inclusive cap USD80 and total first-month cap USD100. Do not buy at the default VAT-inclusive price under that allocation.
+
+RAID1 would provide approximately 4TB nominal mirrored storage, substantially more headroom than AX41's 512GB mirror; actual usable and indexed sizes still require measurement. HDD import time and CPU model performance remain untested. No reservation, purchase or deployment occurred. Account checkout and server access are the next blockers. [Deployment runbook](../deployment/README.md) covers the empty-server layout, full-graph import, snapshot compatibility, local model, private access and five-question pilot. This is preparation, not an executed installation or confirmed final benchmark.
+
+Sources: https://www.hetzner.com/sb/ ; https://docs.hetzner.com/general/billing-and-account-management/billing-at-hetzner/value-added-tax/ ; https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.fr.html .
+
 ## Published subgraphs
 
 CBR-SUBG author download folder visibly lists public_subgraphs.tar.gz at 2.54 GB and public_models.tar.gz at 227.9 MB. Archive contents and expanded size have not been inspected or downloaded. Coverage, checksums, embedded annotations and license scope remain unverified.
