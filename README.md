@@ -47,3 +47,7 @@ This separates raw questions from evaluation-only parses and answers. Pilot, cal
 - [Flagship Todoist task](https://app.todoist.com/app/task/6hQFhc6wCQ4WGP2J)
 
 No paper code was copied. Synthetic controls are not faithful paper reproductions. Licensing and public release remain project-owner decisions; the repository is private.
+
+## WebQSP service pipeline
+
+The question-only feasibility runner and separate offline scorer are implemented and covered by local tests. See [connection instructions and limitations](evaluation/webqsp-runtime.md). Live-service validation is pending. The runner handles bounded simple chains, exact-name linking, multi-answer evidence and an uncalibrated semantic gate; it does not yet implement full adaptive replanning or general WebQSP constraints.
