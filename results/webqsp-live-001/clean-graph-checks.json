@@ -1,0 +1,216 @@
+{
+  "sample": {
+    "query": "SELECT ?s ?p ?o WHERE { ?s ?p ?o } LIMIT 3",
+    "response": {
+      "head": {
+        "link": [],
+        "vars": [
+          "s",
+          "p",
+          "o"
+        ]
+      },
+      "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/virtrdf-data-formats#default-iid"
+            },
+            "p": {
+              "type": "uri",
+              "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/virtrdf-data-formats#default-iid-nullable"
+            },
+            "p": {
+              "type": "uri",
+              "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/virtrdf-data-formats#default-iid-nonblank"
+            },
+            "p": {
+              "type": "uri",
+              "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            },
+            "o": {
+              "type": "uri",
+              "value": "http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat"
+            }
+          }
+        ]
+      }
+    },
+    "elapsed_seconds": 0.002035301993601024
+  },
+  "names": {
+    "query": "PREFIX ns: <http://rdf.freebase.com/ns/> SELECT ?s ?name WHERE { ?s ns:type.object.name ?name . FILTER(LANG(?name)=\"en\") } LIMIT 3",
+    "response": {
+      "head": {
+        "link": [],
+        "vars": [
+          "s",
+          "name"
+        ]
+      },
+      "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.05vzxh"
+            },
+            "name": {
+              "type": "literal",
+              "xml:lang": "en",
+              "value": "Charles P. Thacker"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/american_football.football_player"
+            },
+            "name": {
+              "type": "literal",
+              "xml:lang": "en",
+              "value": "American football player"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/american_football.football_player.footballdb_id"
+            },
+            "name": {
+              "type": "literal",
+              "xml:lang": "en",
+              "value": "footballdb ID"
+            }
+          }
+        ]
+      }
+    },
+    "elapsed_seconds": 0.024076065979897976
+  },
+  "pilot_mention": {
+    "query": "PREFIX ns: <http://rdf.freebase.com/ns/> SELECT ?s WHERE { ?s ns:type.object.name \"Maggie Grace\"@en } LIMIT 5",
+    "response": {
+      "head": {
+        "link": [],
+        "vars": [
+          "s"
+        ]
+      },
+      "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.03_wpf"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.06xy887"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.06xkxzl"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.08w2dwr"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.044lm69"
+            }
+          }
+        ]
+      }
+    },
+    "elapsed_seconds": 0.0019477859605103731
+  },
+  "mediator_schema": {
+    "query": "PREFIX ns: <http://rdf.freebase.com/ns/> SELECT ?s ?value WHERE { ?s ns:freebase.type_hints.mediator ?value } LIMIT 3",
+    "response": {
+      "head": {
+        "link": [],
+        "vars": [
+          "s",
+          "value"
+        ]
+      },
+      "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.0zwbypk"
+            },
+            "value": {
+              "type": "typed-literal",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+              "value": "1"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.010ldx46"
+            },
+            "value": {
+              "type": "typed-literal",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+              "value": "1"
+            }
+          },
+          {
+            "s": {
+              "type": "uri",
+              "value": "http://rdf.freebase.com/ns/m.021m0_2"
+            },
+            "value": {
+              "type": "typed-literal",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+              "value": "1"
+            }
+          }
+        ]
+      }
+    },
+    "elapsed_seconds": 0.001970208017155528
+  }
+}

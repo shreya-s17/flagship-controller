@@ -1,5 +1,7 @@
 # WebQSP execution pipeline: feasibility stage
 
+15 October deployment update: [live server provenance and limitations](../deployment/live-server.md). The model is installed locally and the private Freebase endpoint uses port8891. Thirty-four tests now pass; the added transport check rejects Virtuoso's HTTP200 anytime/partial responses when `X-SQL-State` signals an incomplete result. A 30,000ms timeout is explicitly requested. The five-question pilot completed with zero answers; [failure analysis](../results/webqsp-live-report.md) documents three training-development revisions. Optional `--disambiguate` enables bounded, uncalibrated type-based topic selection; it is not a trained linker. See the live run record for details; the original implementation-only checkpoint below is historical.
+
 10 October 2026. Implemented and locally tested; no live Freebase or model service was contacted, no model downloaded and no server purchased. Thirty tests pass, including original controller tests and new transport, accounting, gold-boundary, ambiguity, multi-answer, semantic rejection and truncation checks.
 
 ## Implemented flow

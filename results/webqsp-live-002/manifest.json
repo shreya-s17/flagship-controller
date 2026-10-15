@@ -1,0 +1,29 @@
+{
+  "status": "FEASIBILITY ONLY",
+  "variant": "adaptive",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "entity_disambiguation": true,
+  "linker": "bounded original/title/uppercase exact name and alias variants",
+  "prompt_version": "chain-feasibility-v2",
+  "input_sha256": "10daf76735dd4bb316bd1e660c95063575dff968819f2599ebc8359ae94c3a11",
+  "source_sha256": "488006b05d211c0b9dd894ddba163df6b981ad57694b33064a4d61e508b14ce3",
+  "limits": {
+    "questions": 5,
+    "max_calls_per_question": 4,
+    "max_tokens_per_question": 4096,
+    "graph_calls_per_question": 40,
+    "rows_per_query": 100,
+    "hops": 4,
+    "seconds": 180
+  },
+  "limitations": [
+    "simple chains only",
+    "exact-name linking with ambiguity abstention",
+    "LLM verifier uncalibrated",
+    "no automatic plan repair",
+    "bounded retrieval; truncation abstains",
+    "fixed-chain is internal control, not a published baseline",
+    "no hard currency billing cap"
+  ]
+}

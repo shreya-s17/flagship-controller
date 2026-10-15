@@ -1,0 +1,61 @@
+[Database]
+DatabaseFile = /srv/freebase/instance/virtuoso.db
+TransactionFile = /srv/freebase/instance/virtuoso.trx
+ErrorLogFile = /srv/freebase/instance/virtuoso.log
+LockFile = /srv/freebase/instance/virtuoso.lck
+xa_persistent_file = /srv/freebase/instance/virtuoso.pxa
+ErrorLogLevel = 7
+FileExtend = 200
+MaxCheckpointRemap = 500000
+Striping = 0
+TempStorage = TempDatabase
+
+[TempDatabase]
+DatabaseFile = /srv/freebase/instance/virtuoso-temp.db
+TransactionFile = /srv/freebase/instance/virtuoso-temp.trx
+MaxCheckpointRemap = 2000
+Striping = 0
+
+[Parameters]
+ServerPort = 127.0.0.1:1112
+DisableUnixSocket = 1
+NumberOfBuffers = 1360000
+MaxDirtyBuffers = 1000000
+MaxQueryMem = 1G
+MaxMemPoolSize = 200000000
+MaxClientConnections = 10
+CheckpointInterval = 60
+CaseMode = 2
+AllowOSCalls = 0
+SchedulerInterval = 0
+DirsAllowed = /srv/freebase/instance
+ThreadsPerQuery = 2
+AsyncQueueMaxThreads = 4
+ThreadThreshold = 10
+MaxStaticCursorRows = 5000
+IndexTreeMaps = 64
+O_DIRECT = 0
+
+[HTTPServer]
+ServerPort = 127.0.0.1:8891
+ServerRoot = /srv/freebase/instance/http
+DavRoot = DAV
+EnabledDavVSP = 0
+HTTPProxyEnabled = 0
+ServerThreads = 4
+MaxClientConnections = 10
+Charset = UTF-8
+HTTPThreadSize = 280000
+
+[Client]
+SQL_QUERY_TIMEOUT = 30
+
+[SPARQL]
+ResultSetMaxRows = 1000
+MaxQueryExecutionTime = 30
+MaxQueryCostEstimationTime = 600
+DefaultQuery = SELECT (1 AS ?ok) WHERE {}
+
+[URIQA]
+DynamicLocal = 0
+DefaultHost = localhost:8891

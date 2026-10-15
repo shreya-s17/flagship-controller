@@ -1,5 +1,7 @@
 # Freebase access and budget audit
 
+15 October implementation update: server purchased and reachable; Google's archive URL returned HTTP403; the user downloaded and integrity-tested the DKI lab prepared database. [Current deployment/provenance record](../deployment/live-server.md) supersedes the pre-purchase notes below. No additional purchase was made. Original Freebase snapshot identity remains unverified.
+
 Audit date: 2026-10-10. User planning budget: USD 50–100 total for first month; no purchase authorized.
 
 ## Current decision: storage-capable auction candidate

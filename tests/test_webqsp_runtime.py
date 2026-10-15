@@ -33,6 +33,12 @@ class RuntimeTests(unittest.TestCase):
         self.assertEqual(r['reason'],'ambiguous_entity'); self.assertFalse(r['answers'])
     def test_gold_boundary(self):
         with self.assertRaises(ValueError): run_question({**self.record,'parses':[]},Graph(),Model())
+    def test_whole_question_is_not_a_topic_mention(self):
+        m=Model()
+        def ask(*args):m.calls+=1;return {'mention':self.record['question'],'supported':True}
+        m.ask=ask
+        g=Graph();r=run_question(self.record,g,m)
+        self.assertEqual(r['reason'],'invalid_topic_mention');self.assertEqual(g.calls,0)
     def test_faults_do_not_become_empty_evidence(self):
         g=Graph(); g.expand=lambda *args: (_ for _ in ()).throw(OSError('endpoint'))
         self.assertEqual(run_question(self.record,g,Model())['reason'],'runtime_error:OSError')
@@ -68,6 +74,44 @@ class RuntimeTests(unittest.TestCase):
     def test_no_partial_answer_on_witness_cap(self):
         r=run_question(self.record,Graph(),Model(),max_frontier=1)
         self.assertEqual(r['terminal'],'ABSTAIN'); self.assertEqual(r['answers'],[])
+    def test_http200_anytime_partial_results_are_rejected(self):
+        import io
+        for state in ['S1TAT', '42000']:
+            response=io.BytesIO(json.dumps({'results':{'bindings':[{'target':{'value':'partial'}}]}}).encode())
+            response.headers={'X-SQL-State':state}
+            g=Freebase('http://fixture','snapshot')
+            with patch('urllib.request.urlopen',return_value=response) as send:
+                with self.assertRaisesRegex(Blocked,'incomplete_sql_state'):
+                    g.select('SELECT ?x WHERE { ?x ?p ?o } LIMIT 101')
+                from urllib.parse import parse_qs
+                self.assertEqual(parse_qs(send.call_args.args[0].data.decode())['timeout'],['30000'])
+            self.assertEqual(g.audit[0]['sql_state'],state)
+    def test_lowercase_mention_can_match_canonical_title(self):
+        import io
+        from urllib.parse import parse_qs
+        def endpoint(req, **kwargs):
+            query=parse_qs(req.data.decode())['query'][0]
+            found='"London"@en' in query
+            return io.BytesIO(json.dumps({'results':{'bindings':[
+                {'entity':{'type':'uri','value':'http://rdf.freebase.com/ns/m.city'}}] if found else []}}).encode())
+        with patch('urllib.request.urlopen',side_effect=endpoint):
+            self.assertEqual(Freebase('http://fixture','snapshot').link('london'),['m.city'])
+    def test_disambiguation_must_select_supplied_entity(self):
+        class Chooser(Model):
+            def __init__(self,selected):super().__init__();self.selected=selected
+            def ask(self,instruction,inputs):
+                self.calls+=1;self.tokens+=10;self.audit.append(inputs)
+                if self.calls==1:return {'mention':'Example','supported':True}
+                if self.calls==2:return {'entity':self.selected,'supported':True}
+                if self.calls==3:return {'steps':[{'relation':'r','direction':'out'}],'supported':True}
+                return {'supported':True}
+        for selected,terminal in [('m.seed','ANSWER'),('m.invented','ABSTAIN')]:
+            g=Graph(True)
+            g.candidate_cards=lambda nodes:[{'entity':n,'observed_types':['location.citytown']} for n in nodes]
+            r=run_question(self.record,g,Chooser(selected),disambiguate=True)
+            self.assertEqual(r['terminal'],terminal)
+            if terminal=='ABSTAIN':self.assertEqual(r['reason'],'unresolved_entity')
+            else:self.assertEqual(r['cost']['model_calls'],4)
     def test_unreported_usage_and_malformed_json(self):
         m=Ollama('http://fixture','fixture')
         with patch('flagship_controller.webqsp_runtime.post_json',return_value={}):

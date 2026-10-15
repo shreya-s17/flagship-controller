@@ -4,6 +4,7 @@ An interpretable verification-guided controller and reproducible synthetic resea
 
 ## Review the work
 
+- [Live WebQSP feasibility report](results/webqsp-live-report.md): private Freebase/model deployment and three development revisions on the same five training questions; zero answers, with complete traces and failure analysis. [Server/source record](deployment/live-server.md).
 - [First paper draft](paper/first-draft.md): methods, prior work, measured synthetic results and missing benchmark experiments.
 - [Synthetic results](results/synthetic-v2/report.md): all 16 component variants and seven paired evidence conditions.
 - [Failure analysis](results/failure-analysis.md): recovery, verifier errors, stopping and hypothesis revision.
@@ -12,7 +13,7 @@ An interpretable verification-guided controller and reproducible synthetic resea
 
 ## Run locally
 
-Python 3.10 or newer suffices. No runtime packages, API keys or model downloads are needed.
+For the synthetic harness, Python 3.10 or newer suffices; no runtime packages, API keys or model downloads are needed. The live WebQSP runner requires the separate graph and model services documented above.
 
 ```sh
 python3 -m unittest discover -s tests -v

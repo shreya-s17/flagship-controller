@@ -1,5 +1,15 @@
 # Freebase / WebQSP deployment handoff
 
+Current implementation and source/version evidence: [live server checkpoint, 15 October](live-server.md). The quotation and initial checkpoints below are historical; they must not override the current deployment record.
+
+## OS and storage checkpoint — user-provided terminal output
+
+10 October 2026: SSH login succeeded after Ubuntu installation. `/etc/os-release` reports Ubuntu 24.04.5 LTS (Noble). Root is `/dev/md2`, 3.6T total and 3.4T available as reported by `df -h`. All three arrays are active RAID1 with `[2/2] [UU]`. Root array initial resync is 5.4%, with a displayed estimate of 374.6 minutes remaining; boot array resync is delayed behind it. This is normal pending synchronization, not proof of completed mirror synchronization or disk health. Earlier Rescue output showed 62Gi RAM and two 3.6T disks. These checks were run by the user, not remotely executed by Codex. Actual invoice total remains unverified. No graph or model service has been installed/validated yet. Next: package availability and hardware health checks; allow initial resync to finish before bulk import.
+
+## Purchase status
+
+10 October 2026: user reports purchase completed. Actual purchased server ID/specifications, billed amount, provisioning status and SSH access have not yet been verified. The quotation and pre-purchase checklist below are historical planning records. Installation remains pending; do not treat purchase confirmation as proof that services are deployed.
+
 Prepared 10 October 2026. This is a deployment runbook, not an executed installation. No server has been bought, graph downloaded, model installed or live benchmark run.
 
 ## Purchase gate

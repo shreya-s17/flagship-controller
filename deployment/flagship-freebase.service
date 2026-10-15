@@ -1,0 +1,29 @@
+# Effective unit combining the installed base and upstream-binary override.
+[Unit]
+Description=Flagship Freebase research database (private)
+After=network.target
+
+[Service]
+Type=simple
+User=freebase-db
+Group=freebase-db
+WorkingDirectory=/srv/freebase/instance
+ExecStart=/opt/virtuoso-7.2.5/bin/virtuoso-t +foreground +configfile /srv/freebase/instance/virtuoso.ini
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=300
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/srv/freebase/instance
+CapabilityBoundingSet=
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+IPAddressDeny=any
+IPAddressAllow=localhost
+MemoryMax=32G
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

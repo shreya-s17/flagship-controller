@@ -1,0 +1,61 @@
+{
+  "scope": "Three development iterations on the SAME five training questions; not independent trials or held-out results",
+  "runs": [
+    {
+      "run": "webqsp-live-001",
+      "questions": 5,
+      "answered": 0,
+      "reasons": {
+        "entity_not_found": 3,
+        "unsupported_question_or_mention": 2
+      },
+      "cost": {
+        "graph_calls": 3,
+        "model_calls": 5,
+        "model_tokens": 609,
+        "elapsed_seconds": 34.884015655959956
+      },
+      "macro_f1": 0.0,
+      "em": 0.0,
+      "source_sha256": "91f094e77fc40538bbb0f76167cca57eac975858d7c47ecef0ea3a962e8f608b"
+    },
+    {
+      "run": "webqsp-live-002",
+      "questions": 5,
+      "answered": 0,
+      "reasons": {
+        "entity_not_found": 2,
+        "graph_result_truncated": 1,
+        "unsupported_question_or_mention": 2
+      },
+      "cost": {
+        "graph_calls": 3,
+        "model_calls": 5,
+        "model_tokens": 609,
+        "elapsed_seconds": 45.920467538933735
+      },
+      "macro_f1": 0.0,
+      "em": 0.0,
+      "source_sha256": "488006b05d211c0b9dd894ddba163df6b981ad57694b33064a4d61e508b14ce3"
+    },
+    {
+      "run": "webqsp-live-003",
+      "questions": 5,
+      "answered": 0,
+      "reasons": {
+        "missing_support": 1,
+        "graph_result_truncated": 2,
+        "disambiguation_candidate_cap": 2
+      },
+      "cost": {
+        "graph_calls": 19,
+        "model_calls": 7,
+        "model_tokens": 2548,
+        "elapsed_seconds": 119.12904524692567
+      },
+      "macro_f1": 0.0,
+      "em": 0.0,
+      "source_sha256": "41b17413a4a5ea619e73410e46074d67ae1f8344f3efc8588be1ac87d1746f0d"
+    }
+  ]
+}

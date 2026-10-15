@@ -1,0 +1,55 @@
+{
+  "scope": "local feasibility answer-set metrics; official evaluator parity not yet certified",
+  "submitted": 5,
+  "scorable": 5,
+  "excluded": 0,
+  "macro_f1": 0.0,
+  "em": 0.0,
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "scorable": true,
+      "answered": false,
+      "em": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "WebQTrn-181",
+      "scorable": true,
+      "answered": false,
+      "em": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "WebQTrn-246",
+      "scorable": true,
+      "answered": false,
+      "em": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "WebQTrn-279",
+      "scorable": true,
+      "answered": false,
+      "em": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "id": "WebQTrn-321",
+      "scorable": true,
+      "answered": false,
+      "em": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  ]
+}
