@@ -53,3 +53,21 @@ Replay a revision by running its `runtime-source.py` directly with the fixed que
 Build a bounded context-aware entity retriever/linker, explicit supported-constraint handling and evidence-based plan repair. Simply raising caps or choosing the first entity would hide observed failures. Improve on training material, retain failures, then freeze policies before calibration and held-out comparisons. Reproduce named baselines and certify evaluator/snapshot comparability before confirmatory experiments. The flagship parent and benchmark tasks remain open.
 
 No extra server, GPU, storage or model API purchase was made; existing rental continues. Password changes remain deferred at the user's request, services stay loopback-only, and Freebase automatic startup is not enabled.
+
+
+## Exact revision 003 replay command
+
+Run from the repository root on the prepared server as the unprivileged runtime user, using the original question-only intake with SHA256 `10daf76735dd4bb316bd1e660c95063575dff968819f2599ebc8359ae94c3a11`. Choose a fresh output directory; do not overwrite archived runs. This invokes local inference on the existing rental, not a paid model API.
+
+```sh
+python3 results/webqsp-live-003/runtime-source.py \
+  --inputs benchmark-data/webqsp/inputs.jsonl \
+  --output runs/webqsp-replay-003 \
+  --endpoint http://127.0.0.1:8891/sparql \
+  --model-url http://127.0.0.1:11434/api/chat \
+  --model flagship-qwen2.5-7b-q4km \
+  --snapshot dki-archive-sha256-01ac8da685b7cc05 \
+  --limit 5 --variant adaptive --disambiguate
+```
+
+Revision 001 uses its own archived source and omits `--disambiguate`; revision 002 uses its archived source with that flag. All replay inputs and outputs must stay separate from offline annotations. For scoring, run the separately privileged offline command in the README. The archived results were independently rescored on 15 October and all three matched their saved score JSON exactly; the live requests were not repeated merely to refresh documentation.

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-15",
+  "scope": "post-hoc development analysis, five reused training questions",
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "terminal": "ABSTAIN",
+      "reason": "missing_support",
+      "actions": {
+        "LINK": 1,
+        "DISAMBIGUATE": 1,
+        "PLAN": 1,
+        "EXPAND": 12,
+        "VERIFY": 11,
+        "BACKTRACK": 11,
+        "ABSTAIN": 1
+      },
+      "early_stop": "not identifiable",
+      "late_stop": "not identifiable",
+      "successful_recovery": false
+    },
+    {
+      "id": "WebQTrn-181",
+      "terminal": "ABSTAIN",
+      "reason": "graph_result_truncated",
+      "actions": {
+        "ABSTAIN": 1
+      },
+      "early_stop": "not identifiable",
+      "late_stop": "not identifiable",
+      "successful_recovery": false
+    },
+    {
+      "id": "WebQTrn-246",
+      "terminal": "ABSTAIN",
+      "reason": "disambiguation_candidate_cap",
+      "actions": {
+        "LINK": 1,
+        "ABSTAIN": 1
+      },
+      "early_stop": "not identifiable",
+      "late_stop": "not identifiable",
+      "successful_recovery": false
+    },
+    {
+      "id": "WebQTrn-279",
+      "terminal": "ABSTAIN",
+      "reason": "disambiguation_candidate_cap",
+      "actions": {
+        "LINK": 1,
+        "ABSTAIN": 1
+      },
+      "early_stop": "not identifiable",
+      "late_stop": "not identifiable",
+      "successful_recovery": false
+    },
+    {
+      "id": "WebQTrn-321",
+      "terminal": "ABSTAIN",
+      "reason": "graph_result_truncated",
+      "actions": {
+        "ABSTAIN": 1
+      },
+      "early_stop": "not identifiable",
+      "late_stop": "not identifiable",
+      "successful_recovery": false
+    }
+  ]
+}

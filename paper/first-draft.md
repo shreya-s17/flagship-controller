@@ -95,3 +95,39 @@ Code, tests, generator, independent evaluator, frozen settings, raw trajectories
 ## Conclusion
 
 The prototype makes evidence acquisition, support checking, branch recovery and termination auditable in a controlled graph task. Synthetic ablations isolate clear checker and stopping behavior, but provide no acquisition-yield advantage and no benchmark or token hypothesis result. The viable next research contribution depends on calibrated decisions under uncertain plans, imperfect verification and matched real evidence access.
+
+
+## Draft v0 completion checkpoint — 15 October 2026
+
+Title candidates: (1) Auditing Evidence-Control Failures in Structured Reasoning; (2) Verification-Guided Graph Control: A Synthetic Study and Live Feasibility Diagnostic; (3) When Backtracking Cannot Repair a Wrong Graph Plan.
+
+Abstract takeaways: instrumented finite-path controller; synthetic acquisition advantage absent; stopping reduces fixture graph expansions; five reused real training questions yield zero coverage; question semantics and linking must improve before a paired study. These are draft framing options, not accepted publication claims.
+
+### Method notation and scope
+
+Let s_t=(q,E_t,p_t,F_t,W_t,b_t) contain question, observed evidence, current path/plan, frontier, retained witnesses and remaining budget. The next action a_t=π(s_t) belongs to {EXPAND, SELECT, VERIFY, BACKTRACK, ANSWER, ABSTAIN}. Evidence changes only through observations E_(t+1)=E_t∪Obs(a_t). For the synthetic controller the selection score is h(p)=depth(p)+0.5·I[next-type obligation matches]. This heuristic is not a learned reward or calibrated confidence.
+
+For a candidate answer y, V(y,E_t,p_t)=1 requires the implemented provenance, continuity, declared relation/type and conflict checks. ANSWER requires the active gate and budget; ABSTAIN represents inability to certify within the implemented envelope. The live runner instead proposes one simple relation chain and checks observed paths, with an additional semantic gate that was not reached in these diagnostics. It does not implement the complete synthetic policy for arbitrary natural-language questions.
+
+Grounded yield is Σ_i I[correct_i ∧ supported_i]/N. Coverage is N_answered/N, selective risk is N_incorrect_answered/N_answered only when N_answered>0. Costs are a vector (model calls, observed tokens, graph calls, latency), not interchangeable scalar savings. STOP and recovery criteria require the independent labels in the prospective checklist; unavailable labels are not zero errors.
+
+### Live preliminary results and error table
+
+Three revisions on the same five training questions each answered 0/5 (local F1=0, EM=0; official scorer equivalence unverified). Revision 3 used 19 graph calls, 7 model calls and 2,548 observed tokens across five cases. No live positive or repaired trajectory exists. [Failure/recovery/STOP table](../results/live-failure-analysis.md) documents one unsuitable relation plan, two row truncations and two candidate-cap abstentions. This is feasibility evidence, not a baseline comparison or held-out result.
+
+### Claim-to-evidence ledger and missing result slots
+
+| Draft claim | Evidence / status |
+|---|---|
+| Auditable prototype exists | Source, traces, manifests and tests; engineering claim only. |
+| Synthetic verification affects unsupported answering | Component study; symbolic fixture scope only. |
+| Synthetic STOP reduces expansions | Measured table; not token savings. |
+| Adaptive acquisition improves quality/cost | Not supported: synthetic acquisition-off matches; live comparison TODO. |
+| Live recovery or calibrated reliability improves | TODO: no successful live answer or calibrated verifier. |
+| Novel method / benchmark superiority | TODO: contribution distinction, external baseline and matched held-out experiment. |
+
+Remaining result placeholders: official-evaluator parity; question-only linker/constraint audit; positive live development case; fixed/adaptive paired table; external named-baseline reproduction; groundedness adjudication; budget-matched recovery; feasible-continuation STOP audit; uncertainty calibration; CWQ and agent transfer if retained in scope. No placeholder represents a run already performed.
+
+### Draft conclusion and decision
+
+The current platform exposes a mismatch between tractable declared-path synthetic reasoning and natural question interpretation. Backtracking cannot fix a wrong fixed plan, and safe abstention at zero coverage is not useful benchmark success. [Decision memo](contribution-decision.md): REVISE engineering and NO-GO submission claims. This completes an internal report draft v0; it remains unsuitable as a validated final preprint. Follow [next-study gate](../evaluation/next-study-checklist.md).

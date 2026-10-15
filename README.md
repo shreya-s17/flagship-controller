@@ -52,3 +52,23 @@ No paper code was copied. Synthetic controls are not faithful paper reproduction
 ## WebQSP service pipeline
 
 The question-only feasibility runner and separate offline scorer are implemented and covered by local tests. See [connection instructions and limitations](evaluation/webqsp-runtime.md). Live-service validation is pending. The runner handles bounded simple chains, exact-name linking, multi-answer evidence and an uncalibrated semantic gate; it does not yet implement full adaptive replanning or general WebQSP constraints.
+
+
+## Readiness checkpoint — 15 October 2026
+
+The repo is a working prototype, **not a final benchmark or publication artifact**. Read the [acceptance record](evaluation/acceptance.md), [actual failure/STOP analysis](results/live-failure-analysis.md), [contribution decision](paper/contribution-decision.md), [technical-report draft v0](paper/first-draft.md) and [application evidence map](paper/application-evidence-map.md). The three real-service revisions reuse five training questions and all answer 0/5; they do not establish adaptive improvement.
+
+Verify archived live artifacts without a running server:
+
+```sh
+python3 scripts/verify_live_artifacts.py
+python3 -m unittest discover -s tests -q
+```
+
+For offline rescoring with the separately acquired WebQSP annotations (never runtime input):
+
+```sh
+python3 -m flagship_controller.webqsp_score results/webqsp-live-003/predictions.jsonl benchmark-data/webqsp/evaluation-only.jsonl
+```
+
+Exact historical source/config hashes are preserved per run; deployment and live replay commands are in [the live report](results/webqsp-live-report.md). Re-execution can vary with model output, cold caches and endpoint state. The artifact verifier checks integrity and recorded totals; it does not certify scientific validity or official scorer parity. Next: [controlled-study blockers](evaluation/next-study-checklist.md).

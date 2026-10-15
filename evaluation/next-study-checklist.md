@@ -1,0 +1,15 @@
+# Prospective controlled-study gate — 15 October 2026
+
+**NO-GO for confirmatory execution.** This checklist is written after the five-question diagnostics. It is not their preregistration. The prior pilot-freeze Todoist task remains open until the exact next-study inputs and both implemented policies are frozen.
+
+1. Repair and test question-only linking, relation planning and explicit constraints on training/development inputs. Preserve label separation. Never feed gold semantic parses to the controller.
+2. Freeze a new development/evaluation manifest with exact question IDs, source hashes and split roles; reused five-question diagnostics stay development-only. Audit overlap and snapshot coverage. Do not select a slice from test outcomes.
+3. Implement and hash separate fixed-chain and genuinely adaptive control policies with the same model, prompt resources, evidence access and accounting. The current runner's `adaptive` label does not demonstrate online adaptive acquisition or plan repair. Reproduce one named external baseline separately; do not relabel the internal control as ToG/CoR.
+4. Record model digest, prompt/source hashes, seed 17, limits, hardware and graph provenance. Use matched budgets, randomized paired order and cache/warmup policy; seeds 29/43 are prospective robustness runs after a feasible primary configuration is frozen.
+5. Report answer-set EM/F1 (official parity first), support quality with independent labels, coverage and risk with nonzero denominators, recovery on independently identified recoverable failures, graph/model calls, observed tokens, latency and timeout/partial-result rates. Report undefined quantities as NA.
+6. Early STOP: independently verified acceptable continuation feasible within remaining budget at the recorded stop state. Late STOP: unnecessary actions after an independently accepted complete supported candidate. Audit replay method and adjudicators before assigning labels. Exhaustion/caps alone are not certified early STOP.
+7. Recovery requires a detected initial failure followed by an independently valid repaired answer under the shared budget. Backtrack count alone is not recovery success. Retain natural failures and label induced cases separately.
+8. Freeze trace fields (question ID, observed evidence and provenance, candidates, plan/constraints, action, verifier output, terminal reason, incremental/cumulative costs, version hashes). Verify protected evaluation labels are unreadable by runtime.
+9. Require a positive supported development case, negative/unsupported cases, reproducible scoring, official-evaluator comparison and independently reviewed trace labels before the paired held-out run. Current five diagnostics supply no positive live case.
+
+Blocked deliverables: controlled comparison, named baseline reproduction, calibrated reliability, valid STOP/recovery rates, final benchmark and public release. CWQ intake and transfer-to-agent tests remain separate future scope. Avoid new paid services while the current server can support development.
