@@ -1,0 +1,146 @@
+{
+  "status": "exploratory shared-prefix follow-up; not confirmatory",
+  "created_utc": "2026-10-16T07:40:15Z",
+  "input_sha256": "10daf76735dd4bb316bd1e660c95063575dff968819f2599ebc8359ae94c3a11",
+  "question_ids": [
+    "WebQTrn-339",
+    "WebQTrn-401",
+    "WebQTrn-562",
+    "WebQTrn-825",
+    "WebQTrn-904",
+    "WebQTrn-938",
+    "WebQTrn-1030",
+    "WebQTrn-1108",
+    "WebQTrn-1166",
+    "WebQTrn-1211"
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-339",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-339",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-401",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-401",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-562",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-562",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-904",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-904",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-1030",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-1030",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair"
+    }
+  ],
+  "runtime_version": "typed-catalog-repair-v11",
+  "source_sha256": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+  "transport_sha256": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+  "harness_sha256": "8aa6ce7644a053c1382c145a41b556e1119df673f6a7bd9c48d426190505524f",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "seed": 17,
+  "inference_options": {
+    "temperature": 0,
+    "seed": 17,
+    "context_from_alias": 4096,
+    "threads_from_alias": 4,
+    "max_output_tokens": 512
+  },
+  "limits": {
+    "model_calls": 10,
+    "observed_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "contrast": "same recorded initial observations/model outputs; fixed stop vs bounded repair continuation",
+  "analysis": "Shared prefix is replayed and its recorded resource cost charged to both; only continuation makes new requests. Latency is prefix plus continuation, not independently measured end-to-end latency.",
+  "stop_labels": "not identifiable without independent feasible-continuation audit",
+  "external_baseline": "not included; internal controls only",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "python": "3.12.6",
+  "test_execution": false,
+  "original_plan_sha256": "608c82ce0eaa86c41786908503d30c254de52149205fec9d1d267ac5bda4b9bd",
+  "original_predictions_sha256": "070907df1f0b08a96734964fed2667cc5a58b5a3c66d5ba964ae4aede18dd9e4",
+  "original_question_ids": [
+    "WebQTrn-339",
+    "WebQTrn-401",
+    "WebQTrn-562",
+    "WebQTrn-825",
+    "WebQTrn-904",
+    "WebQTrn-938",
+    "WebQTrn-1030",
+    "WebQTrn-1108",
+    "WebQTrn-1166",
+    "WebQTrn-1211"
+  ],
+  "excluded_prefixes": {},
+  "motivation": "Audit whether independent parsing differences confound the first pilot; frozen before this continuation, without reading gold outcomes."
+}

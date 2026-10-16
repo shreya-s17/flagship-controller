@@ -33,13 +33,15 @@ def prepare(archive, destination):
             inputs.write(json.dumps({'id':q['QuestionId'],'question':q['RawQuestion'],
                                      'split':lookup[q['QuestionId']]})+'\n')
             gold.write(json.dumps({'id':q['QuestionId'],'parses':q['Parses']})+'\n')
+    # The owner must be a different account from the deployed runtime user.
+    (destination/'evaluation-only.jsonl').chmod(0o600)
     manifest = {'dataset':'WebQSP', 'version':train['Version'], 'freebase_version':train['FreebaseVersion'],
                 'source':'https://www.microsoft.com/en-ie/download/details.aspx?id=52763',
                 'archive_sha256':hashlib.sha256(Path(archive).read_bytes()).hexdigest(),
                 'complete_train':len(train['Questions']), 'complete_test':len(test['Questions']),
                 'partial_counts':partial, 'splits':splits, 'exact_question_overlap_count':len(overlap),
-                'split_seed':17, 'parse_execution':'NOT RUN; snapshot/endpoint absent',
-                'controller_plan':'NOT DERIVED; requires question-only parser/linker',
+                'split_seed':17, 'parse_execution':'Gold parses are not executed by intake',
+                'controller_plan':'Not derived from annotations; question-only runtime required',
                 'paraphrase_overlap_audit':'PENDING; exact-string grouping only',
                 'run_status':'INTAKE ONLY; no benchmark results'}
     (destination/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')

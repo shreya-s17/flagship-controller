@@ -1,0 +1,58 @@
+{
+  "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+  "submitted": 5,
+  "scorable": 5,
+  "excluded": 0,
+  "coverage": 0.8,
+  "macro_precision": 0.8444444444444444,
+  "macro_recall": 0.8,
+  "macro_f1": 0.6727272727272727,
+  "exact_f1_accuracy": 0.6,
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "scorable": true,
+      "answered": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "exact_f1": 1
+    },
+    {
+      "id": "WebQTrn-181",
+      "scorable": true,
+      "answered": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "exact_f1": 1
+    },
+    {
+      "id": "WebQTrn-246",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-279",
+      "scorable": true,
+      "answered": true,
+      "precision": 0.2222222222222222,
+      "recall": 1.0,
+      "f1": 0.3636363636363636,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-321",
+      "scorable": true,
+      "answered": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "exact_f1": 1
+    }
+  ]
+}

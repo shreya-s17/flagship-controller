@@ -12,15 +12,18 @@
   },
   "exact_question_overlap_count": 0,
   "split_seed": 17,
-  "parse_execution": "NOT RUN; snapshot/endpoint absent",
-  "controller_plan": "NOT DERIVED; requires question-only parser/linker",
+  "parse_execution": "No gold parse execution by the runtime; independent question-only graph programs are executed",
+  "controller_plan": "Schema-typed question-only catalog and bounded repair v11; no gold topic IDs or parses",
   "paraphrase_overlap_audit": "PENDING; exact-string grouping only",
-  "run_status": "INTAKE ONLY; no benchmark results",
+  "run_status": "Live five-question development check and frozen exploratory paired pilot; no official test controller execution",
   "split_counts": {
     "pilot": 50,
     "calibration": 50,
     "policy": 50,
     "train_remaining": 2948,
     "test": 1639
-  }
+  },
+  "status_updated": "2026-10-15",
+  "live_snapshot_equivalence": "UNVERIFIED; dataset FreebaseVersion above is a requirement, not the prepared archive date",
+  "scorer": "Official evaluator semantics and parity checks; see official-scorer-cli-parity.json"
 }

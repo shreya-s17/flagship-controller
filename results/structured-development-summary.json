@@ -1,0 +1,31 @@
+{
+  "scope": "successive revisions on the same five training questions; not independent comparison evidence",
+  "revisions": [
+    {
+      "label": "initial structured catalog",
+      "run": "structured-dev-007",
+      "questions": 5,
+      "distinct_questions": 5,
+      "coverage": 0.6,
+      "macro_f1": 0.4,
+      "exact_f1_accuracy": 0.4,
+      "observed_tokens": 13658,
+      "model_calls": 15,
+      "graph_calls": 35,
+      "sum_question_seconds": 432.4041452811216
+    },
+    {
+      "label": "compact ranked catalog",
+      "run": "structured-dev-008",
+      "questions": 5,
+      "distinct_questions": 5,
+      "coverage": 0.8,
+      "macro_f1": 0.6727272727272727,
+      "exact_f1_accuracy": 0.6,
+      "observed_tokens": 10998,
+      "model_calls": 17,
+      "graph_calls": 36,
+      "sum_question_seconds": 305.02418422704795
+    }
+  ]
+}

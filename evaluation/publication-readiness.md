@@ -1,0 +1,49 @@
+# Publication readiness and next experiment gates
+
+16 October 2026. **REVISE method; NO-GO submission.** A reliable artifact and a publishable research contribution are separate milestones. Current software is useful for restricted experiments, but bounded repair shows no benefit in the completed ten-question study. Nothing here guarantees acceptance.
+
+## What is established
+
+- Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.
+- Five reused development questions: three exact, one partial, one abstention, macro F1 .6727. This is tuning evidence.
+- Ten further training-pilot questions: independent fixed .40 versus repair .30 F1, with a prefix-parsing confound. Same-prefix diagnostic: .40 versus .40, +16.48% repair tokens, no exact recovery. These are the same ten cases, not twenty independent questions.
+- Official-scoring helper/CLI fixture parity; protected evaluation labels; exact source/model/plan archives. No official test execution, published-method reproduction, calibrated verifier or independently adjudicated STOP rate.
+
+## Ordered work packages and acceptance evidence
+
+| Priority | Work | Completion gate |
+|---|---|---|
+| 1 | Repair semantic targeting on development only | Explicit answer-type and question-obligation checks; reject identity/advertising-character counterexamples; preserve valid answers. Test unseen paraphrases and document false rejection. Do not solve cases with question-ID rules. |
+| 2 | Diagnose recovery opportunity before expanding repair | Log whether a correct program is in the bounded catalog, whether selection fails, and whether budget-feasible alternatives exist. Catalog coverage is assessed offline and never supplied at inference. If the correct program is absent, resampling the same catalog is not a useful repair strategy. |
+| 3 | Independent semantic/STOP annotation | Blind two reviewers to policy and gold score; label answer scope, anchor/constraint completeness, evidence sufficiency and feasible continuation using the rubric below. Adjudicate disagreements and retain unknown. These labels have NOT been collected. |
+| 4 | Reproduce named published baseline | Start with pinned ToG source audit; review closer CoG/CoR methods. Record every model/topic-linking/search/retry adaptation and original license. Run upstream-compatible sanity cases, then matched local-model question-only comparison. A port is labeled an adaptation, not original-paper reproduction. |
+| 5 | Verify benchmark setting | Document graph archive provenance and mismatches; after evaluation only, test official gold-query answer availability as an upper-bound diagnostic. Do not silently equate the prepared graph with the official snapshot. Keep official test untouched during development. |
+| 6 | Freeze next study before inference | Freeze executable policies, primary metric, dataset IDs, repeated seeds, resource budgets, exclusions and failure accounting. Use untouched training-policy questions first; keep calibration and final evaluation disjoint, group exact/paraphrase families. Estimate runtime on current CPU server before committing to full scale. |
+| 7 | Adequate evaluation and ablations | Report full-denominator F1/exact, coverage, selective risk, independently scored evidence/semantic quality, recovery numerator and eligible denominator, STOP errors or NA, tokens/graph/time. Compare fixed, repair, verifier-off and feedback-off controls at matched budget curves; add named baseline under documented settings. Paired intervals cluster by question across repeated seeds. |
+| 8 | Final artifact and manuscript review | Re-run from a clean checkout; pin dependencies and model/data hashes; validate figures/tables from raw outputs; document licenses, limitations, compute, AI assistance and authorship. Remove secrets from release files. Owner reviews concrete public release and submission package. |
+
+Work packages 1–5 are the immediate path. Scaling unchanged v11 would produce more measurements of an unproven rule. The existing rental supports these diagnostics; no new model subscription/GPU/storage purchase is required now. Any new cost requires a concrete estimate before commitment.
+
+## Proposed next evaluation size (not a frozen power claim)
+
+Start with 100 untouched training-policy questions selected without looking at outcomes, three seeds, internal controls and a documented external adaptation. This is a feasibility stage, not an automatic sufficient sample size. Choose the eventual confirmatory size using observed paired discordance/variance and a predeclared practically useful effect before final testing. If the grammar excludes a question, retain its abstention in the full denominator; any supported-subset result is secondary with a policy-independent definition. Do not filter out linking failures after seeing scores.
+
+Only after development, calibration, baseline sanity checks and a code/metric freeze should final WebQSP testing begin. A second benchmark is needed if broad cross-dataset generalization is claimed; agent experiments are needed only if transfer claims remain. Narrowing the paper scope is legitimate.
+
+## Independent annotation rubric
+
+Use blinded records containing question, answer IDs/names, selected program, full witness set and resource history, with policy/score/gold fields withheld. Each reviewer records `supported`, `contradicted` or `unknown` separately for:
+
+1. Anchor identity: correct referent and all named constraints represented.
+2. Relation/operation meaning: direction, temporal/ranking/counting/negation obligations are actually implemented.
+3. Answer scope: type, all-and-only intent and completeness, rather than edge existence alone.
+4. Witness support: each emitted answer has a consistent observed witness; graph presence still is not world truth.
+5. Stop state: an acceptable supported answer already exists, a specific budget-feasible continuation is demonstrated, or neither is known.
+
+Premature stop requires a recorded continuation within the same allowed budget and independently accepted answer. Late stop requires an independently accepted complete candidate at an earlier state plus avoidable subsequent work. Report eligible counts and unknowns; never count arbitrary abstentions as premature. Recovery success requires an initially failed decision and later independently accepted answer; do not count replay or graph calls as independent opportunities. Same-model judgments are not independent labels. Reviewer identities/qualification, disagreement resolution and agreement statistics belong in the artifact; no annotations are fabricated.
+
+## Contribution options and literature boundary
+
+A method paper needs a precise new mechanism and evidence for its claimed benefit. The broad loop of relation-guided exploration plus failure-driven reflection/backtracking already overlaps [CoG](https://aclanthology.org/2026.acl-long.708/); abstract-level review alone does not establish a distinction, and full method/code comparison is pending. [CoR](https://aclanthology.org/2026.findings-acl.2138/) and [LCR-RAG](https://aclanthology.org/2026.acl-long.814/) are also mandatory comparisons. Do not label the combination itself novel.
+
+An alternative is a rigorous reproducibility/reliability study of when graph support fails to establish semantic correctness, including repair's cost and failures. That still needs adequate experiments, clear actionable findings and independent evidence. [TMLR criteria](https://jmlr.org/tmlr/acceptance-criteria.html) emphasize supported claims and audience value and allow substantive reproducibility studies; a small implementation report is not enough. Current route: private technical report, with a journal/workshop decision after these gates. [Venue plan](../paper/venue-plan.md).

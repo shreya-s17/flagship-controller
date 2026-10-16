@@ -1,0 +1,66 @@
+{
+  "format": "concatenate ordered parts, gzip-compressed tar; original UTF-8 traces unchanged",
+  "archive_sha256": "a94503bab3da52ef7c0c540b515be2559b56b28d8234cde19967c17f24e7d7ec",
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part000",
+      "bytes": 48000,
+      "sha256": "32f91fa56660cee6251e1c2b19f63591aa1f0752d53a8d24bdeb5b30767beca6"
+    },
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 48000,
+      "sha256": "f4dfdaffc8b04e74beedbdb3157879259bac32a99c61e5cab1af1ee41fbaaa7a"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 48000,
+      "sha256": "7ea07ac4f8e9d8af6d95b2691930694ce9140044979ad0b0d947411f900efc18"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 48000,
+      "sha256": "bb873ad0ea0ed7e6a840690e0906dc8c788546cd25a3819991b91ece7c3e0a3d"
+    },
+    {
+      "file": "evidence.tar.gz.part004",
+      "bytes": 48000,
+      "sha256": "4a3a1113a637600e157842d49b78b37edd26147949af0fa9f72ad6a919cad207"
+    },
+    {
+      "file": "evidence.tar.gz.part005",
+      "bytes": 48000,
+      "sha256": "e1eaddf773058cdc09929375943a95e2cce22c58bc6638b1caad4eb847b2003c"
+    },
+    {
+      "file": "evidence.tar.gz.part006",
+      "bytes": 48000,
+      "sha256": "79e58a728203e39888f4b05b0d548a03bb4008d115ba8595030e0539e6f11cdc"
+    },
+    {
+      "file": "evidence.tar.gz.part007",
+      "bytes": 48000,
+      "sha256": "8f715f2a451d15de5704f71c926ff38976e060b0f12f81f2d39b95d8198279fe"
+    },
+    {
+      "file": "evidence.tar.gz.part008",
+      "bytes": 48000,
+      "sha256": "fe265bfbc9ed574de0004e1bc9fb99d99ffa87b726e25d8694c1c3d26d7e1466"
+    },
+    {
+      "file": "evidence.tar.gz.part009",
+      "bytes": 25521,
+      "sha256": "06ba4a684888b23bed55bcd7c616bac9c6358356c9cd5ba0e5d9adabf97ffb28"
+    }
+  ],
+  "files": {
+    "results/paired-pilot-001/predictions.jsonl": "070907df1f0b08a96734964fed2667cc5a58b5a3c66d5ba964ae4aede18dd9e4",
+    "results/paired-pilot-001/progress.jsonl": "dd89db1f1f951c9d95892ca734c55ec06c7de9eb834c4e6c0f04e378d496def8",
+    "results/paired-pilot-002-shared-prefix/fixed-prefixes.jsonl": "f9264d38421a983ad9dd5a8d6007942455b4161c93324530291ef92bbe6d2114",
+    "results/paired-pilot-002-shared-prefix/predictions.jsonl": "5e6df04884eb4f826f9317f6061e184183ccf44ed53803440ec86db26aaaaea8",
+    "results/structured-dev-007/predictions.jsonl": "57bfe0f194ed169be64c28907d199bfc8202617b3460e37f847241b9932b2364",
+    "results/structured-dev-007/progress.jsonl": "f410e529d2d1fdbac6e27e9e8d0ddcf4dec282ee22981047320022d0d1cf4a58",
+    "results/structured-dev-008/predictions.jsonl": "c5f04805b83e6999df5e093e1acbc7a5b99305944b1120c4b5aec02d7c3c7d66",
+    "results/structured-dev-008/progress.jsonl": "c1904b77841a81ef5aded1be3b2504a7997fd5d9c13a5aad25694bb8d141cbc7"
+  }
+}

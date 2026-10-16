@@ -1,0 +1,23 @@
+{
+  "source": "https://github.com/DataArcTech/ToG",
+  "commit": "7ccbb92e17579f934bb778386230de47eca0ab67",
+  "status": "source audited; NOT executed or reproduced",
+  "hashes": {
+    "ToG/main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
+    "ToG/freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
+    "ToG/utils.py": "4460752d33b730b2ca084e352ea84c60bb89c93aea349cece11158a8ea5f15c5",
+    "ToG/prompt_list.py": "954e7f6f79fb08010474340f1fade455bcc3c0cd294270923387d5e703de13f5",
+    "requirements.txt": "4fbe226d34853538fa5ec79bced0ae86d363772b5c7d8248d9438d685d2a194c",
+    "README.md": "c806452c6b086c85520d6e2145587ea8b5e856a82d8c3c3a7f149e0ff720afda"
+  },
+  "audit": [
+    "Upstream accepts prelinked topic entities; end-to-end question-only comparison requires a common linker and an explicitly labeled input adaptation",
+    "Default main requests gpt-3.5-turbo; local llama route requires a compatible OpenAI endpoint. Our local quantized Qwen is not the published default model",
+    "run_llm has unbounded retries and no token accounting; bounded accountable transport must be adapted and audited before running",
+    "Entity candidate subsampling uses random.sample; seed is not fixed in the inspected main",
+    "Freebase helper uses a hardcoded endpoint, no result cap or HTTP200 partial-result rejection",
+    "Requirements are unpinned and import sentence-transformers even in LLM mode",
+    "README states Apache 2.0 but no standalone LICENSE file found; preserve attribution and resolve distribution licensing before vendoring source"
+  ],
+  "reproduction_claim": false
+}

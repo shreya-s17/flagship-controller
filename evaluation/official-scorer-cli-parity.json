@@ -1,0 +1,20 @@
+{
+  "source": "https://www.microsoft.com/en-us/download/details.aspx?id=52763",
+  "archive_sha256": "95cb9cd2f6b4e1116ba4bec348f08a7f5ca2a5df4f223ea5af3f9b25a971b0ee",
+  "official_script_sha256": "d5743324864853f71490b33adc0de1c068f8c29416408e12e592c351a3e994a5",
+  "helper_cases": 36,
+  "aggregate_cli_checks": [
+    {
+      "fixture": "all-training-empty-predictions",
+      "scorable": 3098,
+      "official_stdout": "Number of questions: 3098\nAverage precision over questions: 1.000\nAverage recall over questions: 0.008\nAverage f1 over questions (accuracy): 0.008\nF1 of average recall and average precision: 0.017\nTrue accuracy (ratio of questions answered exactly correctly): 0.008\n"
+    },
+    {
+      "fixture": "good-admission-noncomplete-winning-parse",
+      "scorable": 1,
+      "official_stdout": "Number of questions: 1\nAverage precision over questions: 1.000\nAverage recall over questions: 1.000\nAverage f1 over questions (accuracy): 1.000\nF1 of average recall and average precision: 1.000\nTrue accuracy (ratio of questions answered exactly correctly): 1.000\n"
+    }
+  ],
+  "scope": "Exact helper parity on 36 edge cases; full official CLI output parity at its 3-decimal reporting precision on two fixtures. Only print syntax changed. No test outcomes executed.",
+  "test_executed": false
+}

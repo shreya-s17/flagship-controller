@@ -1,0 +1,44 @@
+{
+  "scope": "independent recorded-row/constraint witness consistency, not semantic accuracy",
+  "answered": 4,
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-181",
+      "answered": true,
+      "witnesses": 13,
+      "answers": 13,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-246",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-279",
+      "answered": true,
+      "witnesses": 9,
+      "answers": 9,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-321",
+      "answered": true,
+      "witnesses": 23,
+      "answers": 22,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "scope": "post-run independent constant-triple graph requery; not semantic entailment or truth calibration",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "unique_triples": 9,
+  "present": 9,
+  "not_observed": 0,
+  "unknown": 0,
+  "queries": [
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:base.biblioness.bibs_topic.is_really ns:m.01_d4 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.022695443010888994
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01ng1x ns:law.invention.inventor ns:m.02ncr . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.01306847098749131
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02qgd6j ns:base.advertisingcharacters.advertising_character.product ns:m.02r95v . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.04249428102048114
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03ny5l ns:law.invention.inventor ns:m.02ncr . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001581480959430337
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.04lg6 ns:people.deceased_person.place_of_death ns:m.01jvvc . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.04460478003602475
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.05ty1h ns:education.school_mascot.school ns:m.08815 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.024272799026221037
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0b90_r ns:location.country.currency_used ns:m.012ts8 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.02274051500717178
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0ctvd ns:law.invention.inventor ns:m.02ncr . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0014357180334627628
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0f_6nrb ns:base.advertisingcharacters.advertising_character.product ns:m.02r95v . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001462257991079241
+    }
+  ],
+  "rows": [
+    {
+      "triple": "ns:m.01_d4 ns:base.biblioness.bibs_topic.is_really ns:m.01_d4",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01ng1x ns:law.invention.inventor ns:m.02ncr",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02qgd6j ns:base.advertisingcharacters.advertising_character.product ns:m.02r95v",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03ny5l ns:law.invention.inventor ns:m.02ncr",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.04lg6 ns:people.deceased_person.place_of_death ns:m.01jvvc",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.05ty1h ns:education.school_mascot.school ns:m.08815",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0b90_r ns:location.country.currency_used ns:m.012ts8",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0ctvd ns:law.invention.inventor ns:m.02ncr",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0f_6nrb ns:base.advertisingcharacters.advertising_character.product ns:m.02r95v",
+      "status": "present"
+    }
+  ]
+}

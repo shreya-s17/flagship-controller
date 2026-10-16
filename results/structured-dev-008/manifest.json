@@ -1,0 +1,35 @@
+{
+  "version": "typed-catalog-repair-v11",
+  "variant": "repair",
+  "status": "development only",
+  "question_ids": [
+    "WebQTrn-66",
+    "WebQTrn-181",
+    "WebQTrn-246",
+    "WebQTrn-279",
+    "WebQTrn-321"
+  ],
+  "input_sha256": "10daf76735dd4bb316bd1e660c95063575dff968819f2599ebc8359ae94c3a11",
+  "source_sha256": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+  "transport_sha256": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "limits": {
+    "model_calls": 10,
+    "observed_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout_seconds": 120,
+    "max_observed_prompt_tokens": 3000,
+    "repair_attempts": 2
+  },
+  "seed": 17,
+  "limitations": [
+    "uncalibrated type/semantic decisions",
+    "schema-typed one/two-hop conjunctive grammar",
+    "no published baseline reproduction",
+    "snapshot date unverified",
+    "not official scorer parity"
+  ]
+}

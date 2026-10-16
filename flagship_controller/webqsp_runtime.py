@@ -47,18 +47,20 @@ class Ollama:
         if len(prompt.encode()) > 64000:
             raise Blocked('model_context_cap')
         response = post_json(self.url, {'model': self.model, 'stream': False,
-            'format': 'json', 'messages': [{'role': 'user', 'content': prompt}],
+            'format': getattr(self, 'response_format', 'json'), 'messages': [{'role': 'user', 'content': prompt}],
             'options': {'temperature': 0, 'seed': 17, 'num_predict': min(512, self.max_tokens-self.tokens)}}, self.timeout)
         usage = [response.get('prompt_eval_count'), response.get('eval_count')]
         if any(type(x) is not int or x < 0 for x in usage):
             raise Blocked('model_usage_unavailable')
         self.tokens += sum(usage)
-        self.audit.append({'prompt_version': PROMPT_VERSION, 'prompt_sha256': hashlib.sha256(prompt.encode()).hexdigest(),
+        self.audit.append({'prompt_version': getattr(self, 'prompt_version', PROMPT_VERSION), 'prompt_sha256': hashlib.sha256(prompt.encode()).hexdigest(),
                            'prompt': json.loads(prompt), 'response': response.get('message', {}).get('content'),
                            'input_tokens': usage[0], 'output_tokens': usage[1],
                            'elapsed_seconds': time.perf_counter()-started})
         # Input tokens are known only after the request. The budget is an admission/answer cap,
         # not a hard provider billing cap; one call can exceed it and is still charged.
+        if usage[0] > getattr(self, 'max_prompt_tokens', float('inf')):
+            raise Blocked('model_context_budget_exceeded_after_call')
         if self.tokens > self.max_tokens:
             raise Blocked('model_budget_exceeded_after_call')
         try:

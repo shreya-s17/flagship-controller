@@ -23,6 +23,7 @@ class BenchmarkTests(unittest.TestCase):
             inputs=(out/'inputs.jsonl').read_text()
             self.assertNotIn('SECRET',inputs)
             self.assertIn('SECRET',(out/'evaluation-only.jsonl').read_text())
+            self.assertEqual((out/'evaluation-only.jsonl').stat().st_mode & 0o777,0o600)
             self.assertTrue(any('a' in ids and 'b' in ids for ids in m['splits'].values()))
             self.assertEqual(m['splits']['test'],['d'])
 

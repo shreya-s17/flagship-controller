@@ -1,0 +1,354 @@
+{
+  "scope": "Exploratory same-state replay of the original training-pilot questions; not independent data or fresh end-to-end timing",
+  "n_questions": 10,
+  "plan_sha256": "5f5af6709ce9705695daf31260284bf8a211f3254ff88c60bde232d63a6d0446",
+  "variants": {
+    "fixed": {
+      "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+      "submitted": 10,
+      "scorable": 10,
+      "excluded": 0,
+      "coverage": 0.6,
+      "macro_precision": 0.8,
+      "macro_recall": 0.4,
+      "macro_f1": 0.4,
+      "exact_f1_accuracy": 0.4,
+      "rows": [
+        {
+          "id": "WebQTrn-339",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-401",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-562",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "scorable": true,
+          "answered": true,
+          "precision": 1e-40,
+          "recall": 6.666666666666667e-42,
+          "f1": 1.25e-41,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-904",
+          "scorable": true,
+          "answered": true,
+          "precision": 5e-41,
+          "recall": 5e-41,
+          "f1": 5e-41,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-938",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-1030",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-1108",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-1166",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-1211",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        }
+      ],
+      "cost": {
+        "graph_calls": 63,
+        "model_calls": 34,
+        "model_tokens": 21056,
+        "elapsed_seconds": 690.5349359200336,
+        "model_usage_complete": true
+      },
+      "reasons": {
+        "entity_not_found": 2,
+        "observed_conjunctive_support_and_semantic_gate": 6,
+        "semantic_verifier_reject": 2
+      },
+      "observed_exact_after_reject": 0
+    },
+    "repair": {
+      "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+      "submitted": 10,
+      "scorable": 10,
+      "excluded": 0,
+      "coverage": 0.6,
+      "macro_precision": 0.8,
+      "macro_recall": 0.4,
+      "macro_f1": 0.4,
+      "exact_f1_accuracy": 0.4,
+      "rows": [
+        {
+          "id": "WebQTrn-339",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-401",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-562",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "scorable": true,
+          "answered": true,
+          "precision": 1e-40,
+          "recall": 6.666666666666667e-42,
+          "f1": 1.25e-41,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-904",
+          "scorable": true,
+          "answered": true,
+          "precision": 5e-41,
+          "recall": 5e-41,
+          "f1": 5e-41,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-938",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-1030",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-1108",
+          "scorable": true,
+          "answered": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "exact_f1": 1
+        },
+        {
+          "id": "WebQTrn-1166",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        },
+        {
+          "id": "WebQTrn-1211",
+          "scorable": true,
+          "answered": false,
+          "precision": 1.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "exact_f1": 0
+        }
+      ],
+      "cost": {
+        "graph_calls": 65,
+        "model_calls": 38,
+        "model_tokens": 24527,
+        "elapsed_seconds": 863.7808521420229,
+        "model_usage_complete": true
+      },
+      "reasons": {
+        "entity_not_found": 2,
+        "observed_conjunctive_support_and_semantic_gate": 6,
+        "semantic_verifier_reject": 2
+      },
+      "observed_exact_after_reject": 0
+    }
+  },
+  "stop_error_rates": null,
+  "stop_note": "No independent feasible-continuation labels; rates not identifiable",
+  "recovery_note": "Observed failed-first-plan to exact-answer transitions only; not a certified recoverable-case rate or equal-realized-cost H2 result",
+  "external_baseline_reproduced": false,
+  "paired_f1_delta": {
+    "mean": 0.0,
+    "exploratory_95percent_percentile_interval": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_unit": "question",
+    "replicates": 10000,
+    "seed": 17
+  },
+  "pairs": [
+    {
+      "id": "WebQTrn-339",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.0003001909935846925
+    },
+    {
+      "id": "WebQTrn-401",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.0029080690001137555
+    },
+    {
+      "id": "WebQTrn-562",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.004755194007884711
+    },
+    {
+      "id": "WebQTrn-825",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.0035214219824410975
+    },
+    {
+      "id": "WebQTrn-904",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.001958465960342437
+    },
+    {
+      "id": "WebQTrn-938",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.0019749620114453137
+    },
+    {
+      "id": "WebQTrn-1030",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.00021427799947559834
+    },
+    {
+      "id": "WebQTrn-1108",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 0,
+      "graph_calls_delta": 0,
+      "seconds_delta": 0.0025277219829149544
+    },
+    {
+      "id": "WebQTrn-1166",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 1962,
+      "graph_calls_delta": 1,
+      "seconds_delta": 111.20458944904385
+    },
+    {
+      "id": "WebQTrn-1211",
+      "both_scorable": true,
+      "f1_delta": 0.0,
+      "first_plans_match": true,
+      "tokens_delta": 1509,
+      "graph_calls_delta": 1,
+      "seconds_delta": 62.023166469007265
+    }
+  ],
+  "limitations": [
+    "Small training-pilot sample; no population or superiority inference",
+    "Same-model semantic gate remains uncalibrated",
+    "Different realized inference costs and warm-cache effects",
+    "First-plan equality is audited, not assumed",
+    "Graph snapshot date and full benchmark comparability unverified",
+    "No independent semantic or STOP/recoverability adjudication",
+    "Costs charge the saved fixed prefix to both; repair elapsed is constructed prefix plus replay/continuation time; fixed elapsed is original. Do not infer latency savings."
+  ]
+}

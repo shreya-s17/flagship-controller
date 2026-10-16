@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-15",
+  "source": "https://download.microsoft.com/download/f/5/0/f5012144-a4fb-4084-897f-cfda99c60bdf/WebQSP.zip",
+  "archive_sha256": "95cb9cd2f6b4e1116ba4bec348f08a7f5ca2a5df4f223ea5af3f9b25a971b0ee",
+  "official_script_sha256": "d5743324864853f71490b33adc0de1c068f8c29416408e12e592c351a3e994a5",
+  "pairwise_function_cases_passed": 36,
+  "train_denominator_checked": 3098,
+  "legacy_diagnostic_rescores": [
+    {
+      "run": "webqsp-live-001",
+      "macro_f1": 0.0,
+      "coverage": 0.0,
+      "macro_precision": 1.0
+    },
+    {
+      "run": "webqsp-live-002",
+      "macro_f1": 0.0,
+      "coverage": 0.0,
+      "macro_precision": 1.0
+    },
+    {
+      "run": "webqsp-live-003",
+      "macro_f1": 0.0,
+      "coverage": 0.0,
+      "macro_precision": 1.0
+    }
+  ],
+  "scope": "Historical helper-parity checkpoint; aggregate CLI parity was subsequently checked in official-scorer-cli-parity.json",
+  "differences_corrected": [
+    "Empty prediction precision is 1 rather than 0",
+    "If any parse is Good/Complete, all parses participate in best-F1 selection",
+    "Preserve official 1e-40 numerical convention and list multiplicities"
+  ],
+  "heldout_test_executed": false,
+  "superseded_by": "official-scorer-cli-parity.json"
+}

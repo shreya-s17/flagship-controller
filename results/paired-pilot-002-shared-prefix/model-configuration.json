@@ -1,0 +1,15 @@
+{
+  "parameters": "num_ctx                        4096\nnum_thread                     4\ntemperature                    0",
+  "details": {
+    "parent_model": "qwen2.5:7b-instruct-q4_K_M",
+    "format": "gguf",
+    "family": "qwen2",
+    "families": [
+      "qwen2"
+    ],
+    "parameter_size": "7.6B",
+    "quantization_level": "Q4_K_M",
+    "runner": "llamacpp"
+  },
+  "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175"
+}

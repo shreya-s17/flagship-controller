@@ -6,3 +6,13 @@ runs/
 benchmark-data/
 artifacts/*.zip
 .DS_Store
+
+# Large trace originals restored from checked multipart evidence bundle
+/results/paired-pilot-001/predictions.jsonl
+/results/paired-pilot-001/progress.jsonl
+/results/paired-pilot-002-shared-prefix/fixed-prefixes.jsonl
+/results/paired-pilot-002-shared-prefix/predictions.jsonl
+/results/structured-dev-008/predictions.jsonl
+/results/structured-dev-007/predictions.jsonl
+/results/structured-dev-007/progress.jsonl
+/results/structured-dev-008/progress.jsonl

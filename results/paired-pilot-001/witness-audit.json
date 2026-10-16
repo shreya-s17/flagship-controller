@@ -1,0 +1,148 @@
+{
+  "scope": "independent recorded-row/constraint witness consistency, not semantic accuracy",
+  "answered": 11,
+  "rows": [
+    {
+      "id": "WebQTrn-339",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-339",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-401",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-401",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-562",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-562",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-904",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-904",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "answered": true,
+      "witnesses": 3,
+      "answers": 3,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1030",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1030",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "answered": true,
+      "witnesses": 1,
+      "answers": 1,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    }
+  ]
+}
