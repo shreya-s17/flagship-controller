@@ -1,0 +1,13 @@
+{
+  "kind": "privileged offline post-run training diagnostic",
+  "source_hashes": {
+    "audit-source.py": "8f09b679a53eef410429a696d866455aa70cc125b0facaf17079d50ea5e63a1c",
+    "driver-source.py": "a2294f961ff2547129e9b3c319f31ed5bafe9c38dc121780aa7a7faa9bd23e9b"
+  },
+  "n_questions": 4,
+  "full_audit_sha256": "54771a07b3aae1522fcf5692f29d52f59ff67c2e60d0f239e0d434537a766d19",
+  "source_study": "common-state-dev-003",
+  "seed": 17,
+  "runtime_labels_access": "Annotations read by root only after timed inference; runtime account remains unable to read them.",
+  "note": "Label-informed development selection; catalog answer-set upper bound is not semantic proof or certified budget-feasible recovery. No findings supplied to inference."
+}

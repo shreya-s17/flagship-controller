@@ -1,0 +1,128 @@
+{
+  "scope": "Offline source-state/request/declaration integrity, NOT semantic certification, calibration or new experiments",
+  "records": 20,
+  "question_seed_prefixes": 4,
+  "checks": [
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1166",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    }
+  ],
+  "semantic_validity": "not assessed"
+}

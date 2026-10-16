@@ -1,0 +1,907 @@
+{
+  "scope": "post-run independent constant-triple graph requery; not semantic entailment or truth calibration",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "unique_triples": 47,
+  "present": 47,
+  "not_observed": 0,
+  "unknown": 0,
+  "queries": [
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.01dlzc . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.024431191966868937
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.021czc . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015891509829089046
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.025v4fb . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001529995002783835
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.027hqc_ . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015883860178291798
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02jw0z . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015633439179509878
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02rvwrv . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015386189334094524
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02vv_6w . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015771350590512156
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.03y4l3 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015713819302618504
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.04h9qj . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001540212077088654
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.05zv09 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015184050425887108
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.06_7k . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015400919364765286
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.07qbm4 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001570279011502862
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.094154 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015287220012396574
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0b0sh . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0014937439700588584
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0b28z . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015758828958496451
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0bl8mx . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015220158966258168
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0c7ln . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015081960009410977
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0d9wz . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001599994022399187
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0g_8d0 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001523721031844616
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0j2m3px . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015061839949339628
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0n4_xtw . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015144359786063433
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0n8yyvt . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015441409777849913
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0w7m2x9 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015368660679087043
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02ncr ns:law.inventor.inventions ns:m.01ng1x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.007577355019748211
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02ncr ns:law.inventor.inventions ns:m.03ny5l . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015416049864143133
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02ncr ns:law.inventor.inventions ns:m.0ctvd . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015068519860506058
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03shp ns:location.country.form_of_government ns:m.018wl5 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.00562117004301399
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03shp ns:location.country.form_of_government ns:m.01d9r3 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015662529040127993
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03shp ns:location.country.form_of_government ns:m.01fgl7 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015314939664676785
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03shp ns:location.country.form_of_government ns:m.01fpfn . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015666480176150799
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.03shp ns:location.country.form_of_government ns:m.07lg6 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015415509697049856
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.05p9m_7 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.04228083591442555
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w6rr ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0017527160234749317
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w6yl ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.020836235024034977
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w75v ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.06475288805086166
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w8r1 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.005560394958592951
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w96g ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.03672487603034824
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9by ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0055453539825975895
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9hk ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.007162110065110028
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9lw ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0055746560683473945
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9wd ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.016981382039375603
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wb72 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.023234799038618803
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wbrn ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.005511855008080602
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wbws ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.023326521972194314
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wc7f ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.028476026956923306
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wcfb ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.027355949976481497
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wcp1 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.005582813988439739
+    }
+  ],
+  "rows": [
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.01dlzc",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.021czc",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.025v4fb",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.027hqc_",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02jw0z",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02rvwrv",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.02vv_6w",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.03y4l3",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.04h9qj",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.05zv09",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.06_7k",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.07qbm4",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.094154",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0b0sh",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0b28z",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0bl8mx",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0c7ln",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0d9wz",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0g_8d0",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0j2m3px",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0n4_xtw",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0n8yyvt",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.01_d4 ns:travel.travel_destination.tourist_attractions ns:m.0w7m2x9",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02ncr ns:law.inventor.inventions ns:m.01ng1x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02ncr ns:law.inventor.inventions ns:m.03ny5l",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02ncr ns:law.inventor.inventions ns:m.0ctvd",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03shp ns:location.country.form_of_government ns:m.018wl5",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03shp ns:location.country.form_of_government ns:m.01d9r3",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03shp ns:location.country.form_of_government ns:m.01fgl7",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03shp ns:location.country.form_of_government ns:m.01fpfn",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.03shp ns:location.country.form_of_government ns:m.07lg6",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.05p9m_7 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w6rr ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w6yl ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w75v ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w8r1 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w96g ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9by ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9hk ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9lw ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9wd ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wb72 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wbrn ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wbws ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wc7f ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wcfb ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wcp1 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    }
+  ],
+  "cohort": "structured-controller records only; no baseline semantic certification",
+  "auditor_sha256": "6a0396f32028985f7bc3d059ced6b8e90d22e0120704a5c73be4b78d6e8571bf"
+}

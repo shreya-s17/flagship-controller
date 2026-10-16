@@ -1,0 +1,98 @@
+{
+  "scope": "Post-run annotated-training diagnostic, answer-set catalog oracle and official-query availability; not runtime, semantic certification, or final-test performance",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "query_timeout_seconds": 5,
+  "n_questions": 4,
+  "catalog_exact_found": 3,
+  "catalog_completely_evaluated": 3,
+  "query_calls": 80,
+  "limitation": "Query availability can reveal mismatch but does not establish snapshot identity. Best-F1 candidate may be semantically accidental. Off-policy graph costs are not inference costs or feasible-continuation labels.",
+  "source_predictions_sha256": "f3fcc0b019521af7e5ccf2b62fe0887dd166c89ab42f719e323784a1cbb229c9",
+  "rows": [
+    {
+      "id": "WebQTrn-825",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-825.P0",
+          "source_query_sha256": "1eec039f27327008e2993c89cec3681c343987ffb7804e7206a3a6a3f6e3564c",
+          "status": "complete",
+          "answer_count": 15,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 0.7894736842105263,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-938",
+      "scorable": true,
+      "catalog_candidates": 16,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-938.P0",
+          "source_query_sha256": "f35bc322e795d0296211b91e59d96712e3f7c5aebba5fe8d224061724bcb6060",
+          "status": "complete",
+          "answer_count": 3,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-1166",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1166.P0",
+          "source_query_sha256": "70b40ac833ad7249c3a855590d42aecb2fedd21db04c8d771b8177cbdf007986",
+          "status": "complete",
+          "answer_count": 5,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": false
+    },
+    {
+      "id": "WebQTrn-1211",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1211.P0",
+          "source_query_sha256": "5f76a27cc1d2e401ff4fdc482fe8fe1bde238bfe6b867e655dc9ed8b1bceabb7",
+          "status": "complete",
+          "answer_count": 2,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    }
+  ],
+  "candidate_detail_location": "full-audit.json, restored losslessly from evidence bundle; offline evaluation only"
+}

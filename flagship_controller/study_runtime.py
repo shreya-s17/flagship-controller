@@ -14,6 +14,30 @@ VERSION='common-state-runtime-v1'
 POLICIES=('fixed','repair','semantic-gate-off','reason-text-off','tog-declared-json')
 
 
+def directed_query_roles(program,anchor_count):
+    """Expose predicate roles, not just traversal order, without adding facts.
+
+    The compiler remains authoritative. These are explanatory query-variable
+    bindings for the same-model audit, not an additional semantic verifier.
+    """
+    steps=program['steps']
+    def role(index):
+        return 'anchor0' if index==0 else ('answer' if index==len(steps) else 'intermediate'+str(index))
+    atoms=[]
+    for index,step in enumerate(steps):
+        source,target=role(index),role(index+1)
+        if step['direction']=='in':source,target=target,source
+        atoms.append({'subject':source,'predicate':step['relation'],'object':target})
+    for constraint in program.get('constraints',[]):
+        source,target=role(constraint['at']),'anchor'+str(constraint['anchor'])
+        if constraint['direction']=='in':source,target=target,source
+        atoms.append({'subject':source,'predicate':constraint['relation'],'object':target})
+    return {'anchors':{'anchor'+str(i):i for i in range(anchor_count)},
+            'answer':'returned endpoint; each answer must satisfy every atom',
+            'directed_atoms':atoms,
+            'limitation':'Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments'}
+
+
 def digest(value):return hashlib.sha256(json.dumps(value,sort_keys=True).encode()).hexdigest()
 
 
@@ -42,10 +66,12 @@ class StudyStructured(structured_runtime.StructuredModel,SeededOllama):pass
 
 
 class StudyModel(semantic_runtime.SemanticModel,StudyStructured):
-    def __init__(self,*args,seed=17,policy='repair',prefix=None,**kwargs):
+    def __init__(self,*args,seed=17,policy='repair',prefix=None,directed_audit=False,**kwargs):
         super().__init__(*args,**kwargs)
         if type(seed) is not int or seed not in (17,29,43):raise ValueError('Unsupported study seed')
         if policy not in POLICIES:raise ValueError('Unknown study policy')
+        if type(directed_audit) is not bool:raise ValueError('Invalid directed audit option')
+        self.directed_audit=directed_audit
         self.seed=seed;self.policy=policy;self.provider_audit=[]
         self.prefix=copy.deepcopy(prefix or []);self.cursor=0;self.physical_attempts=0
     def send_json(self,url,payload,timeout):
@@ -66,6 +92,12 @@ class StudyModel(semantic_runtime.SemanticModel,StudyStructured):
         finally:
             request['elapsed_seconds']=time.perf_counter()-started;self.provider_audit.append(request)
     def direct(self,instruction,inputs,schema):
+        if self.directed_audit and instruction.startswith('Evaluate EVERY'):
+            roles=directed_query_roles(inputs['program'],len(inputs['anchors']))
+            inputs={**inputs,'directed_query_roles':roles}
+            instruction+=' Read every directed_query_roles atom literally as subject -> predicate -> object. An incoming traversal reverses predicate roles; sharing the requested type or predicate word does not establish the requested relationship direction. Unknown direction fit must not pass.'
+            self.semantic_audit.append({'action':'DIRECTED_ROLE_AUDIT_INPUT','roles':roles,
+                'limitation':'Explanatory query representation only; no symbolic semantic proof or independent verifier'})
         self.timeout=120;self.max_prompt_tokens=3000;self.prompt_version=VERSION;self.response_format=schema
         return SeededOllama.ask(self,instruction,inputs)
     def ask(self,instruction,inputs):
@@ -98,10 +130,10 @@ class StudyGraph(common_linker.LinkingGraph):
         return copy.deepcopy(saved['rows'])
 
 
-def capture(record,endpoint,model_url,model_name,snapshot,seed,on_event=None):
+def capture(record,endpoint,model_url,model_name,snapshot,seed,on_event=None,directed_audit=False):
     started=time.perf_counter();link=None
     graph=StudyGraph(endpoint,snapshot,max_calls=80)
-    model=StudyModel(model_url,model_name,graph=graph,seed=seed,max_calls=10,max_tokens=16000)
+    model=StudyModel(model_url,model_name,graph=graph,seed=seed,directed_audit=directed_audit,max_calls=10,max_tokens=16000)
     def state():
         return {'graph_audit':copy.deepcopy(graph.audit),'provider_audit':copy.deepcopy(model.provider_audit),
             'model_audit':copy.deepcopy(model.audit),'seconds':time.perf_counter()-started,
@@ -116,7 +148,7 @@ def capture(record,endpoint,model_url,model_name,snapshot,seed,on_event=None):
             if time.perf_counter()-started>600:raise Blocked('wall_time_budget')
             raise Blocked('shared_state_capture_boundary')
     result=common_linker.semantic_run(record,graph,model,variant='fixed',on_event=event)
-    return {'record':record,'seed':seed,'model':model_name,'snapshot':snapshot,'link':link,
+    return {'record':record,'seed':seed,'model':model_name,'snapshot':snapshot,'link':link,'directed_audit':directed_audit,
         'internal':state(),'internal_ready':result['reason']=='shared_state_capture_boundary',
         'capture_result':result,'provider_audit':model.provider_audit,
         'scope':'Gold-free common prefix; capture sentinel is not a policy prediction'}
@@ -136,7 +168,7 @@ def continue_policy(packet,policy,endpoint,model_url,upstream,on_event=None):
         return result
     graph=StudyGraph(endpoint,packet['snapshot'],prefix=prefix['graph_audit'],max_calls=80)
     model=StudyModel(model_url,packet['model'],graph=graph,seed=packet['seed'],policy=policy,
-        prefix=prefix['provider_audit'],max_calls=10,max_tokens=16000)
+        prefix=prefix['provider_audit'],directed_audit=packet.get('directed_audit',False),max_calls=10,max_tokens=16000)
     seconds=max(0.,600-prefix['seconds'])
     if baseline:
         from .declared_json_tog_adapter import DeclaredAdapter,VERSION as explicit_version
@@ -158,6 +190,6 @@ def continue_policy(packet,policy,endpoint,model_url,upstream,on_event=None):
         shared_state={'replayed_graph_calls':graph.cursor,'replayed_model_calls':model.cursor,
             'seed':packet['seed'],'prefix_kind':'link' if baseline else 'through_first_plan',
             'latency':'original prefix plus current execution; not fresh end-to-end latency'},
-        semantic_gate_enabled=policy!='semantic-gate-off',policy_continuation_executed=True)
+        semantic_gate_enabled=policy!='semantic-gate-off',directed_audit=packet.get('directed_audit',False),policy_continuation_executed=True)
     if policy=='semantic-gate-off' and result['terminal']=='ANSWER':result['reason']='observed_conjunctive_support; semantic_gate_bypassed_by_ablation'
     return result

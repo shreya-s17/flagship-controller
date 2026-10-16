@@ -13,8 +13,10 @@ The synthetic bundle contains generated data only. Official full benchmark data,
 
 Live development and selected post-run query diagnostics are separate from the synthetic bundle. `live-evidence-2026-10-16/` preserves the earlier traces; `baseline-evidence-2026-10-16/` preserves baseline development traces. These contain selected training/development questions and observed rows. They remain in the private repository; public redistribution needs a data/prompt licensing review. The original live bundle is unchanged.
 
-Run `python3 scripts/restore_live_evidence.py` after a clean checkout. It restores all three available bundles (23 original files), verifies every part/archive/original-file hash and refuses to overwrite changed content. Small manifests, source snapshots, scores and failure summaries are directly readable under `results/`. Restoration checks integrity, not semantic correctness or publication readiness.
+Run `python3 scripts/restore_live_evidence.py` after a clean checkout. It restores every recognized available bundle, verifies every part/archive/original-file hash and refuses to overwrite changed content. Historical file counts below identify earlier checkpoints. Small manifests, source snapshots, scores and failure summaries are directly readable under `results/`. Restoration checks integrity, not semantic correctness or publication readiness.
 
 `indexed-baseline-evidence-2026-10-16/` adds frozen run003 raw traces. Earlier bundles remain unchanged.
 
 The fourth bundle, `common-state-evidence-2026-10-16/`, adds101 files: run004 raw traces and the completed common-state study predictions/journal. Restoration now verifies124 original files. Previous bundles remain unchanged. These are private development observations, not independent benchmark results.
+
+New bundles can be built with `scripts/package_live_evidence.py` using an explicit JSON list of normalized regular files under `results/`. The builder refuses existing destinations, traversal and symlinks; archives use sorted members, fixed metadata and timestamp-zero compression. Use the matching manifest to restore and verify bytes. Neither packaging nor restoration validates semantics. Previous bundles are preserved rather than rebuilt.

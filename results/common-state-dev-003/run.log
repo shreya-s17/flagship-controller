@@ -1,0 +1,25 @@
+WebQTrn-825 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-825 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+WebQTrn-825 17 tog-declared-json ABSTAIN model_budget
+WebQTrn-825 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+WebQTrn-825 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+All entities are created equal.
+WebQTrn-938 17 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+WebQTrn-1166 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+WebQTrn-1166 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1166 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+All entities are created equal.
+WebQTrn-1166 17 tog-declared-json ABSTAIN model_budget
+WebQTrn-1166 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+All entities are created equal.
+WebQTrn-1211 17 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification

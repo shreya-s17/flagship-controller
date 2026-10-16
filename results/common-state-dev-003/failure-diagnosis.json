@@ -1,0 +1,50 @@
+{
+  "scope": "Post-run diagnosis on inspected training questions; not independent semantic certification",
+  "source_predictions_sha256": "f3fcc0b019521af7e5ccf2b62fe0887dd166c89ab42f719e323784a1cbb229c9",
+  "recovery_observation": "No rejection, REPAIR_PLAN or reason-text-withholding event; false acceptance prevents recovery. Four semantic gate bypass events.",
+  "parent_direction": {
+    "id": "WebQTrn-1211",
+    "selected_program": {
+      "supported": true,
+      "steps": [
+        {
+          "relation": "people.person.parents",
+          "direction": "in"
+        }
+      ],
+      "constraints": [],
+      "explanation": "Schema-typed candidate with observed anchor joins"
+    },
+    "emitted_count": 16,
+    "official_overlap": 0,
+    "gate": "All three enabled-audit controls accept the incoming parents query; gate-off returns the same answer set. Incoming people.person.parents makes answer nodes children of the anchor, reversing the requested role.",
+    "exact_catalog_alternative_index": 9,
+    "alternative": "people.person.parents out",
+    "qualification": "Offline answer-set query matches official annotations, not independently certified feasible recovery."
+  },
+  "chicago_scope": {
+    "id": "WebQTrn-825",
+    "emitted_count": 23,
+    "official_answers": 15,
+    "official_intersection": 15,
+    "extra_relative_to_official": 8,
+    "catalog_best_f1": 0.7894736842105263,
+    "catalog_complete": true,
+    "missing_official_query_constraint": "The official inspected query also requires returned answer location.location.containedby primary anchor. Current catalog/constraint grammar does not include that primary-anchor re-entry filter.",
+    "qualification": "Official-query diagnostic only; not every broader attraction is independently judged wrong in the real world. No gold predicate/answer was supplied to inference."
+  },
+  "baseline": {
+    "Chicago": "model-call budget abstention",
+    "Iran": "model-call budget abstention",
+    "Whitney": "one of three official inventions; F1 1/2",
+    "Revere": "one of two official parents; F1 2/3",
+    "native_ids": "Mappings match actual declarations; incomplete sets are native decision/scope failures, not proven original ToG performance."
+  },
+  "catalog": {
+    "exact_option_found_questions": 3,
+    "fully_queried_catalogs": 3,
+    "Iran_incomplete_candidates": 2,
+    "queries": 80
+  },
+  "decision": "Next frozen engineering check adds generic directed variable-role presentation only. Chicago needs a separate observed-conjunction/catalog extension and development regression, not more resampling of this same catalog. No human review or reserved/test execution."
+}

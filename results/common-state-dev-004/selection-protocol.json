@@ -1,0 +1,11 @@
+{
+  "status": "Frozen before004 inference; post003 development revision",
+  "planned_outcomes": 10,
+  "originals": 1,
+  "handwritten_unscored_controls": 1,
+  "selection": "Known Paul Revere direction failure from inspected003; opposite-role children control hand-authored before004. Same named subject, correlated cases. Not held-out or random.",
+  "intervention": "Optional literal subject/predicate/object variable-role input and explicit direction instruction in existing final semantic model audit. No question-ID or kinship-specific rule; no new model call, symbolic semantic checker or gold input.",
+  "unchanged": "v16 question contract/retrieval/linker and v11 compiler; baseline v5 declaration; all budgets/seed17. Gate-off bypasses the audit and therefore receives no added role input.",
+  "success_interpretation": "Record all outcomes and whether rejection/revision occurs. An exact set after rejection is engineering behavior only, not independently certified recovery. Do not tune/run again selectively if the direction prompt fails.",
+  "remaining": "Independent semantic/native review; scope/catalog fix for Chicago; larger frozen study; no reserved/test inference."
+}

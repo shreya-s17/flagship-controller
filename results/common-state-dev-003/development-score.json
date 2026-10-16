@@ -1,0 +1,821 @@
+{
+  "scope": "Purpose-selected development mechanics check; no held-out, significance or published-score comparison",
+  "executions": 20,
+  "unique_question_strings": 4,
+  "official_original_questions": 4,
+  "seeds": [
+    17
+  ],
+  "methods": {
+    "reason-text-off": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 4,
+          "scorable": 4,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.6630434782608696,
+          "macro_recall": 0.75,
+          "macro_f1": 0.6973684210526316,
+          "exact_f1_accuracy": 0.5,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.6521739130434783,
+              "recall": 1.0,
+              "f1": 0.7894736842105263,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1166",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 6.25e-42,
+              "recall": 5e-41,
+              "f1": 1.1111111111111108e-41,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1166",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.1111111111111108e-41,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 0.7894736842105263,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6973684210526316,
+      "charged_cost_all": {
+        "model_calls": 16,
+        "model_tokens": 12153,
+        "graph_calls": 54,
+        "elapsed_seconds": 551.6325935799396
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.02vv_6w",
+            "m.03y4l3",
+            "m.04h9qj",
+            "m.05zv09",
+            "m.06_7k",
+            "m.07qbm4",
+            "m.094154",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0j2m3px",
+            "m.0n4_xtw",
+            "m.0n8yyvt",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1166",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.018wl5",
+            "m.01d9r3",
+            "m.01fgl7",
+            "m.01fpfn",
+            "m.07lg6"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    },
+    "repair": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 4,
+          "scorable": 4,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.6630434782608696,
+          "macro_recall": 0.75,
+          "macro_f1": 0.6973684210526316,
+          "exact_f1_accuracy": 0.5,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.6521739130434783,
+              "recall": 1.0,
+              "f1": 0.7894736842105263,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1166",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 6.25e-42,
+              "recall": 5e-41,
+              "f1": 1.1111111111111108e-41,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1166",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.1111111111111108e-41,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 0.7894736842105263,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6973684210526316,
+      "charged_cost_all": {
+        "model_calls": 16,
+        "model_tokens": 12166,
+        "graph_calls": 54,
+        "elapsed_seconds": 426.4049643538892
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.02vv_6w",
+            "m.03y4l3",
+            "m.04h9qj",
+            "m.05zv09",
+            "m.06_7k",
+            "m.07qbm4",
+            "m.094154",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0j2m3px",
+            "m.0n4_xtw",
+            "m.0n8yyvt",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1166",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.018wl5",
+            "m.01d9r3",
+            "m.01fgl7",
+            "m.01fpfn",
+            "m.07lg6"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    },
+    "tog-declared-json": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 4,
+          "scorable": 4,
+          "excluded": 0,
+          "coverage": 0.5,
+          "macro_precision": 1.0,
+          "macro_recall": 0.20833333333333331,
+          "macro_f1": 0.29166666666666663,
+          "exact_f1_accuracy": 0.0,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": false,
+              "precision": 1.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-1166",
+              "scorable": true,
+              "answered": false,
+              "precision": 1.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1166",
+          "mean_f1_across_seeds": 0.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 0.6666666666666666,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 0.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 0.5,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.29166666666666663,
+      "charged_cost_all": {
+        "model_calls": 28,
+        "model_tokens": 16053,
+        "graph_calls": 99,
+        "elapsed_seconds": 799.4179650028236
+      },
+      "physical_new_model_attempts_known": 24,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "model_budget"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.03ny5l"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "WebQTrn-1166",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "model_budget"
+        },
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0qd6jv4"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        }
+      ]
+    },
+    "semantic-gate-off": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 4,
+          "scorable": 4,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.6630434782608696,
+          "macro_recall": 0.75,
+          "macro_f1": 0.6973684210526316,
+          "exact_f1_accuracy": 0.5,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.6521739130434783,
+              "recall": 1.0,
+              "f1": 0.7894736842105263,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1166",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 6.25e-42,
+              "recall": 5e-41,
+              "f1": 1.1111111111111108e-41,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1166",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.1111111111111108e-41,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 0.7894736842105263,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6973684210526316,
+      "charged_cost_all": {
+        "model_calls": 12,
+        "model_tokens": 7060,
+        "graph_calls": 54,
+        "elapsed_seconds": 340.9514636497479
+      },
+      "physical_new_model_attempts_known": 0,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 4,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.02vv_6w",
+            "m.03y4l3",
+            "m.04h9qj",
+            "m.05zv09",
+            "m.06_7k",
+            "m.07qbm4",
+            "m.094154",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0j2m3px",
+            "m.0n4_xtw",
+            "m.0n8yyvt",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "WebQTrn-1166",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.018wl5",
+            "m.01d9r3",
+            "m.01fgl7",
+            "m.01fpfn",
+            "m.07lg6"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        }
+      ]
+    },
+    "fixed": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 4,
+          "scorable": 4,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.6630434782608696,
+          "macro_recall": 0.75,
+          "macro_f1": 0.6973684210526316,
+          "exact_f1_accuracy": 0.5,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.6521739130434783,
+              "recall": 1.0,
+              "f1": 0.7894736842105263,
+              "exact_f1": 0
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1166",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 6.25e-42,
+              "recall": 5e-41,
+              "f1": 1.1111111111111108e-41,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1166",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.1111111111111108e-41,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 0.7894736842105263,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6973684210526316,
+      "charged_cost_all": {
+        "model_calls": 16,
+        "model_tokens": 12166,
+        "graph_calls": 54,
+        "elapsed_seconds": 469.0511376869399
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.02vv_6w",
+            "m.03y4l3",
+            "m.04h9qj",
+            "m.05zv09",
+            "m.06_7k",
+            "m.07qbm4",
+            "m.094154",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0j2m3px",
+            "m.0n4_xtw",
+            "m.0n8yyvt",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1166",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.018wl5",
+            "m.01d9r3",
+            "m.01fgl7",
+            "m.01fpfn",
+            "m.07lg6"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    }
+  },
+  "repair_minus_fixed_mean_question_f1": 0.0,
+  "confidence_interval": null,
+  "interval_reason": "4 purpose-selected original question(s); no population interval, and repeated seeds are not independent questions",
+  "physical_model_attempts_known": {
+    "common_prefix_capture_once": 12,
+    "policy_continuations": 36,
+    "total": 48
+  },
+  "physical_graph_attempts_known": 215,
+  "stop_recovery_rates": null,
+  "limits": [
+    "Different realized costs and hypothesis spaces",
+    "Replayed time is constructed, not fresh end-to-end latency",
+    "Handwritten controls unscored",
+    "No independent semantic/STOP labels or calibrated reliability",
+    "Unknown interrupted costs are lower bounds; null physical counts are not measured zero"
+  ]
+}

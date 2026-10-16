@@ -52,6 +52,12 @@ The scorer reproduces the official WebQSP question-admission and best-parse conv
 
 An independent offline witness auditor does not import the deployed compiler/checker. It checks recorded endpoints, joins, result rows, provenance references, SQL states and emitted answer sets. A separate constant-triple requery can check graph presence after timing measurements. Neither checks complete question meaning. Evaluation annotations remain unreadable by the server runtime account and are used separately after prediction.
 
+### 3.5 Common-state development controls
+
+The subsequent development harness captures one question/link prefix per question and seed, plus the catalog and first program choice for the four internal controls. Exact request/query replay keeps that initial state fixed; the separate baseline shares linking only. Every policy is charged the prefix usage/time, while actual new requests are counted separately. Policy order is frozen using scheduling seed113, independently of request seeds17/29 and Python hash seed17. Raw RDF lexical strings and Freebase IDs remain the answer representation.
+
+The semantic-gate-off intervention bypasses only the final model requirement audit. The reason-text-off intervention withholds only rejection text on a subsequent choice; failed-program masking and join acquisition remain. The durable journal retains interrupted admitted work as unknown-cost abstentions without retry. An offline branch diagnostic records rejection, revision and final official-set matching; none constitutes independently certified semantic recovery or counterfactual STOP labeling. This development harness does not yet execute the reserved larger cohort.
+
 ## 4. Experimental setup
 
 ### 4.1 Synthetic development study

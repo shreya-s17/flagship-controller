@@ -73,7 +73,7 @@ def interrupted_result(record,reason,prefix=None,progress=None):
         'cost':cost,'scope':'Interrupted admitted work retained; no retry, no invented zero actual cost'}
 
 
-def freeze(inputs,output,upstream,snapshot,seeds=(17,29,43)):
+def freeze(inputs,output,upstream,snapshot,seeds=(17,29,43),directed_audit=False):
     inputs,output=Path(inputs),Path(output);data=inputs.read_bytes()
     records=[json.loads(line) for line in data.decode().splitlines() if line.strip()]
     if output.exists():raise ValueError('New output directory required')
@@ -82,6 +82,7 @@ def freeze(inputs,output,upstream,snapshot,seeds=(17,29,43)):
         raise ValueError('Only1–10 question-only pilot records; reserved/test refused')
     if len({r['id'] for r in records})!=len(records):raise ValueError('Duplicate question IDs')
     if not seeds or len(set(seeds))!=len(seeds) or any(type(s) is not int or s not in (17,29,43) for s in seeds):raise ValueError('Invalid seeds')
+    if type(directed_audit) is not bool:raise ValueError('Invalid directed audit option')
     if not snapshot:raise ValueError('Snapshot required')
     tog_adapter.load_upstream(upstream)
     rng=random.Random(113);order=[]
@@ -90,7 +91,7 @@ def freeze(inputs,output,upstream,snapshot,seeds=(17,29,43)):
             policies=list(runtime.POLICIES);rng.shuffle(policies)
             order.extend({'id':record['id'],'seed':seed,'variant':policy} for policy in policies)
     plan={'status':'Frozen development common-state study; NOT held-out or publication-ready evaluation',
-        'created_utc':utc(),'question_ids':[r['id'] for r in records],'seeds':list(seeds),'order':order,
+        'directed_role_audit':directed_audit,'created_utc':utc(),'question_ids':[r['id'] for r in records],'seeds':list(seeds),'order':order,
         'input_sha256':sha(data),'source_hashes':{name:sha(path.read_bytes()) for name,path in MODULES.items()},
         'snapshot':snapshot,'model':'flagship-qwen2.5-7b-q4km','model_digest_required':MODEL_DIGEST,
         'upstream_commit':tog_adapter.UPSTREAM_COMMIT,'upstream_hashes':tog_adapter.HASHES,
@@ -158,7 +159,7 @@ def execute(folder,upstream,endpoint,model_url):
                 'internal':None,'internal_ready':False,'capture_result':result,'provider_audit':[],
                 'scope':'Interrupted common capture; propagate retained abstention to every policy'}
         packet=journal(jobs,key+'-prefix',{'id':record['id'],'seed':seed,'stage':'prefix'},
-            lambda:runtime.capture(record,endpoint,model_url,plan['model'],plan['snapshot'],seed,observer(prefix_progress)),interrupted_capture)
+            lambda:runtime.capture(record,endpoint,model_url,plan['model'],plan['snapshot'],seed,observer(prefix_progress),directed_audit=plan.get('directed_role_audit',False)),interrupted_capture)
         policy_key=f'policy-{index:04d}';progress=jobs/(policy_key+'.progress.jsonl')
         prefix=packet['link'] if item['variant']=='tog-declared-json' else packet['internal']
         def interrupted_policy():
@@ -181,8 +182,8 @@ def execute(folder,upstream,endpoint,model_url):
 if __name__=='__main__':
     parser=argparse.ArgumentParser();sub=parser.add_subparsers(dest='command',required=True)
     f=sub.add_parser('freeze');f.add_argument('--inputs',type=Path,required=True);f.add_argument('--output',type=Path,required=True)
-    f.add_argument('--upstream',type=Path,required=True);f.add_argument('--snapshot',required=True);f.add_argument('--seeds',type=int,nargs='+',default=[17,29,43])
+    f.add_argument('--upstream',type=Path,required=True);f.add_argument('--snapshot',required=True);f.add_argument('--seeds',type=int,nargs='+',default=[17,29,43]);f.add_argument('--directed-audit',action='store_true')
     e=sub.add_parser('execute');e.add_argument('folder',type=Path);e.add_argument('--upstream',type=Path,required=True)
     e.add_argument('--endpoint',default='http://127.0.0.1:8891/sparql');e.add_argument('--model-url',default='http://127.0.0.1:11434/api/chat');args=parser.parse_args()
-    if args.command=='freeze':print(json.dumps(freeze(args.inputs,args.output,args.upstream,args.snapshot,args.seeds),indent=2))
+    if args.command=='freeze':print(json.dumps(freeze(args.inputs,args.output,args.upstream,args.snapshot,args.seeds,args.directed_audit),indent=2))
     else:execute(args.folder,args.upstream,args.endpoint,args.model_url)

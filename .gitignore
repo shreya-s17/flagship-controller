@@ -46,3 +46,6 @@ artifacts/*.zip
 /results/common-state-dev-003/predictions.jsonl
 /results/common-state-dev-003/journal/
 /results/catalog-diagnostic-002/full-audit.json
+
+/results/common-state-dev-004/predictions.jsonl
+/results/common-state-dev-004/journal/
