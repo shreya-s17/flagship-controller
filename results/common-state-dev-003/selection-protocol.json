@@ -1,0 +1,20 @@
+{
+  "status": "Frozen before any inference for this study",
+  "selection": "Four purpose-selected previously inspected training questions, informed by historical annotated catalog diagnostic001; not a random or held-out sample. No new question discovery from reserved/test.",
+  "rationale": {
+    "WebQTrn-825": "Prior graph-supported wrong identity and absent exact answer set in old catalog; attraction relation scope.",
+    "WebQTrn-938": "Old catalog contained exact answer option not chosen by model; selection/repair challenge.",
+    "WebQTrn-1166": "Old ranking/catalog did not include exact answer set; government form scope.",
+    "WebQTrn-1211": "Old ranking/catalog did not include exact answer set; parent relation coverage."
+  },
+  "changes": "No controller, adapter, ranking, schema or prompt change from common-state-dev-002. Baseline historical-coin error retained, not tuned away.",
+  "planned_denominator": 20,
+  "policies": 5,
+  "seeds": [
+    17
+  ],
+  "branch_question": "Do live semantic rejection, REPAIR_PLAN and subsequent reason-withholding occur? If not, retain negative result and inspect traces; do not manufacture recoveries.",
+  "interpretation": "Branch occurrence is not semantic correctness or feasible-continuation/recovery certification. Report all costs/failures and official ID-set scores offline. Repeated development evidence not population performance.",
+  "reserved_execution": false,
+  "official_test_execution": false
+}

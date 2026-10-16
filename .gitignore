@@ -41,3 +41,8 @@ artifacts/*.zip
 /results/baseline-dev-004/progress.jsonl
 /results/common-state-dev-002/predictions.jsonl
 /results/common-state-dev-002/journal/
+
+# Harder inspected-development evidence restored from its own checked bundle.
+/results/common-state-dev-003/predictions.jsonl
+/results/common-state-dev-003/journal/
+/results/catalog-diagnostic-002/full-audit.json

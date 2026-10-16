@@ -17,7 +17,7 @@ Current implementation checkpoint: [semantic development and recovery diagnosis]
 
 ## Ordered work packages and acceptance evidence
 
-The [next-study design and implementation boundary](next-study-design.md) makes the intended100-question comparison concrete while explicitly retaining its NO-GO gate. New shared-state execution, ablations, full seed propagation and common answer serialization are not yet implemented. A prepared reviewer delivery is not independent review. Do not use a planning document to upgrade these statuses.
+The [next-study design and implementation boundary](next-study-design.md) makes the intended100-question comparison concrete while explicitly retaining its NO-GO gate. Shared-state development execution, two narrow ablations, per-request seed propagation and raw answer serialization are implemented and exercised. An adequate larger study is not executed or scientifically cleared. A prepared reviewer delivery is not independent review. Do not use a planning document to upgrade these statuses.
 
 | Priority | Work | Completion gate |
 |---|---|---|

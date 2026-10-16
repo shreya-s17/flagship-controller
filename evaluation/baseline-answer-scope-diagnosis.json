@@ -1,0 +1,207 @@
+{
+  "scope": "Post-run inspected-development baseline answer-scope diagnosis, not a new experiment or independent semantic review",
+  "source_predictions": "results/common-state-dev-002/predictions.jsonl",
+  "source_predictions_sha256": "c90272cd1b6994406b72ece731cc28561023053b7315ac448bea0705bc89fe0e",
+  "findings": [
+    {
+      "seed": 17,
+      "native_response": "{\n  \"decision\": \"ANSWER\",\n  \"answer_indices\": [0, 3],\n  \"reason\": \"The observed chains indicate that the Mexican peso is the currency used in Mexico and that the Republica Mexicana 8 Reales is also a coin type associated with a\"}",
+      "declared_indices": [
+        0,
+        3
+      ],
+      "mapped_answers": [
+        "m.012ts8",
+        "m.07ld085"
+      ],
+      "observed_paths": [
+        {
+          "source": "m.0b90_r",
+          "relation": "location.country.currency_used",
+          "direction": "out",
+          "target": "m.012ts8",
+          "target_key": "uri:m.012ts8",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.012ts8"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 6
+          },
+          "id": "4f30b03b4a7cc4f3f49d7b8124ecd5892878aef3ef1a1775a81b2ffe02131e91"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07b24qt",
+          "target_key": "uri:m.07b24qt",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07b24qt"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "4e3d625bdacb537d57d2e325d68663f64e85a958b0b2f03faf7c6e43f7956490"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07lcxd7",
+          "target_key": "uri:m.07lcxd7",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07lcxd7"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "e3d3ff9b7750f57fc1061bd5c91eba4a7a05cfc892a28529b0a7774477276b83"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07ld085",
+          "target_key": "uri:m.07ld085",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07ld085"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "89ff152873a4e0b3e181937f29d42c66fcf398ca920e4242b085a032350327cf"
+        }
+      ],
+      "rendered_reasoning_chains": [
+        [
+          [
+            [
+              "Mexico",
+              "location.country.currency_used",
+              "Mexican peso"
+            ],
+            [
+              "Mexico",
+              "base.coinsdaily.coin_type.country",
+              "Republica Mexicana 8 Reales"
+            ]
+          ]
+        ]
+      ],
+      "actual_request_sha256": "a9629ffcf1790e3afc3b483b22d099402d27e2e4b5b6327c2a6cf9c8ec73df97",
+      "converter_fidelity": "Actual native JSON indices map exactly to saved observed candidates; no extraction call."
+    },
+    {
+      "seed": 29,
+      "native_response": "{\n  \"decision\": \"ANSWER\",\n  \"answer_indices\": [0, 3],\n  \"reason\": \"The observed chains directly mention 'Mexican peso' as the currency used in Mexico and 'Republica Mexicana 8 Reales' as a coin type related to Mexico. Both ares\" }",
+      "declared_indices": [
+        0,
+        3
+      ],
+      "mapped_answers": [
+        "m.012ts8",
+        "m.07ld085"
+      ],
+      "observed_paths": [
+        {
+          "source": "m.0b90_r",
+          "relation": "location.country.currency_used",
+          "direction": "out",
+          "target": "m.012ts8",
+          "target_key": "uri:m.012ts8",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.012ts8"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 6
+          },
+          "id": "4f30b03b4a7cc4f3f49d7b8124ecd5892878aef3ef1a1775a81b2ffe02131e91"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07b24qt",
+          "target_key": "uri:m.07b24qt",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07b24qt"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "4e3d625bdacb537d57d2e325d68663f64e85a958b0b2f03faf7c6e43f7956490"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07lcxd7",
+          "target_key": "uri:m.07lcxd7",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07lcxd7"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "e3d3ff9b7750f57fc1061bd5c91eba4a7a05cfc892a28529b0a7774477276b83"
+        },
+        {
+          "source": "m.0b90_r",
+          "relation": "base.coinsdaily.coin_type.country",
+          "direction": "in",
+          "target": "m.07ld085",
+          "target_key": "uri:m.07ld085",
+          "term": {
+            "type": "uri",
+            "value": "http://rdf.freebase.com/ns/m.07ld085"
+          },
+          "provenance": {
+            "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+            "query_index": 8
+          },
+          "id": "89ff152873a4e0b3e181937f29d42c66fcf398ca920e4242b085a032350327cf"
+        }
+      ],
+      "rendered_reasoning_chains": [
+        [
+          [
+            [
+              "Mexico",
+              "location.country.currency_used",
+              "Mexican peso"
+            ],
+            [
+              "Mexico",
+              "base.coinsdaily.coin_type.country",
+              "Republica Mexicana 8 Reales"
+            ]
+          ]
+        ]
+      ],
+      "actual_request_sha256": "a9961f704364ff582714fe1788dd9da1611a8143bce24117a37b4f69d52e17f4",
+      "converter_fidelity": "Actual native JSON indices map exactly to saved observed candidates; no extraction call."
+    }
+  ],
+  "observations": [
+    "Both seeded declarations select peso and Republica Mexicana 8 Reales. The exact index converter preserves this selection.",
+    "The country.currency_used outgoing relation and coin_type.country incoming relation have different meanings. Association with a country is insufficient to certify that a coin is an appropriate currency answer.",
+    "Raw observed edges retain in/out direction, while the upstream-style rendered chain presents traversal-order name/relation/name triples without explicit direction. This is a representation limitation; this post-run inspection does not establish it caused the extra coin.",
+    "No temporal metadata or independently reviewed present-use decision was obtained for the coin. No claim of a new currency fact is made."
+  ],
+  "decision": "Preserve v5 and all failures for harder-case comparison. Do not filter this ID or tune the answer prompt on this sole question. A generic direction-aware observation contract, separately frozen, is a possible later engineering experiment.",
+  "publication_claim": "No baseline superiority or original-paper reproduction; semantic correctness remains unverified."
+}
