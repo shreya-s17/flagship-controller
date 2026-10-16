@@ -11,18 +11,19 @@ import re
 import time
 import urllib.request
 from pathlib import Path
-from . import common_linker, semantic_runtime, structured_runtime, webqsp_runtime, tog_adapter, compact_tog_adapter, indexed_tog_adapter
+from . import common_linker, semantic_runtime, structured_runtime, webqsp_runtime, tog_adapter, compact_tog_adapter, indexed_tog_adapter, explicit_tog_adapter
 
 MODEL_DIGEST='ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd'
 MODULES={'harness-source.py':Path(__file__), 'linker-source.py':Path(common_linker.__file__),
     'semantic-source.py':Path(semantic_runtime.__file__), 'parent-source.py':Path(structured_runtime.__file__),
     'transport-source.py':Path(webqsp_runtime.__file__), 'adapter-source.py':Path(tog_adapter.__file__),
     'compact-adapter-source.py':Path(compact_tog_adapter.__file__),
-    'indexed-adapter-source.py':Path(indexed_tog_adapter.__file__)}
+    'indexed-adapter-source.py':Path(indexed_tog_adapter.__file__),
+    'explicit-adapter-source.py':Path(explicit_tog_adapter.__file__)}
 
 
 def freeze(inputs,output,upstream,snapshot,model='flagship-qwen2.5-7b-q4km',adapter='upstream-full'):
-    if adapter not in ('upstream-full','compact-projected','indexed-spans'):raise ValueError('Invalid adapter')
+    if adapter not in ('upstream-full','compact-projected','indexed-spans','explicit-final'):raise ValueError('Invalid adapter')
     if output.exists():raise ValueError('New output directory required')
     records=[json.loads(x) for x in inputs.read_text().splitlines() if x.strip()]
     if not 1<=len(records)<=10 or any(set(r)!={'id','question','split'} or r['split']!='pilot' or not isinstance(r['id'],str) or not isinstance(r['question'],str) or not r['question'].strip() for r in records):
@@ -32,7 +33,7 @@ def freeze(inputs,output,upstream,snapshot,model='flagship-qwen2.5-7b-q4km',adap
     if not snapshot:raise ValueError('Snapshot required')
     rng=random.Random(17);order=[]
     for record in records:
-        methods=['semantic-common-link','tog-local' if adapter=='upstream-full' else 'tog-compact-projected' if adapter=='compact-projected' else 'tog-indexed-spans'];rng.shuffle(methods)
+        methods=['semantic-common-link','tog-local' if adapter=='upstream-full' else 'tog-compact-projected' if adapter=='compact-projected' else 'tog-indexed-spans' if adapter=='indexed-spans' else 'tog-explicit-final'];rng.shuffle(methods)
         order.extend({'id':record['id'],'variant':method} for method in methods)
     plan={'status':'frozen development sanity check, NOT representative or held-out evaluation',
         'created_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'question_ids':[r['id'] for r in records],
@@ -45,8 +46,8 @@ def freeze(inputs,output,upstream,snapshot,model='flagship-qwen2.5-7b-q4km',adap
         'inference_options':{'temperature':0,'seed':17,'context':4096,'threads':4,'max_output_tokens':512},
         'baseline_search':{'width':3,'depth':3,'entity_sample_if_at_least':20,'sample_size':5},
         'relation_presentation':'full upstream inventory' if adapter=='upstream-full' else 'additional question-lexical top32 relation presentation; may omit necessary relations',
-        'relation_decoding':'structured indexed choices with validated scores' if adapter=='indexed-spans' else 'upstream free text parser',
-        'answer_projection':'charged selection of actual native-name spans; same-model conclusion/completeness flags; not semantic proof' if adapter=='indexed-spans' else 'strict braced unique observed name mapping' if adapter=='upstream-full' else 'extra charged constrained model call; final-beam candidates only, verbatim response quotes with full observed names required',
+        'relation_decoding':'structured indexed choices with validated scores' if adapter in ('indexed-spans','explicit-final') else 'upstream free text parser',
+        'answer_projection':'Declared final JSON name array only; all observed names; no extraction model call; require reasoning_yes; not semantic certification' if adapter=='explicit-final' else 'charged selection of actual native-name spans; same-model conclusion/completeness flags; not semantic proof' if adapter=='indexed-spans' else 'strict braced unique observed name mapping' if adapter=='upstream-full' else 'extra charged constrained model call; final-beam candidates only, verbatim response quotes with full observed names required',
         'analysis':'Official ID-set metrics only on original training questions; handwritten inverse and no-match controls unscored. Retain native baseline text and mapping failures. Same maximum admission budgets, not equal realized costs. No faithful published-model reproduction or semantic proof.',
         'common_linker':'Identical model/graph linking implementations; fresh separate executions, not forced identical sampled outputs. Costs charged to each method.',
         'upstream_distribution':'Separate pinned source required; no vendored source. Public redistribution/license resolution remains open.',
@@ -89,6 +90,7 @@ def execute(folder,upstream,endpoint,model_url):
             if item['variant']=='tog-local':result=tog_adapter.run(record,graph,model,upstream,on_event=event)
             elif item['variant']=='tog-compact-projected':result=compact_tog_adapter.run(record,graph,model,upstream,on_event=event)
             elif item['variant']=='tog-indexed-spans':result=indexed_tog_adapter.run(record,graph,model,upstream,on_event=event)
+            elif item['variant']=='tog-explicit-final':result=explicit_tog_adapter.run(record,graph,model,upstream,on_event=event)
             else:result=common_linker.semantic_run(record,graph,model,on_event=event)
             result['variant']=item['variant'];result['linker_version']=common_linker.VERSION
             output.write(json.dumps(result)+'\n');output.flush()
@@ -98,7 +100,7 @@ def execute(folder,upstream,endpoint,model_url):
 
 def main():
     parser=argparse.ArgumentParser();sub=parser.add_subparsers(dest='command',required=True)
-    f=sub.add_parser('freeze');f.add_argument('--inputs',type=Path,required=True);f.add_argument('--output',type=Path,required=True);f.add_argument('--upstream',type=Path,required=True);f.add_argument('--snapshot',required=True);f.add_argument('--adapter',choices=['upstream-full','compact-projected','indexed-spans'],default='upstream-full')
+    f=sub.add_parser('freeze');f.add_argument('--inputs',type=Path,required=True);f.add_argument('--output',type=Path,required=True);f.add_argument('--upstream',type=Path,required=True);f.add_argument('--snapshot',required=True);f.add_argument('--adapter',choices=['upstream-full','compact-projected','indexed-spans','explicit-final'],default='upstream-full')
     e=sub.add_parser('execute');e.add_argument('folder',type=Path);e.add_argument('--upstream',type=Path,required=True);e.add_argument('--endpoint',default='http://127.0.0.1:8891/sparql');e.add_argument('--model-url',default='http://127.0.0.1:11434/api/chat')
     args=parser.parse_args()
     if args.command=='freeze':print(json.dumps(freeze(args.inputs,args.output,args.upstream,args.snapshot,adapter=args.adapter),indent=2))

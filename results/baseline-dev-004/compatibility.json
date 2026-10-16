@@ -1,0 +1,33 @@
+{
+  "scope": "offline synthetic compatibility fixtures, no model/benchmark quality claim",
+  "adapter": "explicit-final",
+  "upstream_hashes": {
+    "main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
+    "freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
+    "utils.py": "4460752d33b730b2ca084e352ea84c60bb89c93aea349cece11158a8ea5f15c5",
+    "prompt_list.py": "954e7f6f79fb08010474340f1fade455bcc3c0cd294270923387d5e703de13f5"
+  },
+  "passed": 20,
+  "checks": [
+    "relation_prompt_unchanged",
+    "entity_prompt_unchanged",
+    "upstream_entity_score_parser",
+    "upstream_stop_parser",
+    "beam_order_and_zero_score_removal",
+    "indexed_relation_fixture_inverse_1",
+    "inverse_request_sequence",
+    "explicit_channel_prompt_inverse",
+    "explicit_channel_mapping_inverse",
+    "inverse_relation_preserved",
+    "native_stop_and_observed_mapping",
+    "indexed_relation_fixture_mediated_3",
+    "indexed_relation_fixture_mediated_1",
+    "mediated_request_sequence",
+    "explicit_channel_prompt_mediated",
+    "explicit_channel_mapping_mediated",
+    "unnamed_mediator_continuation",
+    "upstream_continue_then_stop",
+    "empty_request_sequence",
+    "empty_frontier_not_grounded_answer"
+  ]
+}

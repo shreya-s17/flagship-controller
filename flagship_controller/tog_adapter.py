@@ -61,15 +61,15 @@ class TextModel:
         m.calls+=1; started=time.perf_counter()
         messages=[{'role':'system','content':'You are an AI assistant that helps people find information.'},
                   {'role':'user','content':prompt}]
-        response=post_json(m.url,{'model':m.model,'stream':False,'messages':messages,
-            'options':{'temperature':temperature,'seed':17,'num_predict':min(max_tokens,m.max_tokens-m.tokens)}},120)
+        response=getattr(m,'send_json',post_json)(m.url,{'model':m.model,'stream':False,'messages':messages,
+            'options':{'temperature':temperature,'seed':getattr(m,'seed',17),'num_predict':min(max_tokens,m.max_tokens-m.tokens)}},120)
         usage=[response.get('prompt_eval_count'),response.get('eval_count')]
         if any(type(x) is not int or x<0 for x in usage):raise Blocked('model_usage_unavailable')
         m.tokens+=sum(usage)
         content=response.get('message',{}).get('content')
         m.audit.append({'prompt_version':VERSION,'prompt':{'messages':messages},'prompt_sha256':hashlib.sha256(json.dumps(messages,sort_keys=True).encode()).hexdigest(),
             'response':content,'input_tokens':usage[0],'output_tokens':usage[1],
-            'elapsed_seconds':time.perf_counter()-started,'temperature':temperature,'seed':17})
+            'elapsed_seconds':time.perf_counter()-started,'temperature':temperature,'seed':getattr(m,'seed',17)})
         if usage[0]>3000:raise Blocked('model_context_budget_exceeded_after_call')
         if m.tokens>m.max_tokens:raise Blocked('model_budget_exceeded_after_call')
         self.checkpoint()

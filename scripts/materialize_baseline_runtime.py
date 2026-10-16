@@ -11,7 +11,7 @@ from pathlib import Path
 NAMES={'harness-source.py':'baseline_development.py','linker-source.py':'common_linker.py',
     'semantic-source.py':'semantic_runtime.py','parent-source.py':'structured_runtime.py',
     'transport-source.py':'webqsp_runtime.py','adapter-source.py':'tog_adapter.py',
-    'compact-adapter-source.py':'compact_tog_adapter.py','indexed-adapter-source.py':'indexed_tog_adapter.py'}
+    'compact-adapter-source.py':'compact_tog_adapter.py','indexed-adapter-source.py':'indexed_tog_adapter.py','explicit-adapter-source.py':'explicit_tog_adapter.py'}
 
 
 def materialize(study,destination):
@@ -24,7 +24,7 @@ def materialize(study,destination):
         data=(study/name).read_bytes()
         if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Source snapshot mismatch')
         sources[NAMES[name]]=data
-    if not set(NAMES.values())-{'compact_tog_adapter.py','indexed_tog_adapter.py'}<=set(sources):raise ValueError('Missing required runtime source')
+    if not set(NAMES.values())-{'compact_tog_adapter.py','indexed_tog_adapter.py','explicit_tog_adapter.py'}<=set(sources):raise ValueError('Missing required runtime source')
     package=destination/'flagship_controller';package.mkdir(parents=True)
     (package/'__init__.py').write_text('"""Isolated archived runtime; no evaluator or benchmark labels."""\n')
     for name,data in sources.items():(package/name).write_bytes(data)

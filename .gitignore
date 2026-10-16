@@ -35,3 +35,9 @@ artifacts/*.zip
 # Frozen indexed baseline development raw traces.
 /results/baseline-dev-003/predictions.jsonl
 /results/baseline-dev-003/progress.jsonl
+
+# Common-state development and declared-answer raw evidence.
+/results/baseline-dev-004/predictions.jsonl
+/results/baseline-dev-004/progress.jsonl
+/results/common-state-dev-002/predictions.jsonl
+/results/common-state-dev-002/journal/

@@ -1,0 +1,6 @@
+{
+  "status": "FROZEN PLAN ONLY; NEVER EXECUTED",
+  "superseded_before_inference_by": "common-state-dev-002",
+  "reason": "Free-text final-field omissions in baseline-dev-004 motivate constrained combined stop/answer declarations. Original plan and source snapshots preserved.",
+  "reserved_or_official_test_executed": false
+}

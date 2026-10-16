@@ -1,0 +1,219 @@
+{
+  "status": "Frozen development common-state study; NOT held-out or publication-ready evaluation",
+  "created_utc": "2026-10-16T14:08:59Z",
+  "question_ids": [
+    "WebQTrn-562",
+    "hand-inverse-peso-001",
+    "hand-no-match-001"
+  ],
+  "seeds": [
+    17,
+    29
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-562",
+      "seed": 17,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 17,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 17,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 17,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 17,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 17,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 17,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 17,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 17,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 29,
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 29,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 29,
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 29,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "WebQTrn-562",
+      "seed": 29,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 29,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 29,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 29,
+      "variant": "repair"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 29,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "seed": 29,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 29,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 29,
+      "variant": "semantic-gate-off"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 29,
+      "variant": "tog-explicit-final"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 29,
+      "variant": "reason-text-off"
+    },
+    {
+      "id": "hand-no-match-001",
+      "seed": 29,
+      "variant": "repair"
+    }
+  ],
+  "input_sha256": "5c0cff29ac9c1c0ca09a78700530a1cdaa7802186c031ed72a737253547e891c",
+  "source_hashes": {
+    "common-study-source.py": "d8be3d6db29199da25f4d7096245574779823670a6c363d62a5a0fc0fabe62bb",
+    "study-runtime-source.py": "688e88516abe9da9dacb93a9cafb8fb2c08a317aea898c15230ac617681ce465",
+    "linker-source.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+    "semantic-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+    "adapter-source.py": "07bbc4b5a8621a248817cf8d84b009d72050bbf545a36078c2bc7c5038c1497d",
+    "compact-adapter-source.py": "914a357c5824700aa5edae26194d3abf1190eabba5c2a95273ae3d24f1281744",
+    "indexed-adapter-source.py": "2b9e24461bdc3ea7358783f1c27c100012346e7aefd02142469a3137fd13fa5a",
+    "explicit-adapter-source.py": "605c4f428589bf2f9fb3f60bcfcf28f64f7fbf59bf4398baa188b71313adf0cc"
+  },
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "upstream_commit": "7ccbb92e17579f934bb778386230de47eca0ab67",
+  "upstream_hashes": {
+    "main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
+    "freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
+    "utils.py": "4460752d33b730b2ca084e352ea84c60bb89c93aea349cece11158a8ea5f15c5",
+    "prompt_list.py": "954e7f6f79fb08010474340f1fade455bcc3c0cd294270923387d5e703de13f5"
+  },
+  "budgets": {
+    "model_calls": 10,
+    "returned_usage_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "inference": {
+    "temperature": 0,
+    "context": 4096,
+    "threads": 4,
+    "max_output_tokens": 512,
+    "sampling_seed_per_item": true,
+    "python_hash_seed_required": "17",
+    "schedule_seed": 113
+  },
+  "shared_state": "One captured parse/link per question/seed for all policies; internal controls also replay through the same first PLAN/catalog. Prefix usage/time charged to each; physical new requests reported separately.",
+  "ablations": {
+    "semantic-gate-off": "Only final same-model audit bypassed; compiler/witness/type/resource guards retained",
+    "reason-text-off": "Only rejection-reason text withheld; failed-program masking and join acquisition remain"
+  },
+  "serialization": "raw RDF lexical strings / Freebase URI IDs; no calendar-date projection; known date mismatch retained",
+  "failure_accounting": "Full planned denominator; no retry of interrupted admitted work; unknown usage reported as lower bound. Integrity mismatch halts the study.",
+  "baseline": "Explicit final JSON name channel over all observed names; graph-reasoning-yes only; indexed relations; not original-paper reproduction",
+  "analysis": "Offline official ID-set F1/exact on original training questions only. Handwritten controls unscored. Repeated seeds clustered by question. No significance/generalization or semantic guarantee inferred.",
+  "reserved_execution": false,
+  "official_test_execution": false,
+  "independent_review_completed": false
+}
