@@ -3,7 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))+sorted((root/'results').glob('baseline-dev-*'))
+folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))+sorted((root/'results').glob('baseline-dev-*'))+sorted((root/'results').glob('common-state-dev-*'))
 if not folders:raise SystemExit('No structured artifacts found')
 for folder in folders:
     if not folder.is_dir():continue
@@ -31,7 +31,7 @@ for folder in folders:
     if not hashes:raise SystemExit('Missing executed artifact checksums: '+str(folder))
     rows=[json.loads(x) for x in (folder/'predictions.jsonl').read_text().splitlines()]
     if 'order' in manifest:
-        assert [(r['id'],r['variant']) for r in rows]==[(r['id'],r['variant']) for r in manifest['order']],folder
+        assert [(r['id'],r.get('seed'),r['variant']) for r in rows]==[(r['id'],r.get('seed'),r['variant']) for r in manifest['order']],folder
     else:
         assert [r['id'] for r in rows]==manifest['question_ids'],folder
     print(folder.name+': sources, counts/order and '+str(len(hashes))+' checksums verified')

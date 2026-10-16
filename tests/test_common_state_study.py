@@ -101,6 +101,10 @@ class CommonSourceRestorationTests(unittest.TestCase):
             result=subprocess.run(['python3','-m','flagship_controller.common_state_study','freeze','--help'],cwd=destination,capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
             self.assertFalse((destination/'flagship_controller/official_score.py').exists())
+            earlier=Path(temporary)/'earlier'
+            self.assertEqual(module.materialize(root/'results/common-state-dev-001',earlier),10)
+            earlier_cli=subprocess.run(['python3','-m','flagship_controller.common_state_study','freeze','--help'],cwd=earlier,capture_output=True,text=True)
+            self.assertEqual(earlier_cli.returncode,0,earlier_cli.stderr)
             with self.assertRaisesRegex(ValueError,'existing'):module.materialize(root/'results/common-state-dev-002',destination)
 
 if __name__=='__main__':unittest.main()

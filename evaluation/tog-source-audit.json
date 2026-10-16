@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/DataArcTech/ToG",
   "commit": "7ccbb92e17579f934bb778386230de47eca0ab67",
-  "status": "source audited; NOT executed or reproduced",
+  "status": "Original source audit; upstream entry point not executed or faithfully reproduced. Subsequent bounded local adaptations are executed and archived separately.",
   "hashes": {
     "ToG/main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
     "ToG/freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
@@ -19,5 +19,6 @@
     "Requirements are unpinned and import sentence-transformers even in LLM mode",
     "README states Apache 2.0 but no standalone LICENSE file found; preserve attribution and resolve distribution licensing before vendoring source"
   ],
-  "reproduction_claim": false
+  "reproduction_claim": false,
+  "follow_on": "evaluation/tog-adaptation.md"
 }

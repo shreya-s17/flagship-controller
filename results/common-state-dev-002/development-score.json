@@ -1,0 +1,626 @@
+{
+  "scope": "Purpose-selected development mechanics check; no held-out, significance or published-score comparison",
+  "executions": 30,
+  "unique_question_strings": 3,
+  "official_original_questions": 1,
+  "seeds": [
+    17,
+    29
+  ],
+  "methods": {
+    "reason-text-off": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        },
+        "29": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-562",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 2
+        }
+      ],
+      "mean_question_f1": 1.0,
+      "charged_cost_all": {
+        "model_calls": 18,
+        "model_tokens": 11011,
+        "graph_calls": 58,
+        "elapsed_seconds": 291.4202907740837
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-562",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        },
+        {
+          "id": "WebQTrn-562",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 29,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ]
+    },
+    "repair": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        },
+        "29": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-562",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 2
+        }
+      ],
+      "mean_question_f1": 1.0,
+      "charged_cost_all": {
+        "model_calls": 18,
+        "model_tokens": 11012,
+        "graph_calls": 58,
+        "elapsed_seconds": 252.48728797689546
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-562",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        },
+        {
+          "id": "WebQTrn-562",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 29,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ]
+    },
+    "tog-declared-json": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.5,
+          "macro_recall": 1.0,
+          "macro_f1": 0.6666666666666666,
+          "exact_f1_accuracy": 0.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6666666666666666,
+              "exact_f1": 0
+            }
+          ]
+        },
+        "29": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.5,
+          "macro_recall": 1.0,
+          "macro_f1": 0.6666666666666666,
+          "exact_f1_accuracy": 0.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6666666666666666,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-562",
+          "mean_f1_across_seeds": 0.6666666666666666,
+          "seeds": 2
+        }
+      ],
+      "mean_question_f1": 0.6666666666666666,
+      "charged_cost_all": {
+        "model_calls": 16,
+        "model_tokens": 6788,
+        "graph_calls": 56,
+        "elapsed_seconds": 258.16129949199967
+      },
+      "physical_new_model_attempts_known": 10,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-562",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8",
+            "m.07ld085"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        },
+        {
+          "id": "WebQTrn-562",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8",
+            "m.07ld085"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 29,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ]
+    },
+    "semantic-gate-off": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        },
+        "29": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-562",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 2
+        }
+      ],
+      "mean_question_f1": 1.0,
+      "charged_cost_all": {
+        "model_calls": 14,
+        "model_tokens": 7148,
+        "graph_calls": 58,
+        "elapsed_seconds": 170.11060602392536
+      },
+      "physical_new_model_attempts_known": 0,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 4,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-562",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        },
+        {
+          "id": "WebQTrn-562",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 29,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ]
+    },
+    "fixed": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        },
+        "29": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 1,
+          "scorable": 1,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-562",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-562",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 2
+        }
+      ],
+      "mean_question_f1": 1.0,
+      "charged_cost_all": {
+        "model_calls": 18,
+        "model_tokens": 11012,
+        "graph_calls": 58,
+        "elapsed_seconds": 252.55984453996643
+      },
+      "physical_new_model_attempts_known": 4,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-562",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        },
+        {
+          "id": "WebQTrn-562",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "seed": 29,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "seed": 29,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ]
+    }
+  },
+  "repair_minus_fixed_mean_question_f1": 0.0,
+  "confidence_interval": null,
+  "interval_reason": "1 purpose-selected original question(s); no population interval, and repeated seeds are not independent questions",
+  "physical_model_attempts_known": {
+    "common_prefix_capture_once": 14,
+    "policy_continuations": 22,
+    "total": 36
+  },
+  "physical_graph_attempts_known": 116,
+  "stop_recovery_rates": null,
+  "limits": [
+    "Different realized costs and hypothesis spaces",
+    "Replayed time is constructed, not fresh end-to-end latency",
+    "Handwritten controls unscored",
+    "No independent semantic/STOP labels or calibrated reliability",
+    "Unknown interrupted costs are lower bounds; null physical counts are not measured zero"
+  ]
+}

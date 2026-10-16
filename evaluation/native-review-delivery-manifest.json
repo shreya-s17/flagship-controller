@@ -1,12 +1,12 @@
 {
   "scope": "unannotated local handoff; no contact or independent review performed",
-  "cases": 15,
-  "cases_sha256": "58d178d980ab2d664ce2ba8d5b7cb8f4eb337355cc1d69e6bb3694fe03f471f0",
+  "cases": 26,
+  "cases_sha256": "70a776816227a045ecc6fc57f46512f9cb363a046282bdcec4070c8ab36f5662",
   "files": {
     "README.txt": "f66a657d4e8bec805f9512802ab062ffb06a205030f3b296ab85d69628e5603c",
-    "cases.jsonl": "58d178d980ab2d664ce2ba8d5b7cb8f4eb337355cc1d69e6bb3694fe03f471f0",
-    "submission-template.json": "c6a6b8c7eeddfbe917b56ce4c6a9fda4576f89acea82f703a212b4b9d7603072",
+    "cases.jsonl": "70a776816227a045ecc6fc57f46512f9cb363a046282bdcec4070c8ab36f5662",
+    "submission-template.json": "c3be5f13763747b61a34809451e0a153f177b04bce287d3229c82f35fa1e5046",
     "BRIEF.txt": "f66a657d4e8bec805f9512802ab062ffb06a205030f3b296ab85d69628e5603c"
   },
-  "archive_sha256": "bdd8ab7de85ab93591c7cad4eef9acee8b36766c15b4f9d101958810e008eec5"
+  "archive_sha256": "d624fd2cf892ba061b3803c64d7c9f5881b56bc364148fbe4002e895bf9886cd"
 }

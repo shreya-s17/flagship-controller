@@ -1,0 +1,40 @@
+[
+  {
+    "id": "WebQTrn-562",
+    "answered": true,
+    "witnesses": 1,
+    "answers": 1,
+    "recorded_row_consistency": true,
+    "semantic_validity": "not assessed"
+  },
+  {
+    "id": "WebQTrn-904",
+    "answered": true,
+    "witnesses": 2,
+    "answers": 2,
+    "recorded_row_consistency": true,
+    "semantic_validity": "not assessed"
+  },
+  {
+    "id": "WebQTrn-1108",
+    "answered": true,
+    "witnesses": 1,
+    "answers": 1,
+    "recorded_row_consistency": true,
+    "semantic_validity": "not assessed"
+  },
+  {
+    "id": "hand-inverse-peso-001",
+    "answered": true,
+    "witnesses": 1,
+    "answers": 1,
+    "recorded_row_consistency": true,
+    "semantic_validity": "not assessed"
+  },
+  {
+    "id": "hand-no-match-001",
+    "answered": false,
+    "witnesses": 0,
+    "semantic_validity": "not assessed"
+  }
+]

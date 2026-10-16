@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v1.4, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v1.5, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -123,6 +123,12 @@ A third frozen local ToG adaptation constrains relation choices to presented ind
 
 The new native-output review addendum has15 unannotated cases, separate from the30 earlier structured forms; zero independent reviewers have completed either. Offline common-link state restoration passes through both method paths, but new shared-catalog execution, ablations, seed propagation and answer serialization remain unfinished. [Measured checkpoint and reproducibility](../results/indexed-baseline-development-report.md), [next-study design](../evaluation/next-study-design.md). Current source v3.1 adds a tested decimal-score formatting fix; run003 remains frozen v3 and supplies no live v3.1 result.
 
+### 5.6 Shared-state development controls
+
+A new frozen development harness captures identical link states for all methods and identical catalogs/first choices for four internal controls. It implements fixed, bounded repair, final-semantic-gate-off and rejection-reason-text-off, with per-request seeds, charged-prefix accounting and a durable no-retry journal.30 outcomes reuse three existing strings and seeds17/29; only one string is an official training original. Four controls match that original; a further local ToG adaptation declares stop/answer indices jointly and still adds a historical coin (F1 2/3). The inverse control now preserves the Mexico ID rather than projecting peso from context. Handwritten controls remain unscored. Repair-minus-fixed is0 on the sole original; no repair or reason-withholding event occurs, so this does not estimate recovery or an ablation effect. Four semantic-gate bypasses occur. No population interval or performance ranking is inferred.
+
+All30 rows pass independent state/request/declaration ledger checks, and the16 structured answers' two unique triples are present on graph requery. There are36 physical model attempts versus repeated charged prefixes, an experimental reuse mechanism rather than a method-efficiency result. The unsuccessful preceding free-text final-field revision is retained. [Complete measurements and limits](../results/common-state-development-report.md). Larger evaluation, independent annotation and publication remain NO-GO.
+
 ## 6. Failure and STOP analysis
 
 Observed development failures include whole-question mentions, answer-category extraction, ambiguous labels, unsuitable relation sequences, misplaced named constraints, unobserved predicates, result/candidate caps, schema-query scoping problems, timeouts and catalog truncation. The move to a finite typed catalog addresses structural errors but can exclude valid answers and does not fix semantic scope by itself. Failures and superseded runs are retained; an interrupted development revision is labeled incomplete rather than scored as a complete five-question run.
@@ -150,3 +156,7 @@ The current result is an operational restricted prototype and an auditable explo
 ## Local baseline adaptation checkpoint
 
 A bounded, separately sourced ToG adapter now invokes pinned upstream pruning, scoring and stopping functions with the existing local model. Thirteen offline compatibility checks pass. The [adaptation record](../evaluation/tog-adaptation.md) identifies question-only linking, model, seed, transport, name handling, bug fix and normalization departures. [The small frozen sanity run](../results/baseline-dev-001/manifest.json) retains all operational failures and is not independent benchmark evidence. The shared linker now accepts canonical keys supported by exact observed aliases, addressing the Yale label-order diagnosis without a question-ID rule. Actual outcomes belong to the run report; neither implementation nor compatibility tests establish reproduction of paper scores.
+
+## Release and assistance disclosure — owner review pending
+
+Codex assisted implementation, debugging, automated tests, artifact auditing and documentation. Automated checks are not independent human semantic review; none has been collected. Actual human authors, affiliations, contribution statements and final responsibility require confirmation before release. The root repository has no license file and public redistribution/attribution review remains open; [inventory](../evaluation/private-release-inventory.json). No public release or submission is represented by this draft.

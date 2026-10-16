@@ -1,0 +1,13 @@
+WebQTrn-562 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 tog-explicit-final ABSTAIN answer_normalization:missing_or_ambiguous_final_answer_channel
+WebQTrn-904 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+All entities are created equal.
+All entities are created equal.
+WebQTrn-904 tog-explicit-final ABSTAIN model_budget
+WebQTrn-1108 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1108 tog-explicit-final ABSTAIN answer_normalization:missing_or_ambiguous_final_answer_channel
+hand-inverse-peso-001 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 tog-explicit-final ABSTAIN answer_normalization:native_not_graph_reasoning_yes
+hand-no-match-001 tog-explicit-final ABSTAIN unsupported_contract
+hand-no-match-001 semantic-common-link ABSTAIN entity_not_found

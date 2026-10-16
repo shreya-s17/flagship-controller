@@ -1,0 +1,239 @@
+{
+  "scope": "Lossless private development traces and durable journal; five reused question strings, no held-out evidence",
+  "archive_sha256": "572999d39480026b7f59d00a4c7a3d4779343b903e8475dbe0851a955bce7fa6",
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part000",
+      "bytes": 32768,
+      "sha256": "e69aa3b7178a50a6220382a613df8c603a5fcee78e658e6381334c1d33a1dce8"
+    },
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 32768,
+      "sha256": "bb1bad11f569a79849dc89fae5f9894ad30127bb2b5e2e577655337fac98c8ce"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 32768,
+      "sha256": "a81f7c22df3aba388631982b3bd0275b30d0472d397a624ab8a6f50b69246171"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 32768,
+      "sha256": "7f1df016daed703fdf1893915aa29b3cf74d0712b246b634d015dbc889eafe1c"
+    },
+    {
+      "file": "evidence.tar.gz.part004",
+      "bytes": 32768,
+      "sha256": "8cb987b81efff8c7bb303d4c09f76dbac0150537ca0025ce55816ec248e5991a"
+    },
+    {
+      "file": "evidence.tar.gz.part005",
+      "bytes": 32768,
+      "sha256": "4862514750da2d97d0e0f70bbed2c50be0c78d55b2f4a9032284e5f2ca793494"
+    },
+    {
+      "file": "evidence.tar.gz.part006",
+      "bytes": 32768,
+      "sha256": "20f78ea92bebec31fba376d9d1e8ce199a67108cb2efa12be24f42a36060cbcf"
+    },
+    {
+      "file": "evidence.tar.gz.part007",
+      "bytes": 32768,
+      "sha256": "c6575760f858e6679b7987bfff54fde66f7c1256352a536e107788b2e938080c"
+    },
+    {
+      "file": "evidence.tar.gz.part008",
+      "bytes": 32768,
+      "sha256": "8bfa36d72d6f9fd58946b0de66964f0703b03c60728df578514c980daa4fa5c5"
+    },
+    {
+      "file": "evidence.tar.gz.part009",
+      "bytes": 32768,
+      "sha256": "3caf2e1f40baf63138129b7e12afae421528e91aca9b1a61fabeb50fd447ff86"
+    },
+    {
+      "file": "evidence.tar.gz.part010",
+      "bytes": 32768,
+      "sha256": "72cdc47bad84c09d0064178498c82f87eacc3f5af97a3ffa74b265fcb62cbda3"
+    },
+    {
+      "file": "evidence.tar.gz.part011",
+      "bytes": 32768,
+      "sha256": "ad5e1d8518bad94562ef9d5c4415d50bc637066003354bf82c565be7e53f2b2d"
+    },
+    {
+      "file": "evidence.tar.gz.part012",
+      "bytes": 32768,
+      "sha256": "f39fb43f2b1afab2dfd42fa58bd82491c7547cc427707b994425052e5041c0f3"
+    },
+    {
+      "file": "evidence.tar.gz.part013",
+      "bytes": 32768,
+      "sha256": "efa9210563c8db22b390b9ca2c6498ff1ed527fccc5ff8b00922116e72bd7a0b"
+    },
+    {
+      "file": "evidence.tar.gz.part014",
+      "bytes": 32768,
+      "sha256": "2bdf0265699708a32f551aff1c24de83be1bcc1db948afd3440eae2acd951c73"
+    },
+    {
+      "file": "evidence.tar.gz.part015",
+      "bytes": 32768,
+      "sha256": "dbe5c3fda649cc142e70b1a86e282d49cf0ad991401f3366f1fff15841bbda7e"
+    },
+    {
+      "file": "evidence.tar.gz.part016",
+      "bytes": 32768,
+      "sha256": "2ec4b637883cc8eaeb6cfb560accd60f77d2b2f966809806f14dc2cdee9274f3"
+    },
+    {
+      "file": "evidence.tar.gz.part017",
+      "bytes": 32768,
+      "sha256": "80b4c2b7b50305f9f1da1a96c6c36f6aa9acccfcf7cf9b3787b74724ad26a3fb"
+    },
+    {
+      "file": "evidence.tar.gz.part018",
+      "bytes": 32768,
+      "sha256": "137a29d19e0b75a28c1e1dab28e3c49133d63ea270ac95263169701b3c17a2dd"
+    },
+    {
+      "file": "evidence.tar.gz.part019",
+      "bytes": 32768,
+      "sha256": "d22b1f80f156157308a48da5b5f1313cd0a49f19599478142ee0c44349c29562"
+    },
+    {
+      "file": "evidence.tar.gz.part020",
+      "bytes": 32768,
+      "sha256": "e85e94a8635f895133ed7f4fac0aa14959bf274e96b1b54298ca30f7d8e1c3ec"
+    },
+    {
+      "file": "evidence.tar.gz.part021",
+      "bytes": 32768,
+      "sha256": "1412af9ecc1405b581c50f373fa1f688bee3291359d905fddb081b14015c9d3a"
+    },
+    {
+      "file": "evidence.tar.gz.part022",
+      "bytes": 32768,
+      "sha256": "131e28900c70eb77a7b6f05cb45fc20d6542870d50b2b643fb6fbc1a8b21af2b"
+    },
+    {
+      "file": "evidence.tar.gz.part023",
+      "bytes": 32768,
+      "sha256": "c5743df8f4a63f11bf24a417c0533586a0ed1151ca186896c347847875af9757"
+    },
+    {
+      "file": "evidence.tar.gz.part024",
+      "bytes": 32768,
+      "sha256": "b0a6b4b8b7e88e5246e84c802f1357b7c3f86954b01507d6f7e3b75a433403c2"
+    },
+    {
+      "file": "evidence.tar.gz.part025",
+      "bytes": 20375,
+      "sha256": "27cbc0cdbc5c85f3dfdbca44bf06180b6b7ca03ffb57ced9a71ea3dc03653e8a"
+    }
+  ],
+  "files": {
+    "results/baseline-dev-004/predictions.jsonl": "c9b524d17d5ab76619ce8c1d6fa40fdd2ddfcc849cb9798c7bac900ed3ca793f",
+    "results/baseline-dev-004/progress.jsonl": "3b2891f25c5522124f7ba6e2bf34de4106c985bcd73671a694b04b635c4f6cb0",
+    "results/common-state-dev-002/predictions.jsonl": "c90272cd1b6994406b72ece731cc28561023053b7315ac448bea0705bc89fe0e",
+    "results/common-state-dev-002/journal/17-06e9ae32d31dfede-prefix.json": "03c6dabe0c82488139e128d635024cc46434252d160e04eccfc2d737eaca48be",
+    "results/common-state-dev-002/journal/17-06e9ae32d31dfede-prefix.progress.jsonl": "86f5a036ff2936d4f2a0becd95a19e9db595d3df97e14b4ad15ea84f9581ef04",
+    "results/common-state-dev-002/journal/17-06e9ae32d31dfede-prefix.started.json": "a81812ec1599b95c1eecd11a696ed46dc0341427856fc6a414d96e23e51cff3a",
+    "results/common-state-dev-002/journal/17-1f47959e57b5ff2c-prefix.json": "ecf7a5d1470432872c14506f8d55a6e7d0738ef366ff72eb8b4120e692e73439",
+    "results/common-state-dev-002/journal/17-1f47959e57b5ff2c-prefix.progress.jsonl": "4b0f5be125a2b9186ac02152a585090c09bcc2448757ad68adddfaec1fb78870",
+    "results/common-state-dev-002/journal/17-1f47959e57b5ff2c-prefix.started.json": "6be77df2bc8a3cf4ba2cf4d86787a2219732e08310b8bee3af3d9a2e304ff4bb",
+    "results/common-state-dev-002/journal/17-7a55ccd9b562ec46-prefix.json": "bc113157659c96850254140c4d8051d3ec3b21b1bd8af80c85d29bef2115357b",
+    "results/common-state-dev-002/journal/17-7a55ccd9b562ec46-prefix.progress.jsonl": "28bf4c98700432c751fdd9c368d69a384873997a6fa4c3b949e34482e809a569",
+    "results/common-state-dev-002/journal/17-7a55ccd9b562ec46-prefix.started.json": "5120ec9c9e6cafe3ed1db8073bc3bde0352e9e0f273c65025dc1724e174eac8e",
+    "results/common-state-dev-002/journal/29-06e9ae32d31dfede-prefix.json": "6a4872d43e63082b80c80e4260afcecc8748380805120e84b22b38da03468d83",
+    "results/common-state-dev-002/journal/29-06e9ae32d31dfede-prefix.progress.jsonl": "86f5a036ff2936d4f2a0becd95a19e9db595d3df97e14b4ad15ea84f9581ef04",
+    "results/common-state-dev-002/journal/29-06e9ae32d31dfede-prefix.started.json": "d002d387e5e26c01e2a26499258e450ff2009e643726afe1a4516d7b57a3eb25",
+    "results/common-state-dev-002/journal/29-1f47959e57b5ff2c-prefix.json": "4e95bd8c6a814f951e34a07ed7a992830b1140206ba11c7674affcd2d6d4f17e",
+    "results/common-state-dev-002/journal/29-1f47959e57b5ff2c-prefix.progress.jsonl": "4b0f5be125a2b9186ac02152a585090c09bcc2448757ad68adddfaec1fb78870",
+    "results/common-state-dev-002/journal/29-1f47959e57b5ff2c-prefix.started.json": "97f39c0d4d3362ee434e5ce83646a58f2a7a12da67e9338fa864d2ca494830b1",
+    "results/common-state-dev-002/journal/29-7a55ccd9b562ec46-prefix.json": "1974d20cbe2fefe1354e75d193c5eb96801842b414b84bcced3f31b65944cc30",
+    "results/common-state-dev-002/journal/29-7a55ccd9b562ec46-prefix.progress.jsonl": "28bf4c98700432c751fdd9c368d69a384873997a6fa4c3b949e34482e809a569",
+    "results/common-state-dev-002/journal/29-7a55ccd9b562ec46-prefix.started.json": "a623d3f2af2502bb63c66bc87874cecc113a46d3eea8358d1e317fe50544827b",
+    "results/common-state-dev-002/journal/policy-0000.json": "30835ed3108bc0e9f3391cb511c527753c8f9b48cf56e57bdaa22290088afd57",
+    "results/common-state-dev-002/journal/policy-0000.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0000.started.json": "a9c5de29397bd2a19dc2ad4ef2d551fa9417ca5d1423723d433474e07afde33e",
+    "results/common-state-dev-002/journal/policy-0001.json": "757377b59376d58486eb8f64ed662cc2b6bd8b785f5ed8c718705a28222d63ef",
+    "results/common-state-dev-002/journal/policy-0001.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0001.started.json": "8d4672c97f029c55a5f1f2f28b2cad3b963f070487cae1be6adf1c5786341d2d",
+    "results/common-state-dev-002/journal/policy-0002.json": "b6069c6e02044cccd5c7813488c7e62ab8369b7db3f4998444436108e245b7e3",
+    "results/common-state-dev-002/journal/policy-0002.progress.jsonl": "3f3722d255ba133cdfbf222ed1fa732f6f522231d574bd6902432c2c8afa32da",
+    "results/common-state-dev-002/journal/policy-0002.started.json": "5f887f03b21bfa72a762d4dfbc6b074e2e063e3e525147e2387b28303d5ea8bd",
+    "results/common-state-dev-002/journal/policy-0003.json": "1679e6bbf7493623bfd881e2ad159554a5a7f4fad69b6c539af8a998f9389844",
+    "results/common-state-dev-002/journal/policy-0003.progress.jsonl": "006996f109e19e7968c425395808a255499d3b025c6c397ceaf4350e46be6626",
+    "results/common-state-dev-002/journal/policy-0003.started.json": "b872ed4b4a3019099ade070bf95815a9aeea15ff6d1deb1d066d60cf102d5933",
+    "results/common-state-dev-002/journal/policy-0004.json": "1244be86bb7dc2f5a75c7281af3501e92a32b166d379d85fe74e2918ce8a1069",
+    "results/common-state-dev-002/journal/policy-0004.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0004.started.json": "7f4df29a71e3e56ed0257aa206052027a6b27e7c614504b28fdd2b78a07bcfca",
+    "results/common-state-dev-002/journal/policy-0005.json": "214bc87838b51c5c8e15615528efae31b79d3a417e449c597f09d6edb0f9c669",
+    "results/common-state-dev-002/journal/policy-0005.progress.jsonl": "fd6446c55775aafef0b3150930695f5f81423d95f637faffab04345aa0303cd0",
+    "results/common-state-dev-002/journal/policy-0005.started.json": "13f2ac9938911606bce4242a1c5461c551b46664e616d01c32cc5dd8b59747da",
+    "results/common-state-dev-002/journal/policy-0006.json": "6103977d45dd0547535f1a78cc1475ae419966f2929bd44c6e5aa8b4f881436e",
+    "results/common-state-dev-002/journal/policy-0006.progress.jsonl": "6f770cbf740926156af0190999ad19126cbd939cf273c8b94f93c68ebb4158da",
+    "results/common-state-dev-002/journal/policy-0006.started.json": "e0c21fd148c87cc7b9f5896e056201ae8856f5215a523b09cd0d9009a744bce5",
+    "results/common-state-dev-002/journal/policy-0007.json": "966baf7ee78da2cad3da7328c28512c6d53f3188538cefff6ba37e2bb876aac6",
+    "results/common-state-dev-002/journal/policy-0007.progress.jsonl": "6f770cbf740926156af0190999ad19126cbd939cf273c8b94f93c68ebb4158da",
+    "results/common-state-dev-002/journal/policy-0007.started.json": "22db2b26d591c8f17d68ab6ecc5a497d6154eaf1777db7e037bdb0257787b8b2",
+    "results/common-state-dev-002/journal/policy-0008.json": "47b1546289e74a0cf82221500181a7e08d8ea6376584ba1ed386147cc44a13a8",
+    "results/common-state-dev-002/journal/policy-0008.progress.jsonl": "46f10a51045559b2dcaf9eb62933911270ef6e92c75169f51ece43f36324953e",
+    "results/common-state-dev-002/journal/policy-0008.started.json": "8ad766fd3d0eecb4e24884edf1cc2cd05f9a7192e5f2da65ed7ca07601a2a9ab",
+    "results/common-state-dev-002/journal/policy-0009.json": "a116d69736ae5f798979dce8c41e349b41c9c84379799ea090cb5f1d570f0875",
+    "results/common-state-dev-002/journal/policy-0009.progress.jsonl": "5181ee3bd8ae72338cd1dd4ff72c8303402e9b46512a1ff4255fa1a00bcb27ec",
+    "results/common-state-dev-002/journal/policy-0009.started.json": "92a80bd5192396e2d509e61dfe241fbeebde65c78ea8accdf1673d0800ca7ffb",
+    "results/common-state-dev-002/journal/policy-0010.json": "484adf57c65b42acb256220029e8e217114ea39e90fe87d1c8b0347dc03c3a7f",
+    "results/common-state-dev-002/journal/policy-0010.started.json": "6e805c2f2d1b7b018fff429d9f4aba3b226c3dd657baab359143146bdbed013b",
+    "results/common-state-dev-002/journal/policy-0011.json": "f510cabd13269f1083a7808f9fd5b69eef09a4646beb8b415c3f173bf0faafa4",
+    "results/common-state-dev-002/journal/policy-0011.started.json": "7c48bc45666507017941ff725af19fa2d0c0244e0802abf090246c1c6f8c6878",
+    "results/common-state-dev-002/journal/policy-0012.json": "3e8f94e96b32214d182d2fc123869de6646174ba808437bfcc2ad72caa8a0274",
+    "results/common-state-dev-002/journal/policy-0012.started.json": "6b5c864e4fe57263599c88618856e2b9e838ecd30145ac75ec50b0d29a24c728",
+    "results/common-state-dev-002/journal/policy-0013.json": "fe45fc4a9aabdd4b63c9c7ec64af639a166562bc695a00828bc8e93e6249144b",
+    "results/common-state-dev-002/journal/policy-0013.started.json": "8c2b4da00cbb85db0edac5792357fabbd1d816175b02e1cb473c5babf39f33a3",
+    "results/common-state-dev-002/journal/policy-0014.json": "d8efb86566fbf126d02843fb68e88be5dd7f0c00616cc23a0fdb89b1026e1b29",
+    "results/common-state-dev-002/journal/policy-0014.started.json": "3140af7c36f3c05d3cc792fce03488a87d0fa0150a20b5b2a28ac38a894cb3be",
+    "results/common-state-dev-002/journal/policy-0015.json": "37f9710f44fb27ec785a501d1a0a40d1369a74bcc57afcc502e01b3f796ef201",
+    "results/common-state-dev-002/journal/policy-0015.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0015.started.json": "ea869b2dec5c9651b0923eb3ed139da071499869b97845922e4d24c4a08b096d",
+    "results/common-state-dev-002/journal/policy-0016.json": "a0fd25f337f42c346b2f86ee6f0f7c4e985f7893395ad1523ac7df0eae858926",
+    "results/common-state-dev-002/journal/policy-0016.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0016.started.json": "a13256c84599c304b01052c550c6b1f1370e765cd98bf49c4fe9438c27f2db50",
+    "results/common-state-dev-002/journal/policy-0017.json": "e7ce6a24ea843df4d3fefba091ada46d803d35784286768e2f0e00c0c48db5cb",
+    "results/common-state-dev-002/journal/policy-0017.progress.jsonl": "d743d66121a2ede5b837c6c20c3dc15ee210559389f1aefa57978dc750b42c4f",
+    "results/common-state-dev-002/journal/policy-0017.started.json": "ed0f4e4fc0400e98aa56f5e1f6efcbef279c51b5b8ff29878719f06bb7e2f5c5",
+    "results/common-state-dev-002/journal/policy-0018.json": "b1487979219ac6776da30aaa8e99e5bae090dc473bd5d21c0da50ecf32d188ab",
+    "results/common-state-dev-002/journal/policy-0018.progress.jsonl": "006996f109e19e7968c425395808a255499d3b025c6c397ceaf4350e46be6626",
+    "results/common-state-dev-002/journal/policy-0018.started.json": "fbebd908682b7c23b24bab2d786310ebef958a7275988411a84cc13e85cba870",
+    "results/common-state-dev-002/journal/policy-0019.json": "fcdb95c439d52fbf441847ce5901c542f62d60aaf07d404b0d743f0435bd6723",
+    "results/common-state-dev-002/journal/policy-0019.progress.jsonl": "a8430cff28cd7ab15a30b435226ed2aca31f590c86bda180c6cabc1b252fe3d5",
+    "results/common-state-dev-002/journal/policy-0019.started.json": "7dd7b08e8cf2a626c9859d34d67e9cc58c711a3a9260890f6e8f6e257ceeb88d",
+    "results/common-state-dev-002/journal/policy-0020.json": "3d1c67c485d102e479b5df76be079fde2d2f03be05ab7638d73db8ead37c0000",
+    "results/common-state-dev-002/journal/policy-0020.progress.jsonl": "6f770cbf740926156af0190999ad19126cbd939cf273c8b94f93c68ebb4158da",
+    "results/common-state-dev-002/journal/policy-0020.started.json": "b4f1556d7d8037ff4959e96929e0f075c3070e47919f30a2179f223f704407be",
+    "results/common-state-dev-002/journal/policy-0021.json": "de39ed2e803d71ddd977d3255550197edeef3d70ba926aaba6e311955add8352",
+    "results/common-state-dev-002/journal/policy-0021.progress.jsonl": "5181ee3bd8ae72338cd1dd4ff72c8303402e9b46512a1ff4255fa1a00bcb27ec",
+    "results/common-state-dev-002/journal/policy-0021.started.json": "43797c080f3054c1a13ae7c615a673e0e51d15fbca933fdb91424a32f96f2ac9",
+    "results/common-state-dev-002/journal/policy-0022.json": "6b9aa643683901d758964150c28b4b9d8df00e55402dcba2789cc24c013a26cb",
+    "results/common-state-dev-002/journal/policy-0022.progress.jsonl": "6f770cbf740926156af0190999ad19126cbd939cf273c8b94f93c68ebb4158da",
+    "results/common-state-dev-002/journal/policy-0022.started.json": "f737085946b3582fd11ef28dfe24e350448dbb03785e5a6e00bc657d87c28067",
+    "results/common-state-dev-002/journal/policy-0023.json": "fd66d3da94fb010771dde0c5c406557582e9a7974ffb37cf56cbcf13f47e79ee",
+    "results/common-state-dev-002/journal/policy-0023.progress.jsonl": "6f770cbf740926156af0190999ad19126cbd939cf273c8b94f93c68ebb4158da",
+    "results/common-state-dev-002/journal/policy-0023.started.json": "eb11f49babc5516db43d5fb2e64a4e9015d2e3f85118033be1d3a3ce94fff9cc",
+    "results/common-state-dev-002/journal/policy-0024.json": "5799016d37dc1bcd731774eb614a7f3dde1e03ed9e02a9f0d7728d6875b2f11c",
+    "results/common-state-dev-002/journal/policy-0024.progress.jsonl": "46f10a51045559b2dcaf9eb62933911270ef6e92c75169f51ece43f36324953e",
+    "results/common-state-dev-002/journal/policy-0024.started.json": "58db25ef172a352a77b8394397b76248fd2fc3be3e55a26c84007b355759e620",
+    "results/common-state-dev-002/journal/policy-0025.json": "460184adad747433d7d42c20594bf51ec1f65f6af67289b36801a630214ab4fd",
+    "results/common-state-dev-002/journal/policy-0025.started.json": "1fd0bc9b342889e1480ceb22e219bc45c2e0d5e2a1336c765fd6e7d4e15299ae",
+    "results/common-state-dev-002/journal/policy-0026.json": "5bdd2d457fc470f2305cb6cfcb2194fd3e779a9005da34f9aa1f8b7c0f8e2e54",
+    "results/common-state-dev-002/journal/policy-0026.started.json": "b54a6c9e6862110b963c9b8f064e63e1aa95158cc23e79146328303daf278f8e",
+    "results/common-state-dev-002/journal/policy-0027.json": "43d8052a52560a933f00ac197903ee9039a1bef5d1eaacf6bf41aaca5f302dd3",
+    "results/common-state-dev-002/journal/policy-0027.started.json": "5e83f9ae06ca47ce65dc57ab18b068602132a64e18e31c7608b355bdace0c1bd",
+    "results/common-state-dev-002/journal/policy-0028.json": "6559cec7b4d69fa272918caf1bf669777c988c317a62218c3e8fab4d5c786dea",
+    "results/common-state-dev-002/journal/policy-0028.started.json": "bbf582f1969bcbda8651426324e98762c4f45df3a0051821e3c72154d246b6e3",
+    "results/common-state-dev-002/journal/policy-0029.json": "bb465ade43a49b200d1f437f2ddf7c4b5102e32623e02a7894f2269664a2712d",
+    "results/common-state-dev-002/journal/policy-0029.started.json": "240c5674169637f339a827fe8509423764ddba47d7b5baa3dea92e0d5873993d"
+  }
+}

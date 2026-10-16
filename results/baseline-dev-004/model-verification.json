@@ -1,0 +1,28 @@
+{
+  "model": {
+    "name": "flagship-qwen2.5-7b-q4km:latest",
+    "model": "flagship-qwen2.5-7b-q4km:latest",
+    "modified_at": "2026-10-15T08:41:54.740722154+02:00",
+    "size": 4683087008,
+    "digest": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+    "details": {
+      "parent_model": "qwen2.5:7b-instruct-q4_K_M",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "7.6B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 3584,
+      "runner": "llamacpp"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "parameters": "num_ctx                        4096\nnum_thread                     4\ntemperature                    0",
+  "template_sha256": "eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175"
+}

@@ -1,0 +1,30 @@
+WebQTrn-562 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 17 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+WebQTrn-562 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+WebQTrn-562 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+hand-inverse-peso-001 17 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+hand-no-match-001 17 semantic-gate-off ABSTAIN entity_not_found
+hand-no-match-001 17 reason-text-off ABSTAIN entity_not_found
+hand-no-match-001 17 repair ABSTAIN entity_not_found
+hand-no-match-001 17 tog-declared-json ABSTAIN entity_not_found
+hand-no-match-001 17 fixed ABSTAIN entity_not_found
+WebQTrn-562 29 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 29 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 29 repair ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 29 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+WebQTrn-562 29 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+hand-inverse-peso-001 29 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 29 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+hand-inverse-peso-001 29 repair ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 29 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 29 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+hand-no-match-001 29 fixed ABSTAIN entity_not_found
+hand-no-match-001 29 semantic-gate-off ABSTAIN entity_not_found
+hand-no-match-001 29 tog-declared-json ABSTAIN entity_not_found
+hand-no-match-001 29 reason-text-off ABSTAIN entity_not_found
+hand-no-match-001 29 repair ABSTAIN entity_not_found

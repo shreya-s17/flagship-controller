@@ -4,6 +4,8 @@
 
 Latest: [indexed baseline and retained semantic projection failures](../results/indexed-baseline-development-report.md). Run003 completes10 further executions of the same five inputs. Exact spans and indexed relations pass representation checks, but context-as-answer errors remain. Current source v3.1 has only an additional unit/fixture-tested decimal formatting fix. The unchanged30 structured forms and new15 native-output forms are unannotated; independent reviewers remain necessary. The new100-question study is still preparation, not frozen execution.
 
+Latest executable checkpoint: [shared-state development controls](../results/common-state-development-report.md). The new framework and narrow ablations are implemented, seeds propagate and a30-outcome mechanics check completes. Its three reused strings contain only one official original; no repair occurs. The constrained baseline fixes inverse ID conversion in this check but still includes a contextual coin.161 tests and ledger audits pass; these do not establish semantic reliability or a paper result. The100-question reservation remains unrun.
+
 ## What is established
 
 - Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.

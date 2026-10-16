@@ -21,7 +21,7 @@ def prepare(studies,output,seed=17):
         raw=(study/'predictions.jsonl').read_bytes();digest=hashlib.sha256(raw).hexdigest()
         rows=[json.loads(line) for line in raw.decode().splitlines() if line.strip()]
         plan=json.loads((study/'manifest.json').read_text())
-        if [(r['id'],r['variant']) for r in rows]!=[(r['id'],r['variant']) for r in plan['order']]:
+        if [(r['id'],r.get('seed'),r['variant']) for r in rows]!=[(r['id'],r.get('seed'),r['variant']) for r in plan['order']]:
             raise ValueError('Incomplete or reordered study')
         if json.loads((study/'completion.json').read_text())['completed']!=len(rows):
             raise ValueError('Completion mismatch')

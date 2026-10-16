@@ -1,0 +1,36 @@
+{
+  "scope": "Post-run developer diagnosis; not independent semantic labels",
+  "baseline_outcomes": [
+    {
+      "id": "WebQTrn-562",
+      "reason": "answer_normalization:missing_or_ambiguous_final_answer_channel",
+      "native_response": "{Yes}\n[\"Mexican peso\"]",
+      "answers": []
+    },
+    {
+      "id": "WebQTrn-904",
+      "reason": "model_budget",
+      "native_response": null,
+      "answers": []
+    },
+    {
+      "id": "WebQTrn-1108",
+      "reason": "answer_normalization:missing_or_ambiguous_final_answer_channel",
+      "native_response": "{Yes}\n[\"Yale University Handsome Dan\"]",
+      "answers": []
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "reason": "answer_normalization:native_not_graph_reasoning_yes",
+      "native_response": "The Mexican Peso is primarily used in Mexico. However, it's also used or recognized in some nearby countries and territories due to their historical or economic ties with Mexico. The main ones are:\n\n1. **Belize** - The Belize dollar is the official currency, but the Mexican Peso is widely accepted, especially in border areas.\n2. **El Salvador** - Although El Salvador uses the U.S. Dollar as its official currency, the Mexican Peso is still accepted in some border regions and by some businesses.\n\nSo, the primary country using the Mexican Peso is Mexico, with secondary acceptance in Belize and parts of El Salvador.",
+      "answers": []
+    },
+    {
+      "id": "hand-no-match-001",
+      "reason": "unsupported_contract",
+      "native_response": null,
+      "answers": []
+    }
+  ],
+  "finding": "Mexico and Yale native responses contain {Yes} and a JSON name array but omit the required FINAL_ANSWER marker. Their IDs remain abstentions; do not infer lack of native answer knowledge. GEICO reaches the call limit. Inverse uses an ungrounded direct fallback that is retained but never admitted. No-match fails its contract. Frozen scores unchanged."
+}

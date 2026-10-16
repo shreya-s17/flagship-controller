@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-16",
+  "scope": "Private release inventory; file/provenance facts only, not legal clearance or permission to publish",
+  "repository_root_license_file_present": false,
+  "repository_root_notice_file_present": false,
+  "public_release_performed": false,
+  "items": [
+    {
+      "component": "Project code",
+      "state": "Root license choice and copyright/contributor confirmation pending owner decision"
+    },
+    {
+      "component": "Pinned ToG source",
+      "state": "Loaded from separate checkout; source bodies not vendored. Original README states Apache2, no separate LICENSE found in audited checkout. Prompts occur in raw traces; redistribution/attribution review remains open.",
+      "evidence": "evaluation/tog-source-audit.json"
+    },
+    {
+      "component": "WebQSP and Freebase observations",
+      "state": "Full benchmark/database excluded; selected training questions and observed graph rows exist in private trace bundles. Public redistribution terms and snapshot identity not certified.",
+      "evidence": "deployment/live-server.md"
+    },
+    {
+      "component": "Local model and services",
+      "state": "Model/database/server binaries not distributed by the repository. Reproduction requires separately obtained frozen model and graph; review their terms for any public release.",
+      "evidence": "deployment/live-server.md"
+    },
+    {
+      "component": "Human authorship and assistance",
+      "state": "Author order, affiliations and applicant contribution remain unconfirmed. Codex assisted implementation, testing, debugging and documentation; do not imply independent human review occurred."
+    },
+    {
+      "component": "Reviewer data",
+      "state": "All prepared forms are blank/unannotated. Owner keys, identities and returned reviews remain separate/private; no reviewer contacted."
+    }
+  ],
+  "remaining_owner_decisions": [
+    "Two qualified independent reviewers",
+    "Actual human contributions/authorship/affiliations",
+    "Project license and third-party redistribution/attribution clearance",
+    "Review concrete public package and manuscript before release or submission"
+  ]
+}

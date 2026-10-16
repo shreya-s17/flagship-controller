@@ -1,0 +1,259 @@
+{
+  "scope": "Purpose-selected development sanity checks; no held-out, significance or published-score reproduction claim",
+  "completed_executions": 10,
+  "unique_original_training_questions": 3,
+  "methods": {
+    "semantic-common-link": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "exact_f1_accuracy": 1.0,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 31,
+        "model_calls": 12,
+        "model_tokens": 7585,
+        "elapsed_seconds": 386.90612339193467
+      },
+      "cost_all": {
+        "graph_calls": 49,
+        "model_calls": 17,
+        "model_tokens": 10650,
+        "elapsed_seconds": 545.9075543748913
+      },
+      "usage_complete_all": true,
+      "terminals": {
+        "ANSWER": 4,
+        "ABSTAIN": 1
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ],
+      "native_generations": 0,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.03qbn81",
+            "m.03qth54"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05ty1h"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    },
+    "tog-explicit-final": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 0.0,
+        "macro_precision": 1.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "exact_f1_accuracy": 0.0,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 54,
+        "model_calls": 23,
+        "model_tokens": 13929,
+        "elapsed_seconds": 501.63465002784505
+      },
+      "cost_all": {
+        "graph_calls": 70,
+        "model_calls": 32,
+        "model_tokens": 19639,
+        "elapsed_seconds": 692.028023596853
+      },
+      "usage_complete_all": true,
+      "terminals": {
+        "ABSTAIN": 5
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:native_not_graph_reasoning_yes"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "unsupported_contract"
+        }
+      ],
+      "native_generations": 3,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_or_ambiguous_final_answer_channel",
+          "native_response": "{Yes}\n[\"Mexican peso\"]",
+          "normalization": "missing_or_ambiguous_final_answer_channel"
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "model_budget",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_or_ambiguous_final_answer_channel",
+          "native_response": "{Yes}\n[\"Yale University Handsome Dan\"]",
+          "normalization": "missing_or_ambiguous_final_answer_channel"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:native_not_graph_reasoning_yes",
+          "native_response": "The Mexican Peso is primarily used in Mexico. However, it's also used or recognized in some nearby countries and territories due to their historical or economic ties with Mexico. The main ones are:\n\n1. **Belize** - The Belize dollar is the official currency, but the Mexican Peso is widely accepted, especially in border areas.\n2. **El Salvador** - Although El Salvador uses the U.S. Dollar as its official currency, the Mexican Peso is still accepted in some border regions and by some businesses.\n\nSo, the primary country using the Mexican Peso is Mexico, with secondary acceptance in Belize and parts of El Salvador.",
+          "normalization": "native_not_graph_reasoning_yes"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "unsupported_contract",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    }
+  },
+  "predictions_sha256": "c9b524d17d5ab76619ce8c1d6fa40fdd2ddfcc849cb9798c7bac900ed3ca793f",
+  "comparison_limits": [
+    "same maximum budgets, not equal realized costs",
+    "independent linking calls may produce different responses",
+    "native text and observed-name ID mapping are distinct",
+    "handwritten inverse/no-match controls lack independent labels",
+    "semantic controller and ToG adaptation have different answer/search scopes",
+    "one seed, small purpose-selected sample",
+    "no independent semantic/STOP annotations; no reliability rates inferred"
+  ]
+}

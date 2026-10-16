@@ -27,17 +27,22 @@ def analyze(folder,gold):
             'charged_cost_all':{key:sum(r['cost'][key] for r in selected) for key in ('model_calls','model_tokens','graph_calls','elapsed_seconds')},
             'physical_new_model_attempts_known':sum(r['cost'].get('physical_new_model_calls') or 0 for r in selected),
             'usage_complete':all(r['cost']['model_usage_complete'] and not r['cost'].get('cost_is_lower_bound') for r in selected),
+            'repair_plan_events':sum(e['action']=='REPAIR_PLAN' for r in selected for e in r.get('trace',[])),
+            'semantic_gate_bypass_events':sum(e.get('action')=='SEMANTIC_GATE_DISABLED' for r in selected for e in r.get('semantic_audit',[])),
+            'reason_text_withheld_events':sum(e.get('action')=='REJECTION_REASON_TEXT_WITHHELD' for r in selected for e in r.get('semantic_audit',[])),
             'all_outcomes':[{'id':r['id'],'seed':r['seed'],'terminal':r['terminal'],'answers':r['answers'],'reason':r['reason']} for r in selected]}
     prefixes=[]
     for path in sorted((folder/'journal').glob('*-prefix.json')):prefixes.append(json.loads(path.read_text())['value'])
     known_prefix_calls=sum(sum(not e.get('replayed',False) for e in p.get('provider_audit',[])) for p in prefixes)
     new_policy_calls=sum(m['physical_new_model_attempts_known'] for m in methods.values())
+    physical_graph=sum(p['capture_result']['cost']['graph_calls'] for p in prefixes)+sum(r['cost'].get('physical_new_graph_calls') or 0 for r in rows)
     fixed=methods['fixed']['mean_question_f1'];repair=methods['repair']['mean_question_f1']
     return {'scope':'Purpose-selected development mechanics check; no held-out, significance or published-score comparison',
         'executions':len(rows),'unique_question_strings':len(plan['question_ids']),'official_original_questions':len(official),
         'seeds':plan['seeds'],'methods':methods,'repair_minus_fixed_mean_question_f1':repair-fixed if fixed is not None and repair is not None else None,
         'confidence_interval':None,'interval_reason':str(len(official))+' purpose-selected original question(s); no population interval, and repeated seeds are not independent questions',
         'physical_model_attempts_known':{'common_prefix_capture_once':known_prefix_calls,'policy_continuations':new_policy_calls,'total':known_prefix_calls+new_policy_calls},
+        'physical_graph_attempts_known':physical_graph,
         'stop_recovery_rates':None,'limits':['Different realized costs and hypothesis spaces','Replayed time is constructed, not fresh end-to-end latency',
             'Handwritten controls unscored','No independent semantic/STOP labels or calibrated reliability','Unknown interrupted costs are lower bounds; null physical counts are not measured zero']}
 

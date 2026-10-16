@@ -1,5 +1,7 @@
 # Indexed baseline and review preparation — 16 October 2026
 
+Latest follow-on: [completed common-state controls and constrained declarations](common-state-development-report.md). Earlier run003 outcomes below remain unchanged.
+
 **Engineering checkpoint completed; larger evaluation and publication remain NO-GO.** Run003 finished all10 executions, reusing the same three official training questions and two handwritten controls. Across001–003 there are30 executions of five question strings, not30 independent examples. No reserved training or official test question has been executed.
 
 ## Changes and measured outcomes

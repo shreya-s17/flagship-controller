@@ -27,3 +27,5 @@ Preserve first-pass files, then obtain a separate adjudication record for disagr
 Use `--native` with `review_delivery` to export the five-dimension blank form and with `review_assessment` to validate actual returned submissions. The original30-case pack and its four-dimension assessment are unchanged. No software-generated defaults count as independent annotation.
 
 The prepared native addendum now contains15 unannotated records from runs001–003. [Case-pack status and hash](native-review-pack-status.json), [delivery archive/file hashes](native-review-delivery-manifest.json). The original30-case pack remains unchanged. Both local handoffs are ready for the owner to provide separately to two qualified independent reviewers; no contact or completed review is implied.
+
+Latest native handoff:26 unannotated cases from baseline001–004 and common-state-dev-002, superseding the untouched15-case handoff. Original30 structured forms remain unchanged. Zero reviewers completed; no contact performed. Scores, owner keys and extractor critiques are excluded. See the current native status/delivery manifests; the larger-cohort annotation plan is still a separate prerequisite.
