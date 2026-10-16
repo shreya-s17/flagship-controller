@@ -4,5 +4,12 @@
   "evaluation_only_file_readable": false,
   "check": "runuser -u flagship-runner -- test -r /opt/flagship-controller/benchmark-data/webqsp/evaluation-only.jsonl returned nonzero",
   "runtime_services": "loopback SPARQL8891, SQL1112, Ollama11434",
-  "scope": "OS read-access check and listener inspection; not a comprehensive information-flow proof"
+  "scope": "OS read-access check and listener inspection; not a comprehensive information-flow proof",
+  "rechecked_utc": "2026-10-16T13:33:44Z",
+  "read_check_exit_code": 1,
+  "loopback_listeners_verified": [
+    1112,
+    8891,
+    11434
+  ]
 }

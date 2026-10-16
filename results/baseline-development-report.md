@@ -1,5 +1,7 @@
 # Baseline and linking development checkpoint — 16 October 2026
 
+Latest follow-on: [indexed decoding, semantic projection failures and review preparation](indexed-baseline-development-report.md). Measurements below retain runs001–002 unchanged as history.
+
 **Completed development work, not publication-ready results.** Twenty executions reuse three inspected official training questions (Mexico, GEICO, Yale) and two handwritten controls. There are five question strings, not20 independent examples. Neither the reserved100 training questions nor official test has run. Both frozen development runs finished; unsuccessful outcomes remain unchanged.
 
 ## What changed

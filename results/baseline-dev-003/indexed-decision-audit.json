@@ -1,0 +1,104 @@
+{
+  "scope": "Offline representation/request-ledger checks, not semantic certification",
+  "records": [
+    {
+      "id": "WebQTrn-562",
+      "terminal": "ANSWER",
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "checks": [
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 1,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "NATIVE_SPAN_EXTRACTION",
+          "returned_request_index": 4,
+          "decoder_output_valid": true
+        }
+      ],
+      "invalid_decoder_outputs_retained": 0,
+      "semantic_validity": "not assessed; model conclusion/completeness flags are not independent labels"
+    },
+    {
+      "id": "WebQTrn-904",
+      "terminal": "ABSTAIN",
+      "reason": "model_budget",
+      "checks": [
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 1,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 5,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 6,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 8,
+          "decoder_output_valid": true
+        }
+      ],
+      "invalid_decoder_outputs_retained": 0,
+      "semantic_validity": "not assessed; model conclusion/completeness flags are not independent labels"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "terminal": "ANSWER",
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "checks": [
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 1,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "NATIVE_SPAN_EXTRACTION",
+          "returned_request_index": 3,
+          "decoder_output_valid": true
+        }
+      ],
+      "invalid_decoder_outputs_retained": 0,
+      "semantic_validity": "not assessed; model conclusion/completeness flags are not independent labels"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "terminal": "ANSWER",
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "checks": [
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 1,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "INDEXED_RELATION_SELECTION",
+          "returned_request_index": 3,
+          "decoder_output_valid": true
+        },
+        {
+          "action": "NATIVE_SPAN_EXTRACTION",
+          "returned_request_index": 5,
+          "decoder_output_valid": true
+        }
+      ],
+      "invalid_decoder_outputs_retained": 0,
+      "semantic_validity": "not assessed; model conclusion/completeness flags are not independent labels"
+    },
+    {
+      "id": "hand-no-match-001",
+      "terminal": "ABSTAIN",
+      "reason": "entity_not_found",
+      "checks": [],
+      "invalid_decoder_outputs_retained": 0,
+      "semantic_validity": "not assessed; model conclusion/completeness flags are not independent labels"
+    }
+  ]
+}

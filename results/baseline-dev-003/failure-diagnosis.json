@@ -1,0 +1,53 @@
+{
+  "scope": "Owner/developer post-run diagnosis; NOT independent semantic annotation or general performance evidence",
+  "entries": [
+    {
+      "id": "WebQTrn-562",
+      "terminal": "ANSWER",
+      "answers": [
+        "m.012ts8",
+        "m.07ld085"
+      ],
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "native_response": "{Yes}. Based on the given knowledge triplets, the currency used in Mexico is the Mexican peso. Additionally, the knowledge triplet mentions a historical coin type from Mexico, which is the Republica Mexicana 8 Reales. However, for current transactions, you should take Mexican pesos to Mexico.",
+      "diagnosis": "Projected IDs include both Mexican peso and a historical coin mentioned as context. Official set F1 2/3, not exact. Same-model span/completeness flags falsely permit the contextual name."
+    },
+    {
+      "id": "WebQTrn-904",
+      "terminal": "ABSTAIN",
+      "answers": [],
+      "reason": "model_budget",
+      "native_response": null,
+      "diagnosis": "All ten admitted model calls used; search returns ABSTAIN model_budget. Intermediate outputs remain in raw model audit. No final native response is fabricated."
+    },
+    {
+      "id": "WebQTrn-1108",
+      "terminal": "ANSWER",
+      "answers": [
+        "m.05ty1h"
+      ],
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that the mascot for Yale University is \"Yale University Handsome Dan.\" Therefore, the answer to the question \"What is Yale University's mascot?\" is \"Yale University Handsome Dan.\"",
+      "diagnosis": "Native conclusion and projected Handsome Dan ID match the official development annotation exactly. This is a reused debug case, not held-out evidence."
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "terminal": "ANSWER",
+      "answers": [
+        "m.012ts8"
+      ],
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Mexico uses the Mexican peso as its currency. Therefore, the answer to \"which countries use the Mexican peso?\" is Mexico.",
+      "diagnosis": "Native final conclusion is Mexico, but final beam contains Mexican peso; extractor selects the peso name in context/question and claims all conclusions represented. Incorrect projection is preserved. No independent benchmark label or score assigned."
+    },
+    {
+      "id": "hand-no-match-001",
+      "terminal": "ABSTAIN",
+      "answers": [],
+      "reason": "entity_not_found",
+      "native_response": null,
+      "diagnosis": "No entity match; abstention is retained. No official score or independent correctness label assigned."
+    }
+  ],
+  "next_boundary": "Do not scale on span/ID guards alone; native conclusion faithfulness and answer scope still fail. Preserve original outcomes. Independent review and a prospective development revision are required."
+}

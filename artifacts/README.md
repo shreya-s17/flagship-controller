@@ -13,4 +13,6 @@ The synthetic bundle contains generated data only. Official full benchmark data,
 
 Live development and selected post-run query diagnostics are separate from the synthetic bundle. `live-evidence-2026-10-16/` preserves the earlier traces; `baseline-evidence-2026-10-16/` preserves baseline development traces. These contain selected training/development questions and observed rows. They remain in the private repository; public redistribution needs a data/prompt licensing review. The original live bundle is unchanged.
 
-Run `python3 scripts/restore_live_evidence.py` after a clean checkout. It restores both available bundles, verifies every part/archive/original-file hash and refuses to overwrite changed content. Small manifests, source snapshots, scores and failure summaries are directly readable under `results/`. Restoration checks integrity, not semantic correctness or publication readiness.
+Run `python3 scripts/restore_live_evidence.py` after a clean checkout. It restores all three available bundles (23 original files), verifies every part/archive/original-file hash and refuses to overwrite changed content. Small manifests, source snapshots, scores and failure summaries are directly readable under `results/`. Restoration checks integrity, not semantic correctness or publication readiness.
+
+`indexed-baseline-evidence-2026-10-16/` adds frozen run003 raw traces. Earlier bundles remain unchanged.

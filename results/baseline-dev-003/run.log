@@ -1,0 +1,13 @@
+WebQTrn-562 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 tog-indexed-spans ANSWER observed_name_mapping_only_not_semantic_certification
+WebQTrn-904 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+All entities are created equal.
+All entities are created equal.
+WebQTrn-904 tog-indexed-spans ABSTAIN model_budget
+WebQTrn-1108 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1108 tog-indexed-spans ANSWER observed_name_mapping_only_not_semantic_certification
+hand-inverse-peso-001 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 tog-indexed-spans ANSWER observed_name_mapping_only_not_semantic_certification
+hand-no-match-001 tog-indexed-spans ABSTAIN entity_not_found
+hand-no-match-001 semantic-common-link ABSTAIN entity_not_found

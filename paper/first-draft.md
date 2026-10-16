@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v1.3, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v1.4, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -116,6 +116,12 @@ A privileged post-run audit evaluates every recorded candidate in the original f
 A separate purpose-selected six-case regression set reveals why additional semantic gates need validation. V12 yields zero exact, one wrong answer and five abstentions, largely from copied-quote/casing failures. V13 yields three exact, one wrong and two abstentions after span-constrained decoding, guarded name matching and contract lexical retrieval. Both accept correctly typed but wrong GEICO industries. The v16 observed-type root-inclusion smoke check answers Mexico/GEICO exactly on two inspected cases; Yale remains unresolved in that revision. A later canonical-key/alias linker fixes that observed Yale failure, with the small follow-on baseline checks reported separately. All targeted checks and their narrower denominators are reported in the [development checkpoint](../results/publication-development-report.md). These inspected training cases and hand-authored paraphrases are not independent evidence of improvement; no rephrasing is assigned an unverified benchmark score.
 
 Question-span constraints and type priors are engineering safeguards, not a novel constrained-generation algorithm or semantic guarantee. All revisions retain source/model hashes, raw predictions and failures. Thirty policy-masked forms remain unannotated; an overlap-screened 100-question training reservation remains unexecuted pending method/normalization/baseline freeze and independent review. Current publication status remains NO-GO.
+
+### 5.5 Indexed baseline development and remaining projection failures
+
+A third frozen local ToG adaptation constrains relation choices to presented indices and answer extraction to actual observed-name spans. Across three revisions,30 executions reuse five question strings. In run003, the structured controller matches all three inspected official answer sets. The baseline is exact on Yale, adds a contextual historical coin on Mexico (F1 2/3), and abstains on GEICO at its model-call limit; projected-ID macro F1 is5/9 on these three selected development cases. On an unscored inverse control, native prose concludes Mexico but the converter emits the peso ID from context while claiming all conclusions are represented. This demonstrates that span validity and same-model completeness flags do not ensure faithful semantic extraction in those cases. Native text and failures are preserved. No performance ranking or independent gain is inferred.
+
+The new native-output review addendum has15 unannotated cases, separate from the30 earlier structured forms; zero independent reviewers have completed either. Offline common-link state restoration passes through both method paths, but new shared-catalog execution, ablations, seed propagation and answer serialization remain unfinished. [Measured checkpoint and reproducibility](../results/indexed-baseline-development-report.md), [next-study design](../evaluation/next-study-design.md). Current source v3.1 adds a tested decimal-score formatting fix; run003 remains frozen v3 and supplies no live v3.1 result.
 
 ## 6. Failure and STOP analysis
 

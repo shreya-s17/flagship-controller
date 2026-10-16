@@ -1,0 +1,117 @@
+[
+  {
+    "id": "WebQTrn-562",
+    "source_predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+    "checks": [
+      {
+        "method": "structured",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      },
+      {
+        "method": "baseline",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      }
+    ]
+  },
+  {
+    "id": "WebQTrn-904",
+    "source_predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+    "checks": [
+      {
+        "method": "structured",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      },
+      {
+        "method": "baseline",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      }
+    ]
+  },
+  {
+    "id": "WebQTrn-1108",
+    "source_predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+    "checks": [
+      {
+        "method": "structured",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      },
+      {
+        "method": "baseline",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      }
+    ]
+  },
+  {
+    "id": "hand-inverse-peso-001",
+    "source_predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+    "checks": [
+      {
+        "method": "structured",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      },
+      {
+        "method": "baseline",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 1,
+        "physical_new_requests": 0,
+        "reason": "offline_link_prefix_boundary"
+      }
+    ]
+  },
+  {
+    "id": "hand-no-match-001",
+    "source_predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+    "checks": [
+      {
+        "method": "structured",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 9,
+        "physical_new_requests": 0,
+        "reason": "entity_not_found"
+      },
+      {
+        "method": "baseline",
+        "equivalent_link_events": true,
+        "replayed_model_calls": 1,
+        "replayed_graph_calls": 9,
+        "physical_new_requests": 0,
+        "reason": "entity_not_found"
+      }
+    ]
+  }
+]

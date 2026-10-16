@@ -1,0 +1,30 @@
+{
+  "scope": "Lossless raw indexed-baseline development traces; same five question strings; no independent benchmark",
+  "archive_sha256": "f865537321cc35ae5ccfc9adcfe91998a8b7d56e6ffc77c0e71806d817a7f5e0",
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part000",
+      "bytes": 32768,
+      "sha256": "df099ba812f4d3e92dfe4275e9df5607ac72a5bdefc8970ca14fd3c359fa1842"
+    },
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 32768,
+      "sha256": "a42a0e69d6b4c5e9f2842c95efe6ae1cb8d675f02593feb63c45cf46110b1e3e"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 32768,
+      "sha256": "871d6b862d67e0ac442fa492c298c4bf8e65c2b20c9068a5b2c3b964836c4238"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 9320,
+      "sha256": "ccd286956096314b4b40b5a98d91d2f6c2b9fcf59f13edc9b4acfcbe758e8a75"
+    }
+  ],
+  "files": {
+    "results/baseline-dev-003/predictions.jsonl": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+    "results/baseline-dev-003/progress.jsonl": "70c43f3b728b7a83696769e68a4a707e91c97bd77ba30aa3db371c9ceaaaf647"
+  }
+}

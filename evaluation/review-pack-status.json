@@ -14,5 +14,10 @@
   "supersedes": "Earlier 20-case pack; retained locally as unannotated history",
   "assessment_tool": "flagship_controller/review_assessment.py",
   "collection_workflow": "evaluation/independent-review-workflow.md",
-  "assessment_status": "validator implemented and unit-tested; no real submissions collected"
+  "assessment_status": "validator implemented and unit-tested; no real submissions collected",
+  "delivery_manifest": "evaluation/review-delivery-manifest.json",
+  "native_addendum_status": "evaluation/native-review-pack-status.json",
+  "native_addendum_cases": 15,
+  "native_addendum_independent_reviewers_completed": 0,
+  "reviewer_contact_performed": false
 }

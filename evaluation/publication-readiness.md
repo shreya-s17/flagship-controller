@@ -2,6 +2,8 @@
 
 16 October 2026. **REVISE method; NO-GO submission.** A reliable artifact and a publishable research contribution are separate milestones. Current software is useful for restricted experiments, but bounded repair shows no benefit in the completed ten-question study. Nothing here guarantees acceptance.
 
+Latest: [indexed baseline and retained semantic projection failures](../results/indexed-baseline-development-report.md). Run003 completes10 further executions of the same five inputs. Exact spans and indexed relations pass representation checks, but context-as-answer errors remain. Current source v3.1 has only an additional unit/fixture-tested decimal formatting fix. The unchanged30 structured forms and new15 native-output forms are unannotated; independent reviewers remain necessary. The new100-question study is still preparation, not frozen execution.
+
 ## What is established
 
 - Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.

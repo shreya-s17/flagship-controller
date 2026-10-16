@@ -1,0 +1,18 @@
+{
+  "cases": 15,
+  "cases_sha256": "58d178d980ab2d664ce2ba8d5b7cb8f4eb337355cc1d69e6bb3694fe03f471f0",
+  "dimensions": [
+    "anchor_identity",
+    "query_meaning",
+    "answer_scope",
+    "witness_support",
+    "projection_faithfulness"
+  ],
+  "status": "UNANNOTATED; no reviewer contacted or judgments collected",
+  "generator": "flagship_controller/native_review_pack.py",
+  "sources": [
+    "baseline-dev-001",
+    "baseline-dev-002",
+    "baseline-dev-003"
+  ]
+}

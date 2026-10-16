@@ -16,6 +16,8 @@ The five development questions were reused while fixing the software; their scor
 
 ## Current publication-development work
 
+Latest checkpoint: [indexed baseline, retained semantic failures and reviewer handoffs](results/indexed-baseline-development-report.md). All30 baseline-development executions reuse five question strings;137 unit tests pass. Indexed decoding resolves formatting failure modes but still selects contextual names as answers. Thirty structured forms plus15 native-output forms remain unannotated, with zero reviewers completed. The [next-study design](evaluation/next-study-design.md) is preparation, not an executable freeze; the reserved100 and official test remain unrun.
+
 Question-span requirements, type filtering, contract-conditioned retrieval and canonical-key/alias linking are implemented. The latest shared-linker development check answers Mexico, GEICO and Yale exactly; the new inverse/no-match controls are unscored behavior checks. Executable local ToG adaptations, independent-review validation and isolated source restoration are available. [Baseline/linking checkpoint and failures](results/baseline-development-report.md), [adaptation departures](evaluation/tog-adaptation.md) and [targeted CoG/CoR comparison](paper/closest-method-comparison.md). These are small, purpose-selected development checks, not held-out gains or reproduction of paper scores. The 100-question reservation remains unrun; 30 review forms remain unannotated.
 
 ## Read the artifact

@@ -1,0 +1,269 @@
+{
+  "scope": "Purpose-selected development sanity checks; no held-out, significance or published-score reproduction claim",
+  "completed_executions": 10,
+  "unique_original_training_questions": 3,
+  "methods": {
+    "semantic-common-link": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "exact_f1_accuracy": 1.0,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 31,
+        "model_calls": 12,
+        "model_tokens": 7673,
+        "elapsed_seconds": 391.613557068049
+      },
+      "cost_all": {
+        "graph_calls": 49,
+        "model_calls": 17,
+        "model_tokens": 10757,
+        "elapsed_seconds": 550.1728792861104
+      },
+      "usage_complete_all": true,
+      "terminals": {
+        "ANSWER": 4,
+        "ABSTAIN": 1
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ],
+      "native_generations": 0,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.03qbn81",
+            "m.03qth54"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05ty1h"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    },
+    "tog-indexed-spans": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 0.6666666666666666,
+        "macro_precision": 0.8333333333333334,
+        "macro_recall": 0.6666666666666666,
+        "macro_f1": 0.5555555555555555,
+        "exact_f1_accuracy": 0.3333333333333333,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": true,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 39,
+        "model_calls": 19,
+        "model_tokens": 10656,
+        "elapsed_seconds": 444.8322520360816
+      },
+      "cost_all": {
+        "graph_calls": 60,
+        "model_calls": 26,
+        "model_tokens": 14738,
+        "elapsed_seconds": 594.6140328790061
+      },
+      "usage_complete_all": true,
+      "terminals": {
+        "ANSWER": 3,
+        "ABSTAIN": 2
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ],
+      "native_generations": 3,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8",
+            "m.07ld085"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification",
+          "native_response": "{Yes}. Based on the given knowledge triplets, the currency used in Mexico is the Mexican peso. Additionally, the knowledge triplet mentions a historical coin type from Mexico, which is the Republica Mexicana 8 Reales. However, for current transactions, you should take Mexican pesos to Mexico.",
+          "normalization": "charged_model_span_selection; not semantic proof"
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "model_budget",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05ty1h"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification",
+          "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that the mascot for Yale University is \"Yale University Handsome Dan.\" Therefore, the answer to the question \"What is Yale University's mascot?\" is \"Yale University Handsome Dan.\"",
+          "normalization": "charged_model_span_selection; not semantic proof"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_name_mapping_only_not_semantic_certification",
+          "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that Mexico uses the Mexican peso as its currency. Therefore, the answer to \"which countries use the Mexican peso?\" is Mexico.",
+          "normalization": "charged_model_span_selection; not semantic proof"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    }
+  },
+  "predictions_sha256": "f845b515409c8743e72d7ee803889db665020abdd014e733021f108155e85ef8",
+  "comparison_limits": [
+    "same maximum budgets, not equal realized costs",
+    "independent linking calls may produce different responses",
+    "native text and observed-name ID mapping are distinct",
+    "handwritten inverse/no-match controls lack independent labels",
+    "semantic controller and ToG adaptation have different answer/search scopes",
+    "one seed, small purpose-selected sample",
+    "no independent semantic/STOP annotations; no reliability rates inferred"
+  ]
+}
