@@ -1,0 +1,37 @@
+{
+  "scope": "Lossless raw traces of two purpose-selected development runs; private; not an independent benchmark",
+  "archive_sha256": "0c4c766566b4f8c8bc8615685d9d38f3a4150159dd91c1eb21b70ab0beeb2019",
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part000",
+      "bytes": 32768,
+      "sha256": "06cb913cad664f91a9f21233fa2a9bdd392c4e37e92067082b2d337ee87b520d"
+    },
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 32768,
+      "sha256": "f3ab720637fc6c02c984814166f6934021476922d0aebc108508b184188fb009"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 32768,
+      "sha256": "642528527f45285dac9d9e12f7184297acf9a6981799157f34f7a3ae0bb1a2a0"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 32768,
+      "sha256": "86a2749c00f8f2530cdfa8248716bb8e755c0737a110d0b8e86f3a643d4bc10e"
+    },
+    {
+      "file": "evidence.tar.gz.part004",
+      "bytes": 30273,
+      "sha256": "39bb90f15aa4ae3ff588fd474c3c7c84a2e4649b1c44f1390ae7433c014d8529"
+    }
+  ],
+  "files": {
+    "results/baseline-dev-001/predictions.jsonl": "40cb188f71a09d37f30b178288bc355b0eaa0c9b812b82bd7455bc6b0541cd78",
+    "results/baseline-dev-001/progress.jsonl": "d0d383e81d689514e45983faed9b7f0526e0830d3f225027227f100aef3d4242",
+    "results/baseline-dev-002/predictions.jsonl": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+    "results/baseline-dev-002/progress.jsonl": "0bfdb4c9dffb01ce4227b87a0c377cd69a3e3e7a591d5db22286b297a35a966d"
+  }
+}

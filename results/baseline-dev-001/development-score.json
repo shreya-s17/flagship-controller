@@ -1,0 +1,259 @@
+{
+  "scope": "Purpose-selected development sanity checks; no held-out, significance or published-score reproduction claim",
+  "completed_executions": 10,
+  "unique_original_training_questions": 3,
+  "methods": {
+    "semantic-common-link": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "macro_f1": 1.0,
+        "exact_f1_accuracy": 1.0,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "exact_f1": 1
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 31,
+        "model_calls": 12,
+        "model_tokens": 7585,
+        "elapsed_seconds": 387.4529975549085
+      },
+      "cost_all": {
+        "graph_calls": 49,
+        "model_calls": 17,
+        "model_tokens": 10650,
+        "elapsed_seconds": 546.5312943849713
+      },
+      "usage_complete_all": true,
+      "terminals": {
+        "ANSWER": 4,
+        "ABSTAIN": 1
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found"
+        }
+      ],
+      "native_generations": 0,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.012ts8"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.03qbn81",
+            "m.03qth54"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05ty1h"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0b90_r"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "entity_not_found",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    },
+    "tog-local": {
+      "original_training_only": {
+        "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+        "submitted": 3,
+        "scorable": 3,
+        "excluded": 0,
+        "coverage": 0.0,
+        "macro_precision": 1.0,
+        "macro_recall": 0.0,
+        "macro_f1": 0.0,
+        "exact_f1_accuracy": 0.0,
+        "rows": [
+          {
+            "id": "WebQTrn-562",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-904",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          },
+          {
+            "id": "WebQTrn-1108",
+            "scorable": true,
+            "answered": false,
+            "precision": 1.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "exact_f1": 0
+          }
+        ]
+      },
+      "cost_originals": {
+        "graph_calls": 32,
+        "model_calls": 12,
+        "model_tokens": 6512,
+        "elapsed_seconds": 439.69087110389955
+      },
+      "cost_all": {
+        "graph_calls": 41,
+        "model_calls": 16,
+        "model_tokens": 8752,
+        "elapsed_seconds": 529.7454201129731
+      },
+      "usage_complete_all": false,
+      "terminals": {
+        "ABSTAIN": 5
+      },
+      "unscored_controls": [
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_braced_answer"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "unsupported_contract"
+        }
+      ],
+      "native_generations": 3,
+      "rows": [
+        {
+          "id": "WebQTrn-562",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "runtime_error:TimeoutError",
+          "native_response": null,
+          "normalization": null
+        },
+        {
+          "id": "WebQTrn-904",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_braced_answer",
+          "native_response": "{Yes}. Based on the given knowledge triplets, GEICO is described as an \"Insurance Carrier,\" which implies that they offer various types of insurance. While the triplets do not specify the exact types of insurance, the term \"Insurance Carrier\" is broad enough to include car insurance, which is a primary focus for GEICO. Therefore, it is sufficient to conclude that GEICO offers car insurance, and based on their nature as an insurance company, they likely offer other types of insurance as well.",
+          "normalization": "missing_braced_answer"
+        },
+        {
+          "id": "WebQTrn-1108",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_braced_answer",
+          "native_response": "{Yes}. Based on the given knowledge triplet, the mascot of Yale University is \"Yale University Handsome Dan.\" This triplet directly provides the information needed to answer the question.",
+          "normalization": "missing_braced_answer"
+        },
+        {
+          "id": "hand-inverse-peso-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "answer_normalization:missing_braced_answer",
+          "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that the Mexican peso is the currency used in Mexico. Therefore, the answer to \"which countries use the mexican peso?\" is Mexico.",
+          "normalization": "missing_braced_answer"
+        },
+        {
+          "id": "hand-no-match-001",
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "unsupported_contract",
+          "native_response": null,
+          "normalization": null
+        }
+      ]
+    }
+  },
+  "predictions_sha256": "40cb188f71a09d37f30b178288bc355b0eaa0c9b812b82bd7455bc6b0541cd78",
+  "comparison_limits": [
+    "same maximum budgets, not equal realized costs",
+    "independent linking calls may produce different responses",
+    "native text and observed-name ID mapping are distinct",
+    "handwritten inverse/no-match controls lack independent labels",
+    "semantic controller and ToG adaptation have different answer/search scopes",
+    "one seed, small purpose-selected sample",
+    "no independent semantic/STOP annotations; no reliability rates inferred"
+  ]
+}

@@ -1,5 +1,7 @@
 # Semantic targeting and recovery diagnosis — development scope
 
+Follow-on development: [canonical-alias linking and baseline adaptation](../results/baseline-development-report.md) subsequently fix the observed Yale failure and implement the baseline sanity harness. Earlier revision descriptions below remain historical. The reserved cohort and independent review are still pending.
+
 16 October 2026. This work addresses the first two publication gates. It does not establish publication readiness, independent semantic accuracy or method novelty. Original v11 source, frozen comparisons and scores remain unchanged.
 
 ## Failure diagnosis

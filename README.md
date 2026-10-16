@@ -6,7 +6,7 @@ An auditable graph-reasoning research prototype with a synthetic component study
 
 | Component | Evidence |
 |---|---|
-| Live prototype | Type/key-aware linking, explicit named-entity joins, schema-typed one/two-hop programs, bounded repair and complete traces. Latest five-question development check:3 exact answers, one partial answer, one abstention; macro F1 0.6727. |
+| Live prototype | Type/key-aware linking, explicit named-entity joins, schema-typed one/two-hop programs, bounded repair and complete traces. Earlier five-question development cohort:3 exact answers, one partial answer, one abstention; macro F1 0.6727. Later three-case regression checks are reported separately below. |
 | Prospective pilot | Ten further training-pilot questions; frozen fixed/repair policies, paired order, hashes and maximum budgets. Completed: fixed F1 .40 vs repair .30; a same-prefix diagnostic yields .40 vs .40 with +16.48% repair tokens. No benefit demonstrated. |
 | Synthetic study | 50 base questions ×7 conditions ×16 variants, plus fault/budget diagnostics. No adaptive-acquisition advantage found in this fixture family. |
 | Evaluation | Separate offline scorer, checks against Microsoft's official evaluator and source/configuration manifests. No official test-set controller run. |
@@ -16,11 +16,11 @@ The five development questions were reused while fixing the software; their scor
 
 ## Current publication-development work
 
-Question-span requirements, explicit type filtering, guarded case-insensitive canonical linking and contract-conditioned lexical retrieval are implemented in a separate development runner. Catalog diagnosis, an unexecuted 100-question reservation, review-pack generation and a baseline adapter specification are available. These do not establish final-paper results. [Measured development checkpoint](results/publication-development-report.md) and [protocol/limitations](evaluation/semantic-development-protocol.md). Latest two-case targeted check answers Mexico/GEICO exactly; Yale remains unresolved. This is not held-out improvement.
+Question-span requirements, type filtering, contract-conditioned retrieval and canonical-key/alias linking are implemented. The latest shared-linker development check answers Mexico, GEICO and Yale exactly; the new inverse/no-match controls are unscored behavior checks. Executable local ToG adaptations, independent-review validation and isolated source restoration are available. [Baseline/linking checkpoint and failures](results/baseline-development-report.md), [adaptation departures](evaluation/tog-adaptation.md) and [targeted CoG/CoR comparison](paper/closest-method-comparison.md). These are small, purpose-selected development checks, not held-out gains or reproduction of paper scores. The 100-question reservation remains unrun; 30 review forms remain unannotated.
 
 ## Read the artifact
 
-- [Current live report and reproduction commands](results/structured-pilot-report.md)
+- [Original structured live report and reproduction commands](results/structured-pilot-report.md)
 - [Completed paired comparison and negative findings](results/paired-pilot-report.md)
 - [Publication readiness and ordered work packages](evaluation/publication-readiness.md)
 - [Frozen comparison plan](results/paired-pilot-001/plan.json)

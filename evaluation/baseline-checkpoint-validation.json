@@ -1,0 +1,20 @@
+{
+  "status": "PASS: local and clean-checkout integrity/tests; scientific readiness remains open",
+  "local_unit_tests": 108,
+  "upstream_compatibility_checks_per_configuration": 13,
+  "source_restoration_versions_tested": 2,
+  "completed_development_executions": 20,
+  "unique_question_strings": 5,
+  "independent_reviewers_completed": 0,
+  "reserved_training_questions_executed": 0,
+  "official_test_questions_executed": 0,
+  "scientific_readiness": "NOT publication-ready",
+  "clean_checkout_verified": true,
+  "clean_checkout_candidate_commit": "dcb8c9405b36d609604a5fbfec0aaad0fc50731d",
+  "restored_original_trace_files": 21,
+  "unit_tests_in_clean_checkout": 108,
+  "source_hashes_match_latest_frozen_run": true,
+  "archived_run_and_reservation_checks": "PASS",
+  "working_tree_after_clean_checkout_checks": "clean",
+  "documentation_only_finalization": "This validation/report metadata are finalized after checking the candidate source tree; runtime and evidence bytes unchanged."
+}

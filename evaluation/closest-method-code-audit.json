@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "status": "method-level and selected-code inspection; not reproduction or exhaustive novelty search",
+  "entries": [
+    {
+      "method": "CoG",
+      "repository": "https://github.com/zjukg/CoG",
+      "commit": "0ce2ae2ab7485450d4249e3b861d275389bfc249",
+      "scope": [
+        "Paper sections3.1\u20133.3; algorithm-level planning, relation safeguard and failure refinement",
+        "Code initialization/main search, relation_search_prune, if_finish_list calls, perform_refinement; not all dependencies or experiments"
+      ],
+      "files": {
+        "CoG/main_freebase.py": "f8151b1b4c23328f3dc2573514897cfa206c573d229015986ecbcda1926146dc",
+        "CoG/freebase_func.py": "59be941b820d780f42797cee10aa1736b692a1cd34c3ee1bd68d0be16110d61e",
+        "CoG/build_skeleton.py": "8cf8aa7961dc3c98baf45d3e25dd1469937c19c790df8ca64ce0c748a32fdd6d",
+        "CoG/utils.py": "966bffc1a3f141794d34f7eef18af6d932d6f890ed586f3e4ec5de085871ee6a",
+        "LICENSE": "047f574737bdfc7a26455c317649458646a01be3e6e06f1352487f35211b3390"
+      },
+      "executed": false,
+      "vendored": false,
+      "paper_code_release_equivalence": "Not established; current pinned source inspection, not authors exact experiment environment"
+    },
+    {
+      "method": "CoR",
+      "repository": "https://github.com/Chenhui7au/Chain-of-Relations",
+      "commit": "f92557913271ad4b8eeb5046a206a8c1b4ffb2ff",
+      "scope": [
+        "Paper section4 and AppendixA action/filter prompts",
+        "Code relation-chain DFS, reasoning/action dispatch, result mapping, filter transport and backend caps; not every dependency or experiment"
+      ],
+      "files": {
+        "chain_of_relations/methods/cor/agent.py": "fafc004970b8bfc8109f7af3d891a58c5054f14d51b950c615999f86cf1e0b75",
+        "chain_of_relations/methods/cor/dfs_stack.py": "e45ad2594c82bebfad1ec72d7dccfdf19c28ed2d5f2da2c94b822d6eefd04c51",
+        "chain_of_relations/methods/cor/tools/filter.py": "8e27ec673958494ea76e2e17932d6d85f9ad7c20cec3aa49682151f930903ebc",
+        "chain_of_relations/kg_backend/freebase/db_func.py": "c49b5a32ad9dc5506a64fd876023b7c229e7d3a46ad73b0314b5c6ec367eaad8",
+        "chain_of_relations/tools/reasoning.py": "04a0c8641fa5b2cbb9978870ac140b8749cc44aebe8e6ee32a637aaa88034597"
+      },
+      "executed": false,
+      "vendored": false,
+      "paper_code_release_equivalence": "Not established; current pinned source inspection, not authors exact experiment environment"
+    }
+  ]
+}

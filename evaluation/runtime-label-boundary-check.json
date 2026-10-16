@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-16",
+  "account": "flagship-runner",
+  "evaluation_only_file_readable": false,
+  "check": "runuser -u flagship-runner -- test -r /opt/flagship-controller/benchmark-data/webqsp/evaluation-only.jsonl returned nonzero",
+  "runtime_services": "loopback SPARQL8891, SQL1112, Ollama11434",
+  "scope": "OS read-access check and listener inspection; not a comprehensive information-flow proof"
+}

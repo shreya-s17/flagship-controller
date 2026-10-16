@@ -1,0 +1,12 @@
+{
+  "scope": "question-text-only recheck after new inverse/no-match controls; not semantic paraphrase/pretraining certification",
+  "reserved_inputs_sha256": "caca1ad180cba7e67614a59232da6ea36eac32e9534ad3d6c10ec42a03045dc2",
+  "development_inputs_sha256": "e064515060788974efee684ae2b579a1035d6f28844a6c03e4f0ba561afa8b8a",
+  "n_reserved": 100,
+  "n_development": 5,
+  "threshold": 0.85,
+  "flags": [],
+  "maximum_ratio": 0.7865168539325843,
+  "executed_reserved_questions": 0,
+  "gold_read": false
+}

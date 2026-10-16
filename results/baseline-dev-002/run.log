@@ -1,0 +1,11 @@
+WebQTrn-562 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-562 tog-compact-projected ANSWER observed_name_mapping_only_not_semantic_certification
+WebQTrn-904 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-904 tog-compact-projected ABSTAIN answer_normalization:native_answer_not_explicit
+WebQTrn-1108 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+WebQTrn-1108 tog-compact-projected ABSTAIN unpresented_baseline_relation
+hand-inverse-peso-001 semantic-common-link ANSWER observed_conjunctive_support_and_semantic_gate
+hand-inverse-peso-001 tog-compact-projected ABSTAIN native_answer_quote_not_in_response
+hand-no-match-001 tog-compact-projected ABSTAIN entity_not_found
+hand-no-match-001 semantic-common-link ABSTAIN entity_not_found

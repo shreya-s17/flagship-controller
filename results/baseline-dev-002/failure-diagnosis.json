@@ -1,0 +1,36 @@
+{
+  "scope": "post-run development diagnosis; original predictions and scoring unchanged",
+  "rows": [
+    {
+      "id": "WebQTrn-562",
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "native_response": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question. The triplets indicate that the currency used in Mexico is the Mexican peso. Therefore, you should take Mexican pesos to Mexico.",
+      "usage_complete": true
+    },
+    {
+      "id": "WebQTrn-904",
+      "reason": "answer_normalization:native_answer_not_explicit",
+      "native_response": "{Yes}. Based on the given knowledge triplets, it's sufficient to answer the question with the available information. The triplets indicate that GEICO operates in the Insurance Carriers industry. Therefore, GEICO offers insurance services, which typically include car insurance. While the triplets do not explicitly mention car insurance, it is a common and primary service offered by insurance carriers, making it a reasonable inference.",
+      "usage_complete": true
+    },
+    {
+      "id": "WebQTrn-1108",
+      "reason": "unpresented_baseline_relation",
+      "native_response": null,
+      "usage_complete": true
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "reason": "native_answer_quote_not_in_response",
+      "native_response": "{Yes}. Based on the given knowledge triplets, the Mexican peso is used in Mexico. Therefore, the answer to the question \"Which countries use the Mexican peso?\" is {Mexico}.",
+      "usage_complete": true
+    },
+    {
+      "id": "hand-no-match-001",
+      "reason": "entity_not_found",
+      "native_response": null,
+      "usage_complete": true
+    }
+  ],
+  "next_decoder_check": "Constrain quotes to actual native-response spans; do not repair archived quotes or selectively rerun failures"
+}

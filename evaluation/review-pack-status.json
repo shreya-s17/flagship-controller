@@ -11,5 +11,8 @@
   "generator": "flagship_controller/review_pack.py",
   "instructions": "Deliver only reviewer/ to two independent qualified reviewers; retain owner-key.json separately. Masking is not perfect blinding. Unknown defaults are blank forms, not measurements.",
   "public_review_pack_distributed": false,
-  "supersedes": "Earlier 20-case pack; retained locally as unannotated history"
+  "supersedes": "Earlier 20-case pack; retained locally as unannotated history",
+  "assessment_tool": "flagship_controller/review_assessment.py",
+  "collection_workflow": "evaluation/independent-review-workflow.md",
+  "assessment_status": "validator implemented and unit-tested; no real submissions collected"
 }

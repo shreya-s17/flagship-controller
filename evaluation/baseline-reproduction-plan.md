@@ -1,6 +1,6 @@
 # Named-baseline execution gate
 
-16 October 2026. **Not implemented or executed.** This is a concrete adapter specification for the pinned [ToG source audit](tog-source-audit.json), not evidence of a reproduced result. Keep the baseline task open.
+16 October 2026. **Implementation and offline compatibility checks completed; live sanity outcomes are separate.** The original adapter specification below remains the acceptance boundary. [Executable adaptation and departures](tog-adaptation.md), [frozen development sanity plan](../results/baseline-dev-001/manifest.json). This does not reproduce the published model/input setting; keep the broader baseline task open.
 
 Use upstream commit `7ccbb92e17579f934bb778386230de47eca0ab67` in a separate checkout; preserve upstream source hashes. Do not redistribute source until its license is resolved. The existing local CPU model is sufficient for an initial adaptation sanity check; no paid API or GPU is required for that check.
 
@@ -16,4 +16,4 @@ Use upstream commit `7ccbb92e17579f934bb778386230de47eca0ab67` in a separate che
 | Sanity checks | Three known development cases, including inverse relation and failed/no-answer control. Compare prompt construction, pruned candidates and search transitions to upstream behavior. These are debugging, not independent scores. |
 | Final comparison | Only after adapter/source/input/normalization checks pass: freeze all policies, shared linker, seeds, maximum budgets, metric definitions and the reserved cohort. Include full denominators, raw outcomes and resource vectors. |
 
-Close ToG reproduction only at the actual audited scope. A carefully bounded, question-only Qwen adaptation may be useful experimentally, but cannot be described as a faithful reproduction of the original paper's model/input/resource setting. A closer CoG/CoR method comparison remains necessary before a novel-method claim. No baseline model call has been made by this planning step.
+Close ToG reproduction only at the actual audited scope. A carefully bounded, question-only Qwen adaptation may be useful experimentally, but cannot be described as a faithful reproduction of the original paper's model/input/resource setting. A closer CoG/CoR method comparison remains necessary before a novel-method claim. The earlier specification was planning only. Live requests now belong to the separately frozen development sanity run and must be reported with all failures and mapping limits.

@@ -25,3 +25,9 @@ artifacts/*.zip
 /results/semantic-dev-003/progress.jsonl
 /results/semantic-dev-005/predictions.jsonl
 /results/semantic-dev-005/progress.jsonl
+
+# Full baseline development traces are restored from the separate checked bundle.
+/results/baseline-dev-001/predictions.jsonl
+/results/baseline-dev-001/progress.jsonl
+/results/baseline-dev-002/predictions.jsonl
+/results/baseline-dev-002/progress.jsonl

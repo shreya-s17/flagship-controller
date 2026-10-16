@@ -15,9 +15,10 @@ def digest(data):
     return hashlib.sha256(data).hexdigest()
 
 
-def restore(root):
+def restore(root, bundle='live-evidence-2026-10-16'):
     root=Path(root).resolve()
-    folder=root/'artifacts/live-evidence-2026-10-16'
+    if Path(bundle).name!=bundle:raise ValueError('Invalid bundle name')
+    folder=root/'artifacts'/bundle
     manifest=json.loads((folder/'manifest.json').read_text())
     chunks=[]
     for part in manifest['parts']:
@@ -47,4 +48,8 @@ def restore(root):
 
 
 if __name__=='__main__':
-    print('Verified/restored',restore(Path(__file__).resolve().parents[1]),'original trace files')
+    root=Path(__file__).resolve().parents[1]
+    total=restore(root)
+    if (root/'artifacts/baseline-evidence-2026-10-16/manifest.json').exists():
+        total+=restore(root,'baseline-evidence-2026-10-16')
+    print('Verified/restored',total,'original trace files')

@@ -1,0 +1,23 @@
+{
+  "adapter-source.py": "2d5e91ded881f71a41bc695a20154c60832afee6c57d6722769dd506cb38e9ef",
+  "compact-adapter-source.py": "914a357c5824700aa5edae26194d3abf1190eabba5c2a95273ae3d24f1281744",
+  "compact-compatibility.json": "1e4b0da79f9f0b14cb205ac0ba60b254c641d99ea11eb0ff160cccb80503c860",
+  "completion.json": "b6220826b3d619ee0c77bc01f10f1924abea7f2f588d0fae5abf6dd00296b683",
+  "development-score.json": "c57077e3465056fb94c3b8ad3524e302a588763aacb9c498ca0024a1f4b7df80",
+  "execution-environment.json": "1577e21fa7e8eaed6b319534fb8ece95bd2ceff23a2ae444b571d97a6d732967",
+  "failure-diagnosis.json": "f888ffbc014a6ab1fa36d72b979dbb73a81d2f3a9bef4a6da73b9d236d605e1b",
+  "harness-source.py": "41de1ad7696d58af7a0ec450c7f3d5e0c1cba370d05b6c77f277e12178d68810",
+  "inputs.jsonl": "e064515060788974efee684ae2b579a1035d6f28844a6c03e4f0ba561afa8b8a",
+  "linker-source.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+  "manifest.json": "ac667e28055e2019de965415232ba1831a4c21a07ecd87906e406eb8f872611f",
+  "model-verification.json": "81c73d78d2dce5efe6cf2eb97c047cdb7454b5e1504eb2f2d7ede748b986b7b8",
+  "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+  "predictions.jsonl": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+  "progress.jsonl": "0bfdb4c9dffb01ce4227b87a0c377cd69a3e3e7a591d5db22286b297a35a966d",
+  "run.log": "76c7202bf4ca62f03aeec2cbc7c6647f2222c17cb6e3ccf62cc489255d78a8e4",
+  "semantic-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+  "structured-graph-requery-audit.json": "8bb987e5a9857c9fec0ff7fba8241274740db374bad7ad52701e6a9b9d5a234c",
+  "structured-witness-audit.json": "9a195f6f0c9a4c6cdeb5676502c348dbf5a55c71ec649d1ffe5e58dd75426d1a",
+  "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+  "upstream-compatibility.json": "5a7b8a1da0bc41868673546ab93698f82e386289ab40b84b5ab82af90db466b7"
+}

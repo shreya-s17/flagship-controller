@@ -1,0 +1,109 @@
+{
+  "scope": "post-run independent constant-triple graph requery; not semantic entailment or truth calibration",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "unique_triples": 5,
+  "present": 5,
+  "not_observed": 0,
+  "unknown": 0,
+  "queries": [
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.012ts8 ns:finance.currency.countries_used ns:m.0b90_r . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001445801928639412
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02r95v ns:business.business_operation.industry ns:m.03qbn81 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001361226080916822
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.02r95v ns:business.business_operation.industry ns:m.03qth54 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013342960737645626
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.08815 ns:education.educational_institution.mascot ns:m.05ty1h . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013539140345528722
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0b90_r ns:location.country.currency_used ns:m.012ts8 . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013538200873881578
+    }
+  ],
+  "rows": [
+    {
+      "triple": "ns:m.012ts8 ns:finance.currency.countries_used ns:m.0b90_r",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02r95v ns:business.business_operation.industry ns:m.03qbn81",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.02r95v ns:business.business_operation.industry ns:m.03qth54",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.08815 ns:education.educational_institution.mascot ns:m.05ty1h",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0b90_r ns:location.country.currency_used ns:m.012ts8",
+      "status": "present"
+    }
+  ],
+  "cohort": "structured-controller records only; no ToG semantic/witness certification",
+  "auditor_sha256": "6a0396f32028985f7bc3d059ced6b8e90d22e0120704a5c73be4b78d6e8571bf"
+}

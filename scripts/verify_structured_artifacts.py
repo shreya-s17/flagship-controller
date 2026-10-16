@@ -3,7 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))
+folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))+sorted((root/'results').glob('baseline-dev-*'))
 if not folders:raise SystemExit('No structured artifacts found')
 for folder in folders:
     if not folder.is_dir():continue

@@ -1,4 +1,8 @@
-# Publication-development checkpoint — 16 October 2026
+# Latest follow-on checkpoint
+
+The subsequent [baseline/linking development report](baseline-development-report.md) records the canonical-alias Yale fix, executable ToG adaptations, independent-review validation and all new failures. The earlier checkpoint below is preserved as history; its Yale-unresolved and baseline-unimplemented statements describe that earlier version, not the current implementation. Larger evaluation and independent human review remain pending.
+
+# Earlier publication-development checkpoint — 16 October 2026
 
 **Restricted development work; not publication-ready results.** Original v11 pilot artifacts and scores are unchanged. This checkpoint implements and tests semantic targeting and recovery diagnosis while reserving later evaluation data.
 

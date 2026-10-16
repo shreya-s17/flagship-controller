@@ -1,0 +1,65 @@
+{
+  "scope": "post-run development diagnosis; v1 unchanged; no retrospective performance claim",
+  "findings": [
+    "Mexico native relation-scoring request times out after full-inventory presentation; usage unavailable for that request",
+    "Three native responses signal Yes and conclude an answer in ordinary prose, outside braces; frozen braced-name projection rejects them",
+    "No-match control abstains during contract extraction; no support observed"
+  ],
+  "rows": [
+    {
+      "id": "WebQTrn-562",
+      "reason": "runtime_error:TimeoutError",
+      "usage_complete": false,
+      "native_generated": false,
+      "native_response": null,
+      "last_observed_step": "LINK",
+      "final_beam_ids": []
+    },
+    {
+      "id": "WebQTrn-904",
+      "reason": "answer_normalization:missing_braced_answer",
+      "usage_complete": true,
+      "native_generated": true,
+      "native_response": "{Yes}. Based on the given knowledge triplets, GEICO is described as an \"Insurance Carrier,\" which implies that they offer various types of insurance. While the triplets do not specify the exact types of insurance, the term \"Insurance Carrier\" is broad enough to include car insurance, which is a primary focus for GEICO. Therefore, it is sufficient to conclude that GEICO offers car insurance, and based on their nature as an insurance company, they likely offer other types of insurance as well.",
+      "last_observed_step": "REASONING",
+      "final_beam_ids": [
+        "m.03qbn81",
+        "m.0f_6nrb",
+        "m.03qbn81"
+      ]
+    },
+    {
+      "id": "WebQTrn-1108",
+      "reason": "answer_normalization:missing_braced_answer",
+      "usage_complete": true,
+      "native_generated": true,
+      "native_response": "{Yes}. Based on the given knowledge triplet, the mascot of Yale University is \"Yale University Handsome Dan.\" This triplet directly provides the information needed to answer the question.",
+      "last_observed_step": "REASONING",
+      "final_beam_ids": [
+        "m.05ty1h"
+      ]
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "reason": "answer_normalization:missing_braced_answer",
+      "usage_complete": true,
+      "native_generated": true,
+      "native_response": "{Yes}. Based on the given knowledge triplets, it is sufficient to answer the question. The triplets indicate that the Mexican peso is the currency used in Mexico. Therefore, the answer to \"which countries use the mexican peso?\" is Mexico.",
+      "last_observed_step": "REASONING",
+      "final_beam_ids": [
+        "m.0b90_r",
+        "m.0b90_r",
+        "m.07qnxxz"
+      ]
+    },
+    {
+      "id": "hand-no-match-001",
+      "reason": "unsupported_contract",
+      "usage_complete": true,
+      "native_generated": false,
+      "native_response": null,
+      "last_observed_step": null,
+      "final_beam_ids": []
+    }
+  ]
+}
