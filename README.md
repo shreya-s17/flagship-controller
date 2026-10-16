@@ -14,6 +14,10 @@ An auditable graph-reasoning research prototype with a synthetic component study
 
 The five development questions were reused while fixing the software; their score is not held-out improvement. The Philippines answer remains too broad. A valid graph path and same-model semantic approval do not guarantee a correct answer.
 
+## Current publication-development work
+
+Question-span requirements, explicit type filtering, guarded case-insensitive canonical linking and contract-conditioned lexical retrieval are implemented in a separate development runner. Catalog diagnosis, an unexecuted 100-question reservation, review-pack generation and a baseline adapter specification are available. These do not establish final-paper results. [Measured development checkpoint](results/publication-development-report.md) and [protocol/limitations](evaluation/semantic-development-protocol.md). Latest two-case targeted check answers Mexico/GEICO exactly; Yale remains unresolved. This is not held-out improvement.
+
 ## Read the artifact
 
 - [Current live report and reproduction commands](results/structured-pilot-report.md)

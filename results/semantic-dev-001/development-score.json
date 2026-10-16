@@ -1,0 +1,104 @@
+{
+  "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+  "submitted": 6,
+  "scorable": 6,
+  "excluded": 0,
+  "coverage": 0.16666666666666666,
+  "macro_precision": 0.8333333333333334,
+  "macro_recall": 8.333333333333333e-42,
+  "macro_f1": 8.333333333333333e-42,
+  "exact_f1_accuracy": 0.0,
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-401",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-562",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-825",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-904",
+      "scorable": true,
+      "answered": true,
+      "precision": 5e-41,
+      "recall": 5e-41,
+      "f1": 5e-41,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-1108",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    }
+  ],
+  "scope": "Purpose-selected previously inspected training regression cases; not representative, held-out or evidence of population improvement",
+  "cost_over_scored_cases": {
+    "graph_calls": 11,
+    "model_calls": 9,
+    "model_tokens": 4777,
+    "elapsed_seconds": 290.6652090049465
+  },
+  "cost_over_all_cases": {
+    "graph_calls": 37,
+    "model_calls": 22,
+    "model_tokens": 13037,
+    "elapsed_seconds": 692.9366399159189
+  },
+  "usage_complete_over_all_cases": true,
+  "unscored_handwritten_paraphrases": [
+    {
+      "id": "dev-paraphrase-death",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate"
+    },
+    {
+      "id": "dev-paraphrase-currency",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate"
+    },
+    {
+      "id": "dev-paraphrase-attractions",
+      "terminal": "ABSTAIN",
+      "reason": "entity_not_found"
+    },
+    {
+      "id": "dev-paraphrase-industry",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate"
+    }
+  ],
+  "predictions_sha256": "27d8c4d38ef55ee90ea213203ba11b4d9f54a287524d7041b2c3d5fe9153a985"
+}

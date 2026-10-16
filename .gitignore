@@ -16,3 +16,12 @@ artifacts/*.zip
 /results/structured-dev-007/predictions.jsonl
 /results/structured-dev-007/progress.jsonl
 /results/structured-dev-008/progress.jsonl
+/results/catalog-diagnostic-001/full-audit.json
+/results/semantic-dev-001/predictions.jsonl
+/results/semantic-dev-001/progress.jsonl
+/results/semantic-dev-002/predictions.jsonl
+/results/semantic-dev-002/progress.jsonl
+/results/semantic-dev-003/predictions.jsonl
+/results/semantic-dev-003/progress.jsonl
+/results/semantic-dev-005/predictions.jsonl
+/results/semantic-dev-005/progress.jsonl

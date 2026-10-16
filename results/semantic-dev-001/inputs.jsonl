@@ -1,0 +1,10 @@
+{"id": "WebQTrn-66", "question": "who does maggie grace play in taken?", "split": "pilot"}
+{"id": "WebQTrn-401", "question": "where was leonardo da vinci when he died?", "split": "pilot"}
+{"id": "WebQTrn-562", "question": "what type of currency should i take to mexico?", "split": "pilot"}
+{"id": "WebQTrn-825", "question": "what to see in chicago downtown?", "split": "pilot"}
+{"id": "WebQTrn-904", "question": "what kind of insurance does geico offer?", "split": "pilot"}
+{"id": "WebQTrn-1108", "question": "what is yale university mascot?", "split": "pilot"}
+{"id": "dev-paraphrase-death", "question": "Which place was Leonardo da Vinci in at the time of his death?", "split": "pilot"}
+{"id": "dev-paraphrase-currency", "question": "Which currency is used in Mexico?", "split": "pilot"}
+{"id": "dev-paraphrase-attractions", "question": "Which tourist attractions are located in downtown Chicago?", "split": "pilot"}
+{"id": "dev-paraphrase-industry", "question": "Which insurance industries does GEICO operate in?", "split": "pilot"}

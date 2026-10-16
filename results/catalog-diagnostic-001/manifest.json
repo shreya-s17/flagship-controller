@@ -1,0 +1,10 @@
+{
+  "kind": "privileged offline post-run training diagnostic",
+  "source_hashes": {
+    "audit-source.py": "8f09b679a53eef410429a696d866455aa70cc125b0facaf17079d50ea5e63a1c"
+  },
+  "n_questions": 10,
+  "full_audit_sha256": "f8a46e442f032d460dfe867b7cea08eba18b59116f8e089a3e795abd000bd7d3",
+  "runtime_labels_access": "evaluation-only annotations read by root; runtime account cannot read that file",
+  "note": "Catalog answer-set upper bound is not semantic proof or feasible-continuation labeling; raw query audits include evaluation-only gold queries and must not be supplied to inference."
+}

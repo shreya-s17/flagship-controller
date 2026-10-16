@@ -18,6 +18,8 @@ Status: 16 October 2026. **Working restricted research prototype; not a final be
 | H1/H2/H3 | Token savings, matched-cost recovery improvement and calibrated reliability unestablished. |
 | Public artifact/application | Private repository; owner contribution, release licensing and personal CV evidence still require review. |
 
+Current publication-development additions: explicit question-span requirements, guarded case-insensitive linking, schema-aware retrieval, a catalog/official-query diagnostic, review-pack generation, an opt-in literal serialization adapter and an unexecuted 100-question reservation. [Development protocol and measured limitations](semantic-development-protocol.md). Latest targeted check: Mexico and GEICO exact, after guaranteed observed-type root inclusion. Yale remains unresolved. These selected development outcomes do not establish held-out improvement or independent semantic reliability.
+
 Proceed through [publication gates](publication-readiness.md). Current decision: retain fixed control, revise semantic checks and recovery mechanism, reproduce named baseline, independently label evidence and continuation states, then freeze adequate evaluation. No additional purchase is needed now. Public release and submission require concrete owner review; neither occurred.
 
 Evidence: [paired report](../results/paired-pilot-report.md), [development report](../results/structured-pilot-report.md), [contribution decision](../paper/contribution-decision.md), [deployment](../deployment/live-server.md).

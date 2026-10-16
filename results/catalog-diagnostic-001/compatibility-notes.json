@@ -1,0 +1,12 @@
+{
+  "scope": "Post-run inspection of the sole strict official-query mismatch; scores unchanged",
+  "id": "WebQTrn-339",
+  "source_query_sha256": "dced2520fa1089312adf7a2d390687e6d5dd3d566d2bca6a3c1cbc52f6345c82",
+  "returned_rdf_datatype": "http://www.w3.org/2001/XMLSchema#date",
+  "returned_lexical_value": "1976-08-10-08:00",
+  "official_answer_value": "1976-08-10",
+  "observation": "A result is present and its calendar-date prefix agrees; timezone serialization causes strict string disagreement. This is not evidence that the fact is absent.",
+  "official_scorer_changed": false,
+  "runtime_answer_normalization_changed": false,
+  "next_gate": "Specify and validate a gold-free RDF literal-to-benchmark answer serialization policy before final evaluation, retain raw RDF terms, and disclose any normalization. Snapshot identity remains unverified."
+}

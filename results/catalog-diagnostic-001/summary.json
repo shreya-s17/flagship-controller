@@ -1,0 +1,227 @@
+{
+  "scope": "Post-run annotated-training diagnostic, answer-set catalog oracle and official-query availability; not runtime, semantic certification, or final-test performance",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "query_timeout_seconds": 5,
+  "rows": [
+    {
+      "id": "WebQTrn-339",
+      "scorable": true,
+      "catalog_candidates": 0,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-339.P0",
+          "source_query_sha256": "dced2520fa1089312adf7a2d390687e6d5dd3d566d2bca6a3c1cbc52f6345c82",
+          "status": "complete",
+          "answer_count": 1,
+          "f1_to_this_parse": 1e-40
+        }
+      ],
+      "linked_topic_matches_any_annotation": false,
+      "any_annotated_first_relation_in_inventory": false,
+      "any_annotated_first_relation_in_ranked_roots": false,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": null,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": false
+    },
+    {
+      "id": "WebQTrn-401",
+      "scorable": true,
+      "catalog_candidates": 18,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-401.P0",
+          "source_query_sha256": "3a4b8948f0955920b9ce20e106624d9c0044a1058ec57dd8c014302112dedb5b",
+          "status": "complete",
+          "answer_count": 1,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-562",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-562.P0",
+          "source_query_sha256": "cb27102e2e624df4d45d55ecb11e8ed04ed7076c75bc6b9e1dd10dd5ac316a3e",
+          "status": "complete",
+          "answer_count": 1,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": true,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-825",
+      "scorable": true,
+      "catalog_candidates": 9,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-825.P0",
+          "source_query_sha256": "1eec039f27327008e2993c89cec3681c343987ffb7804e7206a3a6a3f6e3564c",
+          "status": "complete",
+          "answer_count": 15,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": false,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 1.25e-41,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-904",
+      "scorable": true,
+      "catalog_candidates": 19,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-904.P0",
+          "source_query_sha256": "6ea7da417cc60eefa1bf21b01af12be48416939280fc76cf023f255afe5e87f7",
+          "status": "complete",
+          "answer_count": 2,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 6.666666666666665e-41,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-938",
+      "scorable": true,
+      "catalog_candidates": 19,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-938.P0",
+          "source_query_sha256": "f35bc322e795d0296211b91e59d96712e3f7c5aebba5fe8d224061724bcb6060",
+          "status": "complete",
+          "answer_count": 3,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-1030",
+      "scorable": true,
+      "catalog_candidates": 0,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1030.P0",
+          "source_query_sha256": "bea06acbb33d88ecc75d2a7684834ea55c462c6ed00b27a9091ed8eb7bbb02c1",
+          "status": "complete",
+          "answer_count": 1,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": false,
+      "any_annotated_first_relation_in_inventory": false,
+      "any_annotated_first_relation_in_ranked_roots": false,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": null,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": false
+    },
+    {
+      "id": "WebQTrn-1108",
+      "scorable": true,
+      "catalog_candidates": 10,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1108.P0",
+          "source_query_sha256": "2042444479901f6dd5196995c649d66dd39cddd8e123cc4eea7c800d476af222",
+          "status": "complete",
+          "answer_count": 1,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": true,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 1.0,
+      "catalog_answer_set_exact_found": true,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-1166",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1166.P0",
+          "source_query_sha256": "70b40ac833ad7249c3a855590d42aecb2fedd21db04c8d771b8177cbdf007986",
+          "status": "complete",
+          "answer_count": 5,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": false,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 3.333333333333333e-41,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": true
+    },
+    {
+      "id": "WebQTrn-1211",
+      "scorable": true,
+      "catalog_candidates": 20,
+      "official_query_results": [
+        {
+          "parse_id": "WebQTrn-1211.P0",
+          "source_query_sha256": "5f76a27cc1d2e401ff4fdc482fe8fe1bde238bfe6b867e655dc9ed8b1bceabb7",
+          "status": "complete",
+          "answer_count": 2,
+          "f1_to_this_parse": 1.0
+        }
+      ],
+      "linked_topic_matches_any_annotation": true,
+      "any_annotated_first_relation_in_inventory": true,
+      "any_annotated_first_relation_in_ranked_roots": false,
+      "any_annotated_first_relation_in_chosen_roots": false,
+      "known_catalog_best_f1": 6.666666666666665e-41,
+      "catalog_answer_set_exact_found": false,
+      "catalog_completely_evaluated": true
+    }
+  ],
+  "n_questions": 10,
+  "catalog_exact_found": 4,
+  "catalog_completely_evaluated": 8,
+  "query_calls": 145,
+  "limitation": "Query availability can reveal mismatch but does not establish snapshot identity. Best-F1 candidate may be semantically accidental. Off-policy graph costs are not inference costs or feasible-continuation labels.",
+  "source_predictions_sha256": "070907df1f0b08a96734964fed2667cc5a58b5a3c66d5ba964ae4aede18dd9e4",
+  "official_queries_with_exact_answer_sets": 9,
+  "selected_catalogs": 8,
+  "status": "exploratory post-run training diagnostic; not a final-test result or certified recovery rate",
+  "candidate_detail_location": "full-audit.json, restored losslessly from the evidence bundle"
+}

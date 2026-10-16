@@ -1,0 +1,65 @@
+{
+  "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+  "submitted": 4,
+  "scorable": 4,
+  "excluded": 0,
+  "coverage": 0.75,
+  "macro_precision": 0.75,
+  "macro_recall": 0.5,
+  "macro_f1": 0.5,
+  "exact_f1_accuracy": 0.5,
+  "rows": [
+    {
+      "id": "WebQTrn-66",
+      "scorable": true,
+      "answered": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "exact_f1": 1
+    },
+    {
+      "id": "WebQTrn-562",
+      "scorable": true,
+      "answered": true,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "exact_f1": 1
+    },
+    {
+      "id": "WebQTrn-904",
+      "scorable": true,
+      "answered": true,
+      "precision": 5e-41,
+      "recall": 5e-41,
+      "f1": 5e-41,
+      "exact_f1": 0
+    },
+    {
+      "id": "WebQTrn-1108",
+      "scorable": true,
+      "answered": false,
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "exact_f1": 0
+    }
+  ],
+  "scope": "Purpose-selected previously inspected training regression cases; not representative, held-out or evidence of population improvement",
+  "cost_over_scored_cases": {
+    "graph_calls": 45,
+    "model_calls": 15,
+    "model_tokens": 9567,
+    "elapsed_seconds": 473.75366313388804
+  },
+  "cost_over_all_cases": {
+    "graph_calls": 45,
+    "model_calls": 15,
+    "model_tokens": 9567,
+    "elapsed_seconds": 473.75366313388804
+  },
+  "usage_complete_over_all_cases": true,
+  "unscored_handwritten_paraphrases": [],
+  "predictions_sha256": "e24e0fb3ed49607ac356e153f102387f3c8dae6455331fa8bf6aca3e8c76dd6b"
+}

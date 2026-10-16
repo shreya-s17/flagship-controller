@@ -1,6 +1,6 @@
 {
   "format": "concatenate ordered parts, gzip-compressed tar; original UTF-8 traces unchanged",
-  "archive_sha256": "a94503bab3da52ef7c0c540b515be2559b56b28d8234cde19967c17f24e7d7ec",
+  "archive_sha256": "be9e0470ff328baeb415db6b0c276cbd000773fa89552036c3503e6233072af9",
   "parts": [
     {
       "file": "evidence.tar.gz.part000",
@@ -49,8 +49,33 @@
     },
     {
       "file": "evidence.tar.gz.part009",
-      "bytes": 25521,
-      "sha256": "06ba4a684888b23bed55bcd7c616bac9c6358356c9cd5ba0e5d9adabf97ffb28"
+      "bytes": 48000,
+      "sha256": "d2030e1fe60ea578e6f4122f3655f7a64c09932425a09cecc9085d493ce9b4fa"
+    },
+    {
+      "file": "evidence.tar.gz.part010",
+      "bytes": 48000,
+      "sha256": "00b0ed96312549565b4e26d75e4fd5be2e0b2614bcfddd473db8b7713e3faa14"
+    },
+    {
+      "file": "evidence.tar.gz.part011",
+      "bytes": 48000,
+      "sha256": "642cb33e103ac962f9bf245d76ac9b202cfd2be8e3e613448c2b75353e7bdfae"
+    },
+    {
+      "file": "evidence.tar.gz.part012",
+      "bytes": 48000,
+      "sha256": "3ef8ce6c1e3643f3384214c1f755c23d4abaae2022439fe58272c256fe2acd06"
+    },
+    {
+      "file": "evidence.tar.gz.part013",
+      "bytes": 48000,
+      "sha256": "edfe860279d81f095c77c724d8cfdd4007a1b3da55ce5a97ebb894aab0699c7f"
+    },
+    {
+      "file": "evidence.tar.gz.part014",
+      "bytes": 12132,
+      "sha256": "a37e96cf6fc8c47fad2da4c9a5c81df66d198804ef4fa37fd00e6057585fc0b2"
     }
   ],
   "files": {
@@ -61,6 +86,15 @@
     "results/structured-dev-007/predictions.jsonl": "57bfe0f194ed169be64c28907d199bfc8202617b3460e37f847241b9932b2364",
     "results/structured-dev-007/progress.jsonl": "f410e529d2d1fdbac6e27e9e8d0ddcf4dec282ee22981047320022d0d1cf4a58",
     "results/structured-dev-008/predictions.jsonl": "c5f04805b83e6999df5e093e1acbc7a5b99305944b1120c4b5aec02d7c3c7d66",
-    "results/structured-dev-008/progress.jsonl": "c1904b77841a81ef5aded1be3b2504a7997fd5d9c13a5aad25694bb8d141cbc7"
+    "results/structured-dev-008/progress.jsonl": "c1904b77841a81ef5aded1be3b2504a7997fd5d9c13a5aad25694bb8d141cbc7",
+    "results/catalog-diagnostic-001/full-audit.json": "f8a46e442f032d460dfe867b7cea08eba18b59116f8e089a3e795abd000bd7d3",
+    "results/semantic-dev-001/predictions.jsonl": "27d8c4d38ef55ee90ea213203ba11b4d9f54a287524d7041b2c3d5fe9153a985",
+    "results/semantic-dev-001/progress.jsonl": "eef2331d72b12836673452e05ac259b8e266f485ca3b97de0de5728e087734fb",
+    "results/semantic-dev-002/predictions.jsonl": "df47c958dcb024937ffc1a2e8940ff34c9a92023d2f26e1531b28a6ea4b87ba8",
+    "results/semantic-dev-002/progress.jsonl": "987851289410d28a66af8c64e71dd5cd9a886916c1f36c2f456fd4b99d7ae36d",
+    "results/semantic-dev-003/predictions.jsonl": "e24e0fb3ed49607ac356e153f102387f3c8dae6455331fa8bf6aca3e8c76dd6b",
+    "results/semantic-dev-003/progress.jsonl": "b99610ebf4327f8ae24050d3d09c54bf782c9950401f185cbb3b13fd3b79fb1e",
+    "results/semantic-dev-005/predictions.jsonl": "3718651f7bd4097902b446b5f9381b41681a981bb705a240e5c2bfde1d0b693f",
+    "results/semantic-dev-005/progress.jsonl": "37eabf2fcbbd7f635370a495b1388c41426fb83ccc41f16c55a7e8bc22be905f"
   }
 }

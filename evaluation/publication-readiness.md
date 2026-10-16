@@ -9,6 +9,8 @@
 - Ten further training-pilot questions: independent fixed .40 versus repair .30 F1, with a prefix-parsing confound. Same-prefix diagnostic: .40 versus .40, +16.48% repair tokens, no exact recovery. These are the same ten cases, not twenty independent questions.
 - Official-scoring helper/CLI fixture parity; protected evaluation labels; exact source/model/plan archives. No official test execution, published-method reproduction, calibrated verifier or independently adjudicated STOP rate.
 
+Current implementation checkpoint: [semantic development and recovery diagnosis](semantic-development-protocol.md). The original ten-case catalog audit finds four exact-answer options across eight fully evaluated catalogs, all already found by fixed control. The next cohort is [reserved v2](reserved-training-100-v2/manifest.json), not executed or scored. Review forms are prepared but unannotated. A named-baseline adapter is specified but unimplemented. None of these is a final-paper result.
+
 ## Ordered work packages and acceptance evidence
 
 | Priority | Work | Completion gate |
@@ -26,7 +28,7 @@ Work packages 1–5 are the immediate path. Scaling unchanged v11 would produce 
 
 ## Proposed next evaluation size (not a frozen power claim)
 
-Start with 100 untouched training-policy questions selected without looking at outcomes, three seeds, internal controls and a documented external adaptation. This is a feasibility stage, not an automatic sufficient sample size. Choose the eventual confirmatory size using observed paired discordance/variance and a predeclared practically useful effect before final testing. If the grammar excludes a question, retain its abstention in the full denominator; any supported-subset result is secondary with a policy-independent definition. Do not filter out linking failures after seeing scores.
+Start with 100 untouched training questions (the original policy group contains only50; the current reservation uses train_remaining) selected without looking at outcomes, three seeds, internal controls and a documented external adaptation. This is a feasibility stage, not an automatic sufficient sample size. Choose the eventual confirmatory size using observed paired discordance/variance and a predeclared practically useful effect before final testing. If the grammar excludes a question, retain its abstention in the full denominator; any supported-subset result is secondary with a policy-independent definition. Do not filter out linking failures after seeing scores.
 
 Only after development, calibration, baseline sanity checks and a code/metric freeze should final WebQSP testing begin. A second benchmark is needed if broad cross-dataset generalization is claimed; agent experiments are needed only if transfer claims remain. Narrowing the paper scope is legitimate.
 

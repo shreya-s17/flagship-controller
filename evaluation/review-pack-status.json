@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "cases": 30,
+  "source": [
+    "results/paired-pilot-001",
+    "results/semantic-dev-002"
+  ],
+  "status": "UNANNOTATED",
+  "independent_reviewers_completed": 0,
+  "case_pack_sha256": "5807b900caa35f2226a25ac9e9865ed625917dfd8579a1c9b534099eb33e7722",
+  "generator": "flagship_controller/review_pack.py",
+  "instructions": "Deliver only reviewer/ to two independent qualified reviewers; retain owner-key.json separately. Masking is not perfect blinding. Unknown defaults are blank forms, not measurements.",
+  "public_review_pack_distributed": false,
+  "supersedes": "Earlier 20-case pack; retained locally as unannotated history"
+}

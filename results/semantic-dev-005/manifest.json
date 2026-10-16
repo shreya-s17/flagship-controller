@@ -1,0 +1,47 @@
+{
+  "version": "question-contract-v16",
+  "status": "development on inspected training cases; not a prospective performance claim",
+  "variant": "repair",
+  "root_retrieval": "contract",
+  "created_utc": "2026-10-16T09:36:37Z",
+  "python": "3.12.3",
+  "inference_options": {
+    "seed": 17,
+    "temperature": 0,
+    "max_output_tokens": 512,
+    "num_ctx": 4096,
+    "num_thread": 4
+  },
+  "question_ids": [
+    "WebQTrn-562",
+    "WebQTrn-904"
+  ],
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "input_sha256": "d93780391b93422f92def636d9190c11d0817d28674f459c7f409b2f9b630d76",
+  "source_hashes": {
+    "runtime-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203"
+  },
+  "limits": {
+    "model_calls": 10,
+    "tokens": 16000,
+    "graph_calls": 80,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "prompt_tokens_after_call": 3000
+  },
+  "limitations": [
+    "same model extracts and verifies semantics",
+    "closed and incomplete type-family mapping",
+    "inferred type fallback can link the wrong sense",
+    "one-hop schema priority can displace mediated paths",
+    "no reflexive answers can reject valid self-reference",
+    "extra answer metadata calls",
+    "only up to five answers shown to gate",
+    "not calibrated",
+    "no independent annotators"
+  ]
+}

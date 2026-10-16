@@ -4,7 +4,7 @@
 
 ## Original independent executions
 
-[Prospectively frozen plan](paired-pilot-001/plan.json), [raw predictions](paired-pilot-001/predictions.jsonl), [offline analysis](paired-pilot-001/analysis.json). Completed 15 October, 11:04:59 UTC.
+[Prospectively frozen plan](paired-pilot-001/plan.json), [compressed raw evidence](../artifacts/live-evidence-2026-10-16/manifest.json), [offline analysis](paired-pilot-001/analysis.json). Completed 15 October, 11:04:59 UTC.
 
 | Control | Exact / 10 | Macro F1 | Answered / 10 | Observed tokens | Model calls | Graph calls | Sum question seconds |
 |---|---:|---:|---:|---:|---:|---:|---:|
@@ -15,7 +15,7 @@ Question-paired mean F1 difference (repair minus fixed) is −0.10; descriptive 
 
 ## Identical-prefix diagnostic
 
-[Follow-up frozen plan](paired-pilot-002-shared-prefix/plan.json), [equivalence checks](paired-pilot-002-shared-prefix/equivalence-check.json), [predictions](paired-pilot-002-shared-prefix/predictions.jsonl), [analysis](paired-pilot-002-shared-prefix/analysis.json).
+[Follow-up frozen plan](paired-pilot-002-shared-prefix/plan.json), [equivalence checks](paired-pilot-002-shared-prefix/equivalence-check.json), [compressed predictions](../artifacts/live-evidence-2026-10-16/manifest.json), [analysis](paired-pilot-002-shared-prefix/analysis.json).
 
 Before reading gold outcomes for the original comparison, a follow-up was frozen to reuse every replayable fixed prefix. All ten qualified; no selection by accuracy. Frozen source/model/configuration checks apply. Fixed replay reproduces all ten original terminals, answers, witnesses and resource counts without a physical network request. Repair receives the exact same recorded graph observations and model outputs until continuation. This is a mechanism diagnostic on the SAME ten questions, not ten more independent observations or external preregistration.
 

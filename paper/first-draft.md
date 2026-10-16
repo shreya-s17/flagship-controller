@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v1.1, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v1.2, 16 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -108,6 +108,14 @@ All 20 original executions completed. Fixed F1/exact accuracy .40, coverage .60,
 An exploratory follow-up freezes and replays all ten original fixed prefixes without selecting by score. Fixed replay exactly reproduces terminals, answers, witnesses and counters with zero new physical requests. Repair from the same prefixes gives F1/exact .40 and coverage .60, with 24,527 charged tokens and 65 graph calls. No additional exact answer or exact recovery is observed; repair costs 16.48% more observed tokens. These are the same ten questions, not a larger independent sample. Latency charges reuse prefix time and are not fresh end-to-end measurements. [Plans, traces, checks and per-case failures](../results/paired-pilot-report.md).
 
 Both controls wrongly accept witnessed Chicago identity and GEICO advertising-character answers. This exposes semantic-gate limitations even when structural evidence is consistent. No superiority, calibrated reliability or population effect is established.
+
+### 5.4 Subsequent semantic-development diagnostics
+
+A privileged post-run audit evaluates every recorded candidate in the original fixed pilot: eight catalogs are complete, two questions lack catalogs, and only four contain an exact-answer set, all already found by fixed control. The audit localizes inventory-to-shortlist and shortlist-to-root losses. Nine official query results match annotations strictly; the remaining date has a timezone suffix serialization discrepancy. This does not establish snapshot identity or a certified feasible-recovery denominator.
+
+A separate purpose-selected six-case regression set reveals why additional semantic gates need validation. V12 yields zero exact, one wrong answer and five abstentions, largely from copied-quote/casing failures. V13 yields three exact, one wrong and two abstentions after span-constrained decoding, guarded name matching and contract lexical retrieval. Both accept correctly typed but wrong GEICO industries. The latest observed-type root-inclusion smoke check answers Mexico/GEICO exactly on two inspected cases; Yale remains unresolved. All targeted checks and their narrower denominators are reported in the [development checkpoint](../results/publication-development-report.md). These inspected training cases and hand-authored paraphrases are not independent evidence of improvement; no rephrasing is assigned an unverified benchmark score.
+
+Question-span constraints and type priors are engineering safeguards, not a novel constrained-generation algorithm or semantic guarantee. All revisions retain source/model hashes, raw predictions and failures. Thirty policy-masked forms remain unannotated; an overlap-screened 100-question training reservation remains unexecuted pending method/normalization/baseline freeze and independent review. Current publication status remains NO-GO.
 
 ## 6. Failure and STOP analysis
 
