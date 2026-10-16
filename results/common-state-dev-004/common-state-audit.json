@@ -1,0 +1,68 @@
+{
+  "scope": "Offline source-state/request/declaration integrity, NOT semantic certification, calibration or new experiments",
+  "records": 10,
+  "question_seed_prefixes": 2,
+  "checks": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "status": "representation/state ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "status": "representation/state ledger PASS"
+    }
+  ],
+  "semantic_validity": "not assessed"
+}

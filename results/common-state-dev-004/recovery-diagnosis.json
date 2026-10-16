@@ -1,0 +1,697 @@
+{
+  "scope": "Offline branch/official-set diagnosis on inspected development questions; not independent semantic or STOP labels",
+  "predictions_sha256": "f20cc603f6d649875dc873c07f84f79aa60badb1c9310bd7174b986d2b2fd5c4",
+  "development_score_sha256": "466b7121957c8be673231e9ba513583be118a07a7bb988de04dc386073988065",
+  "diagnostic_source_sha256": "6908fc1c594e85638572866ec3996c8dd782e16c2e4b6f8c43965c06256137f5",
+  "methods": {
+    "reason-text-off": {
+      "outcomes": 2,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "repair": {
+      "outcomes": 2,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "tog-declared-json": {
+      "outcomes": 2,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "semantic-gate-off": {
+      "outcomes": 2,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 2,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "fixed": {
+      "outcomes": 2,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "terminal": "ANSWER",
+      "reason": "observed_name_mapping_only_not_semantic_certification",
+      "answers": [
+        "m.0qd6jv4"
+      ],
+      "attempts": [],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": null
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "experiment disables only final model semantic audit",
+            "missing_obligations": []
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 1,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "reason-text-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.0qd6j_b",
+        "m.0qd6jv4"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "'Apollos Rivoire' are consistent with the requested relation 'children'. The directed query roles specify that the '"
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.0qd6j_b",
+        "m.0qd6jv4"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "'Apollos Rivoire' are consistent with the requested relation 'children' of Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.0qd6j_b",
+        "m.0qd6jv4"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "'Apollos Rivoire' are consistent with the requested relation 'children' of Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "semantic-gate-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support; semantic_gate_bypassed_by_ablation",
+      "answers": [
+        "m.0qd6j_b",
+        "m.0qd6jv4"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "experiment disables only final model semantic audit",
+            "missing_obligations": []
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 1,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "tog-declared-json",
+      "terminal": "ABSTAIN",
+      "reason": "graph_result_truncated",
+      "answers": [],
+      "attempts": [],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": null
+    }
+  ],
+  "certified_recovery_rate": null,
+  "limits": [
+    "Final exact set after a rejected plan is not independently certified recovery.",
+    "Provisional acquired answers are not accepted answers.",
+    "No gold query, labels or oracle are supplied to inference.",
+    "Missing catalog alternatives cannot be recovered by reselecting that same catalog.",
+    "Purpose-selected cases and seed repeats do not estimate population effects."
+  ]
+}

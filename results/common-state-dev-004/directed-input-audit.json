@@ -1,0 +1,259 @@
+{
+  "scope": "Actual provider payloads contain directed role input; not semantic correctness",
+  "requests": 6,
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "variant": "reason-text-off",
+      "request_sha256": "7168bf20247f509447bd267665cfbffc8d3e450b2f2e2789990ae1ce87e77b4a",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.parents",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair",
+      "request_sha256": "7168bf20247f509447bd267665cfbffc8d3e450b2f2e2789990ae1ce87e77b4a",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.parents",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "fixed",
+      "request_sha256": "7168bf20247f509447bd267665cfbffc8d3e450b2f2e2789990ae1ce87e77b4a",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.parents",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The program correctly identified the relationship as 'parents' of Paul Revere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "reason-text-off",
+      "request_sha256": "05699063277e14aaa689074d48559383d2e250b38f73187d7b67deff82957386",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.children",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "'Apollos Rivoire' are consistent with the requested relation 'children'. The directed query roles specify that the '"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "repair",
+      "request_sha256": "05699063277e14aaa689074d48559383d2e250b38f73187d7b67deff82957386",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.children",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "'Apollos Rivoire' are consistent with the requested relation 'children' of Paul Revere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "fixed",
+      "request_sha256": "05699063277e14aaa689074d48559383d2e250b38f73187d7b67deff82957386",
+      "roles": {
+        "anchors": {
+          "anchor0": 0
+        },
+        "answer": "returned endpoint; each answer must satisfy every atom",
+        "directed_atoms": [
+          {
+            "object": "anchor0",
+            "predicate": "people.person.children",
+            "subject": "answer"
+          }
+        ],
+        "limitation": "Query-variable orientation only; predicate meaning and question fit remain uncalibrated model judgments"
+      },
+      "gate_verdict": {
+        "supported": true,
+        "reason": "question requirement ledger; same-model and uncalibrated",
+        "missing_obligations": [],
+        "verdicts": [
+          {
+            "index": 0,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "The observed answer names and types match the requested answer type 'people.person'. The names 'Deborah Hitchborn' and '"
+          },
+          {
+            "index": 1,
+            "status": "satisfied",
+            "evidence_steps": [
+              0
+            ],
+            "reason": "'Apollos Rivoire' are consistent with the requested relation 'children' of Paul Revere."
+          }
+        ]
+      }
+    }
+  ],
+  "finding": "All six enabled audits still accept reverse-role endpoints; no successful repair or semantic fix is established."
+}

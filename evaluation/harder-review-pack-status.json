@@ -1,0 +1,13 @@
+{
+  "cases": 24,
+  "status": "unannotated; independent reviewers required",
+  "seed": 17,
+  "cases_sha256": "fc275ad5db700a05aed85ff0d67ce68982e816aa97cdcc261ce3bfb5204abd9b",
+  "source_studies": [
+    "common-state-dev-003",
+    "common-state-dev-004"
+  ],
+  "independent_reviewers_completed": 0,
+  "reviewer_contact_performed": false,
+  "scope": "Supplement to unchanged30-case pack;24 correlated development outcomes, not24 independent questions"
+}

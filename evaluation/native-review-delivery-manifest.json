@@ -1,12 +1,12 @@
 {
   "scope": "unannotated local handoff; no contact or independent review performed",
-  "cases": 26,
-  "cases_sha256": "70a776816227a045ecc6fc57f46512f9cb363a046282bdcec4070c8ab36f5662",
+  "cases": 32,
+  "cases_sha256": "a8818a9a45e311a4bf4523522e936fe6775f28d8a1568ed6b6a1b272728690b5",
   "files": {
     "README.txt": "f66a657d4e8bec805f9512802ab062ffb06a205030f3b296ab85d69628e5603c",
-    "cases.jsonl": "70a776816227a045ecc6fc57f46512f9cb363a046282bdcec4070c8ab36f5662",
-    "submission-template.json": "c3be5f13763747b61a34809451e0a153f177b04bce287d3229c82f35fa1e5046",
+    "cases.jsonl": "a8818a9a45e311a4bf4523522e936fe6775f28d8a1568ed6b6a1b272728690b5",
+    "submission-template.json": "d284b437af6ec53c3d3bbc095a45047cf3dcfbb3ea1a59a64d7a56eaa8508f5d",
     "BRIEF.txt": "f66a657d4e8bec805f9512802ab062ffb06a205030f3b296ab85d69628e5603c"
   },
-  "archive_sha256": "d624fd2cf892ba061b3803c64d7c9f5881b56bc364148fbe4002e895bf9886cd"
+  "archive_sha256": "dc97b499ea68a5bd1b7043f2af7b64f1202588ebd099e72aa9f3afff5545c3f2"
 }

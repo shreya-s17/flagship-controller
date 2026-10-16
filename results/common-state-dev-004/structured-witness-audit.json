@@ -1,0 +1,70 @@
+{
+  "scope": "recorded-row witness consistency, not semantics",
+  "answered": 8,
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    }
+  ]
+}

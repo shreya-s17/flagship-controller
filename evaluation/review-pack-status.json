@@ -17,7 +17,9 @@
   "assessment_status": "validator implemented and unit-tested; no real submissions collected",
   "delivery_manifest": "evaluation/review-delivery-manifest.json",
   "native_addendum_status": "evaluation/native-review-pack-status.json",
-  "native_addendum_cases": 26,
+  "native_addendum_cases": 32,
   "native_addendum_independent_reviewers_completed": 0,
-  "reviewer_contact_performed": false
+  "reviewer_contact_performed": false,
+  "harder_structured_supplement_cases": 24,
+  "harder_structured_supplement_status": "evaluation/harder-review-pack-status.json"
 }

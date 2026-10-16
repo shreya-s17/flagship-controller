@@ -1,0 +1,355 @@
+{
+  "scope": "post-run independent constant-triple graph requery; not semantic entailment or truth calibration",
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "unique_triples": 18,
+  "present": 18,
+  "not_observed": 0,
+  "unknown": 0,
+  "queries": [
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.05p9m_7 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.02280493499711156
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w6rr ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013896110467612743
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w6yl ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013475629966706038
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w75v ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013506889808923006
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w8r1 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013543970417231321
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w96g ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013202698901295662
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9by ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013443989446386695
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9hk ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013392650289461017
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9lw ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013513780431821942
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9w9wd ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.001346762990579009
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wb72 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013572589959949255
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wbrn ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013818740844726562
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wbws ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013399539748206735
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wc7f ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013111339649185538
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wcfb ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013785629998892546
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0n9wcp1 ns:people.person.parents ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0013388009974732995
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0qd6j_b ns:people.person.children ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0014984440058469772
+    },
+    {
+      "query": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT (1 AS ?ok) WHERE { ns:m.0qd6jv4 ns:people.person.children ns:m.0db0x . } LIMIT 1",
+      "rows": [
+        {
+          "ok": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+            "value": "1"
+          }
+        }
+      ],
+      "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+      "sql_state": null,
+      "elapsed_seconds": 0.0015083450125530362
+    }
+  ],
+  "rows": [
+    {
+      "triple": "ns:m.05p9m_7 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w6rr ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w6yl ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w75v ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w8r1 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w96g ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9by ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9hk ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9lw ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9w9wd ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wb72 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wbrn ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wbws ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wc7f ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wcfb ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0n9wcp1 ns:people.person.parents ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0qd6j_b ns:people.person.children ns:m.0db0x",
+      "status": "present"
+    },
+    {
+      "triple": "ns:m.0qd6jv4 ns:people.person.children ns:m.0db0x",
+      "status": "present"
+    }
+  ],
+  "auditor_sha256": "6a0396f32028985f7bc3d059ced6b8e90d22e0120704a5c73be4b78d6e8571bf"
+}

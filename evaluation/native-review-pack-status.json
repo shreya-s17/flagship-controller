@@ -1,6 +1,6 @@
 {
-  "cases": 26,
-  "cases_sha256": "70a776816227a045ecc6fc57f46512f9cb363a046282bdcec4070c8ab36f5662",
+  "cases": 32,
+  "cases_sha256": "a8818a9a45e311a4bf4523522e936fe6775f28d8a1568ed6b6a1b272728690b5",
   "dimensions": [
     "anchor_identity",
     "query_meaning",
@@ -15,7 +15,9 @@
     "baseline-dev-002",
     "baseline-dev-003",
     "baseline-dev-004",
-    "common-state-dev-002"
+    "common-state-dev-002",
+    "common-state-dev-003",
+    "common-state-dev-004"
   ],
-  "supersedes": "Unannotated native-review-pack-001 (15 cases), preserved locally unchanged"
+  "supersedes": "Untouched unannotated native handoffs001/002 preserved; no real judgments collected."
 }

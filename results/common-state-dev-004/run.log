@@ -1,0 +1,11 @@
+WebQTrn-1211 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+All entities are created equal.
+WebQTrn-1211 17 tog-declared-json ANSWER observed_name_mapping_only_not_semantic_certification
+WebQTrn-1211 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+WebQTrn-1211 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 reason-text-off ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 repair ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 fixed ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 semantic-gate-off ANSWER observed_conjunctive_support; semantic_gate_bypassed_by_ablation
+hand-paul-children-001 17 tog-declared-json ABSTAIN graph_result_truncated

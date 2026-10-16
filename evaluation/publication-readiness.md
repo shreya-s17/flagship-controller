@@ -6,6 +6,8 @@ Latest: [indexed baseline and retained semantic projection failures](../results/
 
 Latest executable checkpoint: [shared-state development controls](../results/common-state-development-report.md). The new framework and narrow ablations are implemented, seeds propagate and a30-outcome mechanics check completes. Its three reused strings contain only one official original; no repair occurs. The constrained baseline fixes inverse ID conversion in this check but still includes a contextual coin.161 tests and ledger audits pass; these do not establish semantic reliability or a paper result. The100-question reservation remains unrun.
 
+Latest harder-case checkpoint: [scope and direction diagnosis](../results/harder-development-report.md). On four inspected originals, every internal control has F1 .697368 with two exact sets; reverse-role parents and broad Chicago sets pass the semantic audit, so no repair is triggered. The catalog contains an exact parents alternative but no exact Chicago program; two Iran candidates truncate. The completed ten-outcome explicit directed-role follow-up still accepts reversed roles on the parents original and handwritten children control. It demonstrates no semantic fix or recovery benefit.173 tests pass; independent review and the larger study remain gated.
+
 ## What is established
 
 - Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.
