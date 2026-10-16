@@ -1,0 +1,107 @@
+{
+  "status": "frozen development sanity check, NOT representative or held-out evaluation",
+  "created_utc": "2026-10-16T13:19:45Z",
+  "question_ids": [
+    "WebQTrn-562",
+    "WebQTrn-904",
+    "WebQTrn-1108",
+    "hand-inverse-peso-001",
+    "hand-no-match-001"
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-562",
+      "variant": "semantic-common-link"
+    },
+    {
+      "id": "WebQTrn-562",
+      "variant": "tog-indexed-spans"
+    },
+    {
+      "id": "WebQTrn-904",
+      "variant": "semantic-common-link"
+    },
+    {
+      "id": "WebQTrn-904",
+      "variant": "tog-indexed-spans"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "variant": "semantic-common-link"
+    },
+    {
+      "id": "WebQTrn-1108",
+      "variant": "tog-indexed-spans"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "variant": "semantic-common-link"
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "variant": "tog-indexed-spans"
+    },
+    {
+      "id": "hand-no-match-001",
+      "variant": "tog-indexed-spans"
+    },
+    {
+      "id": "hand-no-match-001",
+      "variant": "semantic-common-link"
+    }
+  ],
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "input_sha256": "e064515060788974efee684ae2b579a1035d6f28844a6c03e4f0ba561afa8b8a",
+  "source_hashes": {
+    "harness-source.py": "909f832596dcc77df3708d2f50dec3c67d3cf9e973abb0f6ddd0cb178a50ea0c",
+    "linker-source.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+    "semantic-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+    "adapter-source.py": "7b96b5c12b9cfe4ffb821b4b7eb3b53b284af278ff2d131e998da25e1cbc40cd",
+    "compact-adapter-source.py": "914a357c5824700aa5edae26194d3abf1190eabba5c2a95273ae3d24f1281744",
+    "indexed-adapter-source.py": "73072b0d73c57e52a09ccd0fa7f7fabeea35a2e6d43ade884cb921679b96f8d8"
+  },
+  "upstream_commit": "7ccbb92e17579f934bb778386230de47eca0ab67",
+  "upstream_hashes": {
+    "main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
+    "freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
+    "utils.py": "4460752d33b730b2ca084e352ea84c60bb89c93aea349cece11158a8ea5f15c5",
+    "prompt_list.py": "954e7f6f79fb08010474340f1fade455bcc3c0cd294270923387d5e703de13f5"
+  },
+  "adapter": "indexed-spans",
+  "limits": {
+    "model_calls": 10,
+    "observed_model_tokens": 16000,
+    "graph_calls": 80,
+    "row_limit": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "inference_options": {
+    "temperature": 0,
+    "seed": 17,
+    "context": 4096,
+    "threads": 4,
+    "max_output_tokens": 512
+  },
+  "baseline_search": {
+    "width": 3,
+    "depth": 3,
+    "entity_sample_if_at_least": 20,
+    "sample_size": 5
+  },
+  "relation_presentation": "additional question-lexical top32 relation presentation; may omit necessary relations",
+  "relation_decoding": "structured indexed choices with validated scores",
+  "answer_projection": "charged selection of actual native-name spans; same-model conclusion/completeness flags; not semantic proof",
+  "analysis": "Official ID-set metrics only on original training questions; handwritten inverse and no-match controls unscored. Retain native baseline text and mapping failures. Same maximum admission budgets, not equal realized costs. No faithful published-model reproduction or semantic proof.",
+  "common_linker": "Identical model/graph linking implementations; fresh separate executions, not forced identical sampled outputs. Costs charged to each method.",
+  "upstream_distribution": "Separate pinned source required; no vendored source. Public redistribution/license resolution remains open.",
+  "python": "3.12.6",
+  "reserved_cohort_execution": false,
+  "official_test_execution": false
+}

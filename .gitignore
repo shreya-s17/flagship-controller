@@ -31,3 +31,7 @@ artifacts/*.zip
 /results/baseline-dev-001/progress.jsonl
 /results/baseline-dev-002/predictions.jsonl
 /results/baseline-dev-002/progress.jsonl
+
+# Frozen indexed baseline development raw traces.
+/results/baseline-dev-003/predictions.jsonl
+/results/baseline-dev-003/progress.jsonl

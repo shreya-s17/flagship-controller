@@ -13,6 +13,8 @@ Current implementation checkpoint: [semantic development and recovery diagnosis]
 
 ## Ordered work packages and acceptance evidence
 
+The [next-study design and implementation boundary](next-study-design.md) makes the intended100-question comparison concrete while explicitly retaining its NO-GO gate. New shared-state execution, ablations, full seed propagation and common answer serialization are not yet implemented. A prepared reviewer delivery is not independent review. Do not use a planning document to upgrade these statuses.
+
 | Priority | Work | Completion gate |
 |---|---|---|
 | 1 | Repair semantic targeting on development only | Explicit answer-type and question-obligation checks; reject identity/advertising-character counterexamples; preserve valid answers. Test unseen paraphrases and document false rejection. Do not solve cases with question-ID rules. |

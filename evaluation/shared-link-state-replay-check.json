@@ -1,0 +1,125 @@
+{
+  "scope": "Offline prefix restoration only; NOT new performance executions or final common-state harness",
+  "source": "results/baseline-dev-002",
+  "questions": 5,
+  "method_paths_per_question": 2,
+  "new_physical_requests": 0,
+  "checks": [
+    {
+      "id": "WebQTrn-562",
+      "source_predictions_sha256": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+      "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+      "checks": [
+        {
+          "method": "structured",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        },
+        {
+          "method": "baseline",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        }
+      ]
+    },
+    {
+      "id": "WebQTrn-904",
+      "source_predictions_sha256": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+      "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+      "checks": [
+        {
+          "method": "structured",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        },
+        {
+          "method": "baseline",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        }
+      ]
+    },
+    {
+      "id": "WebQTrn-1108",
+      "source_predictions_sha256": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+      "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+      "checks": [
+        {
+          "method": "structured",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        },
+        {
+          "method": "baseline",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        }
+      ]
+    },
+    {
+      "id": "hand-inverse-peso-001",
+      "source_predictions_sha256": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+      "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+      "checks": [
+        {
+          "method": "structured",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        },
+        {
+          "method": "baseline",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 1,
+          "physical_new_requests": 0,
+          "reason": "offline_link_prefix_boundary"
+        }
+      ]
+    },
+    {
+      "id": "hand-no-match-001",
+      "source_predictions_sha256": "c058f3a1e5714b097bb0962d2103ed6c33aa8c871e1d6780dd023bcb07ac7434",
+      "scope": "offline recorded linking restoration; no new requests; no end-to-end latency claim",
+      "checks": [
+        {
+          "method": "structured",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 9,
+          "physical_new_requests": 0,
+          "reason": "entity_not_found"
+        },
+        {
+          "method": "baseline",
+          "equivalent_link_events": true,
+          "replayed_model_calls": 1,
+          "replayed_graph_calls": 9,
+          "physical_new_requests": 0,
+          "reason": "entity_not_found"
+        }
+      ]
+    }
+  ],
+  "remaining": "Shared catalog/first choice, ablations, seed propagation, serialization and live continuation remain unimplemented in the new study harness."
+}

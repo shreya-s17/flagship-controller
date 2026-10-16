@@ -202,7 +202,7 @@ class Adapter:
         return ns['generate_without_explored_paths'](question,args),chains,'depth_direct_fallback'
 
 
-def run(record,graph,model,upstream,seconds=600,on_event=None,*,adapter_factory=Adapter,project_native=False):
+def run(record,graph,model,upstream,seconds=600,on_event=None,*,adapter_factory=Adapter,project_native=False,runtime_version=None):
     started=time.perf_counter();trace=[]
     def checkpoint():
         if time.perf_counter()-started>seconds:raise Blocked('wall_time_budget')
@@ -211,7 +211,7 @@ def run(record,graph,model,upstream,seconds=600,on_event=None,*,adapter_factory=
         if on_event:on_event(trace[-1])
         checkpoint()
     result={'id':record['id'],'split':record.get('split'),'variant':'tog-local','terminal':'ABSTAIN','answers':[],
-        'runtime_version':'tog-compact-projected-v2' if project_native else VERSION,'confidence':None,'native_response':None,'scope':'bounded question-only Qwen adaptation; not original-paper reproduction'}
+        'runtime_version':runtime_version or ('tog-compact-projected-v2' if project_native else VERSION),'confidence':None,'native_response':None,'scope':'bounded question-only Qwen adaptation; not original-paper reproduction'}
     adapter=None
     try:
         _,anchors=link_question(record,graph,model,log)
@@ -223,10 +223,12 @@ def run(record,graph,model,upstream,seconds=600,on_event=None,*,adapter_factory=
         if project_native:
             from .compact_tog_adapter import validate_projection, VERSION as compact_version
             from .structured_runtime import object_schema, BOOLEAN
-            result['runtime_version']=compact_version
+            result['runtime_version']=runtime_version or compact_version
             beam=next((e['ids'] for e in reversed(trace) if e['action']=='ENTITY_PRUNE' and e['ids']),[])
             candidates=[{'entity':node,'names':adapter.names.get(node,[])} for node in dict.fromkeys(beam) if adapter.names.get(node)]
-            if candidates:
+            if hasattr(adapter,'project_answer'):
+                answers,status=adapter.project_answer(record['question'],text,candidates)
+            elif candidates:
                 checkpoint()
                 schema=object_schema({'supported':BOOLEAN,'selections':{'type':'array','maxItems':len(candidates),
                     'items':object_schema({'index':{'type':'integer','enum':list(range(len(candidates)))},'quote':{'type':'string','maxLength':300}})}})

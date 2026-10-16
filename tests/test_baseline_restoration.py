@@ -12,9 +12,9 @@ module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
 
 
 class SourceRestorationTests(unittest.TestCase):
-    def test_both_archived_versions_load_as_isolated_runtime_packages(self):
+    def test_all_archived_versions_load_as_isolated_runtime_packages(self):
         with tempfile.TemporaryDirectory() as temporary:
-            for name,count in [('baseline-dev-001',6),('baseline-dev-002',7)]:
+            for name,count in [('baseline-dev-001',6),('baseline-dev-002',7),('baseline-dev-003',8)]:
                 source=ROOT/'results'/name;destination=Path(temporary)/name
                 self.assertEqual(module.materialize(source,destination),count)
                 plan=json.loads((source/'manifest.json').read_text())

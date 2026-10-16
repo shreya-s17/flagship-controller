@@ -13,7 +13,7 @@ from flagship_controller.tog_adapter import Adapter, load_upstream, normalize_ob
 from flagship_controller.webqsp_runtime import NS
 
 
-def check(folder,compact=False):
+def check(folder,compact=False,indexed=False):
     checks=[]
     def require(condition,label):
         if not condition:raise AssertionError(label)
@@ -50,14 +50,27 @@ def check(folder,compact=False):
         ('mediated',['{r.mediator (Score: 1.0)}','{No}. Need more facts.','{r.next (Score: 1.0)}','{Yes}. {Observed Answer}']),
         ('empty',['No relations','No unsupported answer'])]:
         from flagship_controller.compact_tog_adapter import CompactAdapter
-        graph=Graph(mode);events=[];adapter=(CompactAdapter if compact else Adapter)(folder,graph,SimpleNamespace(model='fixture'),lambda action,**kw:events.append({'action':action,**kw}),lambda:None)
+        from flagship_controller.indexed_tog_adapter import IndexedAdapter
         pending=list(responses);prompts=[]
+        if indexed and mode=='empty': pending.pop(0)
+        def direct(instruction,inputs,schema):
+            if not pending: raise AssertionError('unexpected structured request')
+            names=[r['relation'] for r in inputs['relations']]
+            ok,choices=upstream['clean_relations'](pending.pop(0),'m.topic',names)
+            require(ok,'indexed_relation_fixture_'+mode+'_'+str(len(pending)))
+            return {'selections':[{'index':names.index(c['relation']),'score':c['score']} for c in choices]}
+        graph=Graph(mode);events=[];adapter=(IndexedAdapter if indexed else CompactAdapter if compact else Adapter)(folder,graph,SimpleNamespace(model='fixture',direct=direct),lambda action,**kw:events.append({'action':action,**kw}),lambda:None)
         def raw(prompt,*args):
             prompts.append(prompt)
             if not pending:raise AssertionError('unexpected model request')
             return pending.pop(0)
-        adapter.ns['run_llm']=raw
-        text,chains,stop=adapter.search('Fixture question?',['m.topic'])
+        if indexed:
+            from unittest.mock import patch
+            with patch('flagship_controller.tog_adapter.TextModel.__call__',side_effect=raw):
+                text,chains,stop=adapter.search('Fixture question?',['m.topic'])
+        else:
+            adapter.ns['run_llm']=raw
+            text,chains,stop=adapter.search('Fixture question?',['m.topic'])
         require(not pending,mode+'_request_sequence')
         if mode=='empty':
             require(stop=='half_stop' and not graph.expansions and normalize_observed_answer(text,adapter.names)[0]==[], 'empty_frontier_not_grounded_answer')
@@ -67,8 +80,8 @@ def check(folder,compact=False):
         else:
             require(len(chains)==2 and graph.expansions[-1]==('m.mid',{'relation':'r.next','direction':'out'}),'unnamed_mediator_continuation')
             require([e['stop'] for e in events if e['action']=='REASONING']==[False,True],'upstream_continue_then_stop')
-    return {'scope':'offline synthetic compatibility fixtures, no model/benchmark quality claim','adapter':'compact-projected' if compact else 'upstream-full','upstream_hashes':HASHES,'passed':len(checks),'checks':checks}
+    return {'scope':'offline synthetic compatibility fixtures, no model/benchmark quality claim','adapter':'indexed-spans' if indexed else 'compact-projected' if compact else 'upstream-full','upstream_hashes':HASHES,'passed':len(checks),'checks':checks}
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--upstream',type=Path,required=True);parser.add_argument('--compact',action='store_true');args=parser.parse_args()
-    print(json.dumps(check(args.upstream,args.compact),indent=2))
+    parser=argparse.ArgumentParser();parser.add_argument('--upstream',type=Path,required=True);parser.add_argument('--compact',action='store_true');parser.add_argument('--indexed',action='store_true');args=parser.parse_args()
+    print(json.dumps(check(args.upstream,args.compact,args.indexed),indent=2))

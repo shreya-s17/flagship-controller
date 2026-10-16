@@ -14,7 +14,7 @@ from .review_pack import DIMENSIONS
 LABELS={'supported','contradicted','unknown'}
 
 
-def validate(pack,submission):
+def validate(pack,submission,dimensions=DIMENSIONS):
     data=Path(pack).read_bytes()
     cases=[json.loads(x) for x in data.decode().splitlines() if x.strip()]
     ids=[c['case_id'] for c in cases]
@@ -34,7 +34,7 @@ def validate(pack,submission):
         case_id=item.get('case_id')
         if case_id not in ids or case_id in seen:raise ValueError('Unknown or duplicate reviewed case')
         seen.add(case_id)
-        if set(item.get('dimensions',{}))!=set(DIMENSIONS):raise ValueError('Missing review dimension')
+        if set(item.get('dimensions',{}))!=set(dimensions):raise ValueError('Missing review dimension')
         mapped[case_id]={}
         for dimension,judgment in item['dimensions'].items():
             if not isinstance(judgment,dict) or judgment.get('label') not in LABELS or not isinstance(judgment.get('reason'),str) or not judgment['reason'].strip():
@@ -54,19 +54,19 @@ def agreement(left,right):
         'left_label_counts':dict(a),'right_label_counts':dict(b)}
 
 
-def assess(pack,submissions):
+def assess(pack,submissions,dimensions=DIMENSIONS):
     if len(submissions)!=2:raise ValueError('Exactly two first-pass reviewer submissions required')
     ids=[s.get('reviewer_id','').casefold().strip() for s in submissions]
     if ids[0]==ids[1]:raise ValueError('Distinct reviewer IDs required')
-    maps=[validate(pack,s) for s in submissions]
+    maps=[validate(pack,s,dimensions) for s in submissions]
     cases=list(maps[0]);disagreements=[]
     for case in cases:
-        for dimension in DIMENSIONS:
+        for dimension in dimensions:
             if maps[0][case][dimension]!=maps[1][case][dimension]:
                 disagreements.append({'case_id':case,'dimension':dimension,'labels':[m[case][dimension] for m in maps]})
     return {'scope':'schema-validated self-attested independent submissions; metadata are not independently certified',
         'reviewers':ids,'cases':len(cases),'cases_sha256':hashlib.sha256(Path(pack).read_bytes()).hexdigest(),
-        'agreement':{d:agreement(*[[m[c][d] for c in cases] for m in maps]) for d in DIMENSIONS},
+        'agreement':{d:agreement(*[[m[c][d] for c in cases] for m in maps]) for d in dimensions},
         'disagreements_for_adjudication':disagreements,
         'limits':['descriptive agreement, not truth/accuracy','correlated questions; no independence or population interval claim',
             'unknown remains explicit; raw agreement may be inflated by shared unknown',
@@ -76,7 +76,8 @@ def assess(pack,submissions):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--pack',type=Path,required=True)
-    parser.add_argument('--reviews',type=Path,nargs=2,required=True);args=parser.parse_args()
-    print(json.dumps(assess(args.pack,[json.loads(p.read_text()) for p in args.reviews]),indent=2))
+    parser.add_argument('--reviews',type=Path,nargs=2,required=True);parser.add_argument('--native',action='store_true');args=parser.parse_args()
+    from .native_review_pack import NATIVE_DIMENSIONS
+    print(json.dumps(assess(args.pack,[json.loads(p.read_text()) for p in args.reviews],NATIVE_DIMENSIONS if args.native else DIMENSIONS),indent=2))
 
 if __name__=='__main__':main()

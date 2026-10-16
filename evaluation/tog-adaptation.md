@@ -51,7 +51,17 @@ The original full-inventory run is retained in baseline-dev-001. Its first basel
 
 All native text, failed mappings and raw observations remain. The same five purpose-selected questions are rerun; neither study supplies independent performance evidence. Use `--adapter compact-projected` when freezing the second configuration. It consumes the same total maximum budgets, including the extra extraction request. Do not merge revisions or discard timeout/format failures from reported denominators.
 
-## Restore an exact archived runtime
+## Third development revision: indexed relations and native spans
+
+`indexed_tog_adapter.py` explicitly replaces the relation-stage free-text request with a charged JSON request choosing indices from the same lexical top32 presentation. Scores must be finite and in[0,1]; duplicate/out-of-range/boolean indices fail closed. The validated relation names and scores are converted into upstream parser syntax, preserving downstream direction resolution, entity scoring, beam pruning and native stopping. This changes the relation prompt and decoding; it is an additional local adaptation. The original upstream relation prompt is logged for provenance, not described as the prompt sent to the model in this revision. Empty relation lists skip that request.
+
+The answer extractor can choose only indexed, actual full-name occurrences in the native response among named final-beam candidates. Offsets refer to original text, with word-boundary/case-insensitive matching, preserving original casing. Shared/overlapping names for different IDs are omitted as ambiguous. More than64 spans causes abstention. A charged same-model request determines whether a span is an explicit conclusion and whether all concluded answers are represented. These judgments remain uncalibrated and can be wrong. A quoted name can still be merely context; spans prevent fabricated quotes but do not prove meaning, completeness or faithfulness. No-span cases skip extraction and abstain. Native prose is retained for independent review, including extra unsupported assertions.
+
+The frozen [run003 manifest](../results/baseline-dev-003/manifest.json) reuses exactly the five existing development question strings. Prior runs and their scoring are unchanged. Use `--adapter indexed-spans` for a new freeze and `scripts/check_tog_adapter.py --indexed --upstream ...` for offline fixtures. This revision is not a faithful ToG reproduction, a held-out gain or a new constrained-generation algorithm. Costs include every structured selection/extraction call.
+
+While run003 was executing, code inspection identified an independent numeric-format edge case: Python can print tiny finite scores with an exponent, while the upstream parser accepts only decimal digits and dots. Current source v3.1 formats those weights as decimal strings and passes a new small-score test plus16 offline compatibility checks. The run003 archived source remains v3; it was not changed or silently restarted. No live result is attributed to v3.1. Restore run003 snapshots for exact reproduction; freeze a new output directory to execute current source.
+
+## Restore an exact archived runtime (all versions)
 
 To avoid running an old manifest with today's source, materialize its checked snapshots into a NEW directory:
 
@@ -59,6 +69,6 @@ To avoid running an old manifest with today's source, materialize its checked sn
 python3 scripts/materialize_baseline_runtime.py results/baseline-dev-001 /absolute/path/new-v1-runtime
 ```
 
-Use `baseline-dev-002` for the second version. From that isolated directory, invoke `python3 -m flagship_controller.baseline_development freeze --help`, then freeze a new run using the archived inputs, separately pinned upstream checkout and graph/model settings. The materializer verifies every source hash before writing and refuses an existing destination. It does not copy annotations, credentials, model weights or the database. The original output directories remain immutable; do not overwrite them to reproduce an experiment.
+Use `baseline-dev-002` for the second version and `baseline-dev-003` for the indexed/spans version. From that isolated directory, invoke `python3 -m flagship_controller.baseline_development freeze --help`, then freeze a new run using the archived inputs, separately pinned upstream checkout and graph/model settings. The materializer verifies every source hash before writing and refuses an existing destination. It does not copy annotations, credentials, model weights or the database. The original output directories remain immutable; do not overwrite them to reproduce an experiment.
 
 The v2 projection scores only emitted IDs; it does not automatically score every assertion in the original prose. A response can mix a named observed candidate with unsupported inferences. Preserve the native response and independently assess all its claims before describing it as faithful; ID projection alone must not be called native-answer accuracy or semantic certification. An adequate benchmark must freeze this distinction and any exhaustive-answer normalization rule first.
