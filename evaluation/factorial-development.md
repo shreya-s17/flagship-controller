@@ -1,6 +1,6 @@
 # Nested catalog-by-guard development controls
 
-17 October 2026. Implemented and fixture-tested; [30-condition plan](../results/factorial-dev-001/manifest.json) frozen before live execution. This engineering cohort reuses all six run002 strings: three inspected official originals and three handwritten, unscored controls. It is not a new or held-out sample. Reserved100 and official test remain untouched. [Motivation and limitations](closed-guard-stress-protocol.md).
+17 October 2026. Implemented, fixture-tested and30/30 outcomes complete; [30-condition plan](../results/factorial-dev-001/manifest.json) frozen before live execution. This engineering cohort reuses all six run002 strings: three inspected official originals and three handwritten, unscored controls. It is not a new or held-out sample. [Completed outcomes and costs](../results/factorial-development-report.md). Reserved100 and official test remain untouched. [Motivation and limitations](closed-guard-stress-protocol.md).
 
 `factorial_runtime.py` composes the preserved v2 controller, without editing its source or historical studies. C0 keeps the preserved schema catalog/ranking and acquires no primary-membership inventory. C1 retains current observed containment expansion/ranking. G0 bypasses only closed-obligation checking/pruning; G1 enables both. All compiler, type, graph-witness, resource and final same-model checks remain. The five conditions are repair-C0G0, repair-C0G1, repair-C1G0, repair-C1G1 and fixed-C1G1.
 
@@ -16,8 +16,8 @@ cd NEW_RUNTIME
 PYTHONHASHSEED=17 python3 -m flagship_controller.factorial_study execute /ABS/STUDY
 # Offline evaluation account / complete repository only:
 python3 -m flagship_controller.factorial_audit results/factorial-dev-001
-python3 scripts/summarize_common_study.py results/factorial-dev-001 /EVALUATION_ONLY/annotations.jsonl
+python3 -m flagship_controller.factorial_analysis results/factorial-dev-001 /EVALUATION_ONLY/annotations.jsonl
 python3 scripts/diagnose_common_recovery.py results/factorial-dev-001
 ```
 
-The existing offline scorer/branch diagnostic can consume these condition names and retains full rows. Independent semantic/STOP/recovery labels remain absent. Report exact/official-set changes as inspected-case behavior, not certified recovery or general superiority. Wider sampling, repeated-seed inference, budget curves and an adequate named-baseline comparison require their own freeze. No novel control algorithm, calibrated reliability or paper acceptance follows from these engineering controls.
+The separate offline factorial analysis consumes these condition names and counts the nested physical stages; the existing branch diagnostic retains full rows. The historical summary script requires its original policy names and must not be used for this study. Independent semantic/STOP/recovery labels remain absent. Report exact/official-set changes as inspected-case behavior, not certified recovery or general superiority. Wider sampling, repeated-seed inference, budget curves and an adequate named-baseline comparison require their own freeze. No novel control algorithm, calibrated reliability or paper acceptance follows from these engineering controls.

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-17",
+  "status": "PASS: engineering/archive integrity only; publication remains NO-GO",
+  "tests": 212,
+  "restored_original_files": 526,
+  "factorial_executions": 30,
+  "common_captures": 6,
+  "catalog_captures": 12,
+  "nested_ledger_rows": 30,
+  "declared_rule_audit_rows": 30,
+  "answered_witness_records": 25,
+  "post_run_unique_triples": 77,
+  "post_run_present": 77,
+  "post_run_unknown": 0,
+  "source_preservation": "v11/v16 and v2 inference unchanged; separate nine-module factorial runtime/harness",
+  "reviewers_completed": 0,
+  "owner_reviewer_input": "deferred; owner can provide later",
+  "paper_ready": false,
+  "reserved_inference": false,
+  "official_test_inference": false,
+  "public_release": true,
+  "new_purchase": false,
+  "full_denominator": true,
+  "finite_combinations": 67696,
+  "grammar_contract_cases": 33,
+  "limits": [
+    "Six failure-informed reused strings; three official originals and three unscored handwritten controls",
+    "Rule-pruning repairs retain one candidate; no learned general policy",
+    "Synthetic countermodels are not live error rates or independent semantic labels",
+    "No population superiority, calibrated reliability, matched-cost efficiency or novelty established"
+  ],
+  "clean_candidate_commit": "ac6f88382469d86c7f556863b3b33f1b589626ee",
+  "clean_verification": {
+    "candidate_commit": "ac6f88382469d86c7f556863b3b33f1b589626ee",
+    "tests": 212,
+    "restored_raw_files": 526,
+    "new_reports_reproduce": true,
+    "post_analysis_source_hashes_match": true,
+    "tracked_contents_unchanged": true
+  },
+  "finalization_scope": "After clean-candidate checks, QA and distribution/documentation prose are finalized, including owner approval of public GitHub checkpoint publication. Inference sources, inputs, predictions, analyses and bundle unchanged.",
+  "public_release_scope": "Owner explicitly approved publishing this verified checkpoint to the existing public GitHub repository; not paper submission"
+}

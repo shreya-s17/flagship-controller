@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v1.8, 17 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v1.9, 17 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -163,6 +163,22 @@ A separate relational interpreter enumerates4,096 arbitrary inverse-consistent k
 
 A gold-free reconstruction of schema-only catalogs from the six actual run002 prefix states finds zero versus two closed-rule-compatible entries before/after expansion for each Chicago string, with two old entries displaced at the20-entry cap. Kinship and Whitney catalogs are structurally unchanged. Compatibility is not correctness and no counterfactual program/model execution occurs. A prospective catalog-by-guard comparison must share pre-catalog observations, capture separate catalogs/first choices and retain exhausted conditions. A separate nested-capture harness is now implemented and fixture-tested, with a30-condition development freeze; its measured outcomes must be reported separately. Independent semantic review remains unfinished. [Audit, counterexamples and reproduction](../results/closed-guard-audit-report.md).
 
+### 5.10 Nested catalog-by-guard development comparison
+
+A separate nine-module runtime/harness composes the preserved v2 controller. One common capture stops after root/schema observation; each catalog condition then captures its own catalog and first PLAN. Guard arms share that mode-specific first choice, rather than incorrectly sharing a choice across changed prompts. All30 frozen outcomes complete on the same six inspected strings at seed17, with6 common and12 catalog captures. No official test/reserved-cohort inference occurs.
+
+| Condition | Official macro F1 | Exact sets /3 |
+|---|---:|---:|
+| Repair, schema catalog, closed guard off |.596491 |1 |
+| Repair, schema catalog, closed guard on |.666667 |2 |
+| Repair, expanded catalog, closed guard off |.666667 |2 |
+| Repair, expanded catalog, closed guard on |1 |3 |
+| Fixed, expanded catalog, closed guard on |.666667 |2 |
+
+In the captured states, guarded repair rejects and changes the reversed parents program under either catalog. Every such kinship repair retains just one admissible candidate. Expanded containment changes Chicago from23 broad endpoints to15 official matches; guard-on without expansion instead exhausts the catalog and abstains. The two handwritten controls/paraphrase reproduce related behavior but remain unscored. There is one distinct official original with an exact answer after a rejection, repeated across catalog conditions, not a certified recovery denominator. Effects are conditional on the common selected roots/schema and failure-informed development cohort; three inspected originals do not establish general improvement or statistical superiority. Downtown semantics remain unmodeled by the closed guard.
+
+Physical execution uses55 model attempts and174 graph calls across all conditions; every policy is charged its nested prefix work. Realized usage differs and constructed replay time is not a method-efficiency result. All30 nested ledger and declared-rule checks pass; all25 answered records pass structural witness auditing. All77 unique accepted witness triples are present on post-run requery, including those from wrong-role/broad controls. Independent semantic/false-rejection review remains absent, and previous negative runs are preserved. [Full denominator, costs, source and reproduction](../results/factorial-development-report.md).
+
 ## 6. Failure and STOP analysis
 
 Observed development failures include whole-question mentions, answer-category extraction, ambiguous labels, unsuitable relation sequences, misplaced named constraints, unobserved predicates, result/candidate caps, schema-query scoping problems, timeouts and catalog truncation. The move to a finite typed catalog addresses structural errors but can exclude valid answers and does not fix semantic scope by itself. Failures and superseded runs are retained; an interrupted development revision is labeled incomplete rather than scored as a complete five-question run.
@@ -193,4 +209,4 @@ A bounded, separately sourced ToG adapter now invokes pinned upstream pruning, s
 
 ## Release and assistance disclosure — owner review pending
 
-Codex assisted implementation, debugging, automated tests, artifact auditing and documentation. Automated checks are not independent human semantic review; none has been collected. Actual human authors, affiliations, contribution statements and final responsibility require confirmation before release. The root repository has no license file and public redistribution/attribution review remains open; [inventory](../evaluation/private-release-inventory.json). No public release or submission is represented by this draft.
+Codex assisted implementation, debugging, automated tests, artifact auditing and documentation. Automated checks are not independent human semantic review; none has been collected. Actual human authors, affiliations, contribution statements and final responsibility require confirmation before release. The root repository has no license file and public redistribution/attribution review remains open; [inventory](../evaluation/private-release-inventory.json). The owner approved publication of the verified17 October checkpoint to the existing public GitHub repository. This exploratory draft is included in that checkpoint; it is not a submitted manuscript, license clearance or final authorship confirmation.

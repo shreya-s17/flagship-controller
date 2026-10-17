@@ -1,0 +1,250 @@
+{
+  "scope": "Independent nested-state/request/usage ledger audit; no semantic certification.",
+  "rows_checked": 30,
+  "common_captures": 6,
+  "catalog_captures": 12,
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ABSTAIN",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C0G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C1G0",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C1G1",
+      "terminal": "ANSWER",
+      "catalog_mode": "on",
+      "status": "nested-state/request ledger PASS"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C0G1",
+      "terminal": "ABSTAIN",
+      "catalog_mode": "off",
+      "status": "nested-state/request ledger PASS"
+    }
+  ],
+  "semantic_review": "not provided by this audit",
+  "publication_ready": false
+}

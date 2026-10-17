@@ -55,3 +55,7 @@ artifacts/*.zip
 /results/obligation-dev-001/journal/
 /results/obligation-dev-002/predictions.jsonl
 /results/obligation-dev-002/journal/
+
+# Nested factorial raw evidence restored from its checked private bundle.
+/results/factorial-dev-001/predictions.jsonl
+/results/factorial-dev-001/journal/

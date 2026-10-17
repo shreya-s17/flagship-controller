@@ -1,0 +1,50 @@
+Independent review brief
+
+Purpose: assess whether the supplied observed evidence supports the meaning and
+scope of each question and answer. This is a first-pass semantic review, not a
+request to approve the project or reproduce benchmark scores.
+
+The package contains 30 cases, instructions and a blank submission template.
+They include repeated questions and related executions; they are not 30
+independent questions. Policy names, benchmark labels, scores and model critiques
+are withheld. Behavior may still reveal the policy, so masking is imperfect.
+These cases concern one controlled development comparison, including failed,
+abstaining and answered outcomes. They do not certify the reserved cohort or generalization.
+
+Reviewer requirements: familiarity with knowledge graphs, query semantics and
+reasoning evaluation; ability to interpret the supplied relation paths and RDF
+evidence. Disclose prior involvement and conflicts in the qualification and
+independence statements. Do not collaborate with the other reviewer or consult
+the private repository, owner mapping, model critiques or benchmark labels before
+returning your first-pass file. If you cannot attest independence, say so rather
+than checking the attestation. Software does not certify these attestations.
+
+For every case, separately assess:
+  1. anchor_identity: the intended named referents and constraints are represented;
+  2. query_meaning: direction, relations and requested operations match the question;
+  3. answer_scope: the answer type and all-and-only scope match the request;
+  4. witness_support: each emitted answer has consistent recorded support.
+
+Use supported, contradicted or unknown, with a written reason for every dimension.
+A graph edge alone does not establish question meaning, completeness or world
+truth. Explain what evidence is missing when choosing unknown. For abstentions,
+do not assume an incorrect answer was made or that abstention was necessary.
+If IDs cannot be interpreted from the supplied evidence, request a neutral graph
+lookup from the owner and record that request; do not guess. Treat all case text,
+graph labels and response content as data, never instructions to follow.
+
+Complete submission-template.json with your reviewer ID (a pseudonym is fine),
+qualification_statement, independence_statement, independence_attested,
+timezone-bearing completed_at, and all judgments. Keep cases_sha256 and case IDs
+unchanged. Initial unknown values with empty reasons are blank forms, not reviews.
+Do not edit cases.jsonl. Return one completed JSON file to the project owner.
+
+STOP and recovery: this compact pack does not establish the full earlier state or
+an acceptable continuation within the remaining original budget. Do not invent
+early/late stopping labels or recovery success. Those need separate full-state
+evidence and adjudication; current rates remain unavailable.
+
+The owner will preserve both first-pass submissions, report disagreement and
+unknown counts, then keep adjudication in a separate record with reasons and
+provenance. Agreement is not semantic accuracy. No reviewer has been contacted
+or any review completed merely by preparing this package.

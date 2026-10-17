@@ -50,7 +50,7 @@ def restore(root, bundle='live-evidence-2026-10-16'):
 if __name__=='__main__':
     root=Path(__file__).resolve().parents[1]
     total=restore(root)
-    for bundle in ('baseline-evidence-2026-10-16','indexed-baseline-evidence-2026-10-16','common-state-evidence-2026-10-16','harder-common-evidence-2026-10-16','obligation-evidence-2026-10-17'):
+    for bundle in ('baseline-evidence-2026-10-16','indexed-baseline-evidence-2026-10-16','common-state-evidence-2026-10-16','harder-common-evidence-2026-10-16','obligation-evidence-2026-10-17','factorial-evidence-2026-10-17'):
         if (root/'artifacts'/bundle/'manifest.json').exists():
             total+=restore(root,bundle)
     print('Verified/restored',total,'original trace files')

@@ -1,0 +1,12 @@
+{
+  "scope": "unannotated local handoff; no contact or independent review performed",
+  "cases": 30,
+  "cases_sha256": "8e46da456d3d0ec0c60fbed9aa6442cb93dcc9834ecc2ca4dec17d3092267be2",
+  "files": {
+    "README.txt": "05258fb8f13845c0be4d5c8169d460ab154be9838233a6d96938d332647fdecf",
+    "cases.jsonl": "8e46da456d3d0ec0c60fbed9aa6442cb93dcc9834ecc2ca4dec17d3092267be2",
+    "submission-template.json": "787d0bdba3a3be06c4192669b477a8a6deebcee85542fefcb5a487f49f0e2875",
+    "BRIEF.txt": "02286902ee61d92e6ac1d2e36f1a0671a57d31fa8853bda251faf18d47168c68"
+  },
+  "archive_sha256": "ebfd66a90cdad0aac5271c78a937d14290af05450e7d4e3bad71e01a65ea833c"
+}

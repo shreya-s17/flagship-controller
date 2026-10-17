@@ -12,6 +12,8 @@ Latest engineering checkpoint: [closed obligations and constraint propagation](.
 
 Latest offline checkpoint: [closed-guard countermodels and catalog isolation](../results/closed-guard-audit-report.md).211 tests pass. Synthetic enumeration retains controlled examples of valid equivalent programs being rejected and incomplete/finer-scope answers passing necessary guards. The same captured Chicago states have zero versus two rule-compatible catalog entries before/after expansion. These are scope/availability diagnostics, not new live results or a causal catalog effect. A separate factorial capture/control harness and30-condition development freeze are now implemented; measured outcomes must be reported separately. Reviewers will be provided later; zero completed reviews and reserved/test inference remain unchanged.
 
+Latest measured checkpoint: [nested catalog-by-guard comparison](../results/factorial-development-report.md).30/30 frozen outcomes complete;212 tests pass;526 original raw evidence files restore. Separate catalog-specific first choices resolve the earlier experimental confound on the six reused strings: guards correct the parents orientation, expansion changes Chicago scope, and guard-on/catalog-off exhausts Chicago. No independent semantic review, population gain, matched-cost advantage or novel learned policy follows. Reviewer input is deferred by the owner; reserved/test inference and final submission remain gated.
+
 ## What is established
 
 - Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.

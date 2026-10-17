@@ -1,0 +1,355 @@
+{
+  "scope": "Independent structural witness audit, not semantics",
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "WebQTrn-1211",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "WebQTrn-1211",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "WebQTrn-1211",
+        "answered": false,
+        "witnesses": 0,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "WebQTrn-1211",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-1211",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "WebQTrn-1211",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "hand-paul-children-001",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "hand-paul-children-001",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "hand-paul-children-001",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "hand-paul-children-001",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-children-001",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "hand-paul-children-001",
+        "answered": false,
+        "witnesses": 0,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "WebQTrn-825",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "WebQTrn-825",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "WebQTrn-825",
+        "answered": false,
+        "witnesses": 0,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "WebQTrn-825",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-825",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "WebQTrn-825",
+        "answered": true,
+        "witnesses": 23,
+        "answers": 23,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "WebQTrn-938",
+        "answered": true,
+        "witnesses": 3,
+        "answers": 3,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "WebQTrn-938",
+        "answered": true,
+        "witnesses": 3,
+        "answers": 3,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "WebQTrn-938",
+        "answered": true,
+        "witnesses": 3,
+        "answers": 3,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "WebQTrn-938",
+        "answered": true,
+        "witnesses": 3,
+        "answers": 3,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "WebQTrn-938",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "WebQTrn-938",
+        "answered": true,
+        "witnesses": 3,
+        "answers": 3,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "hand-paul-parents-of-001",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "hand-paul-parents-of-001",
+        "answered": false,
+        "witnesses": 0,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "hand-paul-parents-of-001",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "hand-paul-parents-of-001",
+        "answered": true,
+        "witnesses": 2,
+        "answers": 2,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "hand-paul-parents-of-001",
+        "answered": true,
+        "witnesses": 16,
+        "answers": 16,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "variant": "repair-C0G0",
+      "audit": {
+        "id": "hand-chicago-attractions-001",
+        "answered": true,
+        "witnesses": 23,
+        "answers": 23,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "variant": "repair-C1G0",
+      "audit": {
+        "id": "hand-chicago-attractions-001",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "variant": "fixed-C1G1",
+      "audit": {
+        "id": "hand-chicago-attractions-001",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "variant": "repair-C1G1",
+      "audit": {
+        "id": "hand-chicago-attractions-001",
+        "answered": true,
+        "witnesses": 15,
+        "answers": 15,
+        "recorded_row_consistency": true,
+        "semantic_validity": "not assessed"
+      }
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "variant": "repair-C0G1",
+      "audit": {
+        "id": "hand-chicago-attractions-001",
+        "answered": false,
+        "witnesses": 0,
+        "semantic_validity": "not assessed"
+      }
+    }
+  ]
+}

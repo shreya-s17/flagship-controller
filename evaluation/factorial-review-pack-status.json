@@ -1,0 +1,14 @@
+{
+  "cases": 30,
+  "status": "unannotated; independent reviewers required",
+  "seed": 17,
+  "cases_sha256": "8e46da456d3d0ec0c60fbed9aa6442cb93dcc9834ecc2ca4dec17d3092267be2",
+  "date": "2026-10-17",
+  "independent_reviewers_completed": 0,
+  "reviewer_contact_performed": false,
+  "owner_will_provide_reviewers_later": true,
+  "sources": [
+    "factorial-dev-001"
+  ],
+  "scope": "30 correlated outcomes on six reused strings; not30 independent questions or labels"
+}

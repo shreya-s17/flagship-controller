@@ -1,0 +1,30 @@
+WebQTrn-1211 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 repair-C0G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 fixed-C1G1 ABSTAIN role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out
+WebQTrn-1211 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-1211 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 repair-C0G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-children-001 17 fixed-C1G1 ABSTAIN role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in
+WebQTrn-825 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-825 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-825 17 repair-C0G1 ABSTAIN program_catalog_exhausted
+WebQTrn-825 17 fixed-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-825 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 repair-C0G1 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+WebQTrn-938 17 fixed-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-parents-of-001 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-parents-of-001 17 fixed-C1G1 ABSTAIN role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out
+hand-paul-parents-of-001 17 repair-C0G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-parents-of-001 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-paul-parents-of-001 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-chicago-attractions-001 17 repair-C0G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-chicago-attractions-001 17 repair-C1G0 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-chicago-attractions-001 17 fixed-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-chicago-attractions-001 17 repair-C1G1 ANSWER observed_conjunctive_support_and_semantic_gate
+hand-chicago-attractions-001 17 repair-C0G1 ABSTAIN program_catalog_exhausted

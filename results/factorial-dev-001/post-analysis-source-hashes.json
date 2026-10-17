@@ -1,0 +1,10 @@
+{
+  "flagship_controller/factorial_analysis.py": "dd86e4dd44747d023673fa8ec7b92d0071b98bcb536265d51a50212afd6da74c",
+  "flagship_controller/factorial_audit.py": "001651c020b2e7abb2e25b107ce854842991eb002beca683d9ab57ec74008743",
+  "flagship_controller/witness_audit.py": "2e1b3dd272cb2dab7495b5ea536618dbd7fd06b82f7e98a5b4d49d5eb98bc27a",
+  "scripts/audit_obligation_study.py": "1d062818b26e24008bafef7b5af848202d69086bc8b8400d1f6627a51f3b6dbe",
+  "scripts/diagnose_common_recovery.py": "6908fc1c594e85638572866ec3996c8dd782e16c2e4b6f8c43965c06256137f5",
+  "scripts/recheck_graph_witnesses.py": "6a0396f32028985f7bc3d059ced6b8e90d22e0120704a5c73be4b78d6e8571bf",
+  "flagship_controller/official_score.py": "047d0d5ba4a58e76cfe8f711a8851b41bfebefc9fb2446ccb97bc62426414025",
+  "flagship_controller/common_state_audit.py": "548b3c01e9ef65e8317764b48b2439fea9731c3fb2345611392e9366f5d0a55e"
+}

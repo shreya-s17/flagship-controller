@@ -7,7 +7,7 @@ import tempfile
 import subprocess
 import unittest
 from unittest.mock import patch
-from flagship_controller import factorial_runtime as runtime, factorial_study as study, factorial_audit
+from flagship_controller import factorial_runtime as runtime, factorial_study as study, factorial_audit, factorial_analysis
 from flagship_controller.obligation_stress import program, ATTRACTION, MEMBER, PARENT
 from flagship_controller.webqsp_runtime import Blocked
 
@@ -211,6 +211,12 @@ class FactorialTests(unittest.TestCase):
                     study.execute(folder, 'offline://', 'offline://')
                 checked = factorial_audit.check(folder)
                 self.assertEqual((checked['rows_checked'], checked['common_captures'], checked['catalog_captures']), (5, 1, 2))
+                gold = Path(temp) / 'gold.jsonl';gold.write_text('')
+                summary = factorial_analysis.analyze(folder, gold)
+                self.assertEqual(summary['physical']['model_attempts']['total_known_lower_bound'], 8)
+                self.assertEqual(summary['physical']['graph_calls']['total_known_lower_bound'], 12)
+                self.assertTrue(summary['physical']['model_attempts']['complete'])
+                self.assertIsNone(summary['descriptive_f1_contrasts'])
                 # Recompute ordinary hashes after tampering, so the independent
                 # nested linkage check must detect this semantic ledger error.
                 path = folder / 'journal/policy-0000.json';env = json.loads(path.read_text())

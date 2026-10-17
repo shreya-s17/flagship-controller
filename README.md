@@ -1,6 +1,6 @@
 # Flagship controller
 
-An auditable graph-reasoning research prototype with a synthetic component study and a question-only Freebase/WebQSP pipeline. **Working restricted prototype; not a final benchmark, validated novel method or submission-ready paper.** GitHub remains private.
+An auditable graph-reasoning research prototype with a synthetic component study and a question-only Freebase/WebQSP pipeline. **Working restricted prototype; not a final benchmark, validated novel method or submission-ready paper.** The repository is public; the owner approved publishing the verified17 October checkpoint. This is an exploratory artifact, not a submitted paper.
 
 ## Current evidence
 
@@ -15,6 +15,8 @@ An auditable graph-reasoning research prototype with a synthetic component study
 The five development questions were reused while fixing the software; their score is not held-out improvement. The Philippines answer remains too broad. A valid graph path and same-model semantic approval do not guarantee a correct answer.
 
 ## Current publication-development work
+
+Latest measured checkpoint: [nested catalog-by-guard development comparison](results/factorial-development-report.md). All30 frozen outcomes complete;212 tests pass. The controls separate the inspected parent-direction repair from the Chicago catalog change. Combined repair matches3/3 inspected official sets, but no held-out gain or independent semantic review is established. Reserved100 and official test remain unrun.
 
 Latest offline checkpoint: [closed-guard limits and catalog availability](results/closed-guard-audit-report.md). A separate finite relational interpreter and captured-state catalog audit characterize false rejection, incomplete scopes and the catalog/guard confound.211 tests pass. These synthetic software checks add no live benchmark evidence or independent review. The separate [factorial harness](evaluation/factorial-development.md) is implemented, with a30-condition development freeze; wider evaluation remains gated.
 

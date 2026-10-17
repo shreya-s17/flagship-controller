@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-16",
-  "scope": "Private release inventory; file/provenance facts only, not legal clearance or permission to publish",
+  "date": "2026-10-17",
+  "scope": "Distribution inventory; source/provenance facts and owner approval, not legal clearance",
   "repository_root_license_file_present": false,
   "repository_root_notice_file_present": false,
-  "public_release_performed": false,
+  "public_release_performed": true,
   "items": [
     {
       "component": "Project code",
@@ -38,5 +38,13 @@
     "Actual human contributions/authorship/affiliations",
     "Project license and third-party redistribution/attribution clearance",
     "Review concrete public package and manuscript before release or submission"
-  ]
+  ],
+  "latest_private_evidence": "results/factorial-development-report.md",
+  "independent_review_status": "Owner plans to provide reviewers later; all packs remain unannotated, no contact performed",
+  "distribution": {
+    "repository_visibility_observed": "public",
+    "visibility_changed": false,
+    "owner_approved_checkpoint_publication": "2026-10-17",
+    "scope": "Verified source, paper draft and checked evidence checkpoint; not manuscript submission or license certification"
+  }
 }

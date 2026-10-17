@@ -1,0 +1,341 @@
+{
+  "scope": "Private complete nested factorial development raw evidence; six reused strings, no independent semantic certification",
+  "archive_sha256": "bbce60c11729283e3993af777effbc92e6cf01f2fe4beaa1759b7d359c56a5b1",
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part000",
+      "bytes": 32768,
+      "sha256": "9620647cfc8d380c352d18baf32dd40d52a1d3222ed1916a9429a6bd959ca853"
+    },
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 32768,
+      "sha256": "88503f512e8660d564e467b5508b8bff6f4d91dd1edc71f42547587c5c5d8838"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 32768,
+      "sha256": "1569e514ed0407abeb37392b3c6eae1aef41ef189a379a573e077a81b2edff94"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 32768,
+      "sha256": "f366b34e2e9a66fb0da0bd231fe6eb1944fbaece35f68a73378c2314617c52ac"
+    },
+    {
+      "file": "evidence.tar.gz.part004",
+      "bytes": 32768,
+      "sha256": "99a50c9edb49ced197cdbb31abc735740f71335d3b6f12ddf57e94e4be3bdf0a"
+    },
+    {
+      "file": "evidence.tar.gz.part005",
+      "bytes": 32768,
+      "sha256": "7880d34eca05c43073e1f8793b2e31d8e21c3c51f9cd252350a6c53df83169f1"
+    },
+    {
+      "file": "evidence.tar.gz.part006",
+      "bytes": 32768,
+      "sha256": "f6fe78b14a76d8fea3bce100d9392e28e34052ee7f33dd2e3205c89189cdce48"
+    },
+    {
+      "file": "evidence.tar.gz.part007",
+      "bytes": 32768,
+      "sha256": "eaf60335f91cf66e5889cae468c4c042af55c468e0a0e33ad2984e82039dc516"
+    },
+    {
+      "file": "evidence.tar.gz.part008",
+      "bytes": 32768,
+      "sha256": "d90d5e0995df2cd1ba4edafdc927b79dd67b95804dbbc0aa494e2565f0d0d300"
+    },
+    {
+      "file": "evidence.tar.gz.part009",
+      "bytes": 32768,
+      "sha256": "ca10bd66392f0dd38f816a3a4a4e175ad0b6b65b00bea0d0053ad300f090a724"
+    },
+    {
+      "file": "evidence.tar.gz.part010",
+      "bytes": 32768,
+      "sha256": "37746697f3c4fae215db5ceabb607528185a80dfb68ca8d182925d56c90527f6"
+    },
+    {
+      "file": "evidence.tar.gz.part011",
+      "bytes": 32768,
+      "sha256": "946a4f11536e4fea81163f62fd1ccb2156a76d367ac136e470c911d0827f0c56"
+    },
+    {
+      "file": "evidence.tar.gz.part012",
+      "bytes": 32768,
+      "sha256": "6af8c6f37ac68e6c8d77b6ce54d628d41615c9006615acd384b807659a9dcb53"
+    },
+    {
+      "file": "evidence.tar.gz.part013",
+      "bytes": 32768,
+      "sha256": "f59d30ac35863c2a971213d63b227d0c3288458355d4e92cb8fb80bdea996538"
+    },
+    {
+      "file": "evidence.tar.gz.part014",
+      "bytes": 32768,
+      "sha256": "b86cc580511d887270613cceb0f36ab254dbf54f66840aedbd3bbda80d8354c8"
+    },
+    {
+      "file": "evidence.tar.gz.part015",
+      "bytes": 32768,
+      "sha256": "44292c009035fb855b8eb751bf3904d854e160c68899a6db34280743ae6c3012"
+    },
+    {
+      "file": "evidence.tar.gz.part016",
+      "bytes": 32768,
+      "sha256": "8f0a96682a0d252ac0faa0837777f2ad4ee81e26591ff51f8155cc878b9d203d"
+    },
+    {
+      "file": "evidence.tar.gz.part017",
+      "bytes": 32768,
+      "sha256": "64a2f0c68e5d3ad3a0623d3909b9b44264fecab40dac671639972d608843c513"
+    },
+    {
+      "file": "evidence.tar.gz.part018",
+      "bytes": 32768,
+      "sha256": "8774acac5d423d6af8827da5651052d523c5f128cc7913bc80c10c2acdb44b49"
+    },
+    {
+      "file": "evidence.tar.gz.part019",
+      "bytes": 32768,
+      "sha256": "8b7ec6f504491685821a1e5d0cc7c7e6826fcde6e788c139c2d2555ad3694452"
+    },
+    {
+      "file": "evidence.tar.gz.part020",
+      "bytes": 32768,
+      "sha256": "1a49c2d2f8f9fc31843133c76240931a026ab056bf5a2cb87432bdd2fa42679a"
+    },
+    {
+      "file": "evidence.tar.gz.part021",
+      "bytes": 32768,
+      "sha256": "16220ce128c68c6033b598d0e4e0265468ff3f41091dcd73720e22d288ad7665"
+    },
+    {
+      "file": "evidence.tar.gz.part022",
+      "bytes": 32768,
+      "sha256": "a0c44d819a31eaa7d26ed28455621fe2f9f38e293cf84be0467eac0b5e869f25"
+    },
+    {
+      "file": "evidence.tar.gz.part023",
+      "bytes": 32768,
+      "sha256": "f48d0f4e5fb62c5689d5da659bc3a7c7ef152a6b95679f20494ee49bb9ff7560"
+    },
+    {
+      "file": "evidence.tar.gz.part024",
+      "bytes": 32768,
+      "sha256": "31c4f34d4fd3778c604c2325b056fa12db411c361d1ece6e4229ba98a4262778"
+    },
+    {
+      "file": "evidence.tar.gz.part025",
+      "bytes": 32768,
+      "sha256": "7457bba512f1f470cf9760f868733ed04d7e2ceb331fc36ff38de1c490b39e20"
+    },
+    {
+      "file": "evidence.tar.gz.part026",
+      "bytes": 32768,
+      "sha256": "5d2601db3450edd71bcf06c7f72c90881404a962ea7d40fc2350ec6d0f0d8664"
+    },
+    {
+      "file": "evidence.tar.gz.part027",
+      "bytes": 32768,
+      "sha256": "dc2201505054e90e8cb41d971fdc756b71c2559536f306236c1ae1dd10951b31"
+    },
+    {
+      "file": "evidence.tar.gz.part028",
+      "bytes": 32768,
+      "sha256": "3a2f632be0d12172468f4264fda69221d35a6f278190c1ce68668dcb86751626"
+    },
+    {
+      "file": "evidence.tar.gz.part029",
+      "bytes": 32768,
+      "sha256": "715a487691f4d24de4d13d02b521968a50d332d648daf853f1192f33caf4da61"
+    },
+    {
+      "file": "evidence.tar.gz.part030",
+      "bytes": 32768,
+      "sha256": "3b636f9728431e65fcc32f55843ec47dc54c425d834090e2e1dfec7a5cd94eb4"
+    },
+    {
+      "file": "evidence.tar.gz.part031",
+      "bytes": 32768,
+      "sha256": "39a7f60c7e6a0a8c2b696690a93c3aafe2a2ac1272ff045c60e5025994f874c3"
+    },
+    {
+      "file": "evidence.tar.gz.part032",
+      "bytes": 32768,
+      "sha256": "f0ce2613480d0b434da9c41dedaeec11904c12e6dafa65f87163f6ee1ecb6845"
+    },
+    {
+      "file": "evidence.tar.gz.part033",
+      "bytes": 32768,
+      "sha256": "c79a0d024cef002122aef356965ec33c9c1eda5d05f888b3b576c4e18ed7b215"
+    },
+    {
+      "file": "evidence.tar.gz.part034",
+      "bytes": 32768,
+      "sha256": "afdb4990f74d2fd9a4ac3fdec42945416eaa5d02461ff6fcd39e9b94bc4facac"
+    },
+    {
+      "file": "evidence.tar.gz.part035",
+      "bytes": 32768,
+      "sha256": "c091afdb35b887b2321e1c9e813bdef4c6c1393309b7890ec00b414f67a4f927"
+    },
+    {
+      "file": "evidence.tar.gz.part036",
+      "bytes": 24031,
+      "sha256": "ad3f8c1eb7e7db39774a0cbd116f0177ccbe578bd773ae8801611013dfb7a9cb"
+    }
+  ],
+  "files": {
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-off.json": "bcab566e1f52e9a7f8b397f60b818c4be2bb82439f4422943ddd55a1bae7c3cd",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-off.progress.jsonl": "d320f7dfdfcb177481d3a00077a883bd07a8cbffe00a9a4d34923462e573a4c3",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-off.started.json": "f018c80585091785cf83918da1c29c7caeea6321ae47a1d0d49fc2673163d585",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-on.json": "76bd8e76b57c38606ff9974babb9243da60173ff4f546620d2cccd554e9c0227",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-on.progress.jsonl": "63de5e10b8ee484de6e4712540aa253e190e2b22512511fcc9b9710c53498fd2",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-catalog-on.started.json": "dd6621679fac448897d4937142f7264e68e965c33f70def8a4c8322527da2989",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-common.json": "ae97a1206872da96580ac57ccaa232839fa4361a5a3cba407e1b5666d5c8b5d5",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-common.progress.jsonl": "074354cfd3819b314322bcff5465e21a05e50005147e6a6ac7ade2baad7ed3b5",
+    "results/factorial-dev-001/journal/17-07b1356fde1e0f6c-common.started.json": "3bf6a4a0527a3b643667c14be21db09e14e43c803f6ea93d4994b18a2569405a",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-off.json": "070692eac02ebc9788df82d1f35d64fac70ca0befc12823898eacf309706c72e",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-off.progress.jsonl": "08130a3ee4c87350feb9bf8424a687014371c3227eae314161f3ed19f9b41470",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-off.started.json": "9172d6a2fbecb42fdc0037939e3b724fb1f3e98beac4eef97d71d74d5f98e40e",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-on.json": "0b923ae9209b3f33a931a88620448452b679bd471aa64b3f421b3148e3a593e9",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-on.progress.jsonl": "08130a3ee4c87350feb9bf8424a687014371c3227eae314161f3ed19f9b41470",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-catalog-on.started.json": "4c0b46d57407d55b84baab7092918d23ae31db970aa57da73d459c06891e25ca",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-common.json": "355ec812a0a9e5976d28e98c4e514730c2fefd98a608a2f6a6601f04d5bf5dfe",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-common.progress.jsonl": "be7e5ba95a92aac6dbac26d33cd18b0909cddea1b4a781f169a037183ab940ae",
+    "results/factorial-dev-001/journal/17-42c022ac1f2800ce-common.started.json": "b8bd2e5b824139ac28f07ad768ffa260d52e759ae84ab5b23a2b0a3509158eca",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-off.json": "8b829cf5822f52a86decad6d9dfde35643a0a12fc6d9d447ff06bacc927eedae",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-off.progress.jsonl": "43e3d124a1d84a34ba5757bbedf4d9030b7a70bdcf998b1c718e4ce568c1ffb9",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-off.started.json": "f985722f452a4f08740dbefdfbcb63637e48556705d5d09af030a08b04e22722",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-on.json": "e67b3d6914f814f2da0a571d70c9c9f3fe905087d0ac9da5ef484ca750bee282",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-on.progress.jsonl": "43e3d124a1d84a34ba5757bbedf4d9030b7a70bdcf998b1c718e4ce568c1ffb9",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-catalog-on.started.json": "7da839052250f9fa84b90b59ecd4c45992a11c2bdee86a276a205ddaff339ffc",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-common.json": "39c02b468e72096ebaffd4157a87d4bb50d58770d6b796ceca45240c63509b63",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-common.progress.jsonl": "9caf0f75841f76e62ac15533b62aac9723cbab9d13eb2c843d044913a7e686d9",
+    "results/factorial-dev-001/journal/17-4ac00baa0ca0731d-common.started.json": "a1ff83def2772e48fc96ba0f8919343d3398862a41a3b4a32719643c18900a10",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-off.json": "1ac44070876acab88bcf93d519bb52151ce578e8a1ba610b6d12c6498f5f7250",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-off.progress.jsonl": "1871e15c27cffeb0d7a4d09d94fa51bc65cb9b361378156fe3cddc3be69b55ec",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-off.started.json": "c63178ef15dde2c4a1481f6ee085165f4731ab3d838db628dd9beafa50c63c70",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-on.json": "7fd2a42c57bfd1ff8dc4695cb8eb790341185c4eab202c10aac965130a3974cd",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-on.progress.jsonl": "1871e15c27cffeb0d7a4d09d94fa51bc65cb9b361378156fe3cddc3be69b55ec",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-catalog-on.started.json": "697ac1646f66559c9b52e24ae10f901700429fb25b90342c33a077481805ae3c",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-common.json": "205a2bdf90987ce1ec12226657bef0736e5436263da03fc22d80c781dc04ecb6",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-common.progress.jsonl": "9d8ae6b75115ff23949f02e814027a950ef0eb0398f6a0f64ecf65abfaa9167e",
+    "results/factorial-dev-001/journal/17-96855946ca75a14d-common.started.json": "2c74c44ef37d358fa00f338cfeb1c64bbc3c2c490538663fd28f920d314cf856",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-off.json": "6df9ef1e5c146792a9149b5b7e02ddabd0bf6f85f635a327f832184c1d272ecf",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-off.progress.jsonl": "b810de65734f114dce99d8941383e5b691a88a06e670bc2e3807112c3c849e73",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-off.started.json": "552e78852843094d745637853128969d23c7ba27eae08463dfb1500e2c5955cd",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-on.json": "25380a3a8c2705f1bca12e99105038dc1d83b8af71e97702066b0821bdf51bc9",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-on.progress.jsonl": "b810de65734f114dce99d8941383e5b691a88a06e670bc2e3807112c3c849e73",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-catalog-on.started.json": "8902b087afe8ea0455b6e14646fc4a6c1906e755fe74620e0c88a16cf1b1ea07",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-common.json": "bbdb8935dc176e769baa64cb3c3cfd147c18cf29891f45b0adc8be3460741999",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-common.progress.jsonl": "39be5d4ec884a69e6aeb5fe911058413c473b9449e452259a3e212ff24626164",
+    "results/factorial-dev-001/journal/17-d678078cd5f2a380-common.started.json": "fcc8542d1b09ce782d39613f60c7b70fec22faaea569a8a19f1b6896c6a348a2",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-off.json": "56ed4d1dc3cce73d536158d137e6e1b5789b0ef37d20821e5777407d74441983",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-off.progress.jsonl": "c2c430f4597404a18bfe4d8c088949f6fd100c505186a45e15640aa6ba740ddb",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-off.started.json": "508ed7e67f93b24e38414698e6b341881ee0371fb9fddd5feff1122bee35a1c7",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-on.json": "61ae53a86195df9650a30a149552ef67c1c85b5135bc4165b8530e689a081abb",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-on.progress.jsonl": "33b348df83936af97bb957e52d927add05307e27456b35e02cf1d3c81d9c0359",
+    "results/factorial-dev-001/journal/17-eae086326a965796-catalog-on.started.json": "0f116468d911c53457ee7ab756b5fb23478df5d0c4c8316e7efa8aa0d543ed31",
+    "results/factorial-dev-001/journal/17-eae086326a965796-common.json": "89aba2dff2b39e8b595d9ae2c52c8aef74c04f24a24e3032bfd0c4d93cd80549",
+    "results/factorial-dev-001/journal/17-eae086326a965796-common.progress.jsonl": "f5344f1f238991f4a5c262ca51a2d42db964a3c2b72da558d836c8f055514b4c",
+    "results/factorial-dev-001/journal/17-eae086326a965796-common.started.json": "71238a6d097f9e1a853cf82881556e4cd53c7f638ea363929accf74ca0770153",
+    "results/factorial-dev-001/journal/policy-0000.json": "ee44320a187b8fe7478c13b990ad1138b2abd359faf4a283757964c8117a6121",
+    "results/factorial-dev-001/journal/policy-0000.progress.jsonl": "122b14ed07be7f090819a60421bc6758a2687d564f37fe640d87bcb68809651f",
+    "results/factorial-dev-001/journal/policy-0000.started.json": "85dc58f5b7a74cd86e315fd00f2768b593fc628b7fda4d4e2f47915158db542f",
+    "results/factorial-dev-001/journal/policy-0001.json": "c3eb3b9124d580688f25d92af53c9f2a6f2959ee527385a008e7cb3b06c5e6ad",
+    "results/factorial-dev-001/journal/policy-0001.progress.jsonl": "5033f04411a27c77102ed069dcb7c28cd3eb43bf8edcc577613cec4f67eab187",
+    "results/factorial-dev-001/journal/policy-0001.started.json": "279b5a798a46c1445495dfcc9454638ce40bb28a82068bfb753e92421c3c379e",
+    "results/factorial-dev-001/journal/policy-0002.json": "778e9b080a283aa947a4ece7bc494461abf67c0b8a29d3344ed6e836a9dfe6f5",
+    "results/factorial-dev-001/journal/policy-0002.progress.jsonl": "4b11776088d8a82279008787a27f4f6679229188d263d3ae565a0dd1104f180f",
+    "results/factorial-dev-001/journal/policy-0002.started.json": "77fa18f441fc8a6baf09298ad3517fde232c69459de0f93df3a667cbb264c3e8",
+    "results/factorial-dev-001/journal/policy-0003.json": "a3fb69b73e305de4a035dfcd9beae805475e9391ba8ff0c49a65f8b12cd8545b",
+    "results/factorial-dev-001/journal/policy-0003.progress.jsonl": "437ed6b77cdf65aba7478f9748b8209b5f6afcabf6bea10f36848c814b553d0f",
+    "results/factorial-dev-001/journal/policy-0003.started.json": "cb7c1023e7a43a7831ffd1e5be201de372d982974682af81abbbdfa18c7f25c1",
+    "results/factorial-dev-001/journal/policy-0004.json": "e8ba7515f5c1abdd2fdca4ad02d5a7a4599b4c98ce2eda05ae9f6bfb444eb50d",
+    "results/factorial-dev-001/journal/policy-0004.progress.jsonl": "437ed6b77cdf65aba7478f9748b8209b5f6afcabf6bea10f36848c814b553d0f",
+    "results/factorial-dev-001/journal/policy-0004.started.json": "d408748bf1c331744de919e64f5de55bf5932d4fa21fe2980157fe45c90d75dc",
+    "results/factorial-dev-001/journal/policy-0005.json": "e8064cd887c9307dfd915f33584bfbbaa20531771bd49055d9301701e6072907",
+    "results/factorial-dev-001/journal/policy-0005.progress.jsonl": "f1b330e41936f0d84364d5bfbee2a94b2b403552082def066851433814269923",
+    "results/factorial-dev-001/journal/policy-0005.started.json": "e5807500326fbfd2e3cd5c261c416161c179c7aa92ae638674a15a8342bf8534",
+    "results/factorial-dev-001/journal/policy-0006.json": "29af0d042dfc08b24a37216b530319d06c3b31db9e04efcd681595f2611e54a0",
+    "results/factorial-dev-001/journal/policy-0006.progress.jsonl": "26afa44e30d2f6186015afb7b6c8a3670e7bec160faf0150477bce69ea1b6ee7",
+    "results/factorial-dev-001/journal/policy-0006.started.json": "42e3b37d1a155eb56f966287749136ca4acd3e7605ba595abb53fb5ad1407d94",
+    "results/factorial-dev-001/journal/policy-0007.json": "840d2f833e1789e06d5ef5bf2b52df83d8ffd1ea9948b0bd4c2531603d5bb79d",
+    "results/factorial-dev-001/journal/policy-0007.progress.jsonl": "a8237f41217c036608ae40de149913fd9e8fda280fd588ad92483a8279359ecf",
+    "results/factorial-dev-001/journal/policy-0007.started.json": "96b8d20f03a993fd86226758223bd275a6b23b76f8fcb694f613f0fc69f40b14",
+    "results/factorial-dev-001/journal/policy-0008.json": "398bf816da8e32ae9662f5a65c9bc2f847e95457e4a029eca4d44cc2d85df95e",
+    "results/factorial-dev-001/journal/policy-0008.progress.jsonl": "a8237f41217c036608ae40de149913fd9e8fda280fd588ad92483a8279359ecf",
+    "results/factorial-dev-001/journal/policy-0008.started.json": "19c264f966e2efc2c7791c5daba10fb2c8cc9b943bdc4fc7816e891fdcae8ba3",
+    "results/factorial-dev-001/journal/policy-0009.json": "586235f8c8728e8f73fc4a9cba6eae85beb5450c5b5e5c8c2455ccb70d1f541a",
+    "results/factorial-dev-001/journal/policy-0009.progress.jsonl": "52674ffc22fe519a95cc94038e49452d9f93997442f96845ead974f8a6551e24",
+    "results/factorial-dev-001/journal/policy-0009.started.json": "2fa770089411808a0d93e763a4847790a590b0bedf06e21ac5759042a97f8a6c",
+    "results/factorial-dev-001/journal/policy-0010.json": "c158e366d18714e7be173010496295b70c8ef47e81450d590684f44dbc0ee974",
+    "results/factorial-dev-001/journal/policy-0010.progress.jsonl": "3c1629e1bbe320da0e46d51309b07f5ddf4b399ae4c2a6c48a7d99325a998b9c",
+    "results/factorial-dev-001/journal/policy-0010.started.json": "83aa5d58cddd12cd983dd4a05f10eb1387f140e79ed46ba702c98a671bf4ee2e",
+    "results/factorial-dev-001/journal/policy-0011.json": "6ebf039fb53859ff60dd8f97a2f9a2b330fa9fb45f3d1c86848cde72cca8c747",
+    "results/factorial-dev-001/journal/policy-0011.progress.jsonl": "a6b89b7ac6c3c938ee3a589aff3995f0e10c9e7e0448d157b887eef6c9cf9e9b",
+    "results/factorial-dev-001/journal/policy-0011.started.json": "7d64be17e7978fb887de8d9cd4eef313dc7727b8d172228a16a614f0eb9e9c96",
+    "results/factorial-dev-001/journal/policy-0012.json": "7b98f21cdedd2a02ca9a0ccc350909bfc767530c81120cad547564a4caa33c28",
+    "results/factorial-dev-001/journal/policy-0012.progress.jsonl": "6fabb0d4ec961a32eb6e352a492a32e1f7650aa580c18efd453772709cf911e1",
+    "results/factorial-dev-001/journal/policy-0012.started.json": "02d2c75b9829b3b666111064bdbbe35645d0e465b84d25f5b2473086d457a29a",
+    "results/factorial-dev-001/journal/policy-0013.json": "8776965dfe03a900be97cd04af06221dca3be41b51d886e45f268c674adc5feb",
+    "results/factorial-dev-001/journal/policy-0013.progress.jsonl": "a6b89b7ac6c3c938ee3a589aff3995f0e10c9e7e0448d157b887eef6c9cf9e9b",
+    "results/factorial-dev-001/journal/policy-0013.started.json": "39b14921a8267ee458547cd12dc5e9012f66375f52b89cabbd6ed45330bfb01b",
+    "results/factorial-dev-001/journal/policy-0014.json": "91d2af6927e6ca203c2efb6030bab21ffed83e67c8ddd96645e5d8091aebd067",
+    "results/factorial-dev-001/journal/policy-0014.progress.jsonl": "f8257584596e307ab9405dcd114c84b4cc71c95abb0c2655977d8479863b5ab3",
+    "results/factorial-dev-001/journal/policy-0014.started.json": "d5cecde446179f19814b1d15d31f52a0f35ac055084420d8d17aa41e559c15d2",
+    "results/factorial-dev-001/journal/policy-0015.json": "230413cb39b640fcd816dec19e203deb9b9eb8124242c503e0f8e325d1819825",
+    "results/factorial-dev-001/journal/policy-0015.progress.jsonl": "e2e76a08b663164da38a849f86db941e7a25737d82d7cad6b3029626d89048bd",
+    "results/factorial-dev-001/journal/policy-0015.started.json": "9d3b36a1abd3597ebe90d330f2318c7d688294152dd3b1acc74d964004935fde",
+    "results/factorial-dev-001/journal/policy-0016.json": "561940812b092d8172236fb76261e0bb73520d0eaa8d28d1fa8a0aca442cc02e",
+    "results/factorial-dev-001/journal/policy-0016.progress.jsonl": "1d3cf4db0125d1a3db705696ebbc0f2af3b4bcd738277e8ecac7d622e8907d21",
+    "results/factorial-dev-001/journal/policy-0016.started.json": "749e817fc1cfdb66d01142f1092d85810e030aeae6f11a7bf8cfa473678fc982",
+    "results/factorial-dev-001/journal/policy-0017.json": "6de8e7d11ed09949363d1421fb13ba2eb21aa00a6e923760e6b2d73bd3fa6ca4",
+    "results/factorial-dev-001/journal/policy-0017.progress.jsonl": "1d3cf4db0125d1a3db705696ebbc0f2af3b4bcd738277e8ecac7d622e8907d21",
+    "results/factorial-dev-001/journal/policy-0017.started.json": "069e072bd72e3e9178c3dee6c25f0c81f5686edf9771cde7a6e1186b08e942fb",
+    "results/factorial-dev-001/journal/policy-0018.json": "3567d6c266ecc7efbdff9e5153e997476d6eb9fb0bd30993f9e4dcab3aad3b4e",
+    "results/factorial-dev-001/journal/policy-0018.progress.jsonl": "e1790559bdad6bd0812512c174619f60c6572fab9f0d9d286a64a52474788e2b",
+    "results/factorial-dev-001/journal/policy-0018.started.json": "31bda36a987f1ebc059d50715b8bd1c6b40b6060ac8665f24d8c622a14e82db9",
+    "results/factorial-dev-001/journal/policy-0019.json": "dc7d88dcbbbec6eaded43d102772522f0c65c9db09cda6ab5611ef10f16e141e",
+    "results/factorial-dev-001/journal/policy-0019.progress.jsonl": "1d3cf4db0125d1a3db705696ebbc0f2af3b4bcd738277e8ecac7d622e8907d21",
+    "results/factorial-dev-001/journal/policy-0019.started.json": "4726143d317e16269d4bf03948175c8c76e0314178982036c19924b8759ebb44",
+    "results/factorial-dev-001/journal/policy-0020.json": "1a75b3f0741bf968083153d465d4e3950f8a2185208cb89d014c0f49c5b22ebe",
+    "results/factorial-dev-001/journal/policy-0020.progress.jsonl": "cfbe9bda167027b28eb689fa73d55ca94f4b11be879a91fb99d958362a9f6de1",
+    "results/factorial-dev-001/journal/policy-0020.started.json": "14b3e15f329ef3c97947c1df34fccc5a853871f56be0158708cfde19562a6549",
+    "results/factorial-dev-001/journal/policy-0021.json": "acc624e025cfb8f380a89bd6ee6a324643702e7b368d704a5da1950460f58f5c",
+    "results/factorial-dev-001/journal/policy-0021.progress.jsonl": "cd6865074eb9ac5902ef0506c856d0f61e29ac89a92ea12df1331c278d9bd831",
+    "results/factorial-dev-001/journal/policy-0021.started.json": "e535cdefa3782a8b1a7614898f8c205dc76b184546555dc01c70c2465230c151",
+    "results/factorial-dev-001/journal/policy-0022.json": "9cc00579c49181ec8c2b0298b2549b896059dcf04ff5c70a480d7f5f459c7871",
+    "results/factorial-dev-001/journal/policy-0022.progress.jsonl": "e1da56b4c0ae8d121dc0a2a66844bc641ef5438d4b2769166e55aee6d0daa443",
+    "results/factorial-dev-001/journal/policy-0022.started.json": "415ef4649ad3a647168b49ede4303aa3ecd16babfb01a5dcc36189af8c3b29c6",
+    "results/factorial-dev-001/journal/policy-0023.json": "46201f80d9219369a92d43eb1e9e91d920d600fccc74de96c413df663ec1ecae",
+    "results/factorial-dev-001/journal/policy-0023.progress.jsonl": "e1da56b4c0ae8d121dc0a2a66844bc641ef5438d4b2769166e55aee6d0daa443",
+    "results/factorial-dev-001/journal/policy-0023.started.json": "44466b875745d1af6e6615e2917fcb97009ffbdb15b7fe7ae6f9266d326be025",
+    "results/factorial-dev-001/journal/policy-0024.json": "2b73aae50fcae353ad5d11dd862870070f97918ca67fee30bb1d16fda16bf355",
+    "results/factorial-dev-001/journal/policy-0024.progress.jsonl": "cfbe9bda167027b28eb689fa73d55ca94f4b11be879a91fb99d958362a9f6de1",
+    "results/factorial-dev-001/journal/policy-0024.started.json": "d41a699d9dc4bbc7073e48922bb57e0df0ff03352b46a07e5c5e96c8f6dab9d1",
+    "results/factorial-dev-001/journal/policy-0025.json": "609ccf348887e37a5dd712c76ed9e52a0cc155180783dab8d5f535847387685c",
+    "results/factorial-dev-001/journal/policy-0025.progress.jsonl": "352239a25588e2f2b2090ebf7b7eabcdfcbbb283e929c8af335d54be358ade4f",
+    "results/factorial-dev-001/journal/policy-0025.started.json": "9c3e62508ab15a2c9cfaed109791f9b1e867f22af8b3b3729b5ef78d82ec8e9a",
+    "results/factorial-dev-001/journal/policy-0026.json": "fc0c6a2cc0f7cb1dc7b23e8adc6fdac29af6319f68822695bdfd7d22b996f3f6",
+    "results/factorial-dev-001/journal/policy-0026.progress.jsonl": "11570001a544acbb3340cb75341c5b016ba6710af107e01e00632a01da0db767",
+    "results/factorial-dev-001/journal/policy-0026.started.json": "112ae33eb9a07668b21a931635e7807dadc8601c639f4293833acb8b5f385ad7",
+    "results/factorial-dev-001/journal/policy-0027.json": "c0ffaf053b7406199c3f979d43bee73dd54a3857bc4d29bb4590352da2f05833",
+    "results/factorial-dev-001/journal/policy-0027.progress.jsonl": "10ebb2698eada4496a3474e10f638ea8d76d780ee22e9914907cc019e32250f3",
+    "results/factorial-dev-001/journal/policy-0027.started.json": "b41d8fad9ec4446b679fe146fc2b555a3ad475b1473c41e59e277e6ff549b69a",
+    "results/factorial-dev-001/journal/policy-0028.json": "367bdd9a25e9e5b21b8e83eee3f7ea319398fc7742d4e04df554d9f6c6e2a9f6",
+    "results/factorial-dev-001/journal/policy-0028.progress.jsonl": "10ebb2698eada4496a3474e10f638ea8d76d780ee22e9914907cc019e32250f3",
+    "results/factorial-dev-001/journal/policy-0028.started.json": "6430a81410f315658c703c4117813d280441f12b54feb4e9a1ace6b5453cee62",
+    "results/factorial-dev-001/journal/policy-0029.json": "97154551d2d12a0c5e5aae2c36bf4388b1a751401c5112fce19fd416588c4866",
+    "results/factorial-dev-001/journal/policy-0029.progress.jsonl": "c64b2a962bb4245654bf4d19c3e51c30a02deaa1ad5c6d692083276995260b61",
+    "results/factorial-dev-001/journal/policy-0029.started.json": "62deac8d52cbd2f1fe75d47125570585ab7cff46afa3cd3e47a1222d63bf75ab",
+    "results/factorial-dev-001/predictions.jsonl": "e8d7dded40363e097ad6af241f0cfcab87bfb5ef9b8bad93064691107049121e"
+  },
+  "generator": "scripts/package_live_evidence.py",
+  "generator_sha256": "aeb96a02e51a3d8f1aa8edc0bc853c10e75b0b9102ad2b87cedaad5bd0a4701a",
+  "format": "sorted USTAR regular files, fixed metadata, gzip timestamp0, 32768-byte parts; no scientific validation"
+}

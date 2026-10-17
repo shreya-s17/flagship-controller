@@ -24,3 +24,7 @@ New bundles can be built with `scripts/package_live_evidence.py` using an explic
 The fifth bundle, `harder-common-evidence-2026-10-16/`, adds111 raw study/journal and privileged offline catalog files. All five bundles restore235 original files. Its35 parts preserve the scope/direction failures and unsuccessful directed-role follow-up, not independent semantic annotations.
 
 The sixth bundle, `obligation-evidence-2026-10-17/`, preserves both closed-obligation versions' 146 raw prediction/journal files in40 parts. All six bundles restore381 original files. Earlier bundles are unchanged; the new evidence includes failed revisions and guard-off wrong answers.
+
+## Nested factorial development evidence —17 October2026
+
+`factorial-evidence-2026-10-17` preserves all145 original prediction/journal files from the30-outcome nested catalog/guard development run, in37 hash-checked parts. The normal restorer now verifies/restores526 raw files across seven retained bundles. Small frozen source, plan, scores and audits remain under `results/factorial-dev-001`. These are private research records on six reused strings; no semantic certification or publication clearance follows.
