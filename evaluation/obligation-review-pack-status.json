@@ -1,0 +1,14 @@
+{
+  "cases": 36,
+  "status": "unannotated; independent reviewers required",
+  "seed": 17,
+  "cases_sha256": "4e38da28b72bcc720128c18336f6dacd618d3e0d2f699731d5d24a0ab0f1d0d3",
+  "date": "2026-10-17",
+  "independent_reviewers_completed": 0,
+  "reviewer_contact_performed": false,
+  "sources": [
+    "obligation-dev-001",
+    "obligation-dev-002"
+  ],
+  "scope": "36 correlated outcomes on six development strings; not36 independent questions or labels"
+}

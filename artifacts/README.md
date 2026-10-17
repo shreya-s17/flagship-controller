@@ -22,3 +22,5 @@ The fourth bundle, `common-state-evidence-2026-10-16/`, adds101 files: run004 ra
 New bundles can be built with `scripts/package_live_evidence.py` using an explicit JSON list of normalized regular files under `results/`. The builder refuses existing destinations, traversal and symlinks; archives use sorted members, fixed metadata and timestamp-zero compression. Use the matching manifest to restore and verify bytes. Neither packaging nor restoration validates semantics. Previous bundles are preserved rather than rebuilt.
 
 The fifth bundle, `harder-common-evidence-2026-10-16/`, adds111 raw study/journal and privileged offline catalog files. All five bundles restore235 original files. Its35 parts preserve the scope/direction failures and unsuccessful directed-role follow-up, not independent semantic annotations.
+
+The sixth bundle, `obligation-evidence-2026-10-17/`, preserves both closed-obligation versions' 146 raw prediction/journal files in40 parts. All six bundles restore381 original files. Earlier bundles are unchanged; the new evidence includes failed revisions and guard-off wrong answers.

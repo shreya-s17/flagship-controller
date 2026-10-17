@@ -8,6 +8,8 @@ Latest executable checkpoint: [shared-state development controls](../results/com
 
 Latest harder-case checkpoint: [scope and direction diagnosis](../results/harder-development-report.md). On four inspected originals, every internal control has F1 .697368 with two exact sets; reverse-role parents and broad Chicago sets pass the semantic audit, so no repair is triggered. The catalog contains an exact parents alternative but no exact Chicago program; two Iran candidates truncate. The completed ten-outcome explicit directed-role follow-up still accepts reversed roles on the parents original and handwritten children control. It demonstrates no semantic fix or recovery benefit.173 tests pass; independent review and the larger study remain gated.
 
+Latest engineering checkpoint: [closed obligations and constraint propagation](../results/obligation-development-report.md). Two18-outcome versions retain the initial failed repair and show the later narrow repair matching3/3 inspected originals versus2/3 fixed/guard-off. The added containment catalog matches Chicago, while declared direction rules prevent the earlier reverse-role acceptance within their closed grammar. This is failure-informed development with hand-designed ontology priors; independent semantic/false-rejection evidence and wider evaluation remain missing.189 tests pass locally. No reserved/test inference or release.
+
 ## What is established
 
 - Question-only Freebase/Qwen prototype; restricted typed programs and provenance-bearing witnesses; local unit and archived replay checks.

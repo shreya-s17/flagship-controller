@@ -4,7 +4,7 @@
 
 ## Question, cohort and controls
 
-The primary contrast is whether one bounded, feedback-informed program revision improves official answer-set F1 over a single program choice, with the same linked question, candidate catalog and admission limits. A secondary question is how often graph-supported answers fail independent semantic review. The project currently has no established novel algorithm or repair advantage.
+The primary contrast is whether one bounded, feedback-informed program revision improves official answer-set F1 over a single program choice, with the same linked question, candidate catalog and admission limits. A secondary question is how often graph-supported answers fail independent semantic review. The project has no established novel algorithm or generalized/matched-cost repair advantage. A separate narrow closed-obligation development runtime now shows observed repair on inspected cases; the larger study must explicitly choose/freeze its rule family, compiler/catalog and matched controls rather than silently replacing the older semantic-only method.
 
 Use all100 inputs in [reservation v2](reserved-training-100-v2/manifest.json), input SHA256 `caca1ad180cba7e67614a59232da6ea36eac32e9534ad3d6c10ec42a03045dc2`. They come from `train_remaining`, selected without answer outcomes. All linking, grammar, timeout, normalization and resource failures remain in the denominator. Do not replace difficult questions, drop an unsupported subset after scoring or reuse this cohort as untouched evaluation after tuning on its outcomes. The existing .85 text-similarity audit does not rule out semantic overlap or pretraining contamination. Official test remains separate.
 
@@ -51,3 +51,5 @@ Independent review reports four semantic dimensions, unknowns, disagreement and 
 5. Recheck label isolation, graph/model identity and clean-checkout restoration. Only then execute the feasibility cohort. Record all outcomes, and freeze a new final study before official testing.
 
 Public release, authorship/contributions, licenses and submission remain later owner-review steps on a concrete package. No purchase, reviewer contact, reserved-cohort execution or paper submission is authorized or performed by merely writing this design.
+
+The [closed-obligation development follow-up](closed-obligation-development.md) changes both the hypothesis space and hand-designed language/ontology priors. Any larger freeze using it must declare these changes, policy-independent rule coverage/unknowns, false rejection, catalog controls and independent semantic annotation. The positive3-original debug result is not a sample-size justification or clearance to execute the reservation.
