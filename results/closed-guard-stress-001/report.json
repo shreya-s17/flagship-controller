@@ -1,0 +1,1970 @@
+{
+  "grammar": {
+    "authorship": "Handwritten software-contract cases; not independent semantic annotations",
+    "cases": 33,
+    "matching": 33,
+    "rows": [
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "case_id": "contract-001",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "case_id": "contract-002",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "case_id": "contract-003",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "case_id": "contract-004",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "case_id": "contract-005",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "case_id": "contract-006",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "case_id": "contract-007",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "case_id": "contract-008",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "case_id": "contract-009",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "case_id": "contract-010",
+        "expected": {
+          "anchor": 0,
+          "kind": "kinship",
+          "role": "children"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "case_id": "contract-011",
+        "expected": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "case_id": "contract-012",
+        "expected": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "case_id": "contract-013",
+        "expected": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": null
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": "downtown"
+        },
+        "case_id": "contract-014",
+        "expected": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": "downtown"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": "downtown"
+        },
+        "case_id": "contract-015",
+        "expected": {
+          "anchor": 0,
+          "kind": "location_membership",
+          "unmodeled_qualifier": "downtown"
+        },
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-016",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-017",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-018",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-019",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-020",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-021",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-022",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-023",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-024",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-025",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-026",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-027",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-028",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-029",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-030",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-031",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-032",
+        "expected": null,
+        "matches_declared_scope": true
+      },
+      {
+        "actual": null,
+        "case_id": "contract-033",
+        "expected": null,
+        "matches_declared_scope": true
+      }
+    ]
+  },
+  "integrity_pass": true,
+  "invariants": {
+    "canonical_city_membership_all_pass_and_are_exact_when_nonempty": true,
+    "canonical_kinship_bindings_all_pass_and_are_exact_when_nonempty": true,
+    "declared_grammar_contract": true,
+    "missing_city_membership_is_rejected": true,
+    "wrong_kinship_direction_is_always_rejected": true
+  },
+  "kinship": {
+    "by_case": {
+      "children/children-filtered": {
+        "empty_candidate": 2048,
+        "evaluated": 4096,
+        "exact_nonempty": 512,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 512,
+        "passed_incomplete_nonempty": 1536,
+        "passed_inexact_nonempty": 1536,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "children/children-identity": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 3584
+      },
+      "children/children-in": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "children/children-out": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 3584,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "children/parents-filtered": {
+        "empty_candidate": 2048,
+        "evaluated": 4096,
+        "exact_nonempty": 256,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 256
+      },
+      "children/parents-identity": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "children/parents-in": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 3584,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "children/parents-out": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "parents/children-filtered": {
+        "empty_candidate": 2048,
+        "evaluated": 4096,
+        "exact_nonempty": 256,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 256
+      },
+      "parents/children-identity": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "parents/children-in": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 3584,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "parents/children-out": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "parents/parents-filtered": {
+        "empty_candidate": 2048,
+        "evaluated": 4096,
+        "exact_nonempty": 512,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 512,
+        "passed_incomplete_nonempty": 1536,
+        "passed_inexact_nonempty": 1536,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "parents/parents-identity": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 3584
+      },
+      "parents/parents-in": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 448,
+        "guard_pass": 0,
+        "guard_reject": 4096,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 448
+      },
+      "parents/parents-out": {
+        "empty_candidate": 512,
+        "evaluated": 4096,
+        "exact_nonempty": 3584,
+        "guard_pass": 4096,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 3584,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      }
+    },
+    "counts": {
+      "empty_candidate": 14336,
+      "evaluated": 65536,
+      "exact_nonempty": 25728,
+      "guard_pass": 24576,
+      "guard_reject": 40960,
+      "passed_exact_nonempty": 15360,
+      "passed_incomplete_nonempty": 3072,
+      "passed_inexact_nonempty": 3072,
+      "passed_wrong_endpoint_nonempty": 0,
+      "rejected_exact_nonempty": 10368
+    },
+    "first_counterexamples": [
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/parents-identity",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.parents"
+            },
+            {
+              "direction": "out",
+              "relation": "fixture.identity"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 1
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/parents-filtered",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            2
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            2,
+            "people.person.children",
+            0
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          2
+        ],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.parents"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 3
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/children-identity",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.children"
+            },
+            {
+              "direction": "out",
+              "relation": "fixture.identity"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 8
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/parents-in",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "in",
+              "relation": "people.person.parents"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/children-out",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.children"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/children-identity",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.children"
+            },
+            {
+              "direction": "out",
+              "relation": "fixture.identity"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "parents/children-filtered",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "parents"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.children"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/parents-out",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.parents"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/children-in",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "in",
+              "relation": "people.person.children"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/parents-identity",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.parents"
+            },
+            {
+              "direction": "out",
+              "relation": "fixture.identity"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/parents-filtered",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.parents",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.children",
+            0
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.parents"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 9
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "children/children-filtered",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "fixture.identity",
+            0
+          ],
+          [
+            0,
+            "people.person.children",
+            1
+          ],
+          [
+            0,
+            "people.person.children",
+            2
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "fixture.identity",
+            1
+          ],
+          [
+            1,
+            "people.person.parents",
+            0
+          ],
+          [
+            2,
+            "fixture.identity",
+            2
+          ],
+          [
+            2,
+            "people.person.parents",
+            0
+          ],
+          [
+            3,
+            "fixture.identity",
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          2
+        ],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "kinship",
+          "role": "children"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "people.person.children"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": 72
+      }
+    ],
+    "worlds": 4096
+  },
+  "limits": [
+    "No natural-world frequencies, confidence intervals, generalization or live false-rejection rate",
+    "Inverse-consistent arbitrary kinship graphs include biologically impossible cycles",
+    "fixture.identity and fixture.allowed are declared toy relations, not Freebase ontology claims",
+    "Some tested compiler-representable programs are absent from the active bounded catalog",
+    "Guard-only acceptance bypasses no claimed end-to-end test: type, empty-result and same-model checks are not simulated",
+    "Canonical completeness holds only under the stated finite inverse/containment definitions",
+    "Handwritten grammar fixtures and synthetic truth are software specifications, not human semantic labels",
+    "Rejected exact sets can be accidental extensional coincidences; inspect the identity cases separately"
+  ],
+  "location": {
+    "by_case": {
+      "city/containedby": {
+        "empty_candidate": 64,
+        "evaluated": 216,
+        "exact_nonempty": 152,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 152,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "city/contains-inverse": {
+        "empty_candidate": 64,
+        "evaluated": 216,
+        "exact_nonempty": 152,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 152,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "city/membership-filtered": {
+        "empty_candidate": 144,
+        "evaluated": 216,
+        "exact_nonempty": 32,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 32,
+        "passed_incomplete_nonempty": 40,
+        "passed_inexact_nonempty": 40,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "city/unconstrained": {
+        "empty_candidate": 27,
+        "evaluated": 216,
+        "exact_nonempty": 98,
+        "guard_pass": 0,
+        "guard_reject": 216,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 98
+      },
+      "city/wrong-containment-direction": {
+        "empty_candidate": 216,
+        "evaluated": 216,
+        "exact_nonempty": 0,
+        "guard_pass": 0,
+        "guard_reject": 216,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      },
+      "downtown/containedby": {
+        "empty_candidate": 64,
+        "evaluated": 216,
+        "exact_nonempty": 61,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 61,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 91,
+        "passed_wrong_endpoint_nonempty": 91,
+        "rejected_exact_nonempty": 0
+      },
+      "downtown/contains-inverse": {
+        "empty_candidate": 64,
+        "evaluated": 216,
+        "exact_nonempty": 61,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 61,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 91,
+        "passed_wrong_endpoint_nonempty": 91,
+        "rejected_exact_nonempty": 0
+      },
+      "downtown/membership-filtered": {
+        "empty_candidate": 144,
+        "evaluated": 216,
+        "exact_nonempty": 25,
+        "guard_pass": 216,
+        "guard_reject": 0,
+        "passed_exact_nonempty": 25,
+        "passed_incomplete_nonempty": 22,
+        "passed_inexact_nonempty": 47,
+        "passed_wrong_endpoint_nonempty": 36,
+        "rejected_exact_nonempty": 0
+      },
+      "downtown/unconstrained": {
+        "empty_candidate": 27,
+        "evaluated": 216,
+        "exact_nonempty": 37,
+        "guard_pass": 0,
+        "guard_reject": 216,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 37
+      },
+      "downtown/wrong-containment-direction": {
+        "empty_candidate": 216,
+        "evaluated": 216,
+        "exact_nonempty": 0,
+        "guard_pass": 0,
+        "guard_reject": 216,
+        "passed_exact_nonempty": 0,
+        "passed_incomplete_nonempty": 0,
+        "passed_inexact_nonempty": 0,
+        "passed_wrong_endpoint_nonempty": 0,
+        "rejected_exact_nonempty": 0
+      }
+    },
+    "counts": {
+      "empty_candidate": 1030,
+      "evaluated": 2160,
+      "exact_nonempty": 618,
+      "guard_pass": 1296,
+      "guard_reject": 864,
+      "passed_exact_nonempty": 483,
+      "passed_incomplete_nonempty": 62,
+      "passed_inexact_nonempty": 269,
+      "passed_wrong_endpoint_nonempty": 218,
+      "rejected_exact_nonempty": 135
+    },
+    "first_counterexamples": [
+      {
+        "actual": [
+          1
+        ],
+        "case": "city/unconstrained",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "city",
+          "unmodeled_qualifier": null
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "downtown/containedby",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "downtown",
+          "unmodeled_qualifier": "downtown"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "location.location.containedby"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "downtown/contains-inverse",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "downtown",
+          "unmodeled_qualifier": "downtown"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "in",
+              "relation": "location.location.contains"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "downtown/membership-filtered",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "downtown",
+          "unmodeled_qualifier": "downtown"
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            },
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "location.location.containedby"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "downtown/unconstrained",
+        "category": "rejected_exact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [
+          1
+        ],
+        "guard_pass": false,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "downtown",
+          "unmodeled_qualifier": "downtown"
+        },
+        "program": {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "actual": [
+          1
+        ],
+        "case": "city/membership-filtered",
+        "category": "passed_inexact_nonempty",
+        "edges": [
+          [
+            0,
+            "location.location.contains",
+            1
+          ],
+          [
+            0,
+            "location.location.contains",
+            2
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            1
+          ],
+          [
+            0,
+            "travel.travel_destination.tourist_attractions",
+            2
+          ],
+          [
+            1,
+            "fixture.allowed",
+            0
+          ],
+          [
+            1,
+            "location.location.containedby",
+            0
+          ],
+          [
+            2,
+            "location.location.containedby",
+            0
+          ]
+        ],
+        "expected": [
+          1,
+          2
+        ],
+        "guard_pass": true,
+        "obligation": {
+          "kind": "location_membership",
+          "role": "city",
+          "unmodeled_qualifier": null
+        },
+        "program": {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "fixture.allowed"
+            },
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "location.location.containedby"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ],
+          "supported": true
+        },
+        "world_id": [
+          3,
+          3,
+          0
+        ]
+      }
+    ],
+    "worlds": 216
+  },
+  "nodes": 4,
+  "publication_ready": false,
+  "runtime_version": "closed-obligation-controller-v2",
+  "scope": "Exhaustive finite synthetic guard countermodels; not live pipeline, benchmark accuracy, or independent review",
+  "version": "closed-guard-countermodels-v1"
+}

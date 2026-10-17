@@ -1,0 +1,15 @@
+{
+  "kind": "retrospective gold-free offline captured-catalog availability audit",
+  "date": "2026-10-17",
+  "study": "results/obligation-dev-002",
+  "source_hashes": {
+    "flagship_controller/catalog_intervention_audit.py": "261151fec1b5eceff72b3daf7cdca948e4642459bb543dfbf844fc1989683603",
+    "flagship_controller/common_state_audit.py": "548b3c01e9ef65e8317764b48b2439fea9731c3fb2345611392e9366f5d0a55e",
+    "flagship_controller/obligation_runtime.py": "c84a280d97e95732f7c43bd4be74c5e0c9237ed8a106f223ff382ab94e782c08",
+    "flagship_controller/structured_runtime.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0"
+  },
+  "study_manifest_sha256": "5ff424da189dff358b1f8bf2511b088e68c244b81fb7fbac0a7eb11012c09ebb",
+  "inference_requests": 0,
+  "gold_annotations_accessed": false,
+  "not_a_counterfactual_answer_score": true
+}

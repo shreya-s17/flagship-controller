@@ -1,0 +1,244 @@
+{
+  "inference_requests": 0,
+  "limits": [
+    "Rule compatibility is not answer correctness or complete semantic scope",
+    "No old-catalog program execution, model reselection or answer scoring",
+    "Removing catalog expansion changes model prompts and can change the first choice",
+    "Matched catalog-versus-guard experiments need separate pre-catalog capture and prospective freezing"
+  ],
+  "prefixes": 6,
+  "rows": [
+    {
+      "added_programs": [
+        {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "in",
+              "relation": "location.location.contains"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "location.location.containedby"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ]
+        }
+      ],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": false,
+      "expanded_count": 20,
+      "expanded_rule_compatible": 2,
+      "id": "WebQTrn-825",
+      "obligation": {
+        "anchor": 0,
+        "kind": "location_membership",
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked",
+        "unmodeled_qualifier": "downtown"
+      },
+      "removed_programs": [
+        {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "base.biblioness.bibs_location.city"
+            },
+            {
+              "direction": "out",
+              "relation": "location.location.inside"
+            }
+          ]
+        },
+        {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "base.biblioness.bibs_location.city"
+            },
+            {
+              "direction": "out",
+              "relation": "location.location.mean_elevation"
+            }
+          ]
+        }
+      ],
+      "schema_only_count": 20,
+      "schema_only_rule_compatible": 0,
+      "seed": 17,
+      "status": "availability_only"
+    },
+    {
+      "added_programs": [],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": true,
+      "expanded_count": 20,
+      "expanded_rule_compatible": 1,
+      "id": "hand-paul-parents-of-001",
+      "obligation": {
+        "anchor": 0,
+        "kind": "kinship",
+        "role": "parents",
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "removed_programs": [],
+      "schema_only_count": 20,
+      "schema_only_rule_compatible": 1,
+      "seed": 17,
+      "status": "availability_only"
+    },
+    {
+      "added_programs": [],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": true,
+      "expanded_count": 20,
+      "expanded_rule_compatible": 1,
+      "id": "WebQTrn-1211",
+      "obligation": {
+        "anchor": 0,
+        "kind": "kinship",
+        "role": "parents",
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "removed_programs": [],
+      "schema_only_count": 20,
+      "schema_only_rule_compatible": 1,
+      "seed": 17,
+      "status": "availability_only"
+    },
+    {
+      "added_programs": [],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": true,
+      "expanded_count": 16,
+      "expanded_rule_compatible": null,
+      "id": "WebQTrn-938",
+      "obligation": null,
+      "removed_programs": [],
+      "schema_only_count": 16,
+      "schema_only_rule_compatible": null,
+      "seed": 17,
+      "status": "availability_only"
+    },
+    {
+      "added_programs": [],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": true,
+      "expanded_count": 20,
+      "expanded_rule_compatible": 1,
+      "id": "hand-paul-children-001",
+      "obligation": {
+        "anchor": 0,
+        "kind": "kinship",
+        "role": "children",
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "removed_programs": [],
+      "schema_only_count": 20,
+      "schema_only_rule_compatible": 1,
+      "seed": 17,
+      "status": "availability_only"
+    },
+    {
+      "added_programs": [
+        {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "in",
+              "relation": "location.location.contains"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "anchor": 0,
+              "at": 1,
+              "direction": "out",
+              "relation": "location.location.containedby"
+            }
+          ],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "travel.travel_destination.tourist_attractions"
+            }
+          ]
+        }
+      ],
+      "answer_correctness": "not evaluated; no answers/annotations accessed",
+      "catalogs_structurally_equal": false,
+      "expanded_count": 20,
+      "expanded_rule_compatible": 2,
+      "id": "hand-chicago-attractions-001",
+      "obligation": {
+        "anchor": 0,
+        "kind": "location_membership",
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked",
+        "unmodeled_qualifier": null
+      },
+      "removed_programs": [
+        {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "base.biblioness.bibs_location.city"
+            },
+            {
+              "direction": "out",
+              "relation": "location.location.inside"
+            }
+          ]
+        },
+        {
+          "constraints": [],
+          "steps": [
+            {
+              "direction": "out",
+              "relation": "base.biblioness.bibs_location.city"
+            },
+            {
+              "direction": "out",
+              "relation": "location.location.mean_elevation"
+            }
+          ]
+        }
+      ],
+      "schema_only_count": 20,
+      "schema_only_rule_compatible": 0,
+      "seed": 17,
+      "status": "availability_only"
+    }
+  ],
+  "runtime_sha256": "c84a280d97e95732f7c43bd4be74c5e0c9237ed8a106f223ff382ab94e782c08",
+  "scope": "Gold-free offline catalog contrast on complete captured development states.\n\nReconstruct the preserved schema-only catalog from the *same* observed roots,\nschema and anchors. This is an availability diagnostic, never a new model run,\ncounterfactual answer score or causal effect estimate.",
+  "study_manifest_sha256": "5ff424da189dff358b1f8bf2511b088e68c244b81fb7fbac0a7eb11012c09ebb"
+}

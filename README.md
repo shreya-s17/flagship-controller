@@ -16,6 +16,8 @@ The five development questions were reused while fixing the software; their scor
 
 ## Current publication-development work
 
+Latest offline checkpoint: [closed-guard limits and catalog availability](results/closed-guard-audit-report.md). A separate finite relational interpreter and captured-state catalog audit characterize false rejection, incomplete scopes and the catalog/guard confound.211 tests pass. These synthetic software checks add no live benchmark evidence or independent review. The separate [factorial harness](evaluation/factorial-development.md) is implemented, with a30-condition development freeze; wider evaluation remains gated.
+
 Latest: [closed obligation checks, observed conjunctions and constraint-propagating repair](results/obligation-development-report.md). Two frozen versions retain36 further outcomes on six reused/development strings. The latest repair matches three inspected official sets, while fixed and guard-off match two.189 tests pass locally. This is narrow hand-designed rule development, not held-out gain, general semantic reliability, certified recovery or established novelty; reserved100 and official test remain unrun.
 
 Current harder-case evidence (173 tests;30 new outcomes retained): [scope/direction failures and generic audit follow-up](results/harder-development-report.md). The frozen four-question comparison exposes false acceptance that prevents repair, plus a missing primary-anchor conjunction. Implementation integrity is separate from semantic reliability; reserved100 and official test remain unrun.

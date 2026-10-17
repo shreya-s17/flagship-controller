@@ -1,0 +1,236 @@
+{
+  "status": "Frozen small factorial development plan; not executed or publication-ready",
+  "directed_role_audit": false,
+  "created_utc": "2026-10-17T15:28:08Z",
+  "question_ids": [
+    "WebQTrn-1211",
+    "hand-paul-children-001",
+    "WebQTrn-825",
+    "WebQTrn-938",
+    "hand-paul-parents-of-001",
+    "hand-chicago-attractions-001"
+  ],
+  "seeds": [
+    17
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    }
+  ],
+  "input_sha256": "92c1399421ed99f27c231f08e11cdbd7e5dce75c11dd100c0019e71a0073bcea",
+  "source_hashes": {
+    "obligation-study-source.py": "37ee3eea54dca6581997dd99cb48bad992c0d103cd5b674bc492be215598da1b",
+    "obligation-runtime-source.py": "c84a280d97e95732f7c43bd4be74c5e0c9237ed8a106f223ff382ab94e782c08",
+    "study-runtime-base-source.py": "5487f8a0b5428012011d3b48da8d4d873750d217afdde74dfa25b45c768d291b",
+    "linker-source.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+    "semantic-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+    "factorial-runtime-source.py": "c1329a0ba454c1733af2dfee8eabdd7f9d0da9f3d56cb948d0bd4fbf12b18958",
+    "factorial-study-source.py": "04198cf9db97602f60fa40ddd27a058e4c60a64d51818885c087ee3d92907677"
+  },
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "budgets": {
+    "model_calls": 10,
+    "returned_usage_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "inference": {
+    "temperature": 0,
+    "context": 4096,
+    "threads": 4,
+    "max_output_tokens": 512,
+    "sampling_seed_per_item": true,
+    "python_hash_seed_required": "17",
+    "schedule_seed": 113
+  },
+  "shared_state": "One pre-catalog capture per question/seed; one catalog/firstPLAN per catalog condition; guards share only their own catalog firstPLAN. Captured work charged per condition, physical requests separate.",
+  "ablations": {
+    "catalog": "C0 preserves schema catalog/ranking with no primary membership acquisition; C1 expands using observed containment. Compiler and all other guards remain.",
+    "guard": "G0 bypasses closed obligation checks and pruning only; G1 enables them. Same-model/type/witness/resource checks retained."
+  },
+  "serialization": "raw RDF lexical strings / Freebase URI IDs; no calendar-date projection; known date mismatch retained",
+  "failure_accounting": "Full planned denominator; no retry of interrupted admitted work; unknown usage reported as lower bound. Integrity mismatch halts the study.",
+  "baseline": "No external baseline in this engineering comparison; prior local ToG evidence retained",
+  "repair_admission": "After an explicit closed-obligation rejection, remove every candidate violating that same necessary obligation before the second choice",
+  "closed_obligations": "Preserved v2 declared incomplete rules, including unmodeled downtown qualifier",
+  "intervention": "fixed and repair use new closed guards; obligation-guard-off keeps same catalog/first choice, compiler and final semantic audit but disables both new obligation checks",
+  "catalog_change": "Explicit intervention; distinct catalog prompts/first choices captured separately",
+  "analysis": "Full frozen denominator; originals scored only offline; handwritten cases unscored. No independent recovery rate, significance, generalization or novel-method claim. Prior inspected development inputs are not held-out.",
+  "reserved_execution": false,
+  "official_test_execution": false,
+  "independent_review_completed": false,
+  "kind": "catalog-guard-factorial-v1",
+  "policies": [
+    "repair-C0G0",
+    "repair-C0G1",
+    "repair-C1G0",
+    "repair-C1G1",
+    "fixed-C1G1"
+  ],
+  "catalog_modes": [
+    "off",
+    "on"
+  ],
+  "contrasts": [
+    "repair-C1G1 minus fixed-C1G1: revision under the same catalog/closed checks",
+    "C1G1 minus C1G0: closed guard/pruning conditional on expanded catalog",
+    "2x2 catalog/guard contrasts and interaction: exploratory development only"
+  ],
+  "live_execution_completed": false
+}

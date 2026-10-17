@@ -1,0 +1,427 @@
+[
+  {
+    "case_id": "contract-001",
+    "question": "Who are Ada's parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "parents",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-002",
+    "question": "Who were Ada’s parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "parents",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-003",
+    "question": "Who are the parents of Ada?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "parents",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-004",
+    "question": "Name the parents of Ada.",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "parents",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-005",
+    "question": "  WHO ARE ADA'S PARENTS?!  ",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "parents",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-006",
+    "question": "Who are Ada's children?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "children",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-007",
+    "question": "Who were Ada’s children?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "children",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-008",
+    "question": "Who are the children of Ada?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "children",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-009",
+    "question": "Name the children of Ada.",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "children",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-010",
+    "question": "  WHO ARE ADA'S CHILDREN?!  ",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": {
+      "kind": "kinship",
+      "role": "children",
+      "anchor": 0
+    }
+  },
+  {
+    "case_id": "contract-011",
+    "question": "What to see in Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": {
+      "kind": "location_membership",
+      "anchor": 0,
+      "unmodeled_qualifier": null
+    }
+  },
+  {
+    "case_id": "contract-012",
+    "question": "Which attractions are in Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": {
+      "kind": "location_membership",
+      "anchor": 0,
+      "unmodeled_qualifier": null
+    }
+  },
+  {
+    "case_id": "contract-013",
+    "question": "What attractions are in Paris.",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": {
+      "kind": "location_membership",
+      "anchor": 0,
+      "unmodeled_qualifier": null
+    }
+  },
+  {
+    "case_id": "contract-014",
+    "question": "What to see in Paris downtown?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": {
+      "kind": "location_membership",
+      "anchor": 0,
+      "unmodeled_qualifier": "downtown"
+    }
+  },
+  {
+    "case_id": "contract-015",
+    "question": "Which attractions are in Paris downtown?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": {
+      "kind": "location_membership",
+      "anchor": 0,
+      "unmodeled_qualifier": "downtown"
+    }
+  },
+  {
+    "case_id": "contract-016",
+    "question": "Who are Ada's parents' children?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-017",
+    "question": "Who are the parents of Ada and Bob?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-018",
+    "question": "Which people are Ada's parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-019",
+    "question": "Who is the mother of Ada?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-020",
+    "question": "Who are Ada's living parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-021",
+    "question": "Who are the biological parents of Ada?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-022",
+    "question": "Who are Ada's children born before 1900?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-023",
+    "question": "Where was Ada born?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-024",
+    "question": "Who are Ada's parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      }
+    ],
+    "category": "location",
+    "expected": null
+  },
+  {
+    "case_id": "contract-025",
+    "question": "Who are Ada's parents?",
+    "mentions": [
+      {
+        "mention": "Ada"
+      },
+      {
+        "mention": "Bob"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-026",
+    "question": "Who are Ada's parents?",
+    "mentions": [],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-027",
+    "question": "Who are Ada's parents?",
+    "mentions": [
+      {
+        "mention": "Ad"
+      }
+    ],
+    "category": "person",
+    "expected": null
+  },
+  {
+    "case_id": "contract-028",
+    "question": "Which attractions are in Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "work",
+    "expected": null
+  },
+  {
+    "case_id": "contract-029",
+    "question": "Which books are in Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "work",
+    "expected": null
+  },
+  {
+    "case_id": "contract-030",
+    "question": "Which attractions are near Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": null
+  },
+  {
+    "case_id": "contract-031",
+    "question": "Which attractions are in Paris and London?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": null
+  },
+  {
+    "case_id": "contract-032",
+    "question": "Which attractions are in Paris downtown today?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      }
+    ],
+    "category": "location",
+    "expected": null
+  },
+  {
+    "case_id": "contract-033",
+    "question": "Which attractions are in Paris?",
+    "mentions": [
+      {
+        "mention": "Paris"
+      },
+      {
+        "mention": "London"
+      }
+    ],
+    "category": "location",
+    "expected": null
+  }
+]
