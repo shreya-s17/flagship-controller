@@ -49,3 +49,9 @@ artifacts/*.zip
 
 /results/common-state-dev-004/predictions.jsonl
 /results/common-state-dev-004/journal/
+
+# Closed-obligation development journals restored from a checked private bundle.
+/results/obligation-dev-001/predictions.jsonl
+/results/obligation-dev-001/journal/
+/results/obligation-dev-002/predictions.jsonl
+/results/obligation-dev-002/journal/

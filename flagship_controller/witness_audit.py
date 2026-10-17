@@ -26,7 +26,11 @@ def audit(record):
             anchors.append(selected)
     if not anchors:raise ValueError('No recorded anchors')
     if len(set(record['answers']))!=len(record['answers']):raise ValueError('Duplicate emitted answers')
-    if {c['anchor'] for c in program['constraints']}!=set(range(1,len(anchors))):raise ValueError('Unbound secondary anchor')
+    used={c['anchor'] for c in program['constraints']}
+    primary_enabled=record.get('program_grammar')=='primary-anchor-conjunction-v1'
+    if any(type(c['anchor']) is not int or not 0<=c['anchor']<len(anchors) or type(c['at']) is not int or not 0<=c['at']<=len(program['steps']) for c in program['constraints']):raise ValueError('Invalid constraint binding')
+    if 0 in used and not primary_enabled:raise ValueError('Primary anchor join requires explicit grammar')
+    if used-{0}!=set(range(1,len(anchors))):raise ValueError('Unbound secondary anchor')
     expected=[]
     for i,step in enumerate(program['steps']):
         if step['direction'] not in ('in','out'):raise ValueError('Invalid direction')

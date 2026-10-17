@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-17",
+  "status": "Frozen before any002 inference; separate version after001 failure diagnosis",
+  "cohort": "Exact same six purpose-selected strings,3 official originals and3 handwritten controls;18 further outcomes are not18 independent questions or untouched validation.",
+  "change": "Only repair admission changes after explicit closed-obligation rejection: prune all remaining candidates violating that same necessary condition before the second model choice. No new model call, graph query, answer ID, question ID or gold feedback is added by pruning.",
+  "comparison": "Fixed and obligation-guard-off remain; new repair uses same catalog/firstchoice within002. Historical001 retained, never overwritten/remapped. Compare cross-version initial state explicitly rather than assume equality.",
+  "predeclared_reporting": [
+    "Retain every failure and full denominator; no selective retry.",
+    "Report pruning events, eligible candidates, actual REPAIR_PLAN events and final official-set exact matches separately from independent semantic recovery.",
+    "Handwritten controls remain unscored.",
+    "Disclose closed-grammar/ontology false rejection and unmodeled downtown scope.",
+    "No population significance, novelty, matched-cost superiority or certified recovery rate."
+  ],
+  "remaining": "Independent review, adequate larger source/configuration/annotation freeze, license/authorship/public release review",
+  "reserved_execution": false,
+  "official_test_execution": false,
+  "purchase": false
+}

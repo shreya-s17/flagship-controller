@@ -1,0 +1,547 @@
+{
+  "scope": "Purpose-selected development mechanics check; no held-out, significance or published-score comparison",
+  "executions": 18,
+  "unique_question_strings": 6,
+  "official_original_questions": 3,
+  "seeds": [
+    17
+  ],
+  "methods": {
+    "obligation-guard-off": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 3,
+          "scorable": 3,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 0.6666666666666666,
+          "macro_recall": 0.6666666666666666,
+          "macro_f1": 0.6666666666666666,
+          "exact_f1_accuracy": 0.6666666666666666,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 6.25e-42,
+              "recall": 5e-41,
+              "f1": 1.1111111111111108e-41,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.1111111111111108e-41,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6666666666666666,
+      "charged_cost_all": {
+        "model_calls": 24,
+        "model_tokens": 19633,
+        "graph_calls": 83,
+        "elapsed_seconds": 855.0353001849726
+      },
+      "physical_new_model_attempts_known": 6,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-paul-children-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-paul-parents-of-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-chicago-attractions-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    },
+    "repair": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 3,
+          "scorable": 3,
+          "excluded": 0,
+          "coverage": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0,
+          "exact_f1_accuracy": 1.0,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 1.0,
+      "charged_cost_all": {
+        "model_calls": 27,
+        "model_tokens": 20656,
+        "graph_calls": 80,
+        "elapsed_seconds": 778.9986504659755
+      },
+      "physical_new_model_attempts_known": 9,
+      "usage_complete": true,
+      "repair_plan_events": 3,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-paul-children-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-paul-parents-of-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-chicago-attractions-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    },
+    "fixed": {
+      "official_scores_by_seed": {
+        "17": {
+          "semantics": "Microsoft WebQSP v1.0 evaluator; selected-slice wrapper",
+          "submitted": 3,
+          "scorable": 3,
+          "excluded": 0,
+          "coverage": 0.6666666666666666,
+          "macro_precision": 1.0,
+          "macro_recall": 0.6666666666666666,
+          "macro_f1": 0.6666666666666666,
+          "exact_f1_accuracy": 0.6666666666666666,
+          "rows": [
+            {
+              "id": "WebQTrn-825",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-938",
+              "scorable": true,
+              "answered": true,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "exact_f1": 1
+            },
+            {
+              "id": "WebQTrn-1211",
+              "scorable": true,
+              "answered": false,
+              "precision": 1.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "exact_f1": 0
+            }
+          ]
+        }
+      },
+      "question_means": [
+        {
+          "id": "WebQTrn-1211",
+          "mean_f1_across_seeds": 0.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-825",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        },
+        {
+          "id": "WebQTrn-938",
+          "mean_f1_across_seeds": 1.0,
+          "seeds": 1
+        }
+      ],
+      "mean_question_f1": 0.6666666666666666,
+      "charged_cost_all": {
+        "model_calls": 21,
+        "model_tokens": 16162,
+        "graph_calls": 68,
+        "elapsed_seconds": 648.4391924126539
+      },
+      "physical_new_model_attempts_known": 3,
+      "usage_complete": true,
+      "repair_plan_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "reason_text_withheld_events": 0,
+      "all_outcomes": [
+        {
+          "id": "WebQTrn-1211",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        },
+        {
+          "id": "hand-paul-children-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+        },
+        {
+          "id": "WebQTrn-825",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "WebQTrn-938",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        },
+        {
+          "id": "hand-paul-parents-of-001",
+          "seed": 17,
+          "terminal": "ABSTAIN",
+          "answers": [],
+          "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        },
+        {
+          "id": "hand-chicago-attractions-001",
+          "seed": 17,
+          "terminal": "ANSWER",
+          "answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "reason": "observed_conjunctive_support_and_semantic_gate"
+        }
+      ]
+    }
+  },
+  "repair_minus_fixed_mean_question_f1": 0.33333333333333337,
+  "confidence_interval": null,
+  "interval_reason": "3 purpose-selected original question(s); no population interval, and repeated seeds are not independent questions",
+  "physical_model_attempts_known": {
+    "common_prefix_capture_once": 18,
+    "policy_continuations": 18,
+    "total": 36
+  },
+  "physical_graph_attempts_known": 127,
+  "stop_recovery_rates": null,
+  "limits": [
+    "Different realized costs and hypothesis spaces",
+    "Replayed time is constructed, not fresh end-to-end latency",
+    "Handwritten controls unscored",
+    "No independent semantic/STOP labels or calibrated reliability",
+    "Unknown interrupted costs are lower bounds; null physical counts are not measured zero"
+  ]
+}

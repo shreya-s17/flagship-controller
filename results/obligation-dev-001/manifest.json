@@ -1,0 +1,154 @@
+{
+  "status": "Frozen closed-obligation development study; NOT held-out or publication-ready evaluation",
+  "directed_role_audit": false,
+  "created_utc": "2026-10-17T00:00:06Z",
+  "question_ids": [
+    "WebQTrn-1211",
+    "hand-paul-children-001",
+    "WebQTrn-825",
+    "WebQTrn-938",
+    "hand-paul-parents-of-001",
+    "hand-chicago-attractions-001"
+  ],
+  "seeds": [
+    17
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "obligation-guard-off"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "fixed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair"
+    }
+  ],
+  "input_sha256": "92c1399421ed99f27c231f08e11cdbd7e5dce75c11dd100c0019e71a0073bcea",
+  "source_hashes": {
+    "obligation-study-source.py": "040ac7347a8a604ee2d1a66ae417c837009bccff9322a964dc53cb5f5accf38e",
+    "obligation-runtime-source.py": "1a6509dfb0b3c22d9fc9e88fa22a6a1fb21213eeed092e0e212882d62772416c",
+    "study-runtime-base-source.py": "5487f8a0b5428012011d3b48da8d4d873750d217afdde74dfa25b45c768d291b",
+    "linker-source.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+    "semantic-source.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "parent-source.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "transport-source.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203"
+  },
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "budgets": {
+    "model_calls": 10,
+    "returned_usage_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "inference": {
+    "temperature": 0,
+    "context": 4096,
+    "threads": 4,
+    "max_output_tokens": 512,
+    "sampling_seed_per_item": true,
+    "python_hash_seed_required": "17",
+    "schedule_seed": 113
+  },
+  "shared_state": "All three internal policies replay one captured question/link/catalog/firstPLAN per question/seed. Original prefix charged to each; physical requests separate.",
+  "ablations": {
+    "obligation-guard-off": "Only new closed obligation checks bypassed; compiler, catalog, budgets and same-model audit retained"
+  },
+  "serialization": "raw RDF lexical strings / Freebase URI IDs; no calendar-date projection; known date mismatch retained",
+  "failure_accounting": "Full planned denominator; no retry of interrupted admitted work; unknown usage reported as lower bound. Integrity mismatch halts the study.",
+  "baseline": "No published-method baseline in this narrow engineering study; previous v5 studies retained",
+  "closed_obligations": "Full-string copied-anchor kinship and location-membership grammars; declared incomplete ontology rules, no question-ID rules",
+  "intervention": "fixed and repair use new closed guards; obligation-guard-off keeps same catalog/first choice, compiler and final semantic audit but disables both new obligation checks",
+  "catalog_change": "Observed one-hop endpoint joins to primary anchor; at most3 extra queries; membership candidates prioritized. Not a matched catalog comparison with previous studies",
+  "analysis": "Offline official ID-set F1/exact on original training questions only. Handwritten controls unscored. Repeated seeds clustered by question. No significance/generalization or semantic guarantee inferred.",
+  "reserved_execution": false,
+  "official_test_execution": false,
+  "independent_review_completed": false
+}

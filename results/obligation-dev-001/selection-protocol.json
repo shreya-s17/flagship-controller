@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-17",
+  "status": "Written/frozen before any obligation-dev-001 inference",
+  "purpose": "Closed obligation enforcement and observed primary-anchor conjunction development, after known failure inspection; NOT independent or held-out performance",
+  "questions": 6,
+  "official_originals": 3,
+  "handwritten_controls": 3,
+  "planned_outcomes": 18,
+  "seeds": [
+    17
+  ],
+  "controls": [
+    "fixed",
+    "repair",
+    "obligation-guard-off"
+  ],
+  "interventions": "Both guarded policies enforce narrow copied-anchor kinship direction and location-membership constraints; guard-off disables those checks only. All share expanded catalog and first choice; existing same-model gate remains.",
+  "ontology_priors": [
+    "parents/children inverse directed role bindings",
+    "location.containedby out / location.contains in primary-anchor membership"
+  ],
+  "catalog": "At most3 additional queries observe one-hop endpoint closure relations to primary anchor. Only observed membership bindings are added and prioritized, max20 catalog entries. This catalog/ranking differs from historical studies; no prior-to-new causal efficacy claim.",
+  "limitations": [
+    "Full-string grammar and model-proposed category/anchor may be wrong or unhandled.",
+    "Kinship whitelist rejects valid relations/path forms outside its closed family.",
+    "City membership does not implement finer downtown scope; this remains model-audited and uncalibrated.",
+    "Handwritten paraphrases are authored after failure inspection and receive no benchmark score.",
+    "Same-model audit and closed guards are not independent semantic certification.",
+    "Do not tune or rerun selectively to make these cases pass.",
+    "Recovery/STOP rates require separate independent semantic and feasible-continuation judgments."
+  ],
+  "analysis": "All outcomes retained; offline official set F1/exact only on3 originals. Charge shared prefix to each control; report physical requests separately. Label isolation and source/manifest/model identity checked.",
+  "reserved_execution": false,
+  "official_test_execution": false,
+  "purchase": false
+}

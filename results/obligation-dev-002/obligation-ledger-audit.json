@@ -1,0 +1,318 @@
+{
+  "scope": "Independent recorded guard/pruning and actual-choice ledger; ontology/language rules remain declared engineering priors, NOT independent semantic judgments",
+  "source_sha256": "1d062818b26e24008bafef7b5af848202d69086bc8b8400d1f6627a51f3b6dbe",
+  "predictions_sha256": "b3523e3629c351172134a363d8573e8130d9be5c60194a47f15d3087d9b21b9e",
+  "records": 18,
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 1,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "children",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 1,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "children",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "children",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": "downtown",
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": "downtown",
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": "downtown",
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": null,
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": null,
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": null,
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 1,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "kinship",
+        "role": "parents",
+        "anchor": 0,
+        "source": "closed copied-question grammar; declared ontology prior, not learned or calibrated"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "guard_enabled": false,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": null,
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": null,
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "guard_enabled": true,
+      "pruning_events": 0,
+      "declared_obligation": {
+        "kind": "location_membership",
+        "anchor": 0,
+        "unmodeled_qualifier": null,
+        "source": "closed location-in-anchor grammar; membership is necessary, finer geographic scope remains unchecked"
+      },
+      "status": "declared-rule/prompt ledger PASS",
+      "semantic_validity": "not independently assessed"
+    }
+  ],
+  "cross_version_prefixes": {
+    "scope": "Cross-version captured graph rows, actual request hashes/raw responses, catalogs and first plans; time metadata excluded",
+    "prefixes": 6,
+    "all_equal": true,
+    "rows": [
+      {
+        "id": "WebQTrn-825",
+        "seed": 17,
+        "state_equal": true
+      },
+      {
+        "id": "hand-paul-parents-of-001",
+        "seed": 17,
+        "state_equal": true
+      },
+      {
+        "id": "WebQTrn-1211",
+        "seed": 17,
+        "state_equal": true
+      },
+      {
+        "id": "WebQTrn-938",
+        "seed": 17,
+        "state_equal": true
+      },
+      {
+        "id": "hand-paul-children-001",
+        "seed": 17,
+        "state_equal": true
+      },
+      {
+        "id": "hand-chicago-attractions-001",
+        "seed": 17,
+        "state_equal": true
+      }
+    ]
+  }
+}

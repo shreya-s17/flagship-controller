@@ -3,12 +3,14 @@ import hashlib
 import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))+sorted((root/'results').glob('baseline-dev-*'))+sorted((root/'results').glob('common-state-dev-*'))
+folders=sorted((root/'results').glob('structured-dev-*'))+sorted((root/'results').glob('paired-pilot-*'))+sorted((root/'results').glob('semantic-dev-*'))+sorted((root/'results').glob('catalog-diagnostic-*'))+sorted((root/'results').glob('baseline-dev-*'))+sorted((root/'results').glob('common-state-dev-*'))+sorted((root/'results').glob('obligation-dev-*'))
 if not folders:raise SystemExit('No structured artifacts found')
 for folder in folders:
     if not folder.is_dir():continue
     plan_path=folder/('plan.json' if (folder/'plan.json').exists() else 'manifest.json')
     manifest=json.loads(plan_path.read_text())
+    if (folder/'manifest.sha256').exists():
+        assert hashlib.sha256(plan_path.read_bytes()).hexdigest()==(folder/'manifest.sha256').read_text().strip(), 'Frozen manifest changed'
     if 'source_hashes' in manifest:
         for filename,expected in manifest['source_hashes'].items():
             if hashlib.sha256((folder/filename).read_bytes()).hexdigest()!=expected:raise SystemExit('Source mismatch: '+str(folder/filename))

@@ -1,0 +1,138 @@
+{
+  "scope": "recorded-row/witness consistency, not semantics",
+  "answered": 12,
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-1211",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": true,
+      "witnesses": 2,
+      "answers": 2,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-children-001",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-825",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "answered": true,
+      "witnesses": 3,
+      "answers": 3,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "answered": true,
+      "witnesses": 3,
+      "answers": 3,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "WebQTrn-938",
+      "answered": true,
+      "witnesses": 3,
+      "answers": 3,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "answered": true,
+      "witnesses": 16,
+      "answers": 16,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "answered": false,
+      "witnesses": 0,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "answered": true,
+      "witnesses": 15,
+      "answers": 15,
+      "recorded_row_consistency": true,
+      "semantic_validity": "not assessed"
+    }
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "scope": "Offline branch/official-set diagnosis on inspected development questions; not independent semantic or STOP labels",
+  "predictions_sha256": "3a727725d005f11f07d4b8335c9a696f950ad744e9d94df3a3b99f6bbc4adeca",
+  "development_score_sha256": "259c3ca93f34d3c0c49833e81841e3e771c1983e9b777fcc5d734de16ed37542",
+  "diagnostic_source_sha256": "6908fc1c594e85638572866ec3996c8dd782e16c2e4b6f8c43965c06256137f5",
+  "methods": {
+    "obligation-guard-off": {
+      "outcomes": 6,
+      "rejections": {},
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "repair": {
+      "outcomes": 6,
+      "rejections": {
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out": 4,
+        "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in": 2
+      },
+      "repair_plan_events": 3,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    },
+    "fixed": {
+      "outcomes": 6,
+      "rejections": {
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out": 2,
+        "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in": 1
+      },
+      "repair_plan_events": 0,
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": 0,
+      "official_exact_after_recorded_rejection": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the relationship as 'parents' to Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        },
+        {
+          "action": "REPAIR_PLAN",
+          "program_index": 4,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              },
+              {
+                "relation": "people.person.children",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        }
+      ],
+      "repair_plan_events": 1,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-1211",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": false,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.0qd6j_b",
+        "m.0qd6jv4"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.0qd6j_b",
+            "m.0qd6jv4"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the children of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the familial relationship as 'children' to Paul Revere."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+        },
+        {
+          "action": "REPAIR_PLAN",
+          "program_index": 4,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              },
+              {
+                "relation": "people.person.children",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+        }
+      ],
+      "repair_plan_events": 1,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in",
+        "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-children-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.children",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested children; allowed one-hop bindings people.person.children out or people.person.parents in"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified attractions and places to visit in Chicago downtown, as evidenced by the observed types"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the location context (downtown) for the attractions and places, as evidenced by the 'in'"
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified tourist attractions in Chicago downtown, such as Adler Planetarium, Field Museum of\u81ea\u7136\u5386\u53f2"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the location context (downtown) for the attractions and places."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-825",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified tourist attractions in Chicago downtown, such as Adler Planetarium, Field Museum of\u81ea\u7136\u5386\u53f2"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the location context (downtown) for the attractions and places."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01ng1x",
+        "m.03ny5l",
+        "m.0ctvd"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "law.inventor.inventions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified additional inventions by Eli Whitney, namely 'Milling', 'Interchangeable parts', and 'C"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly determined the relationship between Eli Whitney and the inventions, as it used the 'law.inventor' "
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 16
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01ng1x",
+        "m.03ny5l",
+        "m.0ctvd"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "law.inventor.inventions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program steps correctly identify additional inventions by Eli Whitney, which are 'Milling' and 'Interchangeableparts"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program steps correctly determine the relationship between Eli Whitney and the inventions, which is through the 'law"
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 16
+    },
+    {
+      "id": "WebQTrn-938",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01ng1x",
+        "m.03ny5l",
+        "m.0ctvd"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "law.inventor.inventions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.01ng1x",
+            "m.03ny5l",
+            "m.0ctvd"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program steps correctly identify additional inventions by Eli Whitney, which are 'Milling' and 'Interchangeableparts"
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program steps correctly determine the relationship between Eli Whitney and the inventions, which is through the 'law"
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": true,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 16
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        },
+        {
+          "action": "REPAIR_PLAN",
+          "program_index": 12,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "out"
+              },
+              {
+                "relation": "people.person.children",
+                "direction": "out"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        }
+      ],
+      "repair_plan_events": 1,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.05p9m_7",
+        "m.0n9w6rr",
+        "m.0n9w6yl",
+        "m.0n9w75v",
+        "m.0n9w8r1",
+        "m.0n9w96g",
+        "m.0n9w9by",
+        "m.0n9w9hk",
+        "m.0n9w9lw",
+        "m.0n9w9wd",
+        "m.0n9wb72",
+        "m.0n9wbrn",
+        "m.0n9wbws",
+        "m.0n9wc7f",
+        "m.0n9wcfb",
+        "m.0n9wcp1"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": [
+            "m.05p9m_7",
+            "m.0n9w6rr",
+            "m.0n9w6yl",
+            "m.0n9w75v",
+            "m.0n9w8r1",
+            "m.0n9w96g",
+            "m.0n9w9by",
+            "m.0n9w9hk",
+            "m.0n9w9lw",
+            "m.0n9w9wd",
+            "m.0n9wb72",
+            "m.0n9wbrn",
+            "m.0n9wbws",
+            "m.0n9wc7f",
+            "m.0n9wcfb",
+            "m.0n9wcp1"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the parents of Paul Revere based on the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The relation 'parents' is correctly specified in the program steps."
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-paul-parents-of-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ABSTAIN",
+      "reason": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out",
+      "answers": [],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "people.person.parents",
+                "direction": "in"
+              }
+            ],
+            "constraints": [],
+            "explanation": "Schema-typed candidate with observed anchor joins"
+          },
+          "acquired_answers": null,
+          "semantic_gate": null,
+          "rejection": "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [
+        "role_direction_mismatch: requested parents; allowed one-hop bindings people.person.children in or people.person.parents out"
+      ],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "obligation-guard-off",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the attractions in Chicago, as evidenced by the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the location relationship between the attractions and Chicago, as evidenced by the 'in' "
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "fixed",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the attractions in Chicago, as evidenced by the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the location relationship between the attractions and Chicago, as evidenced by the 'in' "
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    },
+    {
+      "id": "hand-chicago-attractions-001",
+      "seed": 17,
+      "variant": "repair",
+      "terminal": "ANSWER",
+      "reason": "observed_conjunctive_support_and_semantic_gate",
+      "answers": [
+        "m.01dlzc",
+        "m.021czc",
+        "m.025v4fb",
+        "m.027hqc_",
+        "m.02jw0z",
+        "m.02rvwrv",
+        "m.05zv09",
+        "m.06_7k",
+        "m.0b0sh",
+        "m.0b28z",
+        "m.0bl8mx",
+        "m.0c7ln",
+        "m.0d9wz",
+        "m.0g_8d0",
+        "m.0w7m2x9"
+      ],
+      "attempts": [
+        {
+          "action": "PLAN",
+          "program_index": 0,
+          "program": {
+            "supported": true,
+            "steps": [
+              {
+                "relation": "travel.travel_destination.tourist_attractions",
+                "direction": "out"
+              }
+            ],
+            "constraints": [
+              {
+                "at": 1,
+                "relation": "location.location.containedby",
+                "direction": "out",
+                "anchor": 0
+              }
+            ],
+            "explanation": "Observed endpoint membership in the copied primary anchor"
+          },
+          "acquired_answers": [
+            "m.01dlzc",
+            "m.021czc",
+            "m.025v4fb",
+            "m.027hqc_",
+            "m.02jw0z",
+            "m.02rvwrv",
+            "m.05zv09",
+            "m.06_7k",
+            "m.0b0sh",
+            "m.0b28z",
+            "m.0bl8mx",
+            "m.0c7ln",
+            "m.0d9wz",
+            "m.0g_8d0",
+            "m.0w7m2x9"
+          ],
+          "semantic_gate": {
+            "supported": true,
+            "reason": "question requirement ledger; same-model and uncalibrated",
+            "missing_obligations": [],
+            "verdicts": [
+              {
+                "index": 0,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly identified the attractions in Chicago, as evidenced by the observed answer cards."
+              },
+              {
+                "index": 1,
+                "status": "satisfied",
+                "evidence_steps": [
+                  0
+                ],
+                "reason": "The program correctly specified the location relationship between the attractions and Chicago, as evidenced by the 'in' "
+              }
+            ]
+          },
+          "rejection": null
+        }
+      ],
+      "repair_plan_events": 0,
+      "rejection_reasons": [],
+      "reason_text_withheld_events": 0,
+      "semantic_gate_bypass_events": 0,
+      "answered_after_recorded_rejection": false,
+      "official_final_exact": null,
+      "official_exact_after_recorded_rejection": false,
+      "independent_semantic_recovery": null,
+      "catalog_size": 20
+    }
+  ],
+  "certified_recovery_rate": null,
+  "limits": [
+    "Final exact set after a rejected plan is not independently certified recovery.",
+    "Provisional acquired answers are not accepted answers.",
+    "No gold query, labels or oracle are supplied to inference.",
+    "Missing catalog alternatives cannot be recovered by reselecting that same catalog.",
+    "Purpose-selected cases and seed repeats do not estimate population effects."
+  ]
+}

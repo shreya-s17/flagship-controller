@@ -1,0 +1,7 @@
+{
+  "completed": 18,
+  "predictions_sha256": "3a727725d005f11f07d4b8335c9a696f950ad744e9d94df3a3b99f6bbc4adeca",
+  "question_seed_prefixes": 6,
+  "utc": "2026-10-17T00:34:26Z",
+  "scope": "Completed development-only outcomes, including retained failures"
+}
