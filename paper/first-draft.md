@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v1.9, 17 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v2.0, 18 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -85,6 +85,14 @@ Inference uses local CPU-only Qwen2.5-7B-Instruct Q4_K_M through Ollama 0.40.4, 
 The [frozen plan](../results/paired-pilot-001/plan.json) selects the next ten questions in the existing training-pilot order, outside the five used for these fixes. It records source/transport/harness hashes, model/configuration, seed and randomized within-question control order before execution. It is an exploratory local freeze, not formal external preregistration or an official held-out test study.
 
 All selected cases, including abstentions, are retained. Analysis compares per-question official F1/exact accuracy, coverage and observed resource vectors. A 10,000-replicate question-level paired bootstrap with seed 17 is descriptive; the sample does not support a general superiority claim. First-plan equality is checked rather than assumed. Shared maxima do not imply equal realized cost, and cache state is not fully controlled.
+
+### 4.4 Prospective reserved-training benchmark — collection in progress
+
+A separately frozen feasibility study uses all100 exact reserved training questions, retaining their original train_remaining split, with seeds17/29/43 and six conditions: the five nested catalog/guard controls and the pinned declared-JSON local ToG adaptation. All1800 outcomes, immutable input/source/model/upstream hashes, order, maximum budgets, failure accounting and offline analysis are fixed before first reserved inference. The baseline shares only captured linking, without the controller catalog. A known development startup probe precedes collection. Runtime annotations remain unreadable to the isolated inference account and the inference package contains no scorer.
+
+The primary endpoint is repair-C1G1 minus fixed-C1G1 official-semantics macro answer-set F1: average seeds within each question, then use10000 paired question bootstrap samples with analysis seed113. The100 question IDs define the bootstrap units; repeated seeds and conditions are not1800 independent questions, and residual question-family dependence remains possible. Every unsupported grammar, linking, budget, truncation and serialization failure remains in the full submitted denominator. Collection is incomplete, so no score, interval or superiority claim is reported. The official test remains unexecuted. The training reservation is a feasibility cohort, not a final confirmatory result or a power guarantee; contamination and snapshot equivalence remain limitations.
+
+A prospectively selected20-question/seed17 sample across all six conditions supplies120 future masked semantic-review records. The owner's offered development review is explicitly author review and cannot count as an independent reviewer. No actual author or independent judgments have yet been received. We amended the earlier ordering before reserved inference to permit objective collection while human review is pending; independent semantic claims and submission still require appropriate completed evidence. No STOP/recovery denominator, calibrated reliability or semantic-validity rate is invented. [Executable protocol, frozen plan and analysis boundary](../evaluation/benchmark-training-protocol.md).
 
 ## 5. Results
 

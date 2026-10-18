@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "phase": "Known-development startup passed; frozen reserved-training collection running; no final scores",
+  "tests": 222,
+  "inference_modules": 15,
+  "offline_analysis_sources": 5,
+  "reserved_questions": 100,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "policies": 6,
+  "planned_outcomes": 1800,
+  "author_review_completed": 0,
+  "independent_reviews_completed": 0,
+  "reviewer_contact_performed": false,
+  "official_test_execution": false,
+  "new_purchase": false,
+  "paper_ready": false,
+  "worksheet": {
+    "cases": 30,
+    "role": "author",
+    "independence_attested": false,
+    "javascript_syntax": "PASS",
+    "transmits_data": false
+  },
+  "source_hashes": {
+    "scripts/benchmark_smoke.py": "4fe40bf22d6514b33d62bea8b76c3e4c11a416844a89ebdd11fe6d46037612d3",
+    "deployment/run-benchmark-100.sh": "75d9f807fa134cadd7d260ad1304de6a6838d79e04030abd46b26c144a8d6508"
+  },
+  "source_commit": "fac1673",
+  "clean_source_tests": 222,
+  "historical_evidence_files_restored": 526,
+  "historical_finite_catalog_reproduction": "PASS",
+  "isolated_inference_materialization": "15 modules; no scorer or annotations",
+  "known_case_operational_smoke": "PASS; two outcomes; not a new scientific sample",
+  "reserved_inference_started": true,
+  "source_modification_after_reserved_start": false
+}

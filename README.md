@@ -2,6 +2,14 @@
 
 An auditable graph-reasoning research prototype with a synthetic component study and a question-only Freebase/WebQSP pipeline. **Working restricted prototype; not a final benchmark, validated novel method or submission-ready paper.** The repository is public; the owner approved publishing the verified17 October checkpoint. This is an exploratory artifact, not a submitted paper.
 
+## Current work —18 October2026
+
+The [prospective reserved-training benchmark](evaluation/benchmark-training-protocol.md) is running on the existing server after a separately retained known-case startup check. The fixed plan is100 questions ×3 seeds ×6 conditions (1800 outcomes), including the local ToG adaptation. All input bytes,15 inference modules, five offline-analysis sources, scheduling and the primary paired question-level analysis were frozen before the first reserved request. No final benchmark score exists while collection is incomplete; official test remains untouched. Failures remain in the denominator and the frozen method will not be tuned during collection.
+
+**222 tests pass from a clean source snapshot;526 historical raw files restore and both prior finite/catalog reports reproduce exactly.** The isolated runtime materializes all15 frozen inference modules without scorer or annotations. The [author-review guide](evaluation/author-review-guide.md) explains the separate browser worksheet. Author review is welcome and remains distinct from independent semantic evaluation; neither has yet been received. Two independent reviewers are part of the semantic study design, not a universal journal approval requirement. Objective collection proceeds while review is pending. No new purchase or manuscript submission.
+
+Earlier checkpoints below retain their original development scope and counts. Statements that the reserved100 was unrun describe those earlier dates.
+
 ## Current evidence
 
 | Component | Evidence |

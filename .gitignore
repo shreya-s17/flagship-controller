@@ -59,3 +59,10 @@ artifacts/*.zip
 # Nested factorial raw evidence restored from its checked private bundle.
 /results/factorial-dev-001/predictions.jsonl
 /results/factorial-dev-001/journal/
+
+# Active benchmark raw evidence stays separate until a checked full-denominator bundle.
+/results/benchmark-training-100-001/predictions.jsonl
+/results/benchmark-training-100-001/predictions.jsonl.tmp
+/results/benchmark-training-100-001/journal/
+/results/benchmark-training-100-001/progress.json
+/results/benchmark-training-100-001/model-verification.json

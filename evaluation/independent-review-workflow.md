@@ -11,7 +11,7 @@ Each person supplies a separate JSON file with `reviewer_id`, `qualification_sta
 Once actual submissions arrive, the owner runs:
 
 ```sh
-python3 -m flagship_controller.review_assessment \
+python3 -m flagship_controller.independent_review \
   --pack /absolute/path/reviewer/cases.jsonl \
   --reviews /absolute/path/reviewer-one.json /absolute/path/reviewer-two.json
 ```
@@ -33,3 +33,9 @@ Latest native handoff:26 unannotated cases from baseline001–004 and common-sta
 Current harder-case handoffs:32 native records now cover baseline001–004 and common-state002–004;24 new masked structured outcomes supplement the unchanged30-case structured pack. The older15/26-case native handoffs remain preserved locally and unannotated. The new supplementary brief has24 cases and its own hash manifest. Zero qualified independent submissions have been received and no contact occurred. Repeated policies/versions are correlated; these case counts are not independent question counts. Current manifests: `native-review-pack-status.json`, `native-review-delivery-manifest.json`, `harder-review-pack-status.json`, `harder-review-delivery-manifest.json`.
 
 Latest closed-obligation handoff (17 October2026):36 blank structured cases preserve both versions, including failed revisions, guarded abstentions and guard-off counterexamples. They cover six correlated development strings, not36 independent questions. Current manifests are `obligation-review-pack-status.json` and `obligation-review-delivery-manifest.json`; native32 and older structured handoffs remain unchanged. Zero independent submissions received; no contact. The new brief explicitly covers closed language/ontology priors, source-direction meaning, conjunction witnesses, unknowns and false rejection through the same four semantic dimensions. The compact pack still does not certify counterfactual STOP or a recovery denominator.
+
+## Author review and prospective collection amendment —17 October2026
+
+The project owner offered to review results. Use the separate [author worksheet](author-review-guide.md); it records actual owner judgments as author review, with no independent-review attestation. The current `independent_review` entrypoint rejects explicitly author/owner/automated submissions even if someone changes an attestation flag. Legacy validators/source hashes remain preserved. Blank worksheets remain unreviewed. Two independent reviewers are the design for validating semantic-reliability claims, not a universal journal prerequisite.
+
+Human review is no longer a prerequisite for collecting the prospectively frozen training-reservation benchmark. Objective answer-set scoring and usage collection can proceed while review is pending. Semantic accuracy, STOP/recovery rates and final submission remain gated by the relevant actual judgments/evidence. This ordering amendment is recorded before the first reserved inference. [Frozen prospective protocol](benchmark-training-protocol.md).

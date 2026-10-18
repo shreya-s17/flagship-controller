@@ -1,0 +1,9235 @@
+{
+  "kind": "reserved-training-benchmark-v1",
+  "status": "Frozen training-reservation feasibility; not final test or submission readiness",
+  "created_utc": "2026-10-17T17:25:23Z",
+  "input_sha256": "caca1ad180cba7e67614a59232da6ea36eac32e9534ad3d6c10ec42a03045dc2",
+  "question_ids": [
+    "WebQTrn-886",
+    "WebQTrn-293",
+    "WebQTrn-667",
+    "WebQTrn-2118",
+    "WebQTrn-2877",
+    "WebQTrn-387",
+    "WebQTrn-2592",
+    "WebQTrn-1029",
+    "WebQTrn-1260",
+    "WebQTrn-2686",
+    "WebQTrn-2926",
+    "WebQTrn-2111",
+    "WebQTrn-2721",
+    "WebQTrn-3010",
+    "WebQTrn-1193",
+    "WebQTrn-2018",
+    "WebQTrn-1128",
+    "WebQTrn-1472",
+    "WebQTrn-280",
+    "WebQTrn-516",
+    "WebQTrn-2210",
+    "WebQTrn-72",
+    "WebQTrn-21",
+    "WebQTrn-3674",
+    "WebQTrn-1225",
+    "WebQTrn-2035",
+    "WebQTrn-473",
+    "WebQTrn-1186",
+    "WebQTrn-1255",
+    "WebQTrn-2480",
+    "WebQTrn-1792",
+    "WebQTrn-854",
+    "WebQTrn-3284",
+    "WebQTrn-2512",
+    "WebQTrn-2436",
+    "WebQTrn-2242",
+    "WebQTrn-595",
+    "WebQTrn-1556",
+    "WebQTrn-1442",
+    "WebQTrn-351",
+    "WebQTrn-2723",
+    "WebQTrn-2263",
+    "WebQTrn-1662",
+    "WebQTrn-671",
+    "WebQTrn-203",
+    "WebQTrn-1571",
+    "WebQTrn-2803",
+    "WebQTrn-668",
+    "WebQTrn-1845",
+    "WebQTrn-464",
+    "WebQTrn-2641",
+    "WebQTrn-411",
+    "WebQTrn-1417",
+    "WebQTrn-1277",
+    "WebQTrn-1099",
+    "WebQTrn-1254",
+    "WebQTrn-2849",
+    "WebQTrn-1641",
+    "WebQTrn-2459",
+    "WebQTrn-379",
+    "WebQTrn-1164",
+    "WebQTrn-3218",
+    "WebQTrn-561",
+    "WebQTrn-3146",
+    "WebQTrn-2698",
+    "WebQTrn-196",
+    "WebQTrn-758",
+    "WebQTrn-3326",
+    "WebQTrn-256",
+    "WebQTrn-3730",
+    "WebQTrn-759",
+    "WebQTrn-1708",
+    "WebQTrn-2077",
+    "WebQTrn-2657",
+    "WebQTrn-1670",
+    "WebQTrn-2557",
+    "WebQTrn-1881",
+    "WebQTrn-2275",
+    "WebQTrn-2258",
+    "WebQTrn-486",
+    "WebQTrn-3466",
+    "WebQTrn-3431",
+    "WebQTrn-2439",
+    "WebQTrn-346",
+    "WebQTrn-2959",
+    "WebQTrn-2246",
+    "WebQTrn-1696",
+    "WebQTrn-1647",
+    "WebQTrn-3299",
+    "WebQTrn-57",
+    "WebQTrn-714",
+    "WebQTrn-531",
+    "WebQTrn-2604",
+    "WebQTrn-2550",
+    "WebQTrn-2852",
+    "WebQTrn-1697",
+    "WebQTrn-1316",
+    "WebQTrn-1693",
+    "WebQTrn-3773",
+    "WebQTrn-2769"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "policies": [
+    "repair-C0G0",
+    "repair-C0G1",
+    "repair-C1G0",
+    "repair-C1G1",
+    "fixed-C1G1",
+    "tog-declared-json"
+  ],
+  "order": [
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 17,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 29,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-886",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-293",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-667",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2118",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2877",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-387",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2592",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1029",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1260",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2686",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2926",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2111",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2721",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3010",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1193",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2018",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1128",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1472",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-280",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-516",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2210",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-72",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-21",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3674",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1225",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2035",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-473",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1186",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1255",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2480",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1792",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-854",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3284",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2512",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2436",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2242",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-595",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1556",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1442",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-351",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2723",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2263",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1662",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-671",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-203",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1571",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2803",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-668",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1845",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-464",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2641",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-411",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1417",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1277",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1099",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1254",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2849",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1641",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2459",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-379",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1164",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3218",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-561",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3146",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2698",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-196",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-758",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3326",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-256",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3730",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-759",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1708",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2077",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2657",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1670",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2557",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1881",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2275",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2258",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-486",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3466",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3431",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2439",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-346",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2959",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2246",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1696",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1647",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3299",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-57",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-714",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-531",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2604",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2550",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2852",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1697",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1316",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-1693",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-3773",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "repair-C0G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "fixed-C1G1"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "repair-C0G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "repair-C1G0"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "tog-declared-json"
+    },
+    {
+      "id": "WebQTrn-2769",
+      "seed": 43,
+      "variant": "repair-C1G1"
+    }
+  ],
+  "source_hashes": {
+    "benchmark_runtime.py": "dbaf4b828ad36ef2d6d306a3fc826a1f3cc8e20f8b4dd7c912b98e92e1c7d025",
+    "factorial_study.py": "04198cf9db97602f60fa40ddd27a058e4c60a64d51818885c087ee3d92907677",
+    "factorial_runtime.py": "c1329a0ba454c1733af2dfee8eabdd7f9d0da9f3d56cb948d0bd4fbf12b18958",
+    "obligation_runtime.py": "c84a280d97e95732f7c43bd4be74c5e0c9237ed8a106f223ff382ab94e782c08",
+    "obligation_study.py": "37ee3eea54dca6581997dd99cb48bad992c0d103cd5b674bc492be215598da1b",
+    "study_runtime.py": "5487f8a0b5428012011d3b48da8d4d873750d217afdde74dfa25b45c768d291b",
+    "common_linker.py": "6bbabcd8b5973b91d6cb064bdbfd83c5f0263cbfae131a6d5f8a2ff9407f67c9",
+    "semantic_runtime.py": "4e21a7a70a992030351be3512ab6e6a9d39b5b0e8449b4d953b355039f0ce5f5",
+    "structured_runtime.py": "e07fd12eb5df266a0d6bc2ae8c7785df7e15b209790ad03fb2bc33dbcbe023b0",
+    "webqsp_runtime.py": "6e987fd5568f616a854776f2867e10db8f8cc639d1a62138f58f966dd61ff203",
+    "tog_adapter.py": "07bbc4b5a8621a248817cf8d84b009d72050bbf545a36078c2bc7c5038c1497d",
+    "compact_tog_adapter.py": "914a357c5824700aa5edae26194d3abf1190eabba5c2a95273ae3d24f1281744",
+    "indexed_tog_adapter.py": "2b9e24461bdc3ea7358783f1c27c100012346e7aefd02142469a3137fd13fa5a",
+    "declared_json_tog_adapter.py": "d1de700055c83f9aa614c1a809177ab7f6bed40a858b5ab03c551e62c655b3c0",
+    "benchmark_study.py": "aee684a68531c0f737341167985e9da21088559f4434262cbc9ee0a40597ffe7"
+  },
+  "analysis_source_hashes": {
+    "benchmark_analysis.py": "9e425011deb1c33723bf4a841dbb5f7f881909bdcbe7cde0c336bccc7d7f46cf",
+    "benchmark_audit.py": "ef07ae4424ea824cebd9247f3acd80825358ad4e2d5b116f0e8dd9e212feb4fb",
+    "official_score.py": "047d0d5ba4a58e76cfe8f711a8851b41bfebefc9fb2446ccb97bc62426414025",
+    "factorial_audit.py": "001651c020b2e7abb2e25b107ce854842991eb002beca683d9ab57ec74008743",
+    "common_state_audit.py": "548b3c01e9ef65e8317764b48b2439fea9731c3fb2345611392e9366f5d0a55e"
+  },
+  "snapshot": "dki-archive-sha256-01ac8da685b7cc05",
+  "model": "flagship-qwen2.5-7b-q4km",
+  "model_digest_required": "ba6d123a5e5b0dfbab6a8aa2da25ca2643edaf4489953cd6f963e9482c4972fd",
+  "upstream_commit": "7ccbb92e17579f934bb778386230de47eca0ab67",
+  "upstream_hashes": {
+    "main_freebase.py": "36139c81008c0ec08f6f1d9b81957fec59d4d7af05d2563704576340246d3e96",
+    "freebase_func.py": "f895e5b1ee2f73487641c1f14a6102142284dabafd5fc0074cda890b3c97f5a8",
+    "utils.py": "4460752d33b730b2ca084e352ea84c60bb89c93aea349cece11158a8ea5f15c5",
+    "prompt_list.py": "954e7f6f79fb08010474340f1fade455bcc3c0cd294270923387d5e703de13f5"
+  },
+  "budgets": {
+    "model_calls": 10,
+    "returned_usage_tokens": 16000,
+    "graph_calls": 80,
+    "rows": 100,
+    "seconds_admission": 600,
+    "model_timeout": 120,
+    "graph_timeout": 30,
+    "max_observed_prompt_tokens": 3000
+  },
+  "inference": {
+    "temperature": 0,
+    "context": 4096,
+    "threads": 4,
+    "max_output_tokens": 512,
+    "python_hash_seed_required": "17",
+    "schedule_seed": 113
+  },
+  "shared_state": "Common parse/link/root/schema; each catalog captures a separate first PLAN; baseline shares linking only.",
+  "primary_analysis": {
+    "contrast": [
+      "repair-C1G1",
+      "fixed-C1G1"
+    ],
+    "metric": "official-semantics macro answer-set F1",
+    "unit": "average three seeds within question, then pair all100 questions",
+    "interval": "10000 paired question-cluster bootstrap resamples; analysis seed113; descriptive feasibility uncertainty",
+    "no_minimum_effect_or_power_claim": true
+  },
+  "secondary_analysis": [
+    "exact-set accuracy, coverage and benchmark mismatch among answers",
+    "2x2 catalog/closed-guard contrasts conditional on selected roots/schema",
+    "local declared-JSON ToG adaptation projected-ID F1; native semantic validity separately reviewed",
+    "returned tokens/model/graph/physical attempts; replay time constructed, unequal realized costs"
+  ],
+  "semantic_review": {
+    "status": "pending, not a precondition for objective benchmark collection",
+    "question_ids": [
+      "WebQTrn-1316",
+      "WebQTrn-668",
+      "WebQTrn-2721",
+      "WebQTrn-2436",
+      "WebQTrn-2111",
+      "WebQTrn-758",
+      "WebQTrn-1792",
+      "WebQTrn-1186",
+      "WebQTrn-2242",
+      "WebQTrn-2118",
+      "WebQTrn-280",
+      "WebQTrn-1442",
+      "WebQTrn-1647",
+      "WebQTrn-57",
+      "WebQTrn-1254",
+      "WebQTrn-3299",
+      "WebQTrn-2686",
+      "WebQTrn-196",
+      "WebQTrn-473",
+      "WebQTrn-2641"
+    ],
+    "seed": 17,
+    "all_six_conditions": true,
+    "records_expected": 120,
+    "selection": "20 question IDs by fixed salted SHA256 before inference; no outcomes/labels",
+    "independent_reviewers_planned": 2,
+    "author_review_counted_separately": true,
+    "unknowns_retained": true,
+    "no_semantic_accuracy_claim_before_actual_judgments": true
+  },
+  "failure_accounting": "Full1800 planned denominator; retain linking/grammar/timeout/budget/serialization failures; no selective retry or replacement. Interrupted admitted work has lower-bound/unknown costs. Integrity mismatch halts.",
+  "serialization": "raw RDF lexical strings / Freebase IDs; date mismatch remains; no gold-driven normalization",
+  "baseline": "Pinned local Qwen/ToG adaptation, not original-paper reproduction; no controller catalog supplied.",
+  "protocol_revision": "Objective benchmark collection can precede human review; semantic/STOP/recovery claims and submission remain gated. This revision is frozen before reserved inference.",
+  "analysis_after_completion_only": true,
+  "tuning_after_first_reserved_request": false,
+  "official_test_execution": false,
+  "independent_reviews_completed_at_freeze": 0,
+  "early_late_stop_rates": null,
+  "certified_recovery_rate": null
+}
