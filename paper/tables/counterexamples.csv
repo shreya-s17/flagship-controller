@@ -1,0 +1,5 @@
+Program family,Worlds per family,Failure characterized,Count per family
+Correct-role identity extension,"4,096",Equivalent nonempty answer rejected,"3,584"
+Correct-role endpoint filter,"4,096",Allowed direction omits valid answers,"1,536"
+City membership for downtown,216,Allowed city set exceeds downtown target,91
+City membership plus filter,216,Allowed program omits city answers,40

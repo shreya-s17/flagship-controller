@@ -1,0 +1,359 @@
+\documentclass[10pt]{article}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{lmodern}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{booktabs,longtable,array,hyperref,microtype}
+
+\hypersetup{hidelinks,pdfauthor={Anonymous authors},pdftitle={When graph support is not answer correctness: controlled diagnostics of bounded repair in knowledge-graph question answering}}
+
+\setlength{\emergencystretch}{3em}
+
+\setlength{\parskip}{0.35em}
+
+\setlength{\parindent}{0pt}
+
+\title{When graph support is not answer correctness: controlled diagnostics of bounded repair in knowledge-graph question answering}
+
+\author{Anonymous authors}
+
+\date{18 October 2026}
+
+\begin{document}
+
+\maketitle
+
+Anonymous manuscript. Evidence cutoff: 18 October 2026. Complete account of the finished diagnostic experiments; the ongoing larger benchmark is excluded from the reported results.\par
+
+\begin{abstract}
+
+Knowledge-graph evidence can support a returned entity without supporting the question the user asked. We investigate this distinction using an instrumented question-only system that selects restricted typed query programs, records their witnesses and permits one failure-triggered revision. On ten training-pilot questions, separately executed fixed and repair controls obtain macro answer-set F1 of 0.40 and 0.30, respectively; the difference originates in an earlier parsing failure. Replaying identical starting states removes that difference: both controls obtain 0.40, while repair consumes 16.48\% more charged tokens and recovers no additional exact answer. A subsequent catalog-by-guard diagnostic retains all 30 outcomes on six reused question strings. Combined catalog expansion and guarded repair match all three scored originals, but the changes address different failure mechanisms: candidate availability and relation direction. All 77 unique accepted witness triples are present on requery, including triples supporting incorrect controls. An independent finite relational interpreter further identifies counterexamples in 67,696 guard/program/world combinations: necessary role and membership checks can reject equivalent programs or accept incomplete and overly broad answer sets. These results establish reproducible failure mechanisms, not population performance gains. We argue for separating execution integrity, graph support, question semantics and benchmark agreement when evaluating bounded repair, and report the limits of each evidence layer explicitly.\par
+
+\end{abstract}
+
+\section{Introduction}
+
+Knowledge-graph question answering couples linguistic interpretation to a structured evidence source. Graph-backed language-model agents can expose reasoning paths and inspect relations instead of relying entirely on parametric recall. Think-on-Graph is an example of this interaction pattern \cite{sun2024tog}. However, returning a graph-supported path does not establish that the path expresses the intended relation, that all question constraints are enforced, or that the returned set is complete.\par
+
+Consider a question asking for a person's parents. Traversing a parent predicate in the wrong direction can return their children with perfectly valid graph witnesses. Likewise, a list associated with a city can contain genuine attractions without implementing a downtown restriction. These are failures of alignment between a question and an executed program, rather than necessarily missing or fabricated edges. A verifier that checks only edge existence cannot distinguish them.\par
+
+Repair introduces a second attribution problem. An apparent difference between fixed and repair policies may arise before the repair decision, through parsing, entity linking or candidate construction. Conversely, a later answer improvement can be caused by expanding the available program catalog rather than by the mechanism that rejects an earlier choice. Comparing only terminal answers can obscure both distinctions.\par
+
+We study these problems through a restricted, auditable prototype rather than proposing a new general reasoning algorithm. Our finished experiments comprise a synthetic component study, a ten-question live comparison and identical-prefix diagnostic, a finite guard audit, and a nested catalog-by-guard development comparison. We preserve negative outcomes and distinguish original questions from handwritten controls. The contribution is an empirical and executable account of how to localize failures in a bounded graph-reasoning system.\par
+
+Three findings motivate the study. First, repair produces no exact-answer improvement on the ten-question shared-prefix diagnostic and adds measured cost. Second, narrow semantic guards and catalog expansion address different bottlenecks in inspected cases. Third, neither structural witness checks nor necessary relational guards certify full question meaning. The finite interpreter supplies explicit counterexamples, while the live traces demonstrate why these distinctions matter in an operational system.\par
+
+The paper deliberately makes no claim of a novel learned policy, calibrated semantic confidence, benchmark superiority or general benefit from repair. A larger frozen training-reservation comparison is still running at the evidence cutoff and contributes no partial result to this manuscript. The completed results below support a diagnostic case study; broader empirical claims require additional evidence.\par
+
+\section{Related work}
+
+Graph-guided language-model reasoning is established prior work. Think-on-Graph iteratively explores graph entities and relations using an LLM-guided search procedure \cite{sun2024tog}. CoG combines relational blueprints with failure-aware refinement \cite{liu-etal-2026-cog}, while Chain-of-Relations emphasizes relation-centric exploration and global filtering \cite{liu-etal-2026-chain}. These mechanisms overlap the general ideas of guidance, verification and backtracking. Our implementation differences and diagnostics do not establish algorithmic novelty relative to them.\par
+
+Formal-language constraints address a different guarantee. PICARD rejects inadmissible continuations through incremental parsing in semantic generation \cite{scholak-etal-2021-picard}. Our finite typed-program catalog similarly limits the representable output space, but it does not implement PICARD or make semantic equivalence follow from syntactic admissibility. A well-formed, executable query can still encode the wrong question.\par
+
+Feedback-driven retrieval and correction also extend beyond the present system. LCR-RAG uses logical feedback within a learned query-revision framework \cite{zheng-etal-2026-lcr}. Here, revision is training-free, limited to a bounded catalog and dependent on hand-designed checks and the same model that proposes programs. We do not equate this control with a learned correction policy.\par
+
+WebQuestionsSP provides semantic parses and an official answer-set evaluator for knowledge-base question answering \cite{yih-etal-2016-value}. We use its evaluation semantics while keeping annotated parses and answers outside inference. Benchmark agreement is an operational target; it is not an independent assessment of the historical truth of every graph statement or the only reasonable interpretation of an ambiguous question.\par
+
+\section{System and controls}
+
+\subsection{Question-only input and bounded programs}
+
+The live system receives a raw question, an identifier and a split tag. It has no access to gold topic entities, annotated paths or answers. A parser proposes copied mentions, answer types and question obligations. Entity linking checks graph-native keys against observed names or aliases and uses bounded fallback matching. Ambiguous links are resolved from available evidence rather than by silently selecting the first identifier.\par
+
+The graph backend is a restored Freebase archive \cite{bollacker2008freebase}. The system observes relation inventories and type metadata, then constructs a catalog of restricted one- or two-hop programs with equality joins to named anchors. The active catalog has at most 20 entries, drawn through bounded root and child-relation selection. A compiler validates identifiers, directions and join indices before producing SPARQL queries \cite{harris2013sparql}. It does not execute arbitrary SPARQL supplied by the model.\par
+
+Each accepted answer is associated with recorded query rows and provenance-bearing witness triples. A sentinel-row convention and query-status checks detect declared truncation or incomplete execution. These checks establish consistency with bounded observations; they do not prove completeness of the knowledge base or truth outside the snapshot.\par
+
+\subsection{Fixed selection, bounded repair and semantic guards}
+
+The fixed control chooses one catalog program. The repair control may reject a first choice, mask the rejected program and choose once more, optionally using graph-observed join information after a failed constrained query. No gold feedback enters this decision. A changed program, an additional attempt and an independently acceptable recovery are distinct events.\par
+
+All compared live controls retain compiler, type, witness and resource checks. A same-model semantic gate additionally inspects the question, program, inferred obligations, counts and a limited sample of answer values and witnesses. The gate sees at most five answer values and two witness rows; it is not a full-row semantic audit and is not independently calibrated.\par
+
+The later development revision adds closed checks for copied kinship roles and primary-anchor membership. For a parent request, an outward parents relation and an inward children relation are allowed bindings; the directions reverse for a child request. A city-membership obligation requires an observed containment join back to the primary city. These are necessary conditions within declared ontology and language conventions, not complete semantic specifications.\par
+
+\subsection{Separate catalog and guard interventions}
+
+We denote expanded observed containment candidates by C1 and the preserved schema-only catalog by C0. G1 enables the closed-obligation check and pruning of incompatible revision candidates; G0 disables only that intervention. Both guard conditions retain the other checks, including the same-model semantic gate.\par
+
+The diagnostic compares repair-C0G0, repair-C0G1, repair-C1G0, repair-C1G1 and fixed-C1G1. A common capture fixes parsing, linking, root observations and schema before catalog construction. Each catalog condition separately captures its first program choice; paired guard arms replay that mode-specific state. The fixed and repair C1G1 conditions share the expanded catalog and first choice. Exact provider payloads, responses and graph observations are audited, rather than inferring state equality from configuration alone.\par
+
+\subsection{Resource and evidence accounting}
+
+The live admission limits are 10 model calls, 16,000 returned usage tokens, 80 graph calls and 100 rows per query. Model and graph request timeouts are 120 and 30 seconds; the wall-time admission threshold is 600 seconds. The model context is 4,096 tokens, with a 3,000-observed-input-token guard. Some checks occur after a response is charged, so these limits are not exact pre-call billing or hard wall-clock guarantees.\par
+
+Shared-prefix work is charged to every policy that depends on it. Physical execution counts are reported separately from replay charges. Incomplete usage is marked as unknown or lower-bound; it is not silently replaced by a complete zero-cost event. Constructed prefix-plus-continuation elapsed time is not fresh end-to-end timing.\par
+
+\section{Experimental design}
+
+\subsection{Data, model and graph setting}
+
+The completed live studies use training questions from WebQuestionsSP \cite{yih-etal-2016-value}. The first ten-question comparison uses the next ten questions in an existing intake order, distinct from five earlier software-development examples. The identical-prefix diagnostic reuses those same ten questions. The later factorial diagnostic uses six strings: three already inspected official originals and three handwritten controls. Those controls have no invented benchmark gold answers, and the six strings are not an independent test sample.\par
+
+Inference uses CPU-only Qwen2.5-7B-Instruct with Q4\_K\_M quantization \cite{qwen2024}, through Ollama 0.40.4, four threads, temperature zero and seed 17 for the completed live comparisons. The server has an i7-7700 CPU and approximately 62 GiB RAM. The deployed model digest, archive hash, executable version and frozen source manifests are retained in the artifact.\par
+
+The prepared Freebase database is served by Virtuoso 7.2.5.3229. The archive's original snapshot date and equivalence to WebQuestionsSP's reference snapshot remain unverified. No graph augmentation from gold answers is used. This unresolved setting difference restricts comparison with published benchmark scores.\par
+
+\subsection{Metrics and comparison units}
+
+We follow the official evaluator's question-quality admission and best-F1-over-parses conventions. All selected predictions are submitted; scorable exclusions are separate from method failures. Macro F1 and exact-answer counts include abstentions in the selected scorable denominator. The small-sample question-paired bootstrap uses 10,000 resamples and seed 17 \cite{efron1979bootstrap}; its interval is descriptive, not a population or power claim.\par
+
+We separately report answer coverage, charged returned tokens, model and graph calls, witness-row consistency, and post-run triple presence. Neither exact benchmark matching nor triple presence is called semantic accuracy. Live early/late stopping and certified recovery rates are unavailable because independently accepted budget-feasible continuation labels have not been collected.\par
+
+\subsection{Synthetic and finite specifications}
+
+The synthetic component engine receives declared start entities, relation sequences and type obligations. It is separate from natural-language parsing and linking. Sixteen component combinations are evaluated on 350 shared scenarios; selected contrasts are reported with their full denominators. A separately implemented finite evaluator supplies fixture truth. No live token-saving claim is derived from these zero-model-token fixtures.\par
+
+The finite guard audit evaluates 67,696 guard/program/world combinations and 33 handwritten grammar contracts. It includes arbitrary small inverse-consistent kinship worlds and synthetic city/downtown sets. Some worlds are biologically impossible and some compiler-representable programs are absent from the active catalog. The audit isolates guard behavior rather than simulating the model, type checks or complete live pipeline. Counts are controlled counterexamples, not natural-world error frequencies.\par
+
+\section{Results}
+
+\subsection{Synthetic components expose distinct guarantees}
+
+\begingroup\small\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.3800\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.2000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.2300\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1900\linewidth-2\tabcolsep\relax}}
+
+\caption{Synthetic component study. Each row uses the same 350 scenarios; rows are correlated. Bit order: acquisition, verification, recovery, STOP. Expansions are not live model tokens.}\\
+
+\toprule
+
+Variant & Grounded / scenarios & Unsupported / answered & Mean expansions \\
+
+\midrule
+
+\endfirsthead
+
+\toprule
+
+Variant & Grounded / scenarios & Unsupported / answered & Mean expansions \\
+
+\midrule
+
+\endhead
+
+Full (1111) & 210 / 350 & 0 / 210 & 3.126 \\
+
+Acquisition off (0111) & 210 / 350 & 0 / 210 & 3.126 \\
+
+Verifier off (1011) & 210 / 350 & 90 / 300 & 3.217 \\
+
+Recovery off (1101) & 92 / 350 & 0 / 92 & 2.080 \\
+
+STOP off (1110) & 210 / 350 & 0 / 210 & 3.503 \\
+
+Verified fixed order (0110) & 210 / 350 & 0 / 210 & 3.503 \\
+
+\bottomrule
+
+\end{longtable}
+
+\endgroup
+
+Acquisition-on and acquisition-off have the same grounded yield and mean expansions in this fixture family. Thus this study supplies no adaptive-acquisition advantage. Removing verification raises answer coverage but introduces 90 unsupported outputs among 300 emitted answers. Removing recovery reduces grounded yield from 210 to 92, but it also changes search expenditure; this is not evidence of matched-cost recovery superiority. Disabling STOP increases mean expansions from 3.126 to 3.503 without improving yield. These are fixture-level mechanism checks, not token or wall-time gains for a language-model agent.\par
+
+\subsection{Shared starting states remove an apparent live difference}
+
+\begingroup\small\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.2500\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1050\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.0950\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1100\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1400\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1500\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1500\linewidth-2\tabcolsep\relax}}
+
+\caption{Completed ten-question live comparison. The shared-prefix rows reuse the same ten questions, not an additional sample. Tokens/calls are charged work; replay time is not fresh end-to-end latency.}\\
+
+\toprule
+
+Execution/control & Macro F1 & Exact & Answered & Tokens & Model calls & Graph calls \\
+
+\midrule
+
+\endfirsthead
+
+\toprule
+
+Execution/control & Macro F1 & Exact & Answered & Tokens & Model calls & Graph calls \\
+
+\midrule
+
+\endhead
+
+Separate fixed & 0.40 & 4 / 10 & 6 / 10 & 21,056 & 34 & 63 \\
+
+Separate repair & 0.30 & 3 / 10 & 5 / 10 & 22,329 & 35 & 61 \\
+
+Shared prefix fixed & 0.40 & 4 / 10 & 6 / 10 & 21,056 & 34 & 63 \\
+
+Shared prefix repair & 0.40 & 4 / 10 & 6 / 10 & 24,527 & 38 & 65 \\
+
+\bottomrule
+
+\end{longtable}
+
+\endgroup
+
+The separately executed comparison gives repair-minus-fixed F1 of -0.10, with a descriptive percentile interval of [-0.30, 0.00]. Inspection localizes the sole exact-answer difference to an Eli Whitney mention-parsing failure in repair before a program exists. A common temperature and seed therefore did not establish a common starting state.\par
+
+Replaying every fixed prefix, without selecting by score, reproduces all ten terminals, answer sets, witnesses and counters. Repair from those same states obtains the same F1 and exact count as fixed, but adds 3,471 charged tokens, four model calls and two graph calls. The token increase is 16.48\%, and no additional exact answer follows rejection of a first program. All paired F1 differences are zero; a degenerate [0,0] bootstrap interval describes these cases only. This negative result concerns the implemented repair rule and its bounded candidate space, not all possible repair policies.\par
+
+\subsection{Catalog availability and role checking solve different development failures}
+
+\begingroup\small\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.3000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1700\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1700\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1800\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1800\linewidth-2\tabcolsep\relax}}
+
+\caption{Five-condition development comparison: six reused strings, three scored originals and three unscored handwritten controls, 30 total outcomes. Score columns cover the three originals; token totals cover all six strings. These are not held-out gains.}\\
+
+\toprule
+
+Condition & Macro F1 & Exact originals & Answered originals & Tokens, all six \\
+
+\midrule
+
+\endfirsthead
+
+\toprule
+
+Condition & Macro F1 & Exact originals & Answered originals & Tokens, all six \\
+
+\midrule
+
+\endhead
+
+repair-C0G0 & 0.596491 & 1 / 3 & 3 / 3 & 18,723 \\
+
+repair-C0G1 & 0.666667 & 2 / 3 & 2 / 3 & 16,415 \\
+
+repair-C1G0 & 0.666667 & 2 / 3 & 3 / 3 & 19,637 \\
+
+repair-C1G1 & 1.000000 & 3 / 3 & 3 / 3 & 20,656 \\
+
+fixed-C1G1 & 0.666667 & 2 / 3 & 2 / 3 & 16,154 \\
+
+\bottomrule
+
+\end{longtable}
+
+\endgroup
+
+All 30 planned outcomes complete. Only the three official originals receive benchmark scores; the handwritten controls remain unscored. Guarded repair changes a reversed kinship binding. The expanded catalog supplies a primary-city membership program that the schema-only catalog lacks; enabling the membership guard without that expansion exhausts the Chicago catalog. A gold-free reconstruction of the earlier captured states finds zero versus two rule-compatible Chicago candidates before and after expansion, with two old entries displaced at the catalog cap. Compatibility is an availability diagnostic, not a correctness label.\par
+
+Combined C1G1 repair matches all three inspected official answer sets, while fixed C1G1 matches two. This is development evidence after failure inspection. The kinship revision has one admissible remaining candidate, so the result is constraint enforcement rather than demonstrated learned selection among multiple feasible repairs. The observed effects are conditional on the captured roots and schema; they do not establish population gain or generalize beyond the closed language family.\par
+
+The five conditions together require 55 physical model attempts and 174 graph calls. Charged totals differ by method because shared prefixes and realized continuations differ. These totals are not a matched-compute frontier or a speed comparison.\par
+
+\subsection{Necessary guards admit and reject semantic counterexamples}
+
+\begingroup\small\setlength{\tabcolsep}{4pt}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr 0.2800\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1600\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.3900\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.1700\linewidth-2\tabcolsep\relax}}
+
+\caption{Selected finite counterexamples. Counts are per declared family, overlap across families and are not independent question samples or natural-world error rates.}\\
+
+\toprule
+
+Program family & Worlds per family & Failure characterized & Count per family \\
+
+\midrule
+
+\endfirsthead
+
+\toprule
+
+Program family & Worlds per family & Failure characterized & Count per family \\
+
+\midrule
+
+\endhead
+
+Correct-role identity extension & 4,096 & Equivalent nonempty answer rejected & 3,584 \\
+
+Correct-role endpoint filter & 4,096 & Allowed direction omits valid answers & 1,536 \\
+
+City membership for downtown & 216 & Allowed city set exceeds downtown target & 91 \\
+
+City membership plus filter & 216 & Allowed program omits city answers & 40 \\
+
+\bottomrule
+
+\end{longtable}
+
+\endgroup
+
+Canonical role and containment bindings satisfy the finite specifications. Nevertheless, a one-hop whitelist rejects equivalent identity-extended programs, and an allowed direction can coexist with an extra filter that drops valid answers. City membership also admits sets broader than the synthetic downtown target. These counterexamples show that local necessary conditions are not sufficient for all-and-only answer semantics. The counts overlap across declared program families and must not be aggregated into a semantic failure rate.\par
+
+\subsection{Witness integrity and benchmark correctness remain separate}
+
+All 25 answered factorial records pass the recorded-row witness audit. Post-run requery finds all 77 unique accepted witness triples present, with no missing or unknown requery result. Those triples include evidence from incorrect reverse-role and broad-scope controls. The same integrity result therefore cannot certify the intended relationship or answer scope.\par
+
+An unmasked GPT review of the 30 development outcomes supplies 120 qualitative judgments with explicit reasons and retained unknowns. The assistant saw policy names and earlier outcomes and had helped develop the artifact; exact model version was not recorded. It is supplementary automated error analysis, not independent human annotation or a calibrated semantic evaluator. A museum account disputes some Whitney invention attributions in the graph \cite{whitneymuseum}, illustrating a further distinction between benchmark agreement and external historical claims. No official label or reported score was changed by this review.\par
+
+\section{Discussion}
+
+The completed studies support three practical evaluation lessons. First, locate where compared policies diverge before attributing a difference to repair. In the ten-question study, the apparent repair deficit disappears under exact prefix replay, while the extra resource charge remains. Shared configuration alone is insufficient; comparable evidence requires inspecting actual requests, responses and graph states.\par
+
+Second, diagnose whether a suitable program is available before expanding revision effort. Pruning cannot select a missing program. The Chicago diagnostic separates catalog construction from guard enforcement, while the kinship case demonstrates how a closed directional obligation can constrain an already available candidate. These mechanisms should be ablated separately and their claims should remain conditional on the observed candidate space.\par
+
+Third, report a hierarchy of evidence rather than collapsing it into a single correctness flag. Execution validity asks whether the program is well formed and the query completed. Witness integrity asks whether emitted IDs are consistent with recorded graph evidence. Semantic alignment asks whether the program and answer set satisfy the question. Benchmark agreement asks whether an evaluator matches an annotated answer set. External truth can disagree with the graph or with a benchmark convention. Passing an earlier layer does not establish the later ones.\par
+
+These distinctions suggest concrete design targets: scope-aware obligations, complete witness inspection where feasible, explicit handling of missing context, and independent assessment of claims that depend on semantic judgments. Our experiments motivate those targets but do not validate a new general verifier or a reward function. The contribution is the documented failure localization and executable counterexamples, including the negative repair result.\par
+
+\section{Limitations}
+
+The live sample is small and drawn from training data. The later three scored originals are reused after error inspection; handwritten controls are correlated and unscored. Neither the factorial F1 of 1.0 nor repeated condition counts imply held-out accuracy. Pretraining contamination, semantic overlap across questions and broader question-family dependence are unresolved.\par
+
+Only one quantized local model and one prepared graph setting are used. The graph snapshot is not certified equivalent to the benchmark reference, and we have not completed a gold-query answer-availability diagnostic. The bounded grammar excludes valid language and query structures; types, lexical priors and closed operator rules can fail before selection. Some finite countermodels exercise programs outside the current catalog and therefore characterize guard limits rather than observed end-to-end error rates.\par
+
+The final semantic gate is the same model used for proposal, operates on limited samples and has no calibration evidence. No independent human semantic or continuation judgments are reported in this version. The GPT supplement is exposed to prior context and cannot fill that gap. Live STOP/recovery rates are not identifiable from abstentions, caps or an extra attempt alone. We make no claim about agent transfer or general autonomous planning.\par
+
+The internal fixed control is not an external published-method baseline. A pinned local ToG adaptation has engineering sanity results, but an adequate completed comparison with it is outside the present results. No published score is ranked against these development measurements. Unequal realized compute, cached prefixes and constructed elapsed times preclude a general efficiency claim.\par
+
+A frozen extension reserves 100 training questions, three seeds and six conditions, including the local ToG adaptation. At the evidence cutoff it is incomplete, and no partial F1, interval or method ranking is included. Completing and auditing that extension is an outstanding empirical task, not a human-approval requirement. Broader claims would require its actual results and, where claimed, further independent evaluation or final-test evidence.\par
+
+\section{Conclusion}
+
+An executable graph path is not sufficient evidence that a question has been answered correctly. In the completed ten-question diagnostic, common-prefix replay removes an apparent fixed-versus-repair difference while bounded repair adds cost without recovering another exact answer. The later development controls separate candidate availability from directional checking, and finite countermodels expose the limits of necessary guards. Even complete recorded witnesses and successful triple requery coexist with wrong question meanings. Reliable evaluation should therefore preserve full denominators, inspect the actual shared state, distinguish catalog changes from policy effects, and keep graph support, semantic alignment and benchmark agreement separate. The artifact supports these diagnostic conclusions within its declared scope; general performance and calibrated reliability remain unestablished.\par
+
+\section{Reproducibility and assistance disclosure}
+
+The artifact retains frozen inputs, policy sources, model/graph identifiers, journaled requests and responses, failures, official-semantics scoring and independent structural audit implementations. A clean source archive passes 230 software tests and restores 526 historical evidence files; those software counts are not scientific sample sizes. The paper's tables are generated from the retained summary/analysis records and a separate manifest binds their source hashes. The live inference account cannot read evaluation annotations.\par
+
+Codex assisted implementation, debugging, tests, analysis tooling and manuscript preparation. Its qualitative development review is explicitly automated and non-independent. No independent human review is reported. Author information and required funding, conflict-of-interest and contribution declarations are supplied separately by the human authors.\par
+
+\section{Appendix A. Artifact map and replay boundary}
+
+The synthetic summary is \texttt{results/synthetic-v2/summary.json}. The separately executed and identical-prefix comparisons are \texttt{results/paired-pilot-001/analysis.json} and \texttt{results/paired-pilot-002-shared-prefix/analysis.json}. The five-condition diagnostic is \texttt{results/factorial-dev-001/development-score.json}, with its nested ledger, witness audit and constant-triple requery in the same directory. The finite interpreter report is \texttt{results/closed-guard-stress-001/report.json}; the captured catalog diagnostic is \texttt{results/catalog-contrast-001/report.json}. The GPT judgments are \texttt{evaluation/gpt-assisted-development-review.json}.\par
+
+Restoring the checked evidence bundles and running the retained offline checks reproduces historical records without new model requests. Re-executing live inference requires the separately obtained pinned model and graph and is a different operation; exact fresh latency or stochastic equivalence is not promised. Full benchmark/database files, credentials, human reviewer identities and private owner keys are excluded from manuscript materials. The ongoing extension has a separate completion-gated analysis pipeline and does not overwrite historical outcomes.\par
+
+\begin{thebibliography}{99}
+
+\bibitem{sun2024tog} Jiashuo Sun, Chengjin Xu, Lumingyuan Tang, Saizhuo Wang, Chen Lin, Yeyun Gong, Lionel M. Ni, Heung-Yeung Shum, Jian Guo. 2024. Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph. The Twelfth International Conference on Learning Representations. \url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/10a6bdcabbd5a3d36b760daa295f63c1-Abstract-Conference.html}
+
+\bibitem{liu-etal-2026-cog} Yuanxiang Liu, Songze Li, Xiaoke Guo, Zhaoyan Gong, Qifei Zhang, Huajun Chen, Wen Zhang. 2026. CoG: Controllable Graph Reasoning via Relational Blueprints and Failure-Aware Refinement over Knowledge Graphs. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 15547-15568. DOI: 10.18653/v1/2026.acl-long.708. \url{https://aclanthology.org/2026.acl-long.708/}
+
+\bibitem{liu-etal-2026-chain} Chenhui Liu, Jianpeng Zhou, Jiahai Wang. 2026. Chain-of-Relations: Faithful and Efficient LLM Reasoning over Knowledge Graphs via Relation-Centric Exploration. Findings of the Association for Computational Linguistics: ACL 2026. pp. 43108-43119. DOI: 10.18653/v1/2026.findings-acl.2138. \url{https://aclanthology.org/2026.findings-acl.2138/}
+
+\bibitem{scholak-etal-2021-picard} Torsten Scholak, Nathan Schucher, Dzmitry Bahdanau. 2021. PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models. Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. pp. 9895-9901. DOI: 10.18653/v1/2021.emnlp-main.779. \url{https://aclanthology.org/2021.emnlp-main.779/}
+
+\bibitem{zheng-etal-2026-lcr} Wenxiang Zheng, Guo Tang, Shixin Jiang, Liangyu Huo, Xiyuan Zhang, Jian Xie, Ming Liu. 2026. LCR-RAG: Enhancing Logical Consistency in Retrieval-Augmented Generation via Neuro-symbolic Reinforcement Learning. Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 17900-17916. DOI: 10.18653/v1/2026.acl-long.814. \url{https://aclanthology.org/2026.acl-long.814/}
+
+\bibitem{yih-etal-2016-value} Wen-tau Yih, Matthew Richardson, Chris Meek, Ming-Wei Chang, Jina Suh. 2016. The Value of Semantic Parse Labeling for Knowledge Base Question Answering. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers). pp. 201-206. DOI: 10.18653/v1/P16-2033. \url{https://aclanthology.org/P16-2033/}
+
+\bibitem{bollacker2008freebase} Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, Jamie Taylor. 2008. Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge. Proceedings of the 2008 ACM SIGMOD International Conference on Management of Data. pp. 1247-1250. DOI: 10.1145/1376616.1376746. \url{https://research.google/pubs/freebase-a-collaboratively-created-graph-database-for-structuring-human-knowledge/}
+
+\bibitem{harris2013sparql} Steve Harris, Andy Seaborne. 2013. SPARQL 1.1 Query Language. World Wide Web Consortium. \url{https://www.w3.org/TR/2013/REC-sparql11-query-20130321/}
+
+\bibitem{qwen2024} Qwen Team. 2024. Qwen2.5: A Party of Foundation Models. Model-card citation; deployed quantized alias and digest recorded separately. \url{https://qwenlm.github.io/blog/qwen2.5/}
+
+\bibitem{efron1979bootstrap} Bradley Efron. 1979. Bootstrap Methods: Another Look at the Jackknife. The Annals of Statistics. 7(1). pp. 1-26. DOI: 10.1214/aos/1176344552. \url{https://doi.org/10.1214/aos/1176344552}
+
+\bibitem{whitneymuseum} Eli Whitney Museum and Workshop. n.d.. Precision Manufacturing at the Whitney Armory. Accessed 18 October 2026. \url{https://www.eliwhitney.org/precision-manufacturing}
+
+\end{thebibliography}
+
+\end{document}

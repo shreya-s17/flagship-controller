@@ -1,0 +1,5 @@
+Execution/control,Macro F1,Exact,Answered,Tokens,Model calls,Graph calls
+Separate fixed,0.40,4 / 10,6 / 10,"21,056",34,63
+Separate repair,0.30,3 / 10,5 / 10,"22,329",35,61
+Shared prefix fixed,0.40,4 / 10,6 / 10,"21,056",34,63
+Shared prefix repair,0.40,4 / 10,6 / 10,"24,527",38,65

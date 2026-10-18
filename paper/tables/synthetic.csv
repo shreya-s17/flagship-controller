@@ -1,0 +1,7 @@
+Variant,Grounded / scenarios,Unsupported / answered,Mean expansions
+Full (1111),210 / 350,0 / 210,3.126
+Acquisition off (0111),210 / 350,0 / 210,3.126
+Verifier off (1011),210 / 350,90 / 300,3.217
+Recovery off (1101),92 / 350,0 / 92,2.080
+STOP off (1110),210 / 350,0 / 210,3.503
+Verified fixed order (0110),210 / 350,0 / 210,3.503
