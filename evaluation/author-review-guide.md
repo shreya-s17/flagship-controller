@@ -22,3 +22,7 @@ python3 -m flagship_controller.author_review validate /LOCAL/cases.json /LOCAL/f
 Do not edit the source hash, relabel this as independent review or turn on an independence attestation. Real reviewer identities and returned author judgments stay outside the public repository unless the owner separately requests publication. The worksheet is preparation; it is not approval of correctness or submission readiness.
 
 Independent review serves a different claim: two qualified people not involved in creating/selecting these outputs assess a masked, prospectively sampled pack independently, with disagreements and unknowns reported. That is our study design, not a universal rule that journals require two external approvals before submission. Objective benchmark collection can continue while those judgments are pending.
+
+## Supplementary automated review — 18 October 2026
+
+The owner subsequently requested GPT-filled results. A separate local `gpt-review.html` and `gpt-review.json` contain 30 automated case assessments, four dimensions each. The original author worksheet is unchanged. The [archived GPT review](../paper/gpt-review-boundary.md) is explicitly automated and unmasked; no author or independent human judgments have been received. Its labels must not be imported as human submissions or used to alter the executing frozen benchmark.

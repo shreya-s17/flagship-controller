@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-18",
+  "scope": "Offline publication packaging and unannotated human handoff; no new benchmark scores",
+  "tests": 230,
+  "new_pipeline_tests": 8,
+  "historical_files_restored": 526,
+  "historical_finite_catalog_reproduction": "PASS",
+  "original_inference_sources_unchanged": 15,
+  "original_analysis_sources_unchanged": 5,
+  "full_denominator_gate": 1800,
+  "semantic_review_records_after_completion": 120,
+  "separate_projection_review_records_after_completion": 20,
+  "owner_key_in_reviewer_archives": false,
+  "author_reviews_received": 0,
+  "independent_reviewers_completed": 0,
+  "gpt_development_cases": 30,
+  "gpt_development_judgments": 120,
+  "gpt_review_role": "automated;unmasked;not independent human evidence",
+  "official_test_executed": false,
+  "submission_ready": false,
+  "new_purchase": false,
+  "dependent_postprocessing_job": "Deployed separately; verified waiting_for_full_collection; scoring not performed",
+  "source_candidate_commit": "d42058e",
+  "clean_source_tests": 230,
+  "clean_source_candidate": "d42058e",
+  "actual_incomplete_study_rejected_before_annotation_access": true,
+  "server_observation": {
+    "state": "waiting_for_full_collection",
+    "observed_utc": "2026-10-18T06:50:05.063789+00:00",
+    "progress": {
+      "status": "running",
+      "completed": 71,
+      "planned": 1800,
+      "last": {
+        "id": "WebQTrn-2111",
+        "seed": 17,
+        "variant": "repair-C1G1"
+      },
+      "predictions_sha256": "1a17f2ed853b4eb85e7dbfba6e6565e36074d35e7b3dfb821614e08b3606fd4d",
+      "utc": "2026-10-18T06:50:01Z"
+    },
+    "scoring_performed": false,
+    "annotations_unreadable_to_inference": true
+  }
+}

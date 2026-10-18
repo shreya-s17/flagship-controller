@@ -71,3 +71,9 @@ The [prospective training benchmark](benchmark-training-protocol.md) is now sepa
 ## Execution update —18 October2026
 
 The frozen100-question ×3-seed ×6-condition study has passed its known development operational startup check and started reserved inference. No final benchmark analysis is available during collection; official test remains excluded. Source checkpoint fac1673 passes222 tests from a clean source archive, restores526 historical raw files and reproduces both previous finite/catalog audits. Frozen inference/analysis sources remain unchanged after launch. Author-review materials are available, with zero received author or independent reviews. Final readiness is still pending objective results, their audit, claim-appropriate human evaluation and final author/license/submission decisions.
+
+## Publication packaging checkpoint — 18 October 2026
+
+The broader frozen run remains in progress; no final score or paper-ready claim is made. [Completion-gated finalization](benchmark-publication-workflow.md) is implemented and passes eight focused fixtures within 230 clean-source tests. It retains all outcomes, reports official quality exclusions and incomplete costs, uses the original frozen analysis, and creates the prospectively selected 120 semantic plus 20 separate projection review records only after full completion. Original inference and analysis hashes remain unchanged. Historical restoration still covers 526 files and the prior finite/catalog reports reproduce.
+
+The [GPT development supplement](../paper/gpt-review-boundary.md) records 30 cases and 120 automated judgments. It is unmasked post hoc error analysis, not independent review; actual author and independent human judgments remain absent. The [submission package map](../paper/submission-package.md) identifies the manuscript, artifacts, human decisions and venue-format work still required. No new purchase or submission.

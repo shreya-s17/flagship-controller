@@ -6,9 +6,15 @@ An auditable graph-reasoning research prototype with a synthetic component study
 
 The [prospective reserved-training benchmark](evaluation/benchmark-training-protocol.md) is running on the existing server after a separately retained known-case startup check. The fixed plan is100 questions ×3 seeds ×6 conditions (1800 outcomes), including the local ToG adaptation. All input bytes,15 inference modules, five offline-analysis sources, scheduling and the primary paired question-level analysis were frozen before the first reserved request. No final benchmark score exists while collection is incomplete; official test remains untouched. Failures remain in the denominator and the frozen method will not be tuned during collection.
 
-**222 tests pass from a clean source snapshot;526 historical raw files restore and both prior finite/catalog reports reproduce exactly.** The isolated runtime materializes all15 frozen inference modules without scorer or annotations. The [author-review guide](evaluation/author-review-guide.md) explains the separate browser worksheet. Author review is welcome and remains distinct from independent semantic evaluation; neither has yet been received. Two independent reviewers are part of the semantic study design, not a universal journal approval requirement. Objective collection proceeds while review is pending. No new purchase or manuscript submission.
+**230 tests pass from a clean source snapshot;526 historical raw files restore and both prior finite/catalog reports reproduce exactly.** The isolated runtime materializes all15 frozen inference modules without scorer or annotations. The [author-review guide](evaluation/author-review-guide.md) explains the separate browser worksheet. Author review is welcome and remains distinct from independent semantic evaluation; neither has yet been received. Two independent reviewers are part of the semantic study design, not a universal journal approval requirement. Objective collection proceeds while review is pending. No new purchase or manuscript submission.
 
 Earlier checkpoints below retain their original development scope and counts. Statements that the reserved100 was unrun describe those earlier dates.
+
+## Completion-gated publication outputs
+
+The [publication pipeline](evaluation/benchmark-publication-workflow.md) validates all 1,800 outcomes before reading evaluation labels or generating paper tables. It uses the original frozen analysis, retains exclusions and failures, and prepares the preselected 120-case semantic handoff plus a separate 20-case native-answer projection handoff. Packs remain blank; generated tables do not imply independent review or submission readiness. New packaging code was finalized during collection, without changing inference, primary analysis or case selection.
+
+A [supplementary GPT review](paper/gpt-review-boundary.md) now records 120 explicit judgments on the earlier 30 development outcomes. It is unmasked automated error analysis, separate from human review and official benchmark scoring. The manuscript is v2.1. The [submission package map](paper/submission-package.md) identifies prepared files and the remaining evidence and author decisions.
 
 ## Current evidence
 

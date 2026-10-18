@@ -1,6 +1,6 @@
 # Schema-typed query programs and bounded repair for auditable knowledge-graph reasoning
 
-Technical-report draft v2.0, 18 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
+Technical-report draft v2.1, 18 October 2026. **Exploratory artifact, not a final preprint or submitted paper.** Authorship, affiliations and contribution disclosures require owner confirmation. Earlier drafts remain in Git history; original result files and links are preserved.
 
 ## Abstract
 
@@ -186,6 +186,14 @@ A separate nine-module runtime/harness composes the preserved v2 controller. One
 In the captured states, guarded repair rejects and changes the reversed parents program under either catalog. Every such kinship repair retains just one admissible candidate. Expanded containment changes Chicago from23 broad endpoints to15 official matches; guard-on without expansion instead exhausts the catalog and abstains. The two handwritten controls/paraphrase reproduce related behavior but remain unscored. There is one distinct official original with an exact answer after a rejection, repeated across catalog conditions, not a certified recovery denominator. Effects are conditional on the common selected roots/schema and failure-informed development cohort; three inspected originals do not establish general improvement or statistical superiority. Downtown semantics remain unmodeled by the closed guard.
 
 Physical execution uses55 model attempts and174 graph calls across all conditions; every policy is charged its nested prefix work. Realized usage differs and constructed replay time is not a method-efficiency result. All30 nested ledger and declared-rule checks pass; all25 answered records pass structural witness auditing. All77 unique accepted witness triples are present on post-run requery, including those from wrong-role/broad controls. Independent semantic/false-rejection review remains absent, and previous negative runs are preserved. [Full denominator, costs, source and reproduction](../results/factorial-development-report.md).
+
+### 5.11 Supplementary GPT review of development outputs
+
+At the owner's request, the Codex assistant completed four qualitative judgments on each of the 30 nested-factorial development outcomes. The assistant saw policy names and prior development results and had helped construct the artifact. These are unmasked, post hoc automated assessments, not author judgments, independent human annotations or a calibrated evaluation. The exact model version was not recorded. All 120 judgments, reasons, source references and the input-prediction hash are [archived separately](../evaluation/gpt-assisted-development-review.json); the original results and blank human forms are preserved.
+
+The review identifies reversed kinship programs and a missing downtown restriction even where recorded graph witnesses are consistent. For the Whitney question, absent conversational context leaves “else” unresolved. A museum account also disputes attributing the invention of interchangeable parts and the milling-machine system to Whitney. This is a source conflict relevant to historical truth, not a change to official benchmark labels or earlier reported scores. [Eli Whitney Museum](https://www.eliwhitney.org/precision-manufacturing).
+
+The labels retain unknowns for unnamed IDs, ambiguous scope and abstentions. They do not supply a population semantic-accuracy estimate or STOP/recovery denominator. The original 100-question inference and five-source analysis freeze remain unchanged. [Review scope and limitations](gpt-review-boundary.md).
 
 ## 6. Failure and STOP analysis
 

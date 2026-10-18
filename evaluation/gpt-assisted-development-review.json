@@ -1,0 +1,1122 @@
+{
+  "schema_version": "gpt-supplementary-review-v1",
+  "review_role": "automated",
+  "reviewer_name": "GPT (Codex assistant)",
+  "exact_model_version": "not recorded",
+  "independence_attested": false,
+  "human_author_review": false,
+  "independent_human_review": false,
+  "author_reviews_completed": 0,
+  "independent_reviewers_completed": 0,
+  "completed_at": "2026-10-18T06:42:19.099795+00:00",
+  "request": "fill the results using GPT knowledge.",
+  "source_pack_sha256": "4384220155d12ee348ee3c9316f6bb81ec7d3df4b5098171c973ac370cd79231",
+  "source_predictions_sha256": "e8d7dded40363e097ad6af241f0cfcab87bfb5ef9b8bad93064691107049121e",
+  "assessment_method": "In-session GPT qualitative judgments using the recorded pack, prior project context and cited primary sources; separate local structural consistency checks. Not a blinded or calibrated evaluation experiment.",
+  "disclosures": [
+    "Policy names and previous development outcomes were visible to the assistant.",
+    "No new gold annotations were loaded for this review; prior project context already contained scores and outcomes.",
+    "The assistant helped develop the artifact and is not independent of it.",
+    "No benchmark outputs, frozen inference/analysis sources or official metrics are changed.",
+    "No STOP/recovery validity rate, semantic accuracy estimate or human approval is inferred.",
+    "These are 30 repeated conditions on six development strings, not 30 independent questions."
+  ],
+  "rubric": {
+    "anchor_identity": "Subject referent identity; other constraints are assessed in query_meaning to avoid double-counting.",
+    "query_meaning": "Last attempted program, or final emitted program after repair; abstention is reported explicitly.",
+    "answer_scope": "Historical/natural-language all-and-only claim, not agreement with benchmark labels. Unknown for absent context, unnamed IDs or abstentions.",
+    "witness_support": "Recorded graph/program/row consistency; supported is not historical truth. Unknown/not-applicable for abstention."
+  },
+  "sources": [
+    {
+      "id": "revere-biography",
+      "title": "Paul Revere House: Biography",
+      "url": "https://www.paulreverehouse.org/biography/",
+      "note": "Names Apollos Rivoire and Deborah Hichborn as parents; describes eight children with each wife."
+    },
+    {
+      "id": "revere-children",
+      "title": "Paul Revere House: Wait, Did You Say 16 Kids?",
+      "url": "https://www.paulreverehouse.org/wait-did-you-say-16-kids/",
+      "note": "Describes the sixteen children. A matching count alone cannot resolve every returned Freebase ID."
+    },
+    {
+      "id": "whitney-history",
+      "title": "Eli Whitney Museum: Precision Manufacturing",
+      "url": "https://www.eliwhitney.org/precision-manufacturing",
+      "note": "Disputes crediting Whitney with inventing interchangeable parts or the milling-machine system."
+    },
+    {
+      "id": "zoo-location",
+      "title": "Lincoln Park Zoo: Visit",
+      "url": "https://www.lpzoo.org/visit/",
+      "note": "Lists 2400 N. Cannon Drive and describes proximity to downtown; does not define a downtown boundary."
+    }
+  ],
+  "judgments": [
+    {
+      "case_id": "A01",
+      "question": "who are paul revere's parents?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.parents outward from Paul Revere. The earlier inward attempt is retained but is not the emitted program.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "supported",
+          "reason": "The two named outputs match the parents identified by the Revere museum; Hichborn/Hitchborn is a spelling variation.",
+          "source_ids": [
+            "revere-biography"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A02",
+      "question": "who are paul revere's parents?",
+      "condition": "repair-C0G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.parents outward from Paul Revere. The earlier inward attempt is retained but is not the emitted program.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "supported",
+          "reason": "The two named outputs match the parents identified by the Revere museum; Hichborn/Hitchborn is a spelling variation.",
+          "source_ids": [
+            "revere-biography"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A03",
+      "question": "who are paul revere's parents?",
+      "condition": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The only attempted program traverses parents inward, selecting children. The system rejects it and abstains; this judgment concerns the attempted query, not an emitted wrong answer.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "No answer was emitted. The blank output neither supplies the requested parents nor demonstrates that no budget-feasible acceptable continuation existed.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "unknown",
+          "reason": "No answer or final witness set is emitted. This dimension is not applicable to an emitted claim; unknown avoids treating empty evidence as successful semantic support.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "not_applicable",
+        "answers": 0,
+        "checked_edges": 0
+      }
+    },
+    {
+      "case_id": "A04",
+      "question": "who are paul revere's parents?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The final program selects people whose parents include Paul Revere. That is the children direction, opposite to the requested parents.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The returned set contains descendants such as Paul Revere Jr. rather than the requested parental generation. Real edges do not repair this role reversal.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A05",
+      "question": "who are paul revere's parents?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The final program selects people whose parents include Paul Revere. That is the children direction, opposite to the requested parents.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The returned set contains descendants such as Paul Revere Jr. rather than the requested parental generation. Real edges do not repair this role reversal.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A06",
+      "question": "who are paul revere's children?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.children outward from Paul Revere, matching the requested relationship; the rejected inverse attempt is retained.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "Sixteen returned IDs agree in count with the museum account, but eleven lack supplied names. Count agreement and graph membership cannot certify every identity or the all-and-only historical set.",
+          "source_ids": [
+            "revere-children"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A07",
+      "question": "who are paul revere's children?",
+      "condition": "repair-C0G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.children outward from Paul Revere, matching the requested relationship; the rejected inverse attempt is retained.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "Sixteen returned IDs agree in count with the museum account, but eleven lack supplied names. Count agreement and graph membership cannot certify every identity or the all-and-only historical set.",
+          "source_ids": [
+            "revere-children"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A08",
+      "question": "who are paul revere's children?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "Traversing children inward selects people who have Paul Revere as a child: his parents, not his children.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The two outputs are his parental generation, so they cannot be the requested child set.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A09",
+      "question": "who are paul revere's children?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "Traversing children inward selects people who have Paul Revere as a child: his parents, not his children.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The two outputs are his parental generation, so they cannot be the requested child set.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A10",
+      "question": "who are paul revere's children?",
+      "condition": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted inward children relation selects parents. It is rejected and no answer is emitted; this is not a false emitted answer.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "Abstention leaves the requested child set unanswered. The record does not independently establish whether stopping was necessary or premature.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "unknown",
+          "reason": "No answer or final witness set is emitted. This dimension is not applicable to an emitted claim; unknown avoids treating empty evidence as successful semantic support.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "not_applicable",
+        "answers": 0,
+        "checked_edges": 0
+      }
+    },
+    {
+      "case_id": "A11",
+      "question": "what to see in chicago downtown?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted/final program has a Chicago-wide attraction relation and, where present, city containment. It has no downtown boundary, neighborhood restriction or clarification step. Under a literal downtown reading this drops an explicit question constraint.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The set is not certified as downtown-specific. Lincoln Park Zoo is among the named outputs, but the pack defines no downtown boundary and several IDs have no names. A strict boundary and complete identity checks are needed before an all-and-only judgment.",
+          "source_ids": [
+            "zoo-location"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A12",
+      "question": "what to see in chicago downtown?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted/final program has a Chicago-wide attraction relation and, where present, city containment. It has no downtown boundary, neighborhood restriction or clarification step. Under a literal downtown reading this drops an explicit question constraint.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The set is not certified as downtown-specific. Lincoln Park Zoo is among the named outputs, but the pack defines no downtown boundary and several IDs have no names. A strict boundary and complete identity checks are needed before an all-and-only judgment.",
+          "source_ids": [
+            "zoo-location"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A13",
+      "question": "what to see in chicago downtown?",
+      "condition": "repair-C0G1",
+      "terminal": "ABSTAIN",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted/final program has a Chicago-wide attraction relation and, where present, city containment. It has no downtown boundary, neighborhood restriction or clarification step. Under a literal downtown reading this drops an explicit question constraint.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "No answer is emitted. Catalog exhaustion does not establish absence of downtown attractions or certify the stop decision.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "unknown",
+          "reason": "No answer or final witness set is emitted. This dimension is not applicable to an emitted claim; unknown avoids treating empty evidence as successful semantic support.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "not_applicable",
+        "answers": 0,
+        "checked_edges": 0
+      }
+    },
+    {
+      "case_id": "A14",
+      "question": "what to see in chicago downtown?",
+      "condition": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted/final program has a Chicago-wide attraction relation and, where present, city containment. It has no downtown boundary, neighborhood restriction or clarification step. Under a literal downtown reading this drops an explicit question constraint.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The set is not certified as downtown-specific. Lincoln Park Zoo is among the named outputs, but the pack defines no downtown boundary and several IDs have no names. A strict boundary and complete identity checks are needed before an all-and-only judgment.",
+          "source_ids": [
+            "zoo-location"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A15",
+      "question": "what to see in chicago downtown?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The attempted/final program has a Chicago-wide attraction relation and, where present, city containment. It has no downtown boundary, neighborhood restriction or clarification step. Under a literal downtown reading this drops an explicit question constraint.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The set is not certified as downtown-specific. Lincoln Park Zoo is among the named outputs, but the pack defines no downtown boundary and several IDs have no names. A strict boundary and complete identity checks are needed before an all-and-only judgment.",
+          "source_ids": [
+            "zoo-location"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 23 emitted IDs have program-consistent recorded rows and witnesses (23 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 23,
+        "checked_edges": 23,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A16",
+      "question": "what else did eli whitney invent?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Eli Whitney to m.02ncr. No different Whitney referent is indicated in this record.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The inventions relation is a plausible graph mapping, but \u201celse\u201d presupposes an earlier item or context that is absent. The query supplies no exclusion and the intended scope cannot be fully reconstructed.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The museum disputes Whitney inventing the milling/interchangeable-parts systems. These graph attributions cannot be presented unqualified as historical inventions.",
+          "source_ids": [
+            "whitney-history"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 3 emitted IDs have program-consistent recorded rows and witnesses (3 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 3,
+        "checked_edges": 3,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A17",
+      "question": "what else did eli whitney invent?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Eli Whitney to m.02ncr. No different Whitney referent is indicated in this record.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The inventions relation is a plausible graph mapping, but \u201celse\u201d presupposes an earlier item or context that is absent. The query supplies no exclusion and the intended scope cannot be fully reconstructed.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The museum disputes Whitney inventing the milling/interchangeable-parts systems. These graph attributions cannot be presented unqualified as historical inventions.",
+          "source_ids": [
+            "whitney-history"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 3 emitted IDs have program-consistent recorded rows and witnesses (3 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 3,
+        "checked_edges": 3,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A18",
+      "question": "what else did eli whitney invent?",
+      "condition": "repair-C0G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Eli Whitney to m.02ncr. No different Whitney referent is indicated in this record.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The inventions relation is a plausible graph mapping, but \u201celse\u201d presupposes an earlier item or context that is absent. The query supplies no exclusion and the intended scope cannot be fully reconstructed.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The museum disputes Whitney inventing the milling/interchangeable-parts systems. These graph attributions cannot be presented unqualified as historical inventions.",
+          "source_ids": [
+            "whitney-history"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 3 emitted IDs have program-consistent recorded rows and witnesses (3 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 3,
+        "checked_edges": 3,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A19",
+      "question": "what else did eli whitney invent?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Eli Whitney to m.02ncr. No different Whitney referent is indicated in this record.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The inventions relation is a plausible graph mapping, but \u201celse\u201d presupposes an earlier item or context that is absent. The query supplies no exclusion and the intended scope cannot be fully reconstructed.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The museum disputes Whitney inventing the milling/interchangeable-parts systems. These graph attributions cannot be presented unqualified as historical inventions.",
+          "source_ids": [
+            "whitney-history"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 3 emitted IDs have program-consistent recorded rows and witnesses (3 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 3,
+        "checked_edges": 3,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A20",
+      "question": "what else did eli whitney invent?",
+      "condition": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Eli Whitney to m.02ncr. No different Whitney referent is indicated in this record.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The inventions relation is a plausible graph mapping, but \u201celse\u201d presupposes an earlier item or context that is absent. The query supplies no exclusion and the intended scope cannot be fully reconstructed.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The museum disputes Whitney inventing the milling/interchangeable-parts systems. These graph attributions cannot be presented unqualified as historical inventions.",
+          "source_ids": [
+            "whitney-history"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 3 emitted IDs have program-consistent recorded rows and witnesses (3 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 3,
+        "checked_edges": 3,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A21",
+      "question": "Who are the parents of Paul Revere?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The final program selects people whose parents include Paul Revere. That is the children direction, opposite to the requested parents.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The returned set contains descendants such as Paul Revere Jr. rather than the requested parental generation. Real edges do not repair this role reversal.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A22",
+      "question": "Who are the parents of Paul Revere?",
+      "condition": "fixed-C1G1",
+      "terminal": "ABSTAIN",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The only attempted program traverses parents inward, selecting children. The system rejects it and abstains; this judgment concerns the attempted query, not an emitted wrong answer.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "No answer was emitted. The blank output neither supplies the requested parents nor demonstrates that no budget-feasible acceptable continuation existed.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "unknown",
+          "reason": "No answer or final witness set is emitted. This dimension is not applicable to an emitted claim; unknown avoids treating empty evidence as successful semantic support.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "not_applicable",
+        "answers": 0,
+        "checked_edges": 0
+      }
+    },
+    {
+      "case_id": "A23",
+      "question": "Who are the parents of Paul Revere?",
+      "condition": "repair-C0G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.parents outward from Paul Revere. The earlier inward attempt is retained but is not the emitted program.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "supported",
+          "reason": "The two named outputs match the parents identified by the Revere museum; Hichborn/Hitchborn is a spelling variation.",
+          "source_ids": [
+            "revere-biography"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A24",
+      "question": "Who are the parents of Paul Revere?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program follows people.person.parents outward from Paul Revere. The earlier inward attempt is retained but is not the emitted program.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "supported",
+          "reason": "The two named outputs match the parents identified by the Revere museum; Hichborn/Hitchborn is a spelling variation.",
+          "source_ids": [
+            "revere-biography"
+          ]
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 2 emitted IDs have program-consistent recorded rows and witnesses (2 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 2,
+        "checked_edges": 2,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A25",
+      "question": "Who are the parents of Paul Revere?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Paul Revere to m.0db0x. This supports the intended subject; relationship direction is judged separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "contradicted",
+          "reason": "The final program selects people whose parents include Paul Revere. That is the children direction, opposite to the requested parents.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "contradicted",
+          "reason": "The returned set contains descendants such as Paul Revere Jr. rather than the requested parental generation. Real edges do not repair this role reversal.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 16 emitted IDs have program-consistent recorded rows and witnesses (16 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 16,
+        "checked_edges": 16,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A26",
+      "question": "Which attractions are in Chicago?",
+      "condition": "repair-C0G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The attraction association alone does not establish that every endpoint lies in Chicago. No endpoint containment condition is present, and missing membership checks do not by themselves prove each answer wrong.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The named examples are plausible, but many IDs lack names and \u201cattractions\u201d has no complete externally validated boundary here. The all-and-only set is not certified by graph rows or a benchmark match.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 23 emitted IDs have program-consistent recorded rows and witnesses (23 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 23,
+        "checked_edges": 23,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A27",
+      "question": "Which attractions are in Chicago?",
+      "condition": "repair-C1G0",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program combines the city attraction relation with an observed endpoint-contained-by-Chicago condition, matching the explicit in-city requirement within this declared graph schema.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The named examples are plausible, but many IDs lack names and \u201cattractions\u201d has no complete externally validated boundary here. The all-and-only set is not certified by graph rows or a benchmark match.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A28",
+      "question": "Which attractions are in Chicago?",
+      "condition": "fixed-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program combines the city attraction relation with an observed endpoint-contained-by-Chicago condition, matching the explicit in-city requirement within this declared graph schema.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The named examples are plausible, but many IDs lack names and \u201cattractions\u201d has no complete externally validated boundary here. The all-and-only set is not certified by graph rows or a benchmark match.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A29",
+      "question": "Which attractions are in Chicago?",
+      "condition": "repair-C1G1",
+      "terminal": "ANSWER",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "supported",
+          "reason": "The final program combines the city attraction relation with an observed endpoint-contained-by-Chicago condition, matching the explicit in-city requirement within this declared graph schema.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "The named examples are plausible, but many IDs lack names and \u201cattractions\u201d has no complete externally validated boundary here. The all-and-only set is not certified by graph rows or a benchmark match.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "supported",
+          "reason": "All 15 emitted IDs have program-consistent recorded rows and witnesses (30 edges checked). This certifies recorded graph support only, even when role, scope or historical attribution is wrong.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "PASS",
+        "answers": 15,
+        "checked_edges": 30,
+        "scope": "Recorded program/row/witness consistency only; no fresh graph requery or historical-truth guarantee"
+      }
+    },
+    {
+      "case_id": "A30",
+      "question": "Which attractions are in Chicago?",
+      "condition": "repair-C0G1",
+      "terminal": "ABSTAIN",
+      "dimensions": {
+        "anchor_identity": {
+          "label": "supported",
+          "reason": "The observed exact key/name link resolves Chicago to m.01_d4. This supports the city referent only; downtown and answer membership are assessed separately.",
+          "source_ids": []
+        },
+        "query_meaning": {
+          "label": "unknown",
+          "reason": "The attraction association alone does not establish that every endpoint lies in Chicago. No endpoint containment condition is present, and missing membership checks do not by themselves prove each answer wrong.",
+          "source_ids": []
+        },
+        "answer_scope": {
+          "label": "unknown",
+          "reason": "No answer was emitted; catalog exhaustion is not proof of no valid city attractions or an independently certified stop.",
+          "source_ids": []
+        },
+        "witness_support": {
+          "label": "unknown",
+          "reason": "No answer or final witness set is emitted. This dimension is not applicable to an emitted claim; unknown avoids treating empty evidence as successful semantic support.",
+          "source_ids": []
+        }
+      },
+      "structural_check": {
+        "status": "not_applicable",
+        "answers": 0,
+        "checked_edges": 0
+      }
+    }
+  ],
+  "summary": {
+    "anchor_identity": {
+      "supported": 30
+    },
+    "query_meaning": {
+      "supported": 9,
+      "contradicted": 14,
+      "unknown": 7
+    },
+    "answer_scope": {
+      "supported": 4,
+      "unknown": 15,
+      "contradicted": 11
+    },
+    "witness_support": {
+      "supported": 25,
+      "unknown": 5
+    }
+  }
+}
