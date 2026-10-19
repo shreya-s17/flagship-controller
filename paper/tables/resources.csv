@@ -1,0 +1,7 @@
+Condition,Returned tokens,Model calls,Graph calls
+repair-C0G0,"599,658",905,"2,721"
+repair-C0G1,"604,761",908,"2,726"
+repair-C1G0,"605,118",909,"2,727"
+repair-C1G1,"601,110",905,"2,722"
+fixed-C1G1,"525,869",815,"2,582"
+ToG adaptation,"599,785","1,268","4,352"

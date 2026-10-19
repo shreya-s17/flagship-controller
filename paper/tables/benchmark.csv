@@ -1,0 +1,7 @@
+Condition,Macro F1,Exact / outcomes,Answered / outcomes
+repair-C0G0,0.1709,51 / 300,99 / 300
+repair-C0G1,0.1642,49 / 300,100 / 300
+repair-C1G0,0.1642,49 / 300,99 / 300
+repair-C1G1,0.1676,50 / 300,101 / 300
+fixed-C1G1,0.1533,46 / 300,80 / 300
+ToG adaptation,0.2299,49 / 300,150 / 300
